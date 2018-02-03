@@ -16,45 +16,65 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 	<style type="text/css">
+		
 		body{
+	   		font-family: 'Lato', sans-serif;
+			padding: 0px 30px 10px 30px;
+			text-shadow:#000000 0.2px 0.2px;
+		}
+
+		body a:link{
+			color: #00ff00;
+		}
+		body.light{
 			background-color: #ffffff;
-    		font-family: 'Lato', sans-serif;
-			padding: 50px 30px 10px 30px;
 			color: #272727;
 		}
 
-		body -dark{
+		body.dark{
 			background-color: #272727;
 			color: #ffffff;
 		}
 
-		.greycog{
+		.cog{
 			font-size: 700%;
-			color: #df0000;
-			padding: 20px 20px 20px 20px;
+			padding: 30px 20px 20px 20px;
 		}
-
-		.greymoon {
-			font-size: 170%;
-			color: #000000;
-			padding: 20px 20px 20px 20px;
+		
+		.footer{
+			padding-top: 100px;
+			padding-bottom: 20px;
 		}
-
 
 	</style>
 </head>	
-<body>
-	
-<div class="container-fluid">
-<center>
-<i class="fas fa-cogs greycog"></i>	
+<body class="light" id="body">
+<center>	
+<div class="container">
+
+<i class="fas fa-cogs cog" onclick="toggleDark()"></i>	
 <p style="font-size: 120%;"><strong>This website is currently under construction.</strong></p>
-<p>Please visit <a href="https://github.com/partheus" target="blank">my github page</a> for more. Or maybe <a href="https://partheory.wordpress.com/" target="blank">my blog</a>.</p>
+Please visit <a href="https://github.com/partheus" target="blank">my github page</a> for more. Or maybe <a href="https://partheory.wordpress.com/" target="blank">my blog</a>. Click the cogs?
 <br>
 
-</center>
 </div>
+
+<script>
+function toggleDark(){
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark" ? "light" : "dark";
+}
+</script>
+</center>
+
 </body>
 
+<footer class="footer">
+  <div class="pull-left">Being made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> and <i class="fas fa-music"></i></div>
+  <div class="pull-right">
+    © <script>document.write(new Date().getFullYear())</script>, Parth S.
+  </div>
+</footer>
 
 </html>
