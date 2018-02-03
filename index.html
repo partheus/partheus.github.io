@@ -19,7 +19,7 @@
 		
 		body{
 	   		font-family: 'Lato', sans-serif;
-			padding: 0px 30px 10px 30px;
+			padding: 50px 30px 10px 30px;
 			text-shadow:#000000 0.2px 0.2px;
 		}
 
@@ -48,23 +48,20 @@
 			padding: 30px 20px 20px 20px;
 		}
 		
-		.footer{
-			padding-top: 100px;
-			padding-bottom: 20px;
-		}
-
+		
 	</style>
 </head>	
 <body class="light" id="body">
+
 <center>	
-<div class="container">
+
 
 <i class="fas fa-cogs cog" onclick="toggleDark()"></i>	
 <p style="font-size: 120%;"><strong>This website is currently under construction.</strong></p>
 Please visit <a href="https://github.com/partheus" target="blank">my github page</a> for more. Or maybe <a href="https://partheory.wordpress.com/" target="blank">my blog</a>. Click the cogs?
 <br>
 
-</div>
+
 
 <script>
 function toggleDark(){
@@ -73,15 +70,12 @@ function toggleDark(){
   body.className = currentClass == "dark" ? "light" : "dark";
 }
 </script>
+
+<br>Being made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> and  <i class="fas fa-music"></i>
+<br>© <script>document.write(new Date().getFullYear())</script>, Parth S
+
 </center>
 
 </body>
-
-<footer class="footer">
-  <div class="pull-left">Being made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> and <i class="fas fa-music"></i></div>
-  <div class="pull-right">
-    © <script>document.write(new Date().getFullYear())</script>, Parth S.
-  </div>
-</footer>
 
 </html>
