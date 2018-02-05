@@ -40,13 +40,14 @@ body{
 
 .buttonholder{
 	padding: 30px 20px 30px 20px;
-    position:relative;
-    text-align: center;
-    text-decoration: none;
+    	position:relative;
+    	text-align: center;
+    	text-decoration: none;
 }
 
 .buttonholder button{
 	margin: 3px;
+	outline: none;
 }
 
 .nodecor{
