@@ -89,9 +89,13 @@ hr{
 
 .foot
 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	font-size: 15px;
 	font-weight: 300;
-	padding: 20px 0px 50px 0px;
+	padding: 20px 0px 20px 0px;
 }
 
 .foot a{
