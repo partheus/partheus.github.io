@@ -1,5 +1,19 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+  *,
+  *:before,
+  *:after {
+	box-sizing: inherit;
+  }
+
 body{
  	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	padding-bottom: 50px;
+	min-height: 100%;
 }
 
 .dp{
@@ -89,13 +103,13 @@ hr{
 
 .foot
 {
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
 	left: 0;
-	right: 0;
-	font-size: 15px;
-	font-weight: 300;
 	padding: 20px 0px 20px 0px;
+	font-weight: 300;
+	font-size: 15px;
 }
 
 .foot a{
