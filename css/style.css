@@ -52,6 +52,10 @@ body{
 	letter-spacing: 0.1px;
 }
 
+.wrapper{
+margin-bottom: 50px;
+}
+
 .buttonholder{
 	padding: 30px 20px 30px 20px;
     	position:relative;
