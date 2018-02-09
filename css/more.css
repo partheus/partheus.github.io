@@ -1,0 +1,25 @@
+.centered {
+	margin-top: 100px;
+	font-family: 'Lato';
+	font-weight: 400;
+   	text-align: center;
+}
+
+.back-button{
+	cursor: pointer;
+	font-family: 'Lato';
+	font-weight: 400;
+	border-radius: 50px;
+	padding: 5px 10px 7px 10px;
+	transition: 0.15s;
+    background-color: white; 
+    color: #272727; 
+    border: 0.5px solid #272727;
+    letter-spacing: 0.5px;
+}
+
+.back-button:hover {
+    background-color: #444444;
+    border-color: #444444;
+    color: white;
+}
