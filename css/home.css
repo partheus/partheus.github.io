@@ -55,6 +55,10 @@ body{
 	letter-spacing: 0.1px;
 }
 
+.targetblank{
+	color: #666666;
+}
+
 .wrapper{
 	/* margin-bottom: 10px; */
 	color: #272727;
@@ -110,6 +114,7 @@ hr{
 }
 
 .foot{
+	font-size: 15px;
 	color: #272727;
 	text-decoration: underline;
 }
