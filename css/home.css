@@ -10,7 +10,7 @@ html {
   }
 
 body{
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: 'Raleway', sans-serif;
 	position: relative;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -36,9 +36,9 @@ body{
 	display: inline-block;
 	margin: 0;
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #1a1a1a;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	padding: 5px 0px 5px 0px;
 }
 
@@ -56,18 +56,28 @@ body{
 }
 
 .wrapper{
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
+	color: #272727;
+}
+
+.email{
+	color: #000000 ;
+}
+
+.email:hover{
+	text-decoration: none;
 }
 
 .buttonholder{
 	padding: 30px 20px 30px 20px;
-    position:relative;
-    text-align: center;
-    text-decoration: none;
+  position:relative;
+  text-align: center;
+  text-decoration: none;
 }
 
 .buttonholder button{
-	margin: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
 	outline: none;
 }
 
@@ -82,10 +92,10 @@ body{
 	border-radius: 50px;
 	padding: 5px 10px 7px 10px;
 	transition: 0.15s;
-    background-color: white; 
-    color: #272727; 
-    border: 0.5px solid #272727;
-    letter-spacing: 0.5px;
+  background-color: white; 
+  color: #272727; 
+  border: 0.5px solid #272727;
+  letter-spacing: 0.5px;
 }
 
 .contentbutton:hover {
@@ -99,7 +109,16 @@ hr{
 	width: 80%;
 }
 
-.foot
+.foot{
+	color: #272727;
+	text-decoration: underline;
+}
+
+.foot:hover{
+	text-decoration: none;
+}
+
+/* .foot
 {
 	position: absolute;
   	right: 0;
@@ -112,6 +131,6 @@ hr{
 
 .foot a{
 	color: #272727;
-}
+} */
 
 
