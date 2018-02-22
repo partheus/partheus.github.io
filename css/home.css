@@ -1,14 +1,16 @@
 @media only screen and (orientation: landscape) {
 	.contentmore {
-		padding-left: 100px;
-		padding-right: 100px;
+		width: 50%;
 		}
 }
 
 @media only screen and (orientation: portrait) {
     .contentmore {
-		padding-left: 50px;
-		padding-right: 50px;
+		width: 70%;
+		}
+
+		body{
+			padding-top: 10px; 
 		}
 }
 
@@ -63,8 +65,6 @@ body{
 
 .contentmore{
 	text-align: center;
-	width: auto;
-	
 	font-size: 15px;
 	color: #272727;
 	font-weight: 300;
