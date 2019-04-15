@@ -1,70 +1,90 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Parth Shiralkar</title>
+	<title>Oh</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
-    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
    	
 
     <!--     Fonts and icons     -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<link rel="icon" href="img/p.ico">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-<style type="text/css">
-	
-</style>
-</head>
+	<style type="text/css">
+		
+		body{
+	   		font-family: 'Lato', sans-serif;
+			padding: 50px 30px 10px 30px;
+			text-shadow:#000000 0.2px 0.2px;
+		}
 
-<body>
-<center>
+		body.light{
+			background-color: #ffffff;
+			color: #272727;
+		}
 
-	<div id="nav">
-	</div>
+		body.light a:link{
+			color: brown;
+			text-decoration: none;
+		}
 
-	<div class="wrapper">
-	<a href="https://github.com/partheus" target="_blank" title="View me on github"><img src="img/parth.png" class="dp"></a>
-	<br>
-	<div class="contenthead">
-		<a href="https://partheus.github.io" class="contenthead nodecor tracking-in-expand">PARTH SHIRALKAR</a>
-	</div>
-	<div class="contentmore">Hey there! I am a Computer Engineer (B.E.) currently working on my Master's degree at Iowa State University. I am also an open-source enthusiast.
-		<br>I'm still learning and am currently working on small personal projects for fun.
-		<br>
-		<!-- <i class="targetblank">[All links have target=_blank]</i>
-		<br> -->
-		<a href="mailto:parth.shiralkar@gmail.com?subject=Sup" class="email">Drop a mail?
-	</div>
-	<div class="buttonholder">
-	<a href="https://github.com/partheus?tab=repositories" target="_blank" title="My github repos"><button class="contentbutton">github</button></a>
-	<a href="https://medium.com/@sparth" target="_blank" title="My medium.com blog"><button class="contentbutton">medium</button></a>
-	<a href="https://partheory.wordpress.com" target="_blank" title="My wordpress.com blog"><button class="contentbutton">wordpress</button></a>
-	</div> <!-- button -->	
-	</div> <!-- wrapper -->
+		body.light a:visited{
+			color: #da8067;
+			text-decoration: none;
+		}
 
-<footer class="foot">
-	
-	<a href="https://github.com/partheus/partheus.github.io/blob/master/LICENSE.md" target="_blank" class="nodecor foot"> © <script>document.write(new Date().getFullYear())</script>, Parth S </a>
-</footer>
-</center>
+		body.dark{
+			background-color: #272727;
+			color: #ffffff;
+		}
+
+		body.dark a:link{
+			color: #ffe700;
+			text-decoration: none;
+		}
+
+		body.dark a:visited{
+			color: #fddd5d;
+			text-decoration: none;
+		}
+
+		.cog{
+			font-size: 700%;
+		}
+		
+		
+	</style>
+</head>	
+<body class="light" id="body">
+
+<center>	
+
+
+<i class="fas fa-cogs cog" onclick="toggleDark()"></i>	
+<p style="font-size: 120%;"><strong>This website is currently under construction.</strong></p>
+Please visit <a href="https://github.com/partheus" target="blank">my github page</a> for more. Or maybe <a href="https://partheory.wordpress.com/" target="blank">my blog</a>. Click the cogs?
+<br>
+
 
 
 <script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+function toggleDark(){
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark" ? "light" : "dark";
 }
 </script>
+
+<br>Being made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> and  <i class="fas fa-music"></i>
+<br>© <script>document.write(new Date().getFullYear())</script>, Parth S
+
+</center>
+
 </body>
 
 </html>
