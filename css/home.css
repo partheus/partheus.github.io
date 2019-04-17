@@ -100,7 +100,7 @@ body{
 
 .buttonholder{
 	padding: 30px 20px 30px 20px;
-	position:relative;
+	position: relative;
 	text-align: center;
 	text-decoration: none;
 }
@@ -111,6 +111,11 @@ body{
 	outline: none;
 }
 
+.buttonholder i{
+	margin-left: 3px;
+	margin-right: 3px;
+	outline: none;
+}
 .nodecor{
 	text-decoration: none;
 }
