@@ -1,39 +1,64 @@
  /* When the screen is less than 600 pixels wide */
- @media screen and (max-width: 600px) {
+ /* @media screen and (max-width: 600px) {
 	#aboutme{
 		margin-top: 0%;
 	}
+} */
+
+@media (max-width: 768px) {
+	
+	/*breakpoint*/
+	/* .container {
+	  grid-template-columns: none;
+	} */
+	.astro{
+		font-size: 80%;
+	}
+
 }
 
 
 html{
-	background-color: #071c22;
+	background-color: #071d24;
 	scroll-behavior: smooth;
 	height: 100%;
 }
 
 
 body{
-	
 	min-height: 100%;
 	margin: 0px;
 }
 
-body.active{overflow:hidden;z-index:-1}
+/* body.active{
+	overflow:hidden;
+	z-index:-1
+} */
 
 #main{
 	min-height: 100%;
 }
 
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr; /*fraction*/
+  }
+  
+.section {
+	/* border: 1px solid; */
+	padding: 100px;	
+}
+  
+
 .astro{
 	color: #5eaeb1;
-	padding: 150px 20px 10px 20px;
+	padding: 170px 20px 0px 20px;
 }
 
 .icon{
 	/* margin: 30px 40px; */
-	color: #144d53;
-	font-size: 120%;
+	color: #2c5c61;
+	font-size: 150%;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -49,26 +74,16 @@ body.active{overflow:hidden;z-index:-1}
 
 .name{
 	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 2em;
+	font-weight: 400;
+	font-size: 2.75em;
 	text-align: center;
 	color: #6ac2c5;
+	letter-spacing: 1.25px;
 	/* width: 60%;
 	border-radius: 20px;
 	background-color: #004a7c;*/
-	padding: 10px 20px 10px 20px;
+	padding: 30px 20px 0px 20px;
 	/* box-shadow: 1em; */
-}
-
-#lead-down{
-	position:absolute;
-	left:0;
-	right:0;
-	width:100%;
-	text-align:center;
-	z-index:10;
-	bottom: 20px;
-	color:#fff
 }
 
 .about{
@@ -78,83 +93,26 @@ body.active{overflow:hidden;z-index:-1}
 	margin-left: 20px;
 	margin-right: 20px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 1em;
+	font-weight: 300;
+	font-size: 1.20em;
 	/* text-align: left; */
 	color: #5ea4a7;
 	/* padding: 70px 20px 30px 20px; */
 }
 
-.nodecor{
-	text-decoration: none;
-}
 
-.fullwidth{
-	width: 100%;
-}
-
-#arrow{
-	font-size: 5em;
-	color: #fff;
-}
-
-
-.arrowbutton {
-	cursor: pointer;
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	border-radius: 50px;
-	padding: 5px 2px 5px 2px;
-	transition: 0.15s;
-	background-color: #5ea3a3; 
-	color: #edfffa; 
-	border: 0.25px solid #1f4287;
-	letter-spacing: 0.5px;
-	width: 28px;
-}
-
-.arrowbutton:hover {
-    background-color: #fff;
-    border-color: #1f4287;
-    color: #1f4287;
-}
-
-#aboutme {
-	margin-top: 26%;
-	height: 400px;
-	background-color: #2f464f;
-	width: fit-content;
-}
-
-#projects {
-	/* margin-top: 74%; */
-	/* padding-bottom: 50%; */
-	background-color: #6ac2c5;
-	height: 400px;
-}
-
-#experience {
-	/* margin-top: 74%; */
-	/* padding-bottom: 50%; */
-	background-color: #2f464f;
-	height: 400px;
-}
-
-#more {
-	/* margin-top: 74%; */
-	/* padding-bottom: 50%; */
-	background-color: #6ac2c5;
-	height: 400px;
-}
 
 .foot{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 	font-family: 'Zilla Slab', serif;
 	font-size: 1em;
-	color: #fff;
-	/* position: fixed; */
-  	left: 0;
-  	bottom: 0;
-	width: 100%;
-	/* height: 6em; */
-	height: 200px;
+	color: #071d24; 
+	background-color: #5ea4a7;
+	text-align: center;
+	/* height: 2em; */
+	padding-top: 1em;
+	padding-bottom: 1em;
 }

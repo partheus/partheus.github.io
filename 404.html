@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Oh</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+   	
+
+    <!--     Fonts and icons     -->
+
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<style type="text/css">
+		
+		body{
+	   		font-family: 'Lato', sans-serif;
+			padding: 50px 30px 10px 30px;
+			text-shadow:#000000 0.2px 0.2px;
+		}
+
+		body.light{
+			background-color: #ffffff;
+			color: #272727;
+		}
+
+		body.light a:link{
+			color: brown;
+			text-decoration: none;
+		}
+
+		body.light a:visited{
+			color: #da8067;
+			text-decoration: none;
+		}
+
+		body.dark{
+			background-color: #272727;
+			color: #ffffff;
+		}
+
+		body.dark a:link{
+			color: #ffe700;
+			text-decoration: none;
+		}
+
+		body.dark a:visited{
+			color: #fddd5d;
+			text-decoration: none;
+		}
+
+		.cog{
+			font-size: 700%;
+		}
+		
+		
+	</style>
+</head>	
+<body class="light" id="body">
+
+<center>	
+
+Looks like you've clicked on a link that leads to a dead page!<br><br>
+<i class="fas fa-cogs cog" onclick="toggleDark()"></i>	
+
+<!-- <script>
+	document.write('<a href="' + document.referrer + '"><p style="font-size: 120%;"><strong>Click here to go back!</strong></p></a>');
+</script> -->
+<p style="font-size: 120%;"><strong><a href="#" onclick="history.go(-1)">Click here to go back!</a></strong></p>
+
+Please visit <a href="https://github.com/partheus" target="blank">my github page</a> for more. Or maybe <a href="https://partheory.wordpress.com/" target="blank">my blog</a>. Click on the cogs?
+<br>
+
+
+
+<script>
+function toggleDark(){
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark" ? "light" : "dark";
+}
+</script>
+
+<br>Being made with <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> and  <i class="fas fa-music"></i>
+<br>© <script>document.write(new Date().getFullYear())</script>, Parth S
+
+</center>
+
+</body>
+
+</html>
