@@ -5,7 +5,7 @@
 	}
 } */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	
 	/*breakpoint*/
 	/* .container {
@@ -13,6 +13,10 @@
 	} */
 	.astro{
 		font-size: 80%;
+	}
+
+	.name{
+		font-size: 2em;
 	}
 
 }
@@ -30,6 +34,10 @@ body{
 	margin: 0px;
 }
 
+
+.nodecor{
+	text-decoration: none;
+}
 /* body.active{
 	overflow:hidden;
 	z-index:-1
@@ -115,4 +123,8 @@ body{
 	/* height: 2em; */
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+.foot a{
+	text-decoration: none;
 }
