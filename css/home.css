@@ -63,9 +63,14 @@ body{
 	padding: 0px 20px 0px 20px;
 }
 
-.penico{
+.ninja{
 	color: #5eaeb1;
-	padding: 70px 20px 0px 20px;
+	padding: 20px 20px 0px 20px;
+}
+
+.keyboard{
+	color: #5eaeb1;
+	padding: 80px 20px 0px 20px;
 }
 
 .icon{
@@ -128,18 +133,30 @@ body{
 
 .foot{
 	position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+	margin-top: 10px;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
 	font-family: 'Zilla Slab', serif;
 	font-size: 1em;
 	color: #071d24; 
 	background-color: #5ea4a7;
 	text-align: center;
-	/* height: 2em; */
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+
+/* .foot {
+    background:#ffffff;
+    bottom:0px;
+    margin-top:10px;
+    left:0;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#666666;
+    text-align: center;
+} */
 
 .foot a{
 	text-decoration: none;
