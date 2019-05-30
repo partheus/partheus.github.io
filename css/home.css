@@ -21,7 +21,6 @@
 
 }
 
-
 html{
 	background-color: #071d24;
 	scroll-behavior: smooth;
@@ -61,6 +60,11 @@ body{
 .astro{
 	color: #5eaeb1;
 	padding: 170px 20px 0px 20px;
+}
+
+.penico{
+	color: #5eaeb1;
+	padding: 70px 20px 0px 20px;
 }
 
 .icon{
