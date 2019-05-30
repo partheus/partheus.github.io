@@ -19,6 +19,10 @@
 		font-size: 2em;
 	}
 
+	.para{
+		margin-left: 30px;
+	}
+
 }
 
 html{
@@ -71,6 +75,12 @@ body{
 .keyboard{
 	color: #5eaeb1 !important;
 	padding: 80px 20px 0px 20px;
+}
+
+.blogicon{
+	color: #2c5c61;
+	font-size: 250%;
+	margin-right: 5px;
 }
 
 .icon{
@@ -129,6 +139,15 @@ body{
 	/* text-align: left; */
 	color: #5ea4a7;
 	/* padding: 70px 20px 30px 20px; */
+}
+
+.para{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	text-align: left;
+	color: #5ea4a7;
+	margin-left: 300px;
 }
 
 .foot{
