@@ -112,7 +112,18 @@ body{
 	/* padding: 70px 20px 30px 20px; */
 }
 
-
+.content{
+	left: 0;
+	right: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	/* text-align: left; */
+	color: #5ea4a7;
+	/* padding: 70px 20px 30px 20px; */
+}
 
 .foot{
 	position: fixed;
