@@ -65,11 +65,11 @@ body{
 
 .ninja{
 	color: #5eaeb1;
-	padding: 20px 20px 0px 20px;
+	padding: 30px 20px 0px 20px;
 }
 
 .keyboard{
-	color: #5eaeb1;
+	color: #5eaeb1 !important;
 	padding: 80px 20px 0px 20px;
 }
 
