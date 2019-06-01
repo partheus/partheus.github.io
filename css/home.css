@@ -33,8 +33,9 @@ html{
 
 
 body{
-	min-height: 100%;
+	/* min-height: 100%; */
 	margin: 0px;
+	margin-bottom: 30px;
 }
 
 
@@ -150,12 +151,12 @@ body{
 	margin-left: 300px;
 }
 
-.foot{
+/* .foot{
 	position: fixed;
 	margin-top: 10px;
-  	left: 0;
-  	bottom: 0;
-  	width: 100%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 	font-family: 'Zilla Slab', serif;
 	font-size: 1em;
 	color: #071d24; 
@@ -163,6 +164,26 @@ body{
 	text-align: center;
 	padding-top: 1em;
 	padding-bottom: 1em;
+} */
+
+.foot {
+	width: 100%;
+	bottom: 0;
+	font-family: 'Zilla Slab', serif;
+	font-size: 1em;
+	color: #071d24; 
+	background-color: #5ea4a7;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	/* height: 2em; */
+	left: 0;
+	position: fixed;
+	/* font-size: small; */
+	/* width:100%; */
+}
+
+.bottomspace{
+	padding-bottom: 50px;
 }
 
 /* .foot {
