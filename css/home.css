@@ -26,7 +26,8 @@
 }
 
 html{
-	background-color: #071d24;
+	/* background-color: #071d24; */
+	background-color: #0c2233;
 	scroll-behavior: smooth;
 	height: 100%;
 }
@@ -66,35 +67,46 @@ hr{
   
 
 .astro{
-	color: #5eaeb1;
+	color: #0a91ab;
 	margin-top: 170px;
 	padding: 0px 20px 0px 20px;
 }
 
+.astro:hover{
+	color: #e7bf6f;
+	transform: scale(1.02);
+	transition: 0.05s;
+}
+
 .ninja{
-	color: #5eaeb1;
+	color: #0a91ab;
 	padding: 30px 20px 0px 20px;
 }
 
 .keyboard{
-	color: #5eaeb1 !important;
+	color: #0a91ab !important;
 	padding: 80px 20px 0px 20px;
 }
 
 .emailicon{
-	color: #5eaeb1 !important;
+	color: #0a91ab !important;
 	padding: 50px 20px 0px 20px;
 }
 
 .blogicon{
-	color: #2c5c61;
+	color: #0a91ab;
 	font-size: 250%;
 	margin-right: 5px;
 }
 
+.blogicon:hover{
+	color: #e7bf6f;
+	transform: scale(1.05);
+}
+
 .icon{
 	/* margin: 30px 40px; */
-	color: #2c5c61;
+	color: #0a91ab;
 	font-size: 150%;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -105,7 +117,7 @@ hr{
 }
 
 .icon:hover{
-	color: #307672;
+	color: #e7bf6f;
 	transform: scale(1.2);
 }
 
@@ -114,7 +126,7 @@ hr{
 	font-weight: 400;
 	font-size: 2.75em;
 	text-align: center;
-	color: #6ac2c5;
+	color: #0a91ab;
 	letter-spacing: 1.25px;
 	/* width: 60%;
 	border-radius: 20px;
