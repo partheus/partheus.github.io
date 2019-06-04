@@ -38,6 +38,9 @@ body{
 	margin-bottom: 30px;
 }
 
+hr{
+	color: #5eaeb1;
+}
 
 .nodecor{
 	text-decoration: none;
@@ -76,6 +79,11 @@ body{
 .keyboard{
 	color: #5eaeb1 !important;
 	padding: 80px 20px 0px 20px;
+}
+
+.emailicon{
+	color: #5eaeb1 !important;
+	padding: 50px 20px 0px 20px;
 }
 
 .blogicon{
