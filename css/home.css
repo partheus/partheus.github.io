@@ -20,7 +20,7 @@
 
 html{
 	/* background-color: #071d24; */
-	background-color: #0c2131;
+	background-color: #091c2b;
 	scroll-behavior: smooth;
 	height: 100%;
 }
@@ -33,7 +33,7 @@ body{
 }
 
 hr{
-	color: #0a91ab;
+	color: #209cb4;
 }
 
 .nodecor{
@@ -60,7 +60,7 @@ hr{
   
 
 .astro{
-	color: #0a91ab;
+	color: #209cb4;
 	margin-top: 100px;
 	margin-bottom: 35px;
 	padding: 0px 20px 0px 20px;
@@ -73,22 +73,22 @@ hr{
 }
 
 .ninja{
-	color: #0a91ab;
+	color: #209cb4;
 	padding: 30px 20px 0px 20px;
 }
 
 .keyboard{
-	color: #0a91ab !important;
+	color: #209cb4 !important;
 	padding: 80px 20px 0px 20px;
 }
 
 .emailicon{
-	color: #0a91ab !important;
+	color: #209cb4 !important;
 	padding: 50px 20px 0px 20px;
 }
 
 .blogicon{
-	color: #0a91ab;
+	color: #209cb4;
 	font-size: 250%;
 	margin-right: 5px;
 	margin-bottom: 7.5px;
@@ -101,7 +101,7 @@ hr{
 
 .icon{
 	/* margin: 30px 40px; */
-	color: #0a91ab;
+	color: #209cb4;
 	font-size: 150%;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -121,7 +121,7 @@ hr{
 	font-weight: 400;
 	font-size: 2.75em;
 	text-align: center;
-	color: #0a91ab;
+	color: #209cb4;
 	letter-spacing: 1.25px;
 	/* width: 60%;
 	border-radius: 20px;
@@ -135,7 +135,7 @@ h1{
 	font-weight: 400;
 	font-size: 2.75em;
 	text-align: center;
-	color: #0a91ab;
+	color: #209cb4;
 	letter-spacing: 1.25px;
 	margin-top: -10px;
 	/* width: 60%;
@@ -155,7 +155,7 @@ h1{
 	font-weight: 300;
 	font-size: 1.20em;
 	/* text-align: left; */
-	color: #0a91ab;
+	color: #209cb4;
 	margin-top: -25px;
 	/* padding: 70px 20px 30px 20px; */
 }
@@ -169,7 +169,7 @@ h1{
 	font-weight: 300;
 	font-size: 1.075em;
 	/* text-align: left; */
-	color: #0a91ab;
+	color: #209cb4;
 	/* padding: 70px 20px 30px 20px; */
 }
 
@@ -178,7 +178,7 @@ h1{
 	font-weight: 300;
 	font-size: 1em;
 	text-align: left;
-	color: #0a91ab;
+	color: #209cb4;
 	margin-left: 300px;
 }
 
@@ -203,7 +203,7 @@ h1{
 	font-family: 'Zilla Slab', serif;
 	font-size: 1em;
 	color: #071d24; 
-	background-color: #0a91ab;
+	background-color: #209cb4;
 	text-align: center;
 	padding: 15px 0px 15px 0px;
 	/* height: 2em; */
