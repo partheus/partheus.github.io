@@ -97,12 +97,12 @@ hr{
 .icon{
 	color: #209cb4;
 	font-size: 150%;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .iconbar{
-	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
 }
 
 .icon:hover{
