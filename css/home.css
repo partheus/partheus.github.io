@@ -35,6 +35,10 @@ hr{
 	text-decoration: none;
 }
 
+.bluetext{
+	color: #209cb4
+}
+
 /* body.active{
 	overflow:hidden;
 	z-index:-1
