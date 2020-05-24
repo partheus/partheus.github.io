@@ -1,5 +1,7 @@
 # partheus.github.io
-# parth.ninja
+
+
+[parth.ninja] (https://parth.ninja)
 
 The simplest site I could make, made mainly with old-school HTML and CSS.
 
