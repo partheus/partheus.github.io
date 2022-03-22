@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Parth Shiralkar</title>
+	<subtitle>Parth Shiralkar personal website</subtitle>
+	
+	<link href="http://localhost:8081/feed/" rel="self"/>
+	<link href="http://localhost:8081"/>
+	<updated>2022-03-22T00:35:39Z</updated>
+	<id>http://localhost:8081</id>
+	<author>
+		<name>Parth Shiralkar</name>
+	</author>
+	
+	<entry>
+		<title>Hello World</title>
+		<link href="http://localhost:8081/helloworld/"/>
+		<updated>2022-03-09T00:00:00Z</updated>
+		<id>http://localhost:8081/helloworld/</id>
+		<content type="html">&lt;p&gt;Hello World!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>About</title>
+		<link href="http://localhost:8081/about/"/>
+		<updated>2022-03-10T00:00:00Z</updated>
+		<id>http://localhost:8081/about/</id>
+		<content type="html">&lt;p&gt;I&#39;m a web developer, documentation specialist, business analyst, a few other adjectives and roles, close confidante of the Round Table knights, &lt;a href=&quot;http://localhost:8081/breathe&quot; class=&quot;nolink&quot;&gt;freelance worldsaver&lt;/a&gt;, lentil enthusiast...&lt;/p&gt;
+&lt;p&gt;I have been designing and engineering UI solutions for over half a decade now, and received my Master&#39;s degree in 2021. Every year or so since 2017, my domain &lt;code&gt;parth.ninja&lt;/code&gt; points to a fresh redesign of this personal website. Currently, this online project acts as a portfolio / journal for my unusually frequent adventures, and helps me practice web development.&lt;/p&gt;
+&lt;p&gt;View &lt;a href=&quot;http://localhost:8081/colophon&quot;&gt;more about this site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&#39;m extremely partial to audiobooks, as evidenced by my &lt;a href=&quot;https://www.goodreads.com/review/list/60162168-parth-shiralkar?shelf=audiobook&quot;&gt;weekly checkouts&lt;/a&gt; at the Multnomah County Central Library. I live in Portland, OR, and work with a wonderful design studio as a frontend developer. View my &lt;a href=&quot;http://localhost:8081/code&quot;&gt;code, work&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out my &lt;a href=&quot;http://localhost:8081/writing&quot;&gt;writing&lt;/a&gt;, or some of my &lt;a href=&quot;http://localhost:8081/art&quot;&gt;art&lt;/a&gt;. Or read about my &lt;a href=&quot;http://localhost:8081/climbing&quot;&gt;climbing exploits&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span class=&quot;bold600&quot;&gt;&lt;a href=&quot;http://localhost:8081/hello&quot;&gt;Contact me to say hi&lt;/a&gt;&lt;/span&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;irevamp-h5 irevamp-mt-lg bold600&quot;&gt;Now Playing&lt;/div&gt;
+&lt;div class=&quot;music-recco&quot;&gt;
+&lt;div class=&quot;music-bars&quot;&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;music-recco-about irevamp-text&quot;&gt;
+&lt;div class=&quot;music-recco-title&quot;&gt;&lt;a href=&quot;https://emilrottmayer.bandcamp.com/track/k-e-y-s&quot; class=&quot;nolink&quot; target=&quot;_blank&quot;&gt;K.E.Y.S. by Emil Rottmayer &amp;#8599&lt;/a&gt;&lt;/div&gt;
+&lt;p class=&quot;irevamp-lead&quot; style=&quot;font-size: 16px;&quot;&gt;Last updated 03/17/2022&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;irevamp-mt-md irevamp-mb-md &quot;&gt;
+&lt;div class=&quot;irevamp-container&quot;&gt;
+&lt;div class=&quot;irevamp-section goodreads slide-up&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/review/list/60162168-parth-shiralkar?ref=nav_mybooks&amp;shelf=currently-reading&quot;&gt;Here&#39;s what I&#39;m currently reading:&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&quot;gr_grid_widget_1647304638&quot;&gt;
+  &lt;!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work --&gt;
+  &lt;div class=&quot;gr_grid_container&quot;&gt;
+    &lt;div class=&quot;gr_grid_book_container&quot;&gt;
+      &lt;a title=&quot;The Silent Patient&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/book/show/40097951-the-silent-patient&quot;&gt;&lt;img alt=&quot;The Silent Patient&quot; border=&quot;0&quot; src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582759969l/40097951._SX98_.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gr_grid_book_container&quot;&gt;
+      &lt;a title=&quot;Maskerade (Discworld, #18; Witches #5)&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/book/show/78876.Maskerade&quot;&gt;&lt;img alt=&quot;Maskerade&quot; border=&quot;0&quot; src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170961678l/78876._SX98_.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gr_grid_book_container&quot;&gt;
+      &lt;a title=&quot;Cards on the Table (Hercule Poirot, #15)&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/book/show/16297.Cards_on_the_Table&quot;&gt;&lt;img alt=&quot;Cards on the Table&quot; border=&quot;0&quot; src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388208739l/16297._SY160_.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gr_grid_book_container&quot;&gt;
+      &lt;a title=&quot;Nausea&quot; rel=&quot;nofollow&quot; href=&quot;https://www.goodreads.com/book/show/298275.Nausea&quot;&gt;&lt;img alt=&quot;Nausea&quot; border=&quot;0&quot; src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377674928l/298275._SX98_.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;noscript&gt;&lt;br /&gt;Share &lt;a rel=&quot;nofollow&quot; href=&quot;http://localhost:8081/&quot;&gt;book reviews&lt;/a&gt; and ratings with Parth, and even join
+      a &lt;a rel=&quot;nofollow&quot; href=&quot;http://localhost:8081/group&quot;&gt;book club&lt;/a&gt; on Goodreads.&lt;/noscript&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://www.goodreads.com/review/grid_widget/60162168.Parth&#39;s%20bookshelf:%20currently-reading?cover_size=medium&amp;hide_link=true&amp;hide_title=true&amp;num_books=4&amp;order=d&amp;shelf=currently-reading&amp;sort=date_updated&amp;widget_id=1647304638&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Contact</title>
+		<link href="http://localhost:8081/hello/"/>
+		<updated>2022-03-22T00:35:39Z</updated>
+		<id>http://localhost:8081/hello/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;This form is currently disabled. Email me at &lt;strong&gt;parth [dot] shiralkar [at] gmail [dot] com&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;form name=&quot;contact&quot; class=&quot;form&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; action=&quot;http://localhost:8081/&quot;&gt;
+&lt;fieldset style=&quot;border:0;padding:0;&quot; disabled=&quot;&quot;&gt;
+&lt;legend class=&quot;sr-only&quot;&gt;Information, comments, feedback&lt;/legend&gt;
+  &lt;div class=&quot;form_item&quot;&gt;
+    &lt;label disabled=&quot;&quot;&gt;Your Name &lt;input type=&quot;text&quot; name=&quot;name&quot; title=&quot;i am required&quot; class=&quot;form_field&quot; aria-required=&quot;true&quot; required=&quot;&quot; /&gt;&lt;/label&gt;   
+  &lt;/div&gt;
+  &lt;div class=&quot;form_item&quot;&gt;
+    &lt;label&gt;Your Email &lt;input type=&quot;email&quot; name=&quot;email&quot; class=&quot;form_field&quot; aria-required=&quot;true&quot; required=&quot;&quot; title=&quot;The domain portion of the email address is invalid (the portion after the @).&quot; pattern=&quot;^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$&quot; /&gt;&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form_item&quot;&gt;
+    &lt;label&gt;Message &lt;textarea name=&quot;message&quot; class=&quot;form_field&quot; title=&quot;i am required&quot; aria-required=&quot;true&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form_item&quot;&gt;
+  &lt;button type=&quot;submit&quot; class=&quot;irevamp-mx-auto irevamp-button bold600 uppercase&quot;&gt;Send&lt;/button&gt;
+  &lt;/div&gt; 
+    &lt;/fieldset&gt;
+&lt;/form&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>Styleguide</title>
+		<link href="http://localhost:8081/styleguide/"/>
+		<updated>2022-03-22T00:35:39Z</updated>
+		<id>http://localhost:8081/styleguide/</id>
+		<content type="html">&lt;h1 id=&quot;header-1&quot; tabindex=&quot;-1&quot;&gt;Header 1&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#header-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Text: &lt;strong&gt;Bold&lt;/strong&gt;, &lt;em&gt;Italic&lt;/em&gt;, or &lt;s&gt;Strikethrough&lt;/s&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:8081/colophon&quot;&gt;Test link&lt;/a&gt; (redirects to colophon).&lt;/p&gt;
+&lt;h2 id=&quot;header-2&quot; tabindex=&quot;-1&quot;&gt;Header 2&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#header-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;header-3&quot; tabindex=&quot;-1&quot;&gt;Header 3&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#header-3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;!-- ```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require(&quot;./lang/&quot; + l);
+  return true;
+};
+``` --&gt;
+&lt;h4 id=&quot;header-4&quot; tabindex=&quot;-1&quot;&gt;Header 4&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#header-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;header-5&quot; tabindex=&quot;-1&quot;&gt;Header 5&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#header-5&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot; tabindex=&quot;-1&quot;&gt;There&#39;s a horizontal rule below this.&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#theres-a-horizontal-rule-below-this&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;here-is-an-unordered-list&quot; tabindex=&quot;-1&quot;&gt;Here is an unordered list:&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#here-is-an-unordered-list&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Item foo&lt;/li&gt;
+&lt;li&gt;Item bar&lt;/li&gt;
+&lt;li&gt;Item baz&lt;/li&gt;
+&lt;li&gt;Item zip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;and-an-ordered-list&quot; tabindex=&quot;-1&quot;&gt;And an ordered list:&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#and-an-ordered-list&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Item one&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
+&lt;li&gt;Item three&lt;/li&gt;
+&lt;li&gt;Item four&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;and-a-nested-list&quot; tabindex=&quot;-1&quot;&gt;And a nested list:&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#and-a-nested-list&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;level 1 item
+&lt;ul&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item
+&lt;ul&gt;
+&lt;li&gt;level 3 item&lt;/li&gt;
+&lt;li&gt;level 3 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;level 1 item
+&lt;ul&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;level 1 item
+&lt;ul&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;li&gt;level 2 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;level 1 item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;div class=&quot;irevamp-section slide-up&quot;&gt;
+    &lt;h5&gt;Test 3-Up Cards:&lt;/h5&gt;
+    &lt;ul class=&quot;irevamp-column-container&quot;&gt;
+      &lt;li class=&quot;irevamp-card&quot;&gt;
+        &lt;div class=&quot;irevamp-card__content&quot;&gt;
+          &lt;a href=&quot;http://localhost:8081/styleguide/#&quot; class=&quot;irevamp-card__title bold600&quot;&gt;Test Title&lt;/a&gt;
+          &lt;p class=&quot;irevamp-lead&quot;&gt;Test description&lt;/p&gt;
+          &lt;p class=&quot;irevamp-card__date&quot;&gt;03-17-22&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+            &lt;li class=&quot;irevamp-card&quot;&gt;
+        &lt;div class=&quot;irevamp-card__content&quot;&gt;
+          &lt;a href=&quot;http://localhost:8081/styleguide/#&quot; class=&quot;irevamp-card__title bold600&quot;&gt;Test Title&lt;/a&gt;
+          &lt;p class=&quot;irevamp-lead&quot;&gt;Test description&lt;/p&gt;
+          &lt;p class=&quot;irevamp-card__date&quot;&gt;03-17-22&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+            &lt;li class=&quot;irevamp-card&quot;&gt;
+        &lt;div class=&quot;irevamp-card__content&quot;&gt;
+          &lt;a href=&quot;http://localhost:8081/styleguide/#&quot; class=&quot;irevamp-card__title&quot;&gt;Test Title&lt;/a&gt;
+          &lt;p class=&quot;irevamp-lead&quot;&gt;Test description&lt;/p&gt;
+          &lt;p class=&quot;irevamp-card__date&quot;&gt;03-17-22&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</content>
+	</entry>
+</feed>
