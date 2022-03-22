@@ -1,6 +1,6 @@
 backend:
   # Settings to use Netlify Identity as backend
-  name: git-gateway
+  name: github
   repo: parth/site-revamp
   branch: main
 
