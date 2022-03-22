@@ -2,7 +2,7 @@ backend:
   # Settings to use Netlify Identity as backend
   name: github
   repo: partheus/partheus.github.io
-  branch: main
+  branch: master
 
 # Add the route to your images, so Netlify CMS knows where to save uploads to.
 media_folder: "src/static/img"
