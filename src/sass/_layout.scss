@@ -1,0 +1,120 @@
+@use "theme" as *;
+@use "media-queries" as *;
+
+// stylelint-disable-next-line selector-max-type
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: irevamp-color("background");
+  color: $irevamp-color-primary;
+  font-family: $irevamp-font-family-primary;
+  padding: 0 2rem;
+
+  @include gt-sm {
+    padding: 0 4rem;
+  }
+}
+
+// stylelint-disable selector-max-type, selector-no-qualifying-type
+main,
+main.irevamp-container {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+article {
+  max-width: 100ch;
+
+  > img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+// stylelint-enable
+
+.irevamp-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 120ch;
+  margin-right: auto;
+  margin-left: auto;
+  // padding: 1rem;
+  text-decoration: none;
+}
+
+.irevamp-skin {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+.irevamp-column-container {
+  display: grid;
+  grid-gap: 3em;;
+  grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
+}
+
+// stylelint-disable-next-line selector-no-qualifying-type, selector-max-type
+ul.irevamp-column-container {
+  padding-left: 0;
+}
+
+.irevamp-section {
+  width: 100%;
+
+  &--padded {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  // stylelint-disable-next-line selector-max-universal
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.irevamp-hero {
+  display: grid;
+  min-height: 20vh;
+  place-content: center;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  text-align: center;
+
+  @include gt-sm {
+    padding-top: 5vh;
+  padding-bottom: 5vh;
+  }
+}
+
+.irevamp-row {
+  display: grid;
+  grid-gap: 1rem;
+
+  @media (min-width: 80ch) {
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+  }
+
+  &--center-content {
+    justify-content: center;
+  }
+
+  &--center-alignitems {
+    align-items: center;
+  }
+}
+
+// stylelint-disable-next-line selector-max-type
+hr {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: 1px solid irevamp-color("secondary");
+  opacity: 0.6;
+  width: 100%;
+}

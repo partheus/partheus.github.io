@@ -1,0 +1,41 @@
+---
+layout: page.njk
+templateEngineOverride: md, njk
+title: Writing
+pagination:
+  data: collections.entry
+  size: 5
+  alias: entries
+  reverse: true
+---
+
+{# <div class='box'>
+    <div class='wave -one'></div>
+    <div class='wave -two'></div>
+    <div class='wave -three'></div>
+</div> #}
+{# > [404 page test](nolinkhere) #}
+
+I like to write. Here's a few of my [literary projects](/works).
+
+There is also a [free e-book page](/writing/damage/).
+
+As a <span class="artefact">former columnist</span> for the Iowa State Daily, I have written copious amounts of polarizing nonsense. These [columns can be found here](https://www.iowastatedaily.com/search/?a=50cc513e-dd67-11e9-a119-3bb18836928e&s=start_time&sd=desc&l=75).
+
+<div class="irevamp-container irevamp-mt-md">
+  <div class="irevamp-section slide-up">
+    <div class="irevamp-h5 irevamp-mb-md bold600">See a few of my latest entries:</div>
+    <ul class="irevamp-list-unstyled">
+      {%- for post in pagination.items -%}
+        <li class="irevamp-postlist__content">
+            <a href="{{ post.url }}" class="irevamp-text">{{ post.data.title }}</a>
+            <p style="margin-top: 5px" class="irevamp-lead">{{ post.data.date | postDate  }} {% if post.data.description %} • {{ post.data.description }}{% endif %}
+        {% if post.data.tags %}<span class="irevamp-lead irevamp-ink--secondary"> 🏷 {% for tag in post.data.tags.slice(1, 3) %}{% if tag != 'notes' %}<span>{{tag}} </span>{% endif %}{% endfor %}{% endif %}</p>
+        </li>
+    </span>
+      {%- endfor -%}
+    </ul>
+        <div class="irevamp-h5 irevamp-mt-md bold600">Or <a href="/entries">view them all here ({{ collections.entry | length }})</a>.</div>
+
+  </div>
+</div>

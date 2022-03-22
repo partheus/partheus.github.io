@@ -1,0 +1,76 @@
+@use "theme" as *;
+
+.irevamp-content-maxlength {
+  max-width: 80ch;
+}
+
+.irevamp-anchor {
+  display: inline-block;
+  margin-left: 0.25em;
+  transition: 0.1s all ease-in-out;
+  font-size: 0.65em;
+  vertical-align: top;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+$irevamp-alignments: left, center, right !default;
+
+@each $alignment in $irevamp-alignments {
+  .irevamp-text-align--#{$alignment} {
+    text-align: #{$alignment};
+
+    @if ($alignment == "center") {
+      > a {
+        align-self: center !important;
+      }
+    }
+  }
+}
+
+@each $key in $irevamp-background-colors {
+  .irevamp-background--#{$key} {
+    background-color: irevamp-color($key);
+  }
+}
+
+@each $key in $irevamp-ink-colors {
+  .irevamp-ink--#{$key},
+  a.irevamp-ink--#{$key} {
+    color: irevamp-color(#{$key});
+  }
+
+  .irevamp-ink--#{$key} > a:not(.irevamp-button) {
+    color: inherit;
+  }
+}
+
+.irevamp-mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@each $key, $unit in $irevamp-spacing {
+  .irevamp-my-#{$key} {
+    margin-top: $unit;
+    margin-bottom: $unit;
+  }
+
+  .irevamp-mt-#{$key} {
+    margin-top: $unit;
+  }
+
+  .irevamp-mb-#{$key} {
+    margin-bottom: $unit;
+  }
+}
+
+.irevamp-mb-none {
+  margin-bottom: 0;
+}
+
+.irevamp-pb-none {
+  padding-bottom: 0;
+}

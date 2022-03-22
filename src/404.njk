@@ -1,0 +1,23 @@
+---
+layout: base.njk
+permalink: 404.html
+title: 'Error 404'
+---
+<div class="pagenotfound">
+   
+    <div class="pagenotfound-container slide-up">
+        <div class="irevamp-h5 notfound-h5 uppercase bold600" style="margin-bottom: 0">Whoops... <span class="irevamp-ink--secondary-light ">That's an error.</span></div>
+        <div class="irevamp-lead notfound-lead irevamp-ink--primary" style="margin: 0 auto 2em"><span class="irevamp-ink--secondary-light bold600">404: </span>The page probably doesn't exist!</div>
+
+    {# <div class="cloud"></div> #}
+    <img class="crane irevamp-mx-auto" src="{{ '/img/crane.png' }}">
+
+        {# <div class="irevamp-h5 salutation uppercase bold600" style="margin: 3em ">X rarely ever marks the spot,</div> #}
+        {# <div class="intro-about" style="margin: 0em 0 3em;">and it looks like we're missing a link here. Let's get you sorted:</div> #}
+        {# <a href="#" onclick="history.back()" class="intro bold600 uppercase">Go back ⮌</a> #}
+        <div class="irevamp-lead notfound-lead irevamp-ink--primary" style="margin: 2em auto 0">Click <span class="irevamp-ink--primary bold600"><a href="{{ "/" | url }}">here</a></span> to go to the main homepage. Or, perhaps, if you'd like to resume your quest for treasure...</div>
+
+        <button onclick="history.back()" class="intro-about bold600 uppercase pagenotfound-button" style="">Go back</button>
+    </div>
+
+</div>

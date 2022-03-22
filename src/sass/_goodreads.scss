@@ -1,0 +1,50 @@
+@use "theme" as *;
+@use "media-queries" as *;
+
+.goodreads {
+    background-color: #312020;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    max-width: 90%;
+    box-shadow: -2px 8px 15px -4px black;
+
+    @include gt-sm {
+      max-width: 60%;
+    }
+}
+
+#gr_grid_widget_1647304638 {
+    margin-top: 0;
+}
+
+.gr_grid_container {
+    /* customize grid container div here. eg: width: 500px; */
+    padding: 0 1em;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all ease-in-out 0.2s;
+    flex-wrap: wrap;
+  }
+
+  .gr_grid_book_container {
+    /* customize book cover container div here */
+    margin: 1em 0;
+    overflow: hidden;
+    display: flex;
+    transition: all ease-in-out 0.2s;
+    filter: none;
+
+    @include gt-sm {
+        padding: 1em;
+    }
+  }
+
+  .gr_grid_book_container:hover {
+    /* customize book cover container div here */
+    filter: hue-rotate(66deg);
+    outline: 2px dashed $irevamp-color-secondary-light;
+    transition: all ease-in-out 0.2s;
+  }

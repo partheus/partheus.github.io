@@ -1,0 +1,33 @@
+---
+layout: post.njk
+templateEngineOverride: md, njk
+title: Code
+description: My technical accomplishments, projects, work
+---
+
+> This page (project gallery, posts, etc.) is still being built. Visit my <a href="https://github.com/partheus" target="_blank">GitHub</a> in the meantime.
+
+> [Site colophon](/colophon)
+
+Like most delicious recipes, a tasty website is made using simple ingredients and thoughtful preparation. For a quick summary of my work, take a look at this [portfolio gallery of my latest projects](/menu) disguised as a restaurant menu card.
+
+
+
+
+<h5 style="margin-bottom: 0.6em;" class="irevamp-mt-md bold600">Here are all entries related to development:</h5>
+
+
+<div class="irevamp-section slide-up">
+<ul class="irevamp-list-unstyled irevamp-postlist">
+{% set taglist = collections.development | reverse %}
+{% for post in taglist %}
+<li class="irevamp-postlist__content">
+<a href="{{ post.url }}" class="irevamp-text">{{ post.data.title }}</a>
+<p style="margin-top: 5px" class="irevamp-lead">{{ post.data.date | postDate  }}
+{% if post.data.description %} • {{ post.data.description }}
+{% endif %}
+</p>
+</li>
+{% endfor %}
+</ul>
+</div>

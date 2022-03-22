@@ -1,0 +1,70 @@
+$irevamp-color-primary: #fff2e5 !default;
+$irevamp-color-secondary: #EB89BC !default;
+$irevamp-color-secondary-light: #e23f93 !default;
+$irevamp-color-background: #170808 !default;
+
+$hover-font-bg: #3d052f81 !default;
+$hover-font: #25021d !default;
+// work on this
+html[data-theme='dark'] {
+  $irevamp-color-primary: #170808 !default;
+  $irevamp-color-secondary: #e23f93 !default;
+  $irevamp-color-secondary-light: #EB89BC !default;
+  $irevamp-color-background: #fff2e5 !default;
+}
+
+$irevamp-brand-colors: (
+  "primary": $irevamp-color-primary,
+  "secondary": $irevamp-color-secondary,
+  "secondary-light": $irevamp-color-secondary-light,
+) !default;
+
+$irevamp-color-body: scale-color($irevamp-color-primary, $lightness: -30%, $saturation: -50%) !default;
+$irevamp-color-gray: mix($irevamp-color-secondary-light, $irevamp-color-primary, 30%) !default;
+
+$irevamp-colors: map-merge(
+  $irevamp-brand-colors,
+  (
+    "text": $irevamp-color-body,
+    "background": $irevamp-color-background,
+    "light": #e23f93,
+    "dark": rgba(0 0 0 / 87%),
+    "gray": $irevamp-color-gray,
+  )
+);
+
+@function irevamp-color($key) {
+  @return map-get($irevamp-colors, $key);
+}
+
+// Add/remove to selectively generate `ink` (text color) classes
+$irevamp-ink-colors: "primary", "secondary", "secondary-light", "text", "gray", "light", "dark" !default;
+
+// Add/remove to selectively generate `background` (text color) classes
+$irevamp-background-colors: "primary", "secondary", "background", "gray", "light" !default;
+
+$irevamp-button-variants: "primary", "secondary", "light", "gray" !default;
+$irevamp-link-color: irevamp-color("primary") !default;
+$irevamp-border-radius: 8px !default;
+
+$irevamp-font-family-primary: 'Work Sans', sans-serif !default;
+$irevamp-font-family-secondary: 'Bitter', serif !default;
+
+$irevamp-strong-font-weight: 500 !default;
+$irevamp-h1-font-size: 48px;
+$irevamp-h2-font-size: 44px;
+$irevamp-h3-font-size: 38px;
+$irevamp-h4-font-size: 34px;
+$irevamp-h5-font-size: 30px;
+$irevamp-h6-font-size: 28px;
+$irevamp-text-font-size: 22px;
+$irevamp-lead-font-size: 20px;
+$irevamp-mini-font-size: 18px;
+
+$irevamp-spacing: (
+  sm: 1rem,
+  md: 3rem,
+  lg: 6rem,
+  xl: 10rem,
+  auto: "auto",
+) !default;

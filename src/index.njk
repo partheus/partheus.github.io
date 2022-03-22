@@ -1,0 +1,37 @@
+---
+layout: base.njk
+templateEngineOverride: md, njk
+---
+<header class="irevamp-hero">
+  <div class="irevamp-container slide-up hello">
+    <h1 class="irevamp-ink--primary salutation">Parth Shiralkar</h1>
+    <div class="intro irevamp-content-maxlength irevamp-ink--primary uppercase">author. developer. likes daal.</div>
+    <p class="irevamp-mt-md">
+  Hi! Welcome to my website. I love designing and developing slick, delightful user experiences. Thereby, most of my personal and professional time is spent doing things to <a class="nolink" href="https://www.youtube.com/watch?v=huHV8aW37ZM" target="_blank" tabindex="-1">
+        <span class="tronafterhidden"></span></a>.
+  
+  </p>
+
+ I <a href="/writing">write</a>, <a href="https://www.goodreads.com/user_challenges/31527237" target="_blank">read</a>, <a class="" href="/art">make art</a>, and <a href="/climbing">climb</a>. There's also other <a class="" href="/about">cool stuff</a>.
+  
+<blockquote class="blockquote-lilac irevamp-mt-lg">
+
+**Project highlight:** [A portfolio of my projects in the form of a fun menu card](/menu)
+</blockquote>
+{# > [Contact](/hello) #}{# > Check out the [styleguide](/styleguide) or the [colophon](/colophon) for this site #}</div>
+</div>
+
+</header>
+<main class="irevamp-container">
+{{ content | safe }}
+</main>
+
+{# <script>
+      function nowPlaying() {
+        var audio = document.getElementById("now-playing");
+        audio.play();
+      }
+</script>
+
+<input type="button" value="PLAY" onclick="nowPlaying()">
+<audio id="now-playing" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio> #}

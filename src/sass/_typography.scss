@@ -1,0 +1,431 @@
+@use "theme" as *;
+@use "media-queries" as *;
+
+$irevamp-typography-variants: h1, h2, h3, h4, h5;
+
+@each $type in $irevamp-typography-variants {
+  #{$type},
+  .irevamp-#{$type} {
+    font-weight: $irevamp-strong-font-weight;
+    line-height: 1.1;
+    margin-bottom: 0.2em;
+  }
+}
+
+.salutation {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.intro {
+  font-size: $irevamp-lead-font-size;
+  font-weight: 300;
+}
+
+.hello {
+  text-align: left;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+
+  @include lt-sm {
+    padding: inherit 0;
+  }
+
+  @include gt-sm {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  @include gt-md {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+}
+
+// As of v0.3.0, `clamp` not well enough supported on mobile browsers for use
+// Due to build-in min/max Sass functions, requires `unquote()` to correctly
+// render as CSS min/max
+
+// Headers and such
+h1,
+.irevamp-h1 {
+  font-size: $irevamp-h1-font-size;
+  // font-size: unquote("min(max(3rem, 5vw), #{$irevamp-h1-font-size})");
+
+  @include gt-sm {
+    font-size: 58px;
+  }
+
+  @include gt-md {
+    font-size: 68px;
+  }
+}
+
+h2,
+.irevamp-h2 {
+  font-size: $irevamp-h2-font-size;
+
+  @include gt-sm {
+    font-size: 48px;
+  }
+
+  @include gt-md {
+    font-size: 58px;
+  }
+}
+
+h3,
+.irevamp-h3 {
+  font-size: $irevamp-h3-font-size;
+
+  @include gt-sm {
+    font-size: 42px;
+  }
+  @include gt-md {
+    font-size: 50px;
+  }
+}
+
+h4,
+.irevamp-h4 {
+  font-size: $irevamp-h4-font-size;
+  @include gt-sm {
+    font-size: 38px;
+  }
+  @include gt-md {
+    font-size: 42px;
+  }
+}
+
+h5,
+.irevamp-h5 {
+  font-size: $irevamp-h5-font-size;
+  font-weight: normal;
+  @include gt-sm {
+    font-size: 33px;
+  }
+  @include gt-md {
+    font-size: 36px;
+  }
+}
+
+p,
+li {
+  font-size: $irevamp-lead-font-size;
+
+  @include gt-md {
+    font-size: 24px;
+  }
+}
+
+p {
+  margin: 0 0 1.2rem;
+}
+
+article {
+  > ul,
+  > ol {
+    > li + li {
+      margin-top: 1rem;
+    }
+  }
+
+  * {
+    + h2 {
+      margin-top: 4rem;
+    }
+
+    + h3 {
+      margin-top: 2rem;
+    }
+
+    + h4 {
+      margin-top: 4rem;
+    }
+
+    + h5 {
+      margin-top: 4rem;
+    }
+  }
+}
+
+.italics {
+  font-style: italic;
+}
+
+strong {
+  font-weight: $irevamp-strong-font-weight;
+}
+
+.bold600 {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.nodecoration {
+  a,
+  u {
+    text-decoration: none;
+  }
+}
+
+a:not(.irevamp-button) {
+  color: $irevamp-link-color;
+  width: fit-content;
+}
+
+code:not([class*="language"]) {
+  display: inline-flex;
+  padding: 0.25em;
+  background-color: irevamp-color("secondary");
+  color: irevamp-color("dark");
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  border: 1px solid scale-color(irevamp-color("gray"), $lightness: 50%);
+  border-radius: 2px;
+  font-size: 1em;
+  line-height: 1.1;
+}
+
+pre code:not([class*="language"]) {
+  width: 100%;
+  max-width: calc(100vw - 2rem);
+  overflow-x: auto;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.25rem;
+  border-left: 12px solid $irevamp-color-secondary-light;
+  color: irevamp-color("gray");
+
+  &,
+  p {
+    font-size: 22px;
+  }
+
+  + * {
+    margin-top: 3rem;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.blockquote-lilac {
+  border-left: 12px solid #8dd5ff;
+}
+
+.irevamp-lead {
+  font-size: $irevamp-lead-font-size;
+  // letter-spacing: 0.01em;
+  margin-bottom: 1em;
+}
+
+.irevamp-text {
+  font-size: $irevamp-text-font-size;
+  // letter-spacing: 0.01em;
+  margin-bottom: 1em;
+  line-height: 1.3;
+}
+
+.irevamp-mini {
+  font-size: $irevamp-mini-font-size;
+  // letter-spacing: 0.01em;
+  margin: 1em;
+}
+
+.irevamp-description {
+  font-size: 1.3em;
+  color: $irevamp-color-secondary;
+}
+
+.irevamp-list-unstyled {
+  list-style: none;
+  padding: 0;
+}
+
+.irevamp-postlist__content {
+  text-align: left;
+  margin: 1.25rem auto;
+
+  .irevamp-text {
+    @include gt-md {
+      font-size: 105%;
+    }
+  }
+}
+
+.aftercringe:hover {
+  content: "";
+  cursor: wait;
+}
+.aftercringe:hover::after {
+  content: "😓😞";
+  display: inline-block;
+}
+
+.tronafterhidden::before {
+  content: "build for the web";
+}
+
+.tronafterhidden:hover {
+  cursor: url(/img/tron.png), auto;
+}
+
+.tronafterhidden:hover::before {
+  content: "fight for the users";
+}
+
+.music-recco {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+.music-recco-icon {
+  height: 54px;
+  @include gt-sm {
+    height: 72px;
+  }
+}
+
+.music-recco-about {
+  padding-left: 1em;
+}
+
+.music-recco-title a {
+  color: $irevamp-color-secondary;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.music-recco-title a:hover {
+  color: $irevamp-color-secondary;
+}
+
+.works-bg {
+  background-color: #2b2020;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  justify-items: center;
+  border-radius: 5px;
+  align-items: center;
+  row-gap: 3em;
+
+  @include gt-sm {
+    padding: 3em;
+  }
+}
+
+.works-item a {
+  border: 3px dashed $irevamp-color-secondary-light;
+  border-radius: 2px;
+  padding: 1.75em;
+  background-color: $irevamp-color-background;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+
+  @include gt-sm {
+    padding: 1em;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+
+.works-cover {
+  -webkit-box-shadow: -2px 8px 15px -4px $irevamp-color-background;
+  box-shadow: -2px 8px 15px -4px $irevamp-color-background;
+  transition: all 0.3s ease-in-out;
+  background-color: bisque;
+
+  @include lt-md {
+    max-width: 65%;
+    justify-self: center;
+  }
+
+  @include gt-sm {
+    height: 15em;
+  }
+}
+
+.works-item:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 201);
+  transition: background-color 0.2s ease-in-out;
+  .works-about {
+  color: $irevamp-color-background;
+}
+}
+
+.works-about {
+  color: $irevamp-color-primary;
+  font-size: $irevamp-lead-font-size;
+  font-weight: 400;
+
+  margin-top: 1em;
+
+  @include gt-sm {  padding-left: 1em;
+    margin-top: 0;
+  }
+}
+
+.swatch {
+    position: relative;
+    width: 100%;
+    padding: 0.25em;
+    align-items: center;
+  }
+
+  .swatch-box {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75em;
+    font-size: $irevamp-text-font-size;
+    align-items: center;
+    font-weight: 400;
+    text-transform: lowercase;
+    width: 65%;
+    align-self: center;
+  }
+  
+  .background-bg {
+    color: $irevamp-color-primary;
+    background-color: $irevamp-color-background;
+  }
+  
+  .primary-bg {
+    background-color: $irevamp-color-primary;
+  }
+  
+  .secondary-bg {
+    background-color: $irevamp-color-secondary;
+  }
+
+  .secondary-light-bg {
+    background-color: $irevamp-color-secondary-light;
+  }
+
+  .lilac-bg{
+    background-color: #8dd5ff;
+  }
+
+  .omg-babe:hover {
+    cursor: url(/img/omg-babe.jpg), auto;
+  }
+
+  .artefact:hover {
+    cursor: url(/img/artefact.png), auto;
+  }

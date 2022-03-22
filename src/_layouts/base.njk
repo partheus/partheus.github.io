@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- set pageTitle %}
+  {% if title %}{{ title }} | {% endif %}{{ meta.siteName }}{% endset -%}
+  {%- set pageDescription %}
+  {% if description %}{{ description }}
+  {% else %}{{ meta.siteDescription }}
+  {% endif %}{% endset -%}
+  {%- set pageSocialImg %}{{ meta.url }}/previews/{% if title %}{{ title | slug }}
+  {% else %}home{% endif %}.png{% endset -%}
+  {% include 'head.njk' %}
+  {% include 'sitenav.njk' %}
+
+  <body id="body-main">
+    <div>
+
+      {{ content | safe }}
+
+      <!-- Netlify Identity Widget -->
+      {% if path == "home" %}
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      {% endif %}
+    </div>
+
+    <footer>
+      <div class="irevamp-sitenav__container irevamp-ink--primary irevamp-text-align-center">
+        <ul role="list" class="irevamp-sitenav__navlist irevamp-sitenav__footer irevamp-list-unstyled">
+          {# {% for link in collections.pages %}
+      <li>
+        <a
+          {% if currentUrl === link.url %}aria-current="page"{% endif %}
+          href="{{ link.url }}">
+            {{ link.data.title }}
+        </a>
+      </li>
+      {%- endfor %} #}
+          <li>
+            <a class="underline" href="/colophon">Colophon</a>
+          </li>
+          <li>
+            <a class="underline" href="/feed">RSS</a>
+          </li>
+          <li>
+            <a class="underline" href="#">Go to top</a>
+          </li>
+          <li style="font-size: 1.15em;">© 2022 - Parth Shiralkar</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+---
+layout: post.njk
+templateEngineOverride: md, njk
+title: Colophon
+---
+> <div class="irevamp-text"><span class="bold600">col⋅o⋅phon</span><i> n. </i>An inscription, usually at the end of a book, giving facts about its publication.</div>
+
+<blockquote class="blockquote-lilac">
+
+**The site available for casual viewing. Pages are still being built and might break.** (view the repo <a href="https://github.com/partheus/site-revamp/">here</a>)
+</blockquote>
+
+> **The site is riddled with all kinds of hidden <a href="#" class="nolink artefact" style="color: inherit;">artefacts</a>. If you stumble across something odd that is not a typo, it was probably intentional.**
+
+{% include "swatchbox.njk" %}
+<div class="irevamp-mb-md"></div>
+
+This website was created on an old but trustworthy gaming laptop (red). It is written in HTML, Markdown, Nunjucks, CSS, and Javascript. [Styleguide here](/styleguide).
+
+[Eleventy](https://www.11ty.dev/) is used for static page generation. [Git](https://git-scm.com/) is used for version control. [Github](https://github.com) is used to store the repository. This site is hosted on [Netlify](https://www.netlify.com/).
+
+Original wireframes / prototypes were developed using [Lunacy](https://icons8.com/lunacy). Site icon is my own design; browser-compatible favicons were generated using [this site](https://realfavicongenerator.net/).
+
+The primary sans-serif typeface is [Work Sans](http://weiweihuanghuang.github.io/Work-Sans/) by Wei Huang. The text has a 4.5:1 contrast ratio at Level AA or better, as specified by [WCAG 2.0](https://www.w3.org/TR/WCAG20/).    
+    
+The serif typeface on the menu page is [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville) by Pablo Impallari. On the same page, the sans-serif typeface used is [Lato](https://fonts.google.com/specimen/Lato), designed by Łukasz Dziedzic.    
+
+I used [VSCode](https://code.visualstudio.com/) for development; [Chromium Nightly](https://www.chromium.org/Home/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/) were used for testing.
+
+
+
+<hr />
+<div class="irevamp-text strong">Some resources I found helpful: </div>
+
+- This [collection of 11ty tips and recipes](https://11ty.rocks/) by [Stephanie Eckles](https://twitter.com/5t3ph)
+
+- Another [collection of nice 11ty resources](https://11ty.recipes/) by [Mark Aparicio](https://twitter.com/peruvianidol)
+
+- The [A11Y Project](https://www.a11yproject.com/)
+
+<div class="irevamp-mt-lg irevamp-mb-md ">
+
+> [Test 404 page](/not-a-link)
+
+<blockquote class="blockquote-lilac irevamp-lead">
+    
+This page was built using the `base` layout I made. Most pages on this site use the same `base` layout, which makes pages load faster. Read more about [static site generation](https://www.cloudflare.com/learning/performance/static-site-generator/).
+
+</blockquote>
+</div>
+
+<script>
+{# function artefactGradient() {
+   event.preventDefault(); 
+    var body = document.getElementById("body-main");
+    var nav = document.getElementById("nav-main");
+    body.classList.toggle("bg-gradient");
+    nav.classList.toggle("bg-gradient");
+
+
+    //onclick="artefactGradient()"
+} #}
+</script>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{%- set pageTitle %}{% if title %}{{ title }} | {% endif %}{{ meta.siteName }}{% endset -%}
+{%- set pageDescription %}{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}{% endset -%}
+{%- set pageSocialImg %}{{ meta.url }}/previews/{% if title %}{{ title | slug }}{% else %}home{% endif %}.png{% endset -%}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="eleventy" />
+    <title>{{pageTitle}}</title>
+    <meta
+      name="description"
+      content="{{pageDescription}}"
+    />
+    <link rel="icon" href="{{ '/img/favicon.png' | url }}" />
+    <link href="{{ '/css/style.css' | url }}" rel="stylesheet" />
+    <meta
+      name="og:title"
+      content="{{pageTitle}}"
+    />
+    <meta
+      name="og:description"
+      content="{{pageDescription}}"
+    />
+    <meta property="og:image" content="{{pageSocialImg}}" />
+    <meta name="twitter:image" content="{{pageSocialImg}}" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS Feed for {{ meta.siteName }}"
+      href="/feed/"
+    />
+  </head>
+  <body class="menu" id="menu">
+    <div class="irevamp-mx-auto menu-slide-up">
+            <h1 class="menu-header irevamp-container uppercase backlit"><a href="/menu">{{ title }}</a></h1>
+            {# <p class="menu-description uppercase">{{ description }}</p> #}
+
+            <div class="menu-section-title irevamp-mx-auto">{{ subtext }}</div>
+            <img class="oak menu-slide-up" src="{{ '/img/oakbranch.png' | url }}">
+
+    </div>
+    {{ content | safe }} 
+    <img class="oak menu-slide-up" src="{{ '/img/oakbranch.png' | url }}">
+            <a class="menu-redirect irevamp-mx-auto" href="/">Click here to go back to main site.</a>
+
+  </body>
+</html>

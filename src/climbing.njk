@@ -1,0 +1,32 @@
+---
+layout: "page.njk"
+title: Climbing
+description: My journey with bouldering and outdoor climbing
+templateEngineOverride: md, njk
+---
+I began climbing at the end of October, 2021, after moving to Portland from Iowa. Having climbed for fun a few times in college, I have now let it become a primary passion, enabling me to make new friends and connections. I'm grateful for its presence in my life.
+
+I treat bouldering like the therapeutic solitary activity it is; when you're on the rocks, trying to figure out the next move, the singularity of it all can lead to a calm, detached state, where the only thing that exists apart from the rock face is you.
+
+In the indoor climbing community, I am a beginner-intermediate grade climber. This means that I can climb a [grade V4 problem](https://www.99boulders.com/bouldering-grades) indoors in one go (also known as [flashing a problem](https://www.climbernews.com/what-is-a-flash-in-climbing/)), and maybe a grade V5 on the same day with some effort.
+
+This page will serve as a collection of my thoughts and musings on the routes I climb. It will also help me make sense of the [fascinating lingo of the climbing community](https://www.rei.com/learn/expert-advice/rock-climbing-glossary.html) I'm learing along the way.
+
+{# <main class="irevamp-container"> #}
+<h5 style="margin-bottom: 0.6em;" class="bold600">Here are all entries related to climbing:</h5>
+
+
+<div class="irevamp-section slide-up">
+<ul class="irevamp-list-unstyled irevamp-postlist">
+{% set taglist = collections.climbing | reverse %}
+{% for post in taglist %}
+<li class="irevamp-postlist__content">
+<a href="{{ post.url }}" class="irevamp-text">{{ post.data.title }}</a>
+<p style="margin-top: 5px" class="irevamp-lead">{{ post.data.date | postDate  }}
+{% if post.data.description %} • {{ post.data.description }}
+{% endif %}
+</p>
+</li>
+{% endfor %}
+</ul>
+</div>
