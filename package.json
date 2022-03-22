@@ -12,7 +12,7 @@
     "build:eleventy": "eleventy",
     "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
     "start": "cross-env ELEVENTY_ENV=dev npm-run-all build:sass --parallel watch:*",
-    "build": "cross-env ELEVENTY_ENV=prod npm-run-all build:sass build:eleventy",
+    "build": "cross-env ELEVENTY_ENV=prod npm-run-all build:sass build:eleventy cp CNAME public/CNAME",
     "lint": "stylelint 'src/sass/**/*.scss' 'src/sass/**/**/*.scss' 'src/sass/**/**/**/*.scss' --custom-syntax postcss-scss",
     "lint:fix": "stylelint --fix 'src/sass/**/*.scss' 'src/sass/**/**/*.scss' 'src/sass/**/**/**/*.scss' --custom-syntax postcss-scss",
     "social-images": "eleventy-social-images --outputDir public --dataFile social/pages.json --templatePath social/template.html",
