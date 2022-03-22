@@ -8,4 +8,4 @@ At the place I climb indoors, like many other indoor climbing institutions, ther
 
 One of the climbs I've been doing over and over again is a Red V4. It sits on an incline, starting out with a seated position. You switch arms on the next hold and then reach for a far hold with your left hand. Problem is, your balance is now entirely reliant on this arm because of this hold's height and distance. If you have a weak bone structure you might struggle on moves like this.
 
-I got it the third time I tried it. Once you make the big reach move, there's an easy foothold to bolster yourself up. The top out is a little tricky because the final hold is beyond the direct eyeline, over the cliff. But once you get it, the feeling is great.
+I got it the third time I tried it. Once you make the big reach move, there's an easy foothold to bolster yourself up. The top out is a little tricky because the final hold is beyond the direct eyeline, over the cliff. It's a good send.
