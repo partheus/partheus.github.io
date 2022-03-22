@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="generator" content="eleventy"/>
+  <title>
+  Red V4 | Parth Shiralkar</title>
+  <meta
+      name="description"
+      content="
+  Undisclosed location
+  "
+/>
+  <link rel="icon" href="/favicons/favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+  <link href="/css/style.css" rel="stylesheet"/>
+  <meta
+      name="og:title"
+      content="
+  Red V4 | Parth Shiralkar"
+/>
+  <meta
+      name="og:description"
+      content="
+  Undisclosed location
+  "
+/>
+  <meta property="og:image" content="http://localhost:8081/previews/red-v4
+  .png"/>
+  <meta name="twitter:image" content="http://localhost:8081/previews/red-v4
+  .png"/>
+
+  <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS Feed for Parth Shiralkar"
+      href="/feed/"
+/>
+</head>
+  
+
+<nav aria-labelledby="irevamp-siteid" class="irevamp-sitenav" id="nav-main">
+  <div class="irevamp-sitenav__container">
+    <a  id="irevamp-siteid" href="/"
+    
+     style="background:none;"><img class="headerhome" src="/img/favicon.png"></a>
+    <ul role="list" class="irevamp-sitenav__navlist irevamp-list-unstyled">
+      <li>
+        <a class="underline homeclass" href="/">Home</a>
+      </li>
+      <li>
+        <a class="underline" href="/writing">Writing</a>
+      </li>
+      <li>
+        <a class="underline" href="/code">Code</a>
+      </li>
+      <li>
+        <a class="underline" href="/about">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+  <body id="body-main">
+    <div>
+
+      
+<header class="irevamp-hero">
+  <div class="irevamp-container slide-up">
+    <h1 class="irevamp-ink--primary irevamp-mb-none bold600">Red V4</h1>
+    <div class="irevamp-text irevamp-ink--secondary irevamp-mt-sm"></div>
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Mar 22, 2022
+      </h5>
+    
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Undisclosed location
+
+      
+      <span id="time-to-read"></span></h5>
+  </div>
+</header>
+<main class="irevamp-container slide-up">
+  <article class="irevamp-mx-auto" id="article">
+    <p>At the place I climb indoors, like many other indoor climbing institutions, there exists a rift between the community. Are these climbs graded properly? Are they being touted as harder than they are? Are some of them being marked easier for the purpose of humiliation and confusion? And so on.</p>
+<p>One of the climbs I've been doing over and over again is a Red V4. It sits on an incline, starting out with a seated position. You switch arms on the next hold and then reach for a far hold with your left hand. Problem is, your balance is now entirely reliant on this arm because of this hold's height and distance. If you have a weak bone structure you might struggle on moves like this.</p>
+<p>I got it the third time I tried it. Once you make the big reach move, there's an easy foothold to bolster yourself up. The top out is a little tricky because the final hold is beyond the direct eyeline, over the cliff. But once you get it, the feeling is great.</p>
+
+    <hr class="menu-hori"/ >
+    <p class="irevamp-lead" style="padding: 3vh 0;">Tagged:  
+    
+        
+      
+        
+          <span class="bold600">
+            <a href="/tags/climbing/" aria-label="Entries tagged with climbing">
+              <span>
+                climbing</span></a>
+          </span>
+        
+      
+    </p>
+  </article>
+</main>
+
+<script>
+  //function use to convert character into words
+  function get_text(el) {
+    ret = "";
+    var length = el.childNodes.length;
+    for (var i = 0; i < length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType != 8) {
+        ret += node.nodeType != 1
+          ? node.nodeValue
+          : get_text(node);
+      }
+    }
+    return ret;
+  }
+  //main body in which all words exist
+  var words = get_text(document.getElementById('article'));
+  var count = words
+    .split(' ')
+    .length;
+  //avg reading speed of person 200 word per minute
+  var avg = 200;
+  var counted = count / avg;
+  var maincount = Math.round(counted)
+  //show output of code
+  document
+    .getElementById("time-to-read")
+    .innerHTML = "⁓ " + maincount + " minute read";
+</script>
+
+      <!-- Netlify Identity Widget -->
+      
+    </div>
+
+    <footer>
+      <div class="irevamp-sitenav__container irevamp-ink--primary irevamp-text-align-center">
+        <ul role="list" class="irevamp-sitenav__navlist irevamp-sitenav__footer irevamp-list-unstyled">
+          
+          <li>
+            <a class="underline" href="/colophon">Colophon</a>
+          </li>
+          <li>
+            <a class="underline" href="/feed">RSS</a>
+          </li>
+          <li>
+            <a class="underline" href="#">Go to top</a>
+          </li>
+          <li style="font-size: 1.15em;">© 2022 - Parth Shiralkar</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
