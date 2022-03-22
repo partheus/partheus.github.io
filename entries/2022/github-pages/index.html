@@ -4,11 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="eleventy"/>
   <title>
-  Writing | Parth Shiralkar</title>
+  Github Pages | Parth Shiralkar</title>
   <meta
       name="description"
       content="
-  Parth Shiralkar personal website
+  Test Post
   "
 />
   <link rel="icon" href="/favicons/favicon.ico"/>
@@ -22,17 +22,17 @@
   <meta
       name="og:title"
       content="
-  Writing | Parth Shiralkar"
+  Github Pages | Parth Shiralkar"
 />
   <meta
       name="og:description"
       content="
-  Parth Shiralkar personal website
+  Test Post
   "
 />
-  <meta property="og:image" content="http://localhost:8081/previews/writing
+  <meta property="og:image" content="http://localhost:8081/previews/github-pages
   .png"/>
-  <meta name="twitter:image" content="http://localhost:8081/previews/writing
+  <meta name="twitter:image" content="http://localhost:8081/previews/github-pages
   .png"/>
 
   <link
@@ -74,40 +74,71 @@
       
 <header class="irevamp-hero">
   <div class="irevamp-container slide-up">
-    <h1 class="irevamp-ink--primary irevamp-mb-none bold600"><a class="nolink" href="">Writing</a></h1>
+    <h1 class="irevamp-ink--primary irevamp-mb-none bold600">Github Pages</h1>
+    <div class="irevamp-text irevamp-ink--secondary irevamp-mt-sm"></div>
     
+      <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Invalid DateTime
+      </h5>
+    
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Test Post
+
+      
+      <span id="time-to-read"></span></h5>
   </div>
 </header>
 <main class="irevamp-container slide-up">
-  <article class="irevamp-mx-auto">
-    <p>I like to write. Here's a few of my <a href="/works">literary projects</a>.</p>
-<p>There is also a <a href="/writing/damage/">free e-book page</a>.</p>
-<p>As a <span class="artefact">former columnist</span> for the Iowa State Daily, I have written copious amounts of polarizing nonsense. These <a href="https://www.iowastatedaily.com/search/?a=50cc513e-dd67-11e9-a119-3bb18836928e&amp;s=start_time&amp;sd=desc&amp;l=75">columns can be found here</a>.</p>
-<div class="irevamp-container irevamp-mt-md">
-  <div class="irevamp-section slide-up">
-    <div class="irevamp-h5 irevamp-mb-md bold600">See a few of my latest entries:</div>
-    <ul class="irevamp-list-unstyled"><li class="irevamp-postlist__content">
-            <a href="/entries/2019/lost-in-translation/" class="irevamp-text">Lost in Translation - An affair with the feels</a>
-            <p style="margin-top: 5px" class="irevamp-lead">Dec 19, 2019  • Movie review on a nice night
-        <span class="irevamp-lead irevamp-ink--secondary"> 🏷 <span>film </span><span>review </span></p>
-        </li>
-    </span><li class="irevamp-postlist__content">
-            <a href="/entries/2019/shadow-of-a-curse/" class="irevamp-text">In The Shadow of A Curse</a>
-            <p style="margin-top: 5px" class="irevamp-lead">Jun 2, 2019  • A short profile of perhaps the greatest magician who ever lived.
-        <span class="irevamp-lead irevamp-ink--secondary"> 🏷 <span>fiction </span></p>
-        </li>
-    </span><li class="irevamp-postlist__content">
-            <a href="/entries/2016/ricochet/" class="irevamp-text">Ricochet</a>
-            <p style="margin-top: 5px" class="irevamp-lead">Dec 11, 2016  • A normal night in Paris
-        <span class="irevamp-lead irevamp-ink--secondary"> 🏷 <span>film </span><span>fanfic </span></p>
-        </li>
-    </span></ul>
-        <div class="irevamp-h5 irevamp-mt-md bold600">Or <a href="/entries">view them all here (13)</a>.</div>
-  </div>
-</div>
+  <article class="irevamp-mx-auto" id="article">
+    <p>Test post for gh-pages deployment</p>
+
+    <hr class="menu-hori"/ >
+    <p class="irevamp-lead" style="padding: 3vh 0;">Tagged:  
+    
+        
+      
+        
+          <span class="bold600">
+            <a href="/tags/development/" aria-label="Entries tagged with development">
+              <span>
+                development</span></a>
+          </span>
+        
+      
+    </p>
   </article>
 </main>
 
+<script>
+  //function use to convert character into words
+  function get_text(el) {
+    ret = "";
+    var length = el.childNodes.length;
+    for (var i = 0; i < length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType != 8) {
+        ret += node.nodeType != 1
+          ? node.nodeValue
+          : get_text(node);
+      }
+    }
+    return ret;
+  }
+  //main body in which all words exist
+  var words = get_text(document.getElementById('article'));
+  var count = words
+    .split(' ')
+    .length;
+  //avg reading speed of person 200 word per minute
+  var avg = 200;
+  var counted = count / avg;
+  var maincount = Math.round(counted)
+  //show output of code
+  document
+    .getElementById("time-to-read")
+    .innerHTML = "⁓ " + maincount + " minute read";
+</script>
 
       <!-- Netlify Identity Widget -->
       
