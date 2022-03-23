@@ -15,4 +15,4 @@ Fast forward to the middle of March, where I find myself in a tempest of grown-u
 
 By Sunday, I was done. About 14-15 hours of gruelling, fast-paced espionage and what not! Too much fun I think. Now I'm on the third book by the same author! Whew.
 
-Anyway, this was the first post I published after successfully connecting adding CMS functionality to this site! Courtesy of [NetlifyCMS](netlifycms.org).
+Anyway, this was the first post I published after successfully connecting adding CMS functionality to this site! Courtesy of [NetlifyCMS](https://netlifycms.org).
