@@ -18,6 +18,9 @@ templateEngineOverride: md, njk
 </ul>
 </div>
 
+
+<div class="irevamp-h5 irevamp-mt-md bold600">List of tags:</div>
+
 <div class="taglist irevamp-mx-auto">
   {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
