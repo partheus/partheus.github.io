@@ -1,5 +1,6 @@
 @use "theme" as *;
 @use "media-queries" as *;
+@use "pagenotfound" as *;
 
 $irevamp-typography-variants: h1, h2, h3, h4, h5;
 
@@ -48,7 +49,7 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   max-width: 45ch;
   margin-top: 6em;
   margin-left: 0;
-  margin-bottom: -12rem;
+  margin-bottom: -10rem;
 
   @include gt-sm {
     margin-left: 3em;
@@ -60,6 +61,8 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 .hello-bush {
   height: 35rem;
   z-index: 3;
+  filter: hue-rotate(45deg);
+  // animation: hue 5s ease-in-out;
 }
 
 .hello-bird {
@@ -491,3 +494,9 @@ blockquote {
   color: $irevamp-color-secondary-light;
   border: 1px dashed #17d696;
 }     
+
+
+.sun-pink {
+  padding-left: 3em;
+  margin-left: 1em;
+}
