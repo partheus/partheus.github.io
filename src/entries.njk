@@ -18,5 +18,11 @@ templateEngineOverride: md, njk
 </ul>
 </div>
 
+<div class="taglist irevamp-mx-auto">
+  {% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="taglist-tag">{{ tag }}</a>
+{% endfor %}
+  </div>
 
 > Go [back to writing](/writing)

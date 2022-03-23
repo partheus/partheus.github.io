@@ -398,8 +398,8 @@ blockquote {
   background-color: rgb(221, 221, 201);
   transition: background-color 0.2s ease-in-out;
   .works-about {
-  color: $irevamp-color-background;
-}
+    color: $irevamp-color-background;
+  }
 }
 
 .works-about {
@@ -409,57 +409,83 @@ blockquote {
 
   margin-top: 1em;
 
-  @include gt-sm {  padding-left: 1em;
+  @include gt-sm {
+    padding-left: 1em;
     margin-top: 0;
   }
 }
 
 .swatch {
-    position: relative;
-    width: 100%;
-    padding: 0.25em;
-    align-items: center;
-  }
+  position: relative;
+  width: 100%;
+  padding: 0.25em;
+  align-items: center;
+}
 
-  .swatch-box {
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding: 0.75em;
-    font-size: $irevamp-text-font-size;
-    align-items: center;
-    font-weight: 400;
-    text-transform: lowercase;
-    width: 65%;
-    align-self: center;
-  }
-  
-  .background-bg {
-    color: $irevamp-color-primary;
-    background-color: $irevamp-color-background;
-  }
-  
-  .primary-bg {
-    background-color: $irevamp-color-primary;
-  }
-  
-  .secondary-bg {
-    background-color: $irevamp-color-secondary;
-  }
+.swatch-box {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75em;
+  font-size: $irevamp-text-font-size;
+  align-items: center;
+  font-weight: 400;
+  text-transform: lowercase;
+  width: 65%;
+  align-self: center;
+}
 
-  .secondary-light-bg {
-    background-color: $irevamp-color-secondary-light;
-  }
+.background-bg {
+  color: $irevamp-color-primary;
+  background-color: $irevamp-color-background;
+}
 
-  .lilac-bg{
-    background-color: #8dd5ff;
-  }
+.primary-bg {
+  background-color: $irevamp-color-primary;
+}
 
-  .omg-babe:hover {
-    cursor: url(/img/omg-babe.jpg), auto;
-  }
+.secondary-bg {
+  background-color: $irevamp-color-secondary;
+}
 
-  .artefact:hover {
-    cursor: url(/img/artefact.png), auto;
-  }
+.secondary-light-bg {
+  background-color: $irevamp-color-secondary-light;
+}
+
+.lilac-bg {
+  background-color: #8dd5ff;
+}
+
+.omg-babe:hover {
+  cursor: url(/img/omg-babe.jpg), auto;
+}
+
+.artefact:hover {
+  cursor: url(/img/artefact.png), auto;
+}
+
+.taglist {
+  margin: 4vh 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 70ch;
+  column-gap: 1em;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}
+
+.taglist-tag {
+  background: none;
+  color: $irevamp-color-primary;
+  font-size: $irevamp-mini-font-size;
+  border: 1px dashed salmon;
+  padding: 4px;
+  margin-bottom: 0;
+}
+
+.taglist-tag:hover {
+  color: $irevamp-color-secondary-light;
+  border: 1px dashed #17d696;
+}     
