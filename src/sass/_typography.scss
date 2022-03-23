@@ -45,13 +45,13 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-img {
-  max-width: 50ch;
+  max-width: 45ch;
   margin-top: 6em;
   margin-left: 0;
-  // margin-bottom: -10rem;
+  margin-bottom: -12rem;
 
   @include gt-sm {
-    margin-left: 4em;
+    margin-left: 3em;
     margin-top: 0;
     max-width: 50ch;
   }
@@ -63,9 +63,11 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-bird {
-  animation: birdFloat 15s ease-in-out infinite;
-  margin-bottom: -15rem;
-  height: 6rem;
+  animation: birdFloat 2.5s ease-in-out infinite;
+  animation-delay: 0.3s;
+  margin-bottom: -14rem;
+  margin-left: 4rem;
+  height: 4rem;
   position: relative;
   z-index: -1;
 
