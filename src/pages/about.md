@@ -24,3 +24,6 @@ Check out my [writing](/writing), or some of my [art](/art). Or read about my [c
 
 
 </div>
+
+
+> Check out the **[/now](/now)** page
