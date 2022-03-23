@@ -2,7 +2,7 @@
 
 /* Custom focus styles for chrome */
 button:focus,a:focus,input:focus {
-    outline: 4px dashed $irevamp-color-secondary;
+    outline: 4px dashed $irevamp-color-tertiary;
   }
   
   /* Hide focus styles if an element receives focus via the mouse. */
@@ -14,7 +14,7 @@ button:focus,a:focus,input:focus {
   
   /* Show focus styles on keyboard focus. */
   button:focus-visible,a:focus-visible,input:focus-visible {
-    outline: 4px dashed $irevamp-color-secondary;
+    outline: 4px dashed $irevamp-color-tertiary;
   }
 
 // screen reader only
