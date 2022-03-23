@@ -66,6 +66,10 @@
     @include gt-sm {
       padding: 2rem 0.5rem;
     }
+
+    @include gt-lg {
+      max-width: 220ch;
+    }
   }
 
   &__navlist {
