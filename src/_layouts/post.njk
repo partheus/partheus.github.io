@@ -5,9 +5,11 @@ layout: base.njk
 <header class="irevamp-hero">
   <div class="irevamp-container slide-up">
     <h1 class="irevamp-ink--primary irevamp-mb-none bold600">{{ title }}</h1>
-    <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-md irevamp-mx-auto irevamp-description">
+  {% if description %}
+    <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
       {{ description }}
     </h5>
+     {% endif %}
   </div>
 </header>
 <main class="irevamp-container slide-up">
