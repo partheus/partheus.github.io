@@ -5,7 +5,7 @@
 	
 	<link href="http://localhost:8081/feed/" rel="self"/>
 	<link href="http://localhost:8081"/>
-	<updated>2022-03-22T22:27:14Z</updated>
+	<updated>2022-03-23T04:18:20Z</updated>
 	<id>http://localhost:8081</id>
 	<author>
 		<name>Parth Shiralkar</name>
@@ -74,13 +74,40 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Check out the &lt;strong&gt;&lt;a href=&quot;http://localhost:8081/now&quot;&gt;/now&lt;/a&gt;&lt;/strong&gt; page&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Now</title>
+		<link href="http://localhost:8081/now/"/>
+		<updated>2022-03-22T00:00:00Z</updated>
+		<id>http://localhost:8081/now/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;What is a &lt;a href=&quot;https://nownownow.com/about&quot;&gt;now page&lt;/a&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;I&#39;m currently working as a frontend developer&lt;/li&gt;
+&lt;li&gt;Portland, OR is where I live&lt;/li&gt;
+&lt;li&gt;Favorite mode of transport: City bus&lt;/li&gt;
+&lt;li&gt;Favorite form of media: Audiobook&lt;/li&gt;
+&lt;li&gt;Favorite food: Daal&lt;/li&gt;
+&lt;li&gt;Primary hobbies that I pour a lot of energy into: Climbing, writing, music production&lt;/li&gt;
+&lt;li&gt;Secondary hobbies that are on the horizon: Crocheting&lt;/li&gt;
+&lt;li&gt;Other things on the horizon: Write a story that has nothing to do with spies for once😔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Last updated: Mar 22, 2022&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Contact</title>
 		<link href="http://localhost:8081/hello/"/>
-		<updated>2022-03-22T22:27:14Z</updated>
+		<updated>2022-03-23T04:18:20Z</updated>
 		<id>http://localhost:8081/hello/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;This form is currently disabled. Email me at &lt;strong&gt;parth [dot] shiralkar [at] gmail [dot] com&lt;/strong&gt;&lt;/p&gt;
@@ -107,7 +134,7 @@
 	<entry>
 		<title>Styleguide</title>
 		<link href="http://localhost:8081/styleguide/"/>
-		<updated>2022-03-22T22:27:14Z</updated>
+		<updated>2022-03-23T04:18:20Z</updated>
 		<id>http://localhost:8081/styleguide/</id>
 		<content type="html">&lt;h1 id=&quot;header-1&quot; tabindex=&quot;-1&quot;&gt;Header 1&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/styleguide/#header-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Text: &lt;strong&gt;Bold&lt;/strong&gt;, &lt;em&gt;Italic&lt;/em&gt;, or &lt;s&gt;Strikethrough&lt;/s&gt;.&lt;/p&gt;
