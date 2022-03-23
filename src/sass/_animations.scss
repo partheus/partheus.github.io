@@ -119,6 +119,36 @@ a:hover {
 
 // Text/Content loading animation
 
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
 @keyframes slide-up {
   from {
     opacity: 0.1;
@@ -192,8 +222,6 @@ a:hover {
   60%  { transform: translate(12rem, -2rem); }
   70%  { transform: translate(12rem, -4rem); }
   80%  { transform: translate(12rem, -2rem); }
-  // 70%  { transform: translate(8rem, -5rem); }
-  // 80%  { transform: translate(8rem, -2rem); }
   90%  { transform: translate(8rem, -4rem); }
   100% { transform: translate(0, -0px); } 
 }

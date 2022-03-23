@@ -41,7 +41,7 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 120ch;
+  max-width: 150ch;
   margin-right: auto;
   margin-left: auto;
   // padding: 1rem;
@@ -80,10 +80,10 @@ ul.irevamp-column-container {
 
 .irevamp-hero {
   display: grid;
-  min-height: 20vh;
+  min-height: 25vh;
   place-content: center;
   padding-top: 5vh;
-  padding-bottom: 3vh;
+  padding-bottom: 5vh;
   text-align: center;
 
   @include gt-sm {
