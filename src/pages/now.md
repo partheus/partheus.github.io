@@ -1,9 +1,9 @@
 ---
 title: "Now"
 description: "Current things and verbs"
-date: 2022-03-22
+date: 2022-03-30
 ---
-> What is a [now page](https://nownownow.com/about)?
+> What is a [now page](https://nownownow.com/about)? It answers the question "So what are you up to these days?"
 
 - I'm currently working as a frontend developer
 - Portland, OR is where I live
