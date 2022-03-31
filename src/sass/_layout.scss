@@ -41,7 +41,7 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 150ch;
+  max-width: 120ch;
   margin-right: auto;
   margin-left: auto;
   // padding: 1rem;
@@ -57,7 +57,14 @@ article {
   display: grid;
   grid-gap: 3em;
   grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
+
+  &--two {
+    @include gt-sm {
+        grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
+    }
+  }
 }
+
 
 // stylelint-disable-next-line selector-no-qualifying-type, selector-max-type
 ul.irevamp-column-container {
