@@ -1,5 +1,5 @@
 ---
-permalink: feed/feed.xml
+permalink: /feed.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -9,12 +9,12 @@ eleventyExcludeFromCollections: true
 	{% set absoluteUrl %}{{ '/feed/' | url | absoluteUrl(meta.url) }}{% endset %}
 	<link href="{{ absoluteUrl }}" rel="self"/>
 	<link href="{{ meta.url }}"/>
-	<updated>{{ collections.pages | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.entry | rssLastUpdatedDate }}</updated>
 	<id>{{ meta.url }}</id>
 	<author>
 		<name>{{ meta.authorName }}</name>
 	</author>
-	{%- for page in collections.pages %}
+	{%- for page in collections.entry %}
 	{% set absolutePostUrl %}{{ page.url | url | absoluteUrl(meta.url) }}{% endset %}
 	<entry>
 		<title>{{ page.data.title  }}</title>
