@@ -8,7 +8,7 @@
   border-top-right-radius:  $irevamp-border-radius;
   border-bottom-right-radius:  $irevamp-border-radius;
   background-color: $hover-font-bg;
-  // box-shadow: 0px 0px 1px 1px $irevamp-color-secondary;
+  box-shadow: 0px 0px 1px 1px $irevamp-color-tertiary;
   border-left: 4px solid $irevamp-color-secondary;
   transition: all ease-in-out 0.3s;
   padding: 24px;
@@ -42,7 +42,7 @@
     }
 
     &:focus {
-      outline: none;
+      // outline: none;
 
       &::before {
         box-shadow: 0 0 0 3px irevamp-color("primary");
@@ -80,6 +80,7 @@
 
   &:hover  {
     border-left: 4px solid $irevamp-color-primary;
+    box-shadow: 0px 0px 1px 1px $irevamp-color-secondary-light;
     transition: all ease-in-out 0.3s;
     background-color: $hover-font;
   }
