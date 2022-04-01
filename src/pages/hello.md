@@ -4,6 +4,17 @@ description: "Talk to me about stuff, or say hello, or send me samples to flip"
 ---
 > This form is currently disabled. Email me at **parth [dot] shiralkar [at] gmail [dot] com**
 
+
+<div class="taglist irevamp-mx-auto irevamp-mb-md">
+<a class="taglist-tag social-icon" href="https://webring.xxiivv.com/#parth-shiralkar" target="_blank">
+  <img src="https://webring.xxiivv.com/icon.white.svg" alt="XXIIVV webring"/>
+</a>
+<a class="taglist-tag social-icon" href="https://goodreads.com" target="_blank">
+  <img src="/img/thinking.gif" alt="Goodreads"/>
+</a>
+</div>
+
+
 <form name="contact" class="form" method="POST" data-netlify="true" action="/">
 <fieldset style="border:0;padding:0;" disabled>
 <legend class="sr-only">Information, comments, feedback</legend>
