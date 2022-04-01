@@ -477,7 +477,7 @@ blockquote {
   flex-direction: row;
   column-gap: 1em;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -499,4 +499,8 @@ blockquote {
 .sun-pink {
   padding-left: 3em;
   margin-left: 1em;
+}
+
+.social-icon {
+  max-width: 50px;
 }
