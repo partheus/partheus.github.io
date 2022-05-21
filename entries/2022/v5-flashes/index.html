@@ -4,11 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="eleventy"/>
   <title>
-  Tagged content | Parth Shiralkar</title>
+  V5 Flashes | Parth Shiralkar</title>
   <meta
       name="description"
       content="
-  Parth Shiralkar personal website
+  Undisclosed location
   "
 />
   <link rel="icon" href="/favicons/favicon.ico"/>
@@ -22,17 +22,17 @@
   <meta
       name="og:title"
       content="
-  Tagged content | Parth Shiralkar"
+  V5 Flashes | Parth Shiralkar"
 />
   <meta
       name="og:description"
       content="
-  Parth Shiralkar personal website
+  Undisclosed location
   "
 />
-  <meta property="og:image" content="http://localhost:8081/previews/tagged-content
+  <meta property="og:image" content="http://localhost:8081/previews/v5-flashes
   .png"/>
-  <meta name="twitter:image" content="http://localhost:8081/previews/tagged-content
+  <meta name="twitter:image" content="http://localhost:8081/previews/v5-flashes
   .png"/>
 
   <link
@@ -71,59 +71,74 @@
   <body id="body-main">
     <div>
 
-      <div class="irevamp-hero">
-<h3 style="margin-bottom: 0.6em;" class="bold600">Here are all entries tagged “climbing”:</h3>
-</div>
-<main class="irevamp-container">
-<div class="irevamp-mx-auto slide-up">
-    <ul class="irevamp-list-unstyled irevamp-postlist">
-        
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/v5-flashes/" class="irevamp-text">V5 Flashes</a>
-                <p style="margin-top: 5px" class="irevamp-lead">May 15, 2022
-                     • Undisclosed location
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/tan-v4/" class="irevamp-text">Tan V4</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Mar 27, 2022
-                     • Undisclosed location
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/flash-yellow-v4/" class="irevamp-text">Yellow V4 - Flash</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Mar 23, 2022
-                     • Flashed it.
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/red-v4/" class="irevamp-text">Red V4</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Mar 22, 2022
-                     • Undisclosed location
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/flashed-a-v5/" class="irevamp-text">Flashed a V5</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Mar 17, 2022
-                     • 🥱🥱🥱
-                    
-                </p>
-            </li>
-        
-    </ul>
+      
+<header class="irevamp-hero">
+  <div class="irevamp-container slide-up">
+    <h1 class="irevamp-ink--primary irevamp-mb-none bold600">V5 Flashes</h1>
+    <div class="irevamp-text irevamp-ink--secondary irevamp-mt-sm"></div>
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        May 15, 2022
+      </h5>
+    
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--gray irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Undisclosed location
 
-    <div class="irevamp-h5 irevamp-mt-md bold600">Go back to <a href="/entries">all entries</a>.  Or visit <a href="/writing">the writing section</a> again.</div>
-</div>
+      
+      <span id="time-to-read"></span></h5>
+  </div>
+</header>
+<main class="irevamp-container slide-up">
+  <article class="irevamp-mx-auto" id="article">
+    <p>I have climbed a total of three V5s and then I have flashed them. There's another tryhard V5 at my local gym that I nearly flashed, but I used the top to yank myself up. So that doesn't legally count as a flash😞</p>
+
+    <hr class="menu-hori"/ >
+    <p class="irevamp-lead" style="padding: 3vh 0;">Tagged:  
+    
+        
+      
+        
+          <span class="bold600">
+            <a href="/tags/climbing/" aria-label="Entries tagged with climbing">
+              <span>
+                climbing</span></a>
+          </span>
+        
+      
+    </p>
+  </article>
 </main>
+
+<script>
+  //function use to convert character into words
+  function get_text(el) {
+    ret = "";
+    var length = el.childNodes.length;
+    for (var i = 0; i < length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType != 8) {
+        ret += node.nodeType != 1
+          ? node.nodeValue
+          : get_text(node);
+      }
+    }
+    return ret;
+  }
+  //main body in which all words exist
+  var words = get_text(document.getElementById('article'));
+  var count = words
+    .split(' ')
+    .length;
+  //avg reading speed of person 200 word per minute
+  var avg = 200;
+  var counted = count / avg;
+  var maincount = Math.round(counted)
+  //show output of code
+  document
+    .getElementById("time-to-read")
+    .innerHTML = "⁓ " + maincount + " minute read";
+</script>
 
       <!-- Netlify Identity Widget -->
       
