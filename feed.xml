@@ -3,35 +3,35 @@
 	<title>Parth Shiralkar</title>
 	<subtitle>Parth Shiralkar personal website</subtitle>
 	
-	<link href="http://localhost:8081/feed/" rel="self"/>
-	<link href="http://localhost:8081"/>
+	<link href="https://parth.ninja/feed/" rel="self"/>
+	<link href="https://parth.ninja"/>
 	<updated>2022-06-05T00:00:00Z</updated>
-	<id>http://localhost:8081</id>
+	<id>https://parth.ninja</id>
 	<author>
 		<name>Parth Shiralkar</name>
 	</author>
 	
 	<entry>
 		<title>New Book Covers</title>
-		<link href="http://localhost:8081/entries/2022/new-book-covers/"/>
+		<link href="https://parth.ninja/entries/2022/new-book-covers/"/>
 		<updated>2022-06-05T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/new-book-covers/</id>
+		<id>https://parth.ninja/entries/2022/new-book-covers/</id>
 		<content type="html">&lt;p&gt;Fresh designs, old images. All images are credited to &lt;a href=&quot;https://pexels.com/&quot;&gt;pexels.com&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;These are NOT links. To visit my works, click &lt;a href=&quot;http://localhost:8081/works&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These are NOT links. To visit my works, click &lt;a href=&quot;https://parth.ninja/works&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
   &lt;div class=&quot;gr_grid_container&quot;&gt;
     &lt;div class=&quot;gr_grid_book_container&quot;&gt;
-      &lt;img class=&quot;crane&quot; alt=&quot;Rare objects in Strange Places&quot; src=&quot;http://localhost:8081/img/june-2022/1.png&quot; /&gt;
+      &lt;img class=&quot;crane&quot; alt=&quot;Rare objects in Strange Places&quot; src=&quot;https://parth.ninja/img/june-2022/1.png&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;gr_grid_book_container&quot;&gt;
-      &lt;img class=&quot;crane&quot; alt=&quot;Axis of Damage&quot; src=&quot;http://localhost:8081/img/june-2022/2.png&quot; /&gt;
+      &lt;img class=&quot;crane&quot; alt=&quot;Axis of Damage&quot; src=&quot;https://parth.ninja/img/june-2022/2.png&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;gr_grid_book_container&quot;&gt;
-      &lt;img class=&quot;crane&quot; alt=&quot;The Midtown Caper&quot; src=&quot;http://localhost:8081/img/june-2022/3.png&quot; /&gt;
+      &lt;img class=&quot;crane&quot; alt=&quot;The Midtown Caper&quot; src=&quot;https://parth.ninja/img/june-2022/3.png&quot; /&gt;
     &lt;/div&gt;
     &lt;div class=&quot;gr_grid_book_container&quot;&gt;
-      &lt;img class=&quot;crane&quot; alt=&quot;The Bug&quot; src=&quot;http://localhost:8081/img/june-2022/4.png&quot; /&gt;
+      &lt;img class=&quot;crane&quot; alt=&quot;The Bug&quot; src=&quot;https://parth.ninja/img/june-2022/4.png&quot; /&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -39,36 +39,36 @@
 	
 	<entry>
 		<title>The Midtown Caper</title>
-		<link href="http://localhost:8081/entries/2022/midtown-caper/"/>
+		<link href="https://parth.ninja/entries/2022/midtown-caper/"/>
 		<updated>2022-05-21T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/midtown-caper/</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;http://localhost:8081/writing/caper/&quot;&gt;A free action e-book!!!&lt;/a&gt; Check it out. It takes about 40 minutes to read.&lt;/p&gt;
+		<id>https://parth.ninja/entries/2022/midtown-caper/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https://parth.ninja/writing/caper/&quot;&gt;A free action e-book!!!&lt;/a&gt; Check it out. It takes about 40 minutes to read.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>V5 Flashes</title>
-		<link href="http://localhost:8081/entries/2022/v5-flashes/"/>
+		<link href="https://parth.ninja/entries/2022/v5-flashes/"/>
 		<updated>2022-05-15T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/v5-flashes/</id>
+		<id>https://parth.ninja/entries/2022/v5-flashes/</id>
 		<content type="html">&lt;p&gt;I have climbed a total of three V5s and then I have flashed them. There&#39;s another tryhard V5 at my local gym that I nearly flashed, but I used the top to yank myself up. So that doesn&#39;t legally count as a flash😞&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Tan V4</title>
-		<link href="http://localhost:8081/entries/2022/tan-v4/"/>
+		<link href="https://parth.ninja/entries/2022/tan-v4/"/>
 		<updated>2022-03-27T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/tan-v4/</id>
+		<id>https://parth.ninja/entries/2022/tan-v4/</id>
 		<content type="html">&lt;p&gt;This one has a little tricky start too. You lean into the wall while flagging your right leg, and your left foot is balanced on the bottom of the route. Then you grasp the lip of the adjacent wall to help yourself stand up fully. Letting go of the wall lip, you now yank yourself to the next part of the climb, which is the crux. Ignoring one of the smaller holds, you can reach up and around directly to a nice jug hold, which can support your weight as you pull up the rest of your body over the top. A good send.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Yellow V4 - Flash</title>
-		<link href="http://localhost:8081/entries/2022/flash-yellow-v4/"/>
+		<link href="https://parth.ninja/entries/2022/flash-yellow-v4/"/>
 		<updated>2022-03-23T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/flash-yellow-v4/</id>
+		<id>https://parth.ninja/entries/2022/flash-yellow-v4/</id>
 		<content type="html">&lt;p&gt;Climbing with my friends is tricky sometimes because they&#39;re usually working on V6/V7 problems and I&#39;m trying to send a good V5 here and there.&lt;/p&gt;
 &lt;p&gt;The yellow V4 starts out super low and requires a little shimmying to get to move #2; after that, you need to switch feet and then make slow, calculated reaches up and around till you can get your hands matched on a stable jug hold. Problem with these previous holds is that they are either:&lt;/p&gt;
 &lt;ol&gt;
@@ -81,9 +81,9 @@
 	
 	<entry>
 		<title>Red V4</title>
-		<link href="http://localhost:8081/entries/2022/red-v4/"/>
+		<link href="https://parth.ninja/entries/2022/red-v4/"/>
 		<updated>2022-03-22T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/red-v4/</id>
+		<id>https://parth.ninja/entries/2022/red-v4/</id>
 		<content type="html">&lt;p&gt;At the place I climb indoors, like many other indoor climbing institutions, there exists a rift between the community. Are these climbs graded properly? Are they being touted as harder than they are? Are some of them being marked easier for the purpose of humiliation and confusion? And so on.&lt;/p&gt;
 &lt;p&gt;One of the climbs I&#39;ve been doing over and over again is a Red V4. It sits on an incline, starting out with a seated position. You switch arms on the next hold and then reach for a far hold with your left hand. Problem is, your balance is now entirely reliant on this arm because of this hold&#39;s height and distance. If you have a weak bone structure you might struggle on moves like this.&lt;/p&gt;
 &lt;p&gt;I got it the third time I tried it. Once you make the big reach move, there&#39;s an easy foothold to bolster yourself up. The top out is a little tricky because the final hold is beyond the direct eyeline, over the cliff. It&#39;s a good send.&lt;/p&gt;
@@ -92,9 +92,9 @@
 	
 	<entry>
 		<title>Netlify -&gt; Github Pages</title>
-		<link href="http://localhost:8081/entries/2022/github-pages/"/>
+		<link href="https://parth.ninja/entries/2022/github-pages/"/>
 		<updated>2022-03-21T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/github-pages/</id>
+		<id>https://parth.ninja/entries/2022/github-pages/</id>
 		<content type="html">&lt;p&gt;I first started using Netlify in 2018 after its free hosting offer at the time. Then I realized I was deploying way too many builds on a daily basis to sustain this lifestyle.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Stop builds on &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;&lt;/li&gt;
@@ -108,9 +108,9 @@
 	
 	<entry>
 		<title>Absinthe and Treachery</title>
-		<link href="http://localhost:8081/entries/2022/absinthe-and-treachery/"/>
+		<link href="https://parth.ninja/entries/2022/absinthe-and-treachery/"/>
 		<updated>2022-03-19T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/absinthe-and-treachery/</id>
+		<id>https://parth.ninja/entries/2022/absinthe-and-treachery/</id>
 		<content type="html">&lt;p&gt;About a month or so into the new year, I saw this guy at the climbing gym with a massive paperback with him. He was reading between climbs.&lt;/p&gt;
 &lt;p&gt;Upon my inquiry, it became clear that this book, whatever the hell it was, had kept him at attention the whole time, and had even compelled him to bring it along. The book was called &lt;a href=&quot;https://www.goodreads.com/book/show/37542581-the-spy-and-the-traitor&quot;&gt;The Spy and the Traitor&lt;/a&gt;. I asked him if he would recommend it, and then watched for his reaction. He smiled and said he would recommend it. I added it to my list.&lt;/p&gt;
 &lt;p&gt;Fast forward to the middle of March, where I find myself in a tempest of grown-up tasks and responsibilities, and finally see that the book is available on the public library&#39;s catalogue. So I check it out in audiobook format, and started it on a Friday.&lt;/p&gt;
@@ -121,34 +121,34 @@
 	
 	<entry>
 		<title>New Yorker Caption Contest No. 795</title>
-		<link href="http://localhost:8081/entries/2022/new-yorker-795/"/>
+		<link href="https://parth.ninja/entries/2022/new-yorker-795/"/>
 		<updated>2022-03-18T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/new-yorker-795/</id>
-		<content type="html">&lt;img src=&quot;http://localhost:8081/img/newyorker795.png&quot; /&gt;</content>
+		<id>https://parth.ninja/entries/2022/new-yorker-795/</id>
+		<content type="html">&lt;img src=&quot;https://parth.ninja/img/newyorker795.png&quot; /&gt;</content>
 	</entry>
 	
 	<entry>
 		<title>Flashed a V5</title>
-		<link href="http://localhost:8081/entries/2022/flashed-a-v5/"/>
+		<link href="https://parth.ninja/entries/2022/flashed-a-v5/"/>
 		<updated>2022-03-17T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2022/flashed-a-v5/</id>
+		<id>https://parth.ninja/entries/2022/flashed-a-v5/</id>
 		<content type="html">&lt;p&gt;At the end of February this year, I flashed my first grade V5. I began climbing V1s in October last year. That is all.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>New Yorker Caption Contest No. IDK</title>
-		<link href="http://localhost:8081/entries/2021/new-yorker-idk/"/>
+		<link href="https://parth.ninja/entries/2021/new-yorker-idk/"/>
 		<updated>2021-12-30T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2021/new-yorker-idk/</id>
-		<content type="html">&lt;img src=&quot;http://localhost:8081/img/newyorkeridk.jpg&quot; /&gt;</content>
+		<id>https://parth.ninja/entries/2021/new-yorker-idk/</id>
+		<content type="html">&lt;img src=&quot;https://parth.ninja/img/newyorkeridk.jpg&quot; /&gt;</content>
 	</entry>
 	
 	<entry>
 		<title>Drawing a Blank</title>
-		<link href="http://localhost:8081/entries/2021/drawing-a-blank/"/>
+		<link href="https://parth.ninja/entries/2021/drawing-a-blank/"/>
 		<updated>2021-10-20T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2021/drawing-a-blank/</id>
+		<id>https://parth.ninja/entries/2021/drawing-a-blank/</id>
 		<content type="html">&lt;p&gt;In one of the more civilized parts of Old Massachusetts, there exists a saloon frequented by equal portions of cowboys and librarians. It was always cowboys and librarians. Eons ago, when the saloon was first called the Wrangler&#39;s Folly, the Solomon family – a group of fiscally unsound relatives with not much in the way of foresight – pledged complete responsibility of the saloon for a few generations. Eventually, as new Solomon babies came into the world, the saloon flourished, and they forgot what the original number of generations they&#39;d promised was. And so, it became known as Solomon&#39;s Folly for the rest of time.&lt;/p&gt;
 &lt;p&gt;Ezekiel Solomon was the current barkeep (and owner) of Solomon&#39;s Folly. His mother had managed the saloon for forty-three years before going on an uncharacteristically happy drinking bender and passing away peacefully in her sleep. They told him the vermouth was from Spain. After the whole thing was said and done, Ezekiel put her to rest in the family plot, and then asked for the ledgers, tucking two rags in his waistband and loading up his old six-shooter.&lt;/p&gt;
 &lt;p&gt;Solomon&#39;s Folly is a peculiar piece of infrastructure. The original blueprints were lost a few years ago, when a young Solomon sibling assumed that all rolled-up parchment in the attic was fair game for smoking purposes, and the building fell back into its abstract roots. As of now, the entire place has a huge drinking area with one entryway, one back exit, one bar, and half a bathroom, which Ezekiel had just finished cleaning. As he stepped behind the bar, the doors swung open and an individual walked in.&lt;/p&gt;
@@ -208,9 +208,9 @@
 	
 	<entry>
 		<title>Markdown Cheatsheet</title>
-		<link href="http://localhost:8081/entries/2020/markdown-cs/"/>
+		<link href="https://parth.ninja/entries/2020/markdown-cs/"/>
 		<updated>2020-10-23T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2020/markdown-cs/</id>
+		<id>https://parth.ninja/entries/2020/markdown-cs/</id>
 		<content type="html">&lt;p&gt;Quick references for myself:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;*italics*&lt;/code&gt;&lt;/li&gt;
@@ -227,9 +227,9 @@
 	
 	<entry>
 		<title>What&#39;s up with Markdown anyway?</title>
-		<link href="http://localhost:8081/entries/2020/why-markdown/"/>
+		<link href="https://parth.ninja/entries/2020/why-markdown/"/>
 		<updated>2020-10-17T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2020/why-markdown/</id>
+		<id>https://parth.ninja/entries/2020/why-markdown/</id>
 		<content type="html">&lt;p&gt;Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. John Gruber created Markdown in 2004. Right now, Markdown is one of the most (if not &lt;strong&gt;the&lt;/strong&gt; most) popular markup languages on the internet.&lt;/p&gt;
 &lt;p&gt;Using Markdown is different than using a WYSIWYG editor. The changes you make in a What You See Is What You Get Editor are visible in real-time, the moment those changes are made. For example, formatting in Microsoft Word.&lt;/p&gt;
 &lt;p&gt;On the other hand, when creating a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should appear a certain way. Websites like Reddit and Github support Markdown.&lt;/p&gt;
@@ -245,7 +245,7 @@
 &lt;p&gt;Markdown is future proof. This means that hypothetically, if I saved my thesis entirely in Markdown, I would be able to use it indefinitely down the line, regardless of platform or software, or text editors.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;how-does-markdown-work&quot; tabindex=&quot;-1&quot;&gt;How does Markdown work?&lt;a class=&quot;irevamp-anchor&quot; href=&quot;http://localhost:8081/entries/2020/why-markdown/#how-does-markdown-work&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;how-does-markdown-work&quot; tabindex=&quot;-1&quot;&gt;How does Markdown work?&lt;a class=&quot;irevamp-anchor&quot; href=&quot;https://parth.ninja/entries/2020/why-markdown/#how-does-markdown-work&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Markdown works by the principle of parsing. Initially, the Markdown-formatted document is saved with a &lt;em&gt;.markdown&lt;/em&gt; or &lt;em&gt;.md&lt;/em&gt; extension.
 Then, the file is processed in a Markdown application, which uses the Markdown syntax to generate an HTML file or print-ready document! Here&#39;s a quick breakdown of the process:&lt;/p&gt;
 &lt;ul&gt;
@@ -260,9 +260,9 @@ Then, the file is processed in a Markdown application, which uses the Markdown s
 	
 	<entry>
 		<title>Don&#39;t shoot the messenger</title>
-		<link href="http://localhost:8081/entries/2020/dont-shoot-messenger/"/>
+		<link href="https://parth.ninja/entries/2020/dont-shoot-messenger/"/>
 		<updated>2020-08-11T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2020/dont-shoot-messenger/</id>
+		<id>https://parth.ninja/entries/2020/dont-shoot-messenger/</id>
 		<content type="html">&lt;p&gt;People who claim that Tokyo is a cool place haven’t actually had to run from a dozen rabid dogs in the middle of the night. My job brings with it the privilege of the rabid dog chase every other month or so. Become a spy, they said. You’ll get cool guns and stuff, they said. Well, I’m getting something else too: pissed off.&lt;/p&gt;
 &lt;p&gt;As I step off the monorail and make my way up the city junction, I take a moment to appreciate the billboard-dense sky of the most retro metropolis to exist after the Great Space War. Loud red and blue neon lights flash everywhere, a digital rain that bounces from one skyline to another. It’s the year 2071, and everything has changed. AI, the existence of aliens, the whole nine yards. No one has bent space and time yet, so that’s cool. At least my trenchcoat is still in vogue. I stride along the herd of other dark entities, hidden in the shadows cast by kilometers of bright lighting strips that lit the city up. Downtown is packed and sweaty, and some deep techno music is playing somewhere out there, nicely muffled by the silent humming of the city’s dank underbelly. I feel weary, and my legs feel like they’re made of lead. I stumble, and right before my vision blurs, a dingy convenience store looms up in my vision. Tightening my trenchcoat and making sure my gun’s still in the holster, I trudge through the last couple of meters and push my way into the public restroom. “Ah, fuck…” I say, to the extremely crusty-looking man in the mirror.&lt;/p&gt;
 &lt;p&gt;My handler has been missing for a couple days. I haven’t showered for roughly the same amount of time. Dave…&lt;/p&gt;
@@ -304,9 +304,9 @@ Then, the file is processed in a Markdown application, which uses the Markdown s
 	
 	<entry>
 		<title>College students cure virus over weekend</title>
-		<link href="http://localhost:8081/entries/2020/corona-cured/"/>
+		<link href="https://parth.ninja/entries/2020/corona-cured/"/>
 		<updated>2020-05-23T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2020/corona-cured/</id>
+		<id>https://parth.ninja/entries/2020/corona-cured/</id>
 		<content type="html">&lt;p&gt;On Friday, the 1st of May, several students still living in Ames, Iowa confirmed rumors of rapidly-declining COVID-19 cases after parties on campus and around town began to flourish around 9pm. Jean Deaux, a French exchange student majoring in Street Epistemology, attested to other rumors. “It’s true, yep,” they said. “I could see everything from my apartment above Welch, clear as a sunny day in November. Students entered the Kum &amp;amp; Go in large hordes – showing at least seven symptoms of the virus – but exited with beaming smiles on their faces. They were shouting something about Saturdays and buoys, haha,” said Deaux. “Physics was never my strongest suit.”&lt;/p&gt;
 &lt;p&gt;After Governor Kim Reynolds decided that it was a-ok to open up select (77) counties in Iowa, there was a silent uproar from the very upper echelons of partygoing professionals. “We can’t thank her enough!” said one student, explicitly stating that she wished to be named. “I’ve missed my friends so much omg [sic]!” It is no wonder that cause and effect are so closely related. The signed order from Gov. Reynolds allows restaurants, fitness centers, malls, libraries, race tracks and other such establishments to open back up, with some restrictions.&lt;/p&gt;
 &lt;p&gt;What this has done is that it has effectively redirected some of the traffic from neighboring counties (which remain closed) into counties that will be opening up, like Story county. Students from neighboring sub-par universities have started pouring in. From a very heated thread on Reddit, it appears that Central Campus was teeming with inebriated students, uncharacteristically happy for a Friday evening of finals week.&lt;/p&gt;
@@ -319,9 +319,9 @@ Then, the file is processed in a Markdown application, which uses the Markdown s
 	
 	<entry>
 		<title>Voices from yonder</title>
-		<link href="http://localhost:8081/entries/2020/voices-from-yonder/"/>
+		<link href="https://parth.ninja/entries/2020/voices-from-yonder/"/>
 		<updated>2020-04-11T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2020/voices-from-yonder/</id>
+		<id>https://parth.ninja/entries/2020/voices-from-yonder/</id>
 		<content type="html">&lt;p&gt;Ever since her little doll had gone missing, Emma Whelker had become increasingly and increasingly morose. Not being able to play with a toy for less than a day held a far deeper significance for twelve-year-old Emma than her parents could fathom.&lt;/p&gt;
 &lt;p&gt;It was a Saturday. Emma sat in the verandah of the countryside cottage. Her father tended to the fireplace while her mother talked his ear off about finding her brother a job. The house smelled of honeysuckle and freshly-baked bread. For all intents and purposes, this was a day straight out of a dream. Emma did not think so. Wiping a tear with the back of her hand, she stood up and dusted her clothes off. &amp;quot;Mama!&amp;quot; she called out. &amp;quot;I&#39;m going down to the lake! I&#39;ll be back in time for dinner!&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;Emma, wait!&amp;quot; her mother huffed. &amp;quot;This girl!&amp;quot;&lt;/p&gt;
@@ -347,9 +347,9 @@ Then, the file is processed in a Markdown application, which uses the Markdown s
 	
 	<entry>
 		<title>Lost in Translation - An affair with the feels</title>
-		<link href="http://localhost:8081/entries/2019/lost-in-translation/"/>
+		<link href="https://parth.ninja/entries/2019/lost-in-translation/"/>
 		<updated>2019-12-19T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2019/lost-in-translation/</id>
+		<id>https://parth.ninja/entries/2019/lost-in-translation/</id>
 		<content type="html">&lt;p&gt;I watched Lost in Translation (2003) for the first time ever today, and I really liked it. The plot is that two Americans meet in an entirely unfamiliar setting in Tokyo, Japan, and find meaning in something strangely peaceful. Both are at different stages of their lives, dealing with their own personal crises, but somehow manage to find solace in each other&#39;s presence.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Spoilers ahead.&lt;/strong&gt;&lt;/p&gt;
@@ -364,9 +364,9 @@ Then, the file is processed in a Markdown application, which uses the Markdown s
 	
 	<entry>
 		<title>In The Shadow of A Curse</title>
-		<link href="http://localhost:8081/entries/2019/shadow-of-a-curse/"/>
+		<link href="https://parth.ninja/entries/2019/shadow-of-a-curse/"/>
 		<updated>2019-06-02T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2019/shadow-of-a-curse/</id>
+		<id>https://parth.ninja/entries/2019/shadow-of-a-curse/</id>
 		<content type="html">&lt;p&gt;I recall the fateful moment when my editor called me on a Sunday night, her voice equal parts sad and excited; there was a story to be written about the notorious magician from the Midwest. When, at 45, Hermann “Hex” Zilchberg was crowned the youngest Top Wizard of the Globe in 2018, his audience assumed that he would go for the Top Wizard of the Galaxy trophy next. Nobody expected the next trick up his sleeve to be an untimely demise and a tarnished legacy.&lt;/p&gt;
 &lt;p&gt;Hermann — or “Hex”, as he vehemently insisted on being called — stood on his fabled stage at the Manhattan Hall for Spells almost exactly seventeen years ago, where he did his first trick in front of a drunk audience. It was a Pinky Break: he got a buzzed young lady to choose a card, put it back, and made it appear that her card was lost in the middle, but the card’s location was actually being marked by Hex’s pinky. The trick, forgive the pun, did the trick, and the young woman’s laughs were heard resoundingly throughout the half-filled hall. Hex and the young lady, Zoe Mulaney, got married two years later. When I got the opportunity to speak with Mrs. Mulaney-Zilchberg (“Please, call me Zoe. Only the lawyer calls me that.”) at her husband’s funeral, she appeared to me as a woman who had seen too much to fear seeing some more. “He may not have been the best husband in the world, but he was the greatest magician I’ve ever known,” she told me. Her black gown was unadorned but for a simple red heart-shaped brooch, only slightly bigger than her thumbnail. “His anniversary gift to me,” she smiled, playing with it gently. “He didn’t forget this year.” The funeral service was lovingly dubbed The Disappearing Act by Hex’s posse of assistants and stagehands. There were bigwigs from all over the industry there. The man and his magic had been loved. It was a beautiful service — perhaps too beautiful to be appropriate for such a troubled individual.&lt;/p&gt;
 &lt;p&gt;Hex Zilchberg was born Hermann Zilchberg the Second to a family of locksmiths in Switzerland. A child with three siblings, he grew up poor and resilient in the streets of rural St. Porten. The Zilchbergs cared less for material entertainment than they did about their children, succumbing to a car crash when Hex was 14. They were both drunk. Hex, his brother Hans, and his sisters, Ilaya and Mary, fled Switzerland under the guise of foster children, and over the course of a decade, had moved to the States. Hermann Zilchberg roamed the states and spent his youth in the Midwest under colorful names. Hans went on to become an architect, Ilaya became an artist, and Mary was found at rehab every six months. She still is at rehab, hence her absence from the service. Hans and Ilaya were very open with me; they disapproved with a passion of what their brother had chosen to do with his life. Hans, in particular, still bore signs of indignation as he spoke of his late brother. “The smartest man I knew, that guy. He could’ve sent men to Mars. He could’ve found the cure to cancer. Wait, he almost did!” laughs Hans sadly. He refuses to address his brother by his stage name. “I knew Hermann as much as he allowed anyone to. He was a man consumed by the notion of bringing joy and excitement to strangers.” “And the notion of bringing pain to the people who loved him,” whispers Ilaya. As a reclusive artist, Ilaya makes few public appearances. She spoke to me in hushed tones about Hex and his struggle with accepting his family.“Herm- Hex was a good man. He knew what he was doing. He always knew what to do, but not what not to do. He wanted to do everything.” Hans sighed, glancing at the ornate casket of the late magician. “His greatest trick was fooling people into thinking he was doing okay.”&lt;/p&gt;
@@ -382,9 +382,9 @@ Then, the file is processed in a Markdown application, which uses the Markdown s
 	
 	<entry>
 		<title>Ricochet</title>
-		<link href="http://localhost:8081/entries/2016/ricochet/"/>
+		<link href="https://parth.ninja/entries/2016/ricochet/"/>
 		<updated>2016-12-11T00:00:00Z</updated>
-		<id>http://localhost:8081/entries/2016/ricochet/</id>
+		<id>https://parth.ninja/entries/2016/ricochet/</id>
 		<content type="html">&lt;blockquote class=&quot;blockquote-lilac aftercringe&quot;&gt;Written in 2016&lt;/blockquote&gt;
 &lt;p&gt;The moment I saw the van pull up outside the cafe, I knew something was wrong. It was eleven p.m., and at this time of the night, Paris tended to get somewhat woeful. And I had taken just a sip of my black coffee, which, I might add, was possibly one of the best coffees I’ve ever sipped at. With another long drink, my gaze drifted back at the cafe. The staff was packing up; indeed, it was pretty gracious of them to let me stay this late. The waitress walked up to me just as the van pulled to a halt a dozen meters away and smiled wearily.&lt;/p&gt;
 &lt;p&gt;“Can I get you anything else, si-” I yanked at her arm, kicked over my table and pulled us both under it, only a split second before the shooting started. The pavement was getting torn up under the hail of bullets, and the waitress started screaming. Glass shattered everywhere, and chips of cement flew out from the points of contact. I took it all in, not reacting. Just listening and watching. From what I could make out, there were four different shooters. Fine by me.&lt;/p&gt;
