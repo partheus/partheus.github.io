@@ -1,5 +1,5 @@
 module.exports = {
-  url: process.env.URL || "http://localhost:8081",
+  url: process.env.URL || "https://parth.ninja",
   siteName: "Parth Shiralkar",
   siteDescription:
     "Parth Shiralkar personal website",
