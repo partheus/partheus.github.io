@@ -2,7 +2,7 @@
 title: "Contact"
 description: "Talk to me about stuff, or say hello, or send me samples to flip"
 ---
-> This form is currently disabled. Email me at **parth [dot] shiralkar [at] gmail [dot] com**
+> This form is currently disabled. Email me at **hi [at] parth [dot] ninja**
 
 
 <form name="contact" class="form" method="POST" data-netlify="true" action="/">
