@@ -2,7 +2,9 @@
 title: The Second Sword
 date: 2022-06-23
 description: A short story
-tags: writing, wip
+tags: 
+    - writing
+    - wip
 ---
 Even as the massive wooden gates to the underworld slammed shut, Ehrlich Mann knew he was going to die. It had taken him two whole weeks to prepare and make the trek halfway up the northern side of the Chomolungma mountain range, known more commonly in the modern world as Mt. Everest. The secret warrior path had taken him across a gorge and into the gaping maw of the underworld, where he now stood, catching his breath.
 
