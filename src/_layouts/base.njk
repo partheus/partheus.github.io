@@ -9,7 +9,7 @@
   {%- set pageSocialImg %}{{ meta.url }}/previews/{% if title %}{{ title | slug }}
   {% else %}home{% endif %}.png{% endset -%}
   {% include 'head.njk' %}
-  {# {% include 'sitenav.njk' %} #}
+  {% include 'sitenav.njk' %}
 
   <body id="body-main">
     <div>
@@ -23,5 +23,5 @@
     </div>
   </body>
 
-  {# {% include 'footer.njk' %} #}
+  {% include 'footer.njk' %}
 </html>
