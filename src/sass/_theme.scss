@@ -1,13 +1,16 @@
+:root, html[data-theme='dark'] {
+
 $irevamp-color-primary: #fff2e5 !default;
 $irevamp-color-secondary: #EB89BC !default;
 $irevamp-color-secondary-light: #e23f93 !default;
 $irevamp-color-background: #170808 !default;
 $irevamp-color-tertiary: #17D696 !default;
+}
 
 $hover-font-bg: #3d052f81 !default;
 $hover-font: #25021d !default;
 // work on this
-html[data-theme='dark'] {
+html[data-theme='light'] {
   $irevamp-color-primary: #170808 !default;
   $irevamp-color-secondary: #e23f93 !default;
   $irevamp-color-secondary-light: #EB89BC !default;
