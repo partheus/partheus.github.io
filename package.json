@@ -22,7 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/partheus/partheus.github.io.git"
   },
-  "keywords": [ "portfolio", "personal website" ],
+  "keywords": [
+    "portfolio",
+    "personal website"
+  ],
   "author": "partheus",
   "license": "ISC",
   "bugs": {
