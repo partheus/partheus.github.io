@@ -49,7 +49,6 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   max-width: 45ch;
   margin-top: 6em;
   margin-left: 0;
-  margin-bottom: -10rem;
 
   @include gt-sm {
     margin-left: 3em;
@@ -497,7 +496,6 @@ blockquote {
 
 
 .sun-pink {
-  padding-left: 3em;
   margin-left: 1em;
 }
 
