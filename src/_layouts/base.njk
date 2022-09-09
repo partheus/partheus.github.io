@@ -9,7 +9,7 @@
   {%- set pageSocialImg %}{{ meta.url }}/previews/{% if title %}{{ title | slug }}
   {% else %}home{% endif %}.png{% endset -%}
   {% include 'head.njk' %}
-  {% include 'sitenav.njk' %}
+  {# {% include 'sitenav.njk' %} #}
 
   <body id="body-main">
     <div>
@@ -21,48 +21,7 @@
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       {% endif %}
     </div>
-
-    <footer>
-      <div class="irevamp-sitenav__container irevamp-ink--primary irevamp-text-align-center">
-        <ul role="list" class="irevamp-sitenav__navlist irevamp-sitenav__footer irevamp-list-unstyled">
-          {# {% for link in collections.pages %}
-      <li>
-        <a
-          {% if currentUrl === link.url %}aria-current="page"{% endif %}
-          href="{{ link.url }}">
-            {{ link.data.title }}
-        </a>
-      </li>
-      {%- endfor %} #}
-          <li>
-            <a class="underline" href="/colophon">Colophon</a>
-          </li>
-          <li>
-            <a class="underline" href="/hello">Hello</a>
-          </li>
-          <li>
-            <a class="underline" href="#">Go to top</a>
-          </li>
-          <li>
-            <a class="underline" href="/feed.xml">RSS</a>
-          </li>
-          <li style="font-size: 1.15em;">© 2022 - Parth Shiralkar</li>
-        </ul>
-      </div>
-
-    </footer>
-    {# <section class="base-footer">
-      <div class="taglist irevamp-mx-auto irevamp-mb-md">
-        <a class="taglist-tag social-icon" href="https://webring.xxiivv.com/#parth-shiralkar" target="_blank">
-          <img src="https://webring.xxiivv.com/icon.white.svg" alt="XXIIVV webring"/>
-        </a>
-        <a class="taglist-tag social-icon" href="https://goodreads.com" target="_blank">
-          <img src="/img/face.png" alt="Goodreads"/>
-        </a>
-        <a class="taglist-tag social-icon" href="https://goodreads.com" target="_blank">
-          <img src="/img/crane.png" alt="Goodreads"/>
-        </a>
-      </div>
-    </section> #}
   </body>
+
+  {# {% include 'footer.njk' %} #}
 </html>
