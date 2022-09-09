@@ -21,15 +21,11 @@
   @include gt-xs {
     max-width: 60px;
   }
-
-  @include gt-sm {
-    max-width: 70px;
-  }
 }
 
 .headerhome:hover {
   transition: all 0.3s ease-in-out;
-  filter: hue-rotate(-138deg);
+  filter: hue-rotate(-108deg);
 }
 
 .homeclass {
