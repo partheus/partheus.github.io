@@ -9,17 +9,17 @@
 
 .headerhome {
   max-width: 50px;
-  width: fit-content;
+  width: 50px;
   position: relative;
   transition: all 0.3s ease-in-out;
   filter: hue-rotate(0deg);
 
   @include xxs {
-    max-width: 40px;
+    width: 40px;
   }
 
   @include gt-xs {
-    max-width: 60px;
+    width: 60px;
   }
 }
 
@@ -60,7 +60,7 @@
     }
 
     @include gt-lg {
-      max-width: 200ch;
+      max-width: 180ch;
     }
   }
 
