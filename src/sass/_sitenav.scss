@@ -13,14 +13,6 @@
   position: relative;
   transition: all 0.3s ease-in-out;
   filter: hue-rotate(0deg);
-
-  @include xxs {
-    width: 40px;
-  }
-
-  @include gt-xs {
-    width: 60px;
-  }
 }
 
 .headerhome:hover {
