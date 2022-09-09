@@ -1,10 +1,10 @@
-:root, html{
+:root, html[data-theme='dark']{
 --irevamp-color-primary: #fff2e5;
 --irevamp-color-secondary: #EB89BC;
 --irevamp-color-secondary-light: #e23f93;
 --irevamp-color-background: #170808;
 --irevamp-color-tertiary: #17D696;
-
+--irevamp-color-accessibility: var(--irevamp-color-tertiary);
 }
 
 $hover-font-bg: #3d052f81 !default;
@@ -16,6 +16,7 @@ html[data-theme='light'] {
   --irevamp-color-secondary: #e23f93;
   --irevamp-color-secondary-light: #EB89BC;
   --irevamp-color-background: #fff2e5;
+  --irevamp-color-accessibility: var(--irevamp-color-primary);
 }
 
 $irevamp-link-color: var(--irevamp-color-primary);
