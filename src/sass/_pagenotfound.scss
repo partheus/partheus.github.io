@@ -25,8 +25,8 @@
   width: 4em;
   height: 4em;
   margin: 0.5em auto;
-  color: $irevamp-color-secondary;
-  background: $irevamp-color-primary;
+  color: var(--irevamp-color-secondary);
+  background: var(--irevamp-color-secondary);
   border-width: 0.25em;
   border-style: solid;
   border-radius: 50% 50% 0 0;
@@ -80,8 +80,8 @@
   .cloud:before {
     border-style: dotted;
   }
-  color: $irevamp-color-primary;
-  background: $irevamp-color-secondary;
+  color: var(--irevamp-color-primary);
+  background: var(--irevamp-color-secondary);
   transition: all ease-in-out 0.2s;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .pagenotfound-button {
-  background-color: $irevamp-color-primary;
+  background-color: var(--irevamp-color-primary);
   outline: none;
   border: 0;
   border-radius: 35px;
@@ -128,7 +128,7 @@
 
 .pagenotfound-button:hover {
   cursor: pointer;
-  background-color: $irevamp-color-secondary;
+  background-color: var(--irevamp-color-secondary);
   transition: all ease-in-out 0.2s;
 }
 
