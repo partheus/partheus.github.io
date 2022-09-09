@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: irevamp-color("background");
-  color: $irevamp-color-primary;
+  color: var(--irevamp-color-primary);
   font-family: $irevamp-font-family-primary;
   padding: 0 2rem;
 
@@ -128,7 +128,7 @@ ul.irevamp-column-container {
 hr {
   margin-top: 4rem;
   margin-bottom: 4rem;
-  border: 1px solid irevamp-color("secondary");
+  border: 1px solid var(--irevamp-color-secondary);
   opacity: 0.6;
   width: 100%;
 }

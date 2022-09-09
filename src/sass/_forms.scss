@@ -3,9 +3,9 @@
 
 .form .form_item .form_field {
   border: 0;
-  color: rgba($irevamp-color-primary, 1);
-  background: rgba($irevamp-color-secondary, 0.075);
-  outline: 2px solid rgba($irevamp-color-secondary, 1);
+  color: rgba(var(--irevamp-color-primary), 1);
+  background: rgba(var(--irevamp-color-secondary), 0.075);
+  outline: 2px solid rgba(var(--irevamp-color-secondary), 1);
   width: 100%;
   padding: 0.25em;
   margin-bottom: 0.75em;
@@ -13,7 +13,7 @@
   border-radius: 3px;
 }
 .form .form_item .form_field:focus {
-  outline: 2px solid rgba($irevamp-color-secondary, 0.075);
+  outline: 2px solid rgba(var(--irevamp-color-secondary), 0.075);
   outline: 0;
 }
 

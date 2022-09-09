@@ -11,6 +11,10 @@
     @include gt-sm {
       max-width: 60%;
     }
+
+    a {
+      color: var(--irevamp-color-secondary-light);
+    }
 }
 
 #gr_grid_widget_1647304638 {
@@ -45,6 +49,6 @@
   .gr_grid_book_container:hover {
     /* customize book cover container div here */
     filter: hue-rotate(66deg);
-    outline: 2px dashed $irevamp-color-secondary-light;
+    outline: 2px dashed var(--irevamp-color-secondary-light);
     transition: all ease-in-out 0.2s;
   }

@@ -219,7 +219,7 @@ code:not([class*="language"]) {
   background-color: irevamp-color("secondary");
   color: irevamp-color("dark");
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  border: 1px solid scale-color(irevamp-color("gray"), $lightness: 50%);
+  border: 1px solid var(--irevamp-color-secondary-light);
   border-radius: 2px;
   font-size: 1em;
   line-height: 1.1;
@@ -235,7 +235,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding-left: 1.25rem;
-  border-left: 12px solid $irevamp-color-secondary-light;
+  border-left: 12px solid var(--irevamp-color-secondary-light);
   color: irevamp-color("gray");
 
   &,
@@ -277,7 +277,7 @@ blockquote {
 
 .irevamp-description {
   font-size: 1.3em;
-  color: $irevamp-color-secondary;
+  color: var(--irevamp-color-secondary);
 }
 
 .irevamp-list-unstyled {
@@ -337,13 +337,13 @@ blockquote {
 }
 
 .music-recco-title a {
-  color: $irevamp-color-secondary;
+  color: var(--irevamp-color-secondary);
   text-decoration: underline;
   font-weight: 600;
 }
 
 .music-recco-title a:hover {
-  color: $irevamp-color-secondary;
+  color: var(--irevamp-color-secondary);
 }
 
 .works-bg {
@@ -362,10 +362,10 @@ blockquote {
 }
 
 .works-item a {
-  border: 3px dashed $irevamp-color-secondary-light;
+  border: 3px dashed var(--irevamp-color-secondary-light);
   border-radius: 2px;
   padding: 1.75em;
-  background-color: $irevamp-color-background;
+  background-color: var(--irevamp-color-background);
   background: none;
   display: flex;
   flex-direction: column;
@@ -380,8 +380,8 @@ blockquote {
 }
 
 .works-cover {
-  -webkit-box-shadow: -2px 8px 15px -4px $irevamp-color-background;
-  box-shadow: -2px 8px 15px -4px $irevamp-color-background;
+  -webkit-box-shadow: -2px 8px 15px -4px var(--irevamp-color-background);
+  box-shadow: -2px 8px 15px -4px var(--irevamp-color-background);
   transition: all 0.3s ease-in-out;
   background-color: bisque;
 
@@ -400,12 +400,12 @@ blockquote {
   background-color: rgb(221, 221, 201);
   transition: background-color 0.2s ease-in-out;
   .works-about {
-    color: $irevamp-color-background;
+    color: var(--irevamp-color-background);
   }
 }
 
 .works-about {
-  color: $irevamp-color-primary;
+  color: var(--irevamp-color-primary);
   font-size: $irevamp-lead-font-size;
   font-weight: 400;
 
@@ -439,24 +439,24 @@ blockquote {
 }
 
 .background-bg {
-  color: $irevamp-color-primary;
-  background-color: $irevamp-color-background;
+  color: var(--irevamp-color-primary);
+  background-color: var(--irevamp-color-background);
 }
 
 .primary-bg {
-  background-color: $irevamp-color-primary;
+  background-color: var(--irevamp-color-primary);
 }
 
 .secondary-bg {
-  background-color: $irevamp-color-secondary;
+  background-color: var(--irevamp-color-secondary);
 }
 
 .secondary-light-bg {
-  background-color: $irevamp-color-secondary-light;
+  background-color: var(--irevamp-color-secondary-light);
 }
 
 .tertiary-bg {
-  background-color: $irevamp-color-tertiary;
+  background-color: var(--irevamp-color-tertiary);
 }
 
 .lilac-bg {
@@ -482,7 +482,7 @@ blockquote {
 
 .taglist-tag {
   background: none;
-  color: $irevamp-color-primary;
+  color: var(--irevamp-color-primary);
   font-size: $irevamp-mini-font-size;
   border: 1px dashed salmon;
   padding: 4px;
@@ -490,7 +490,7 @@ blockquote {
 }
 
 .taglist-tag:hover {
-  color: $irevamp-color-secondary-light;
+  color: var(--irevamp-color-secondary-light);
   border: 1px dashed #17d696;
 }     
 

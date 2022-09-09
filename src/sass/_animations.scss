@@ -5,8 +5,8 @@
 a {
   background: linear-gradient(
     to bottom,
-    $irevamp-color-secondary 50%,
-    $irevamp-color-secondary 80%
+    var(--irevamp-color-secondary) 50%,
+    var(--irevamp-color-secondary) 80%
   );
   background-position: 50% 100%;
   background-repeat: repeat-x;
@@ -44,14 +44,14 @@ a:hover {
   span {
     width: 5px;
     height: 100%;
-    background-color: $irevamp-color-secondary-light;
+    background-color: var(--irevamp-color-secondary-light);
     border-radius: 2px;
     content: "";
     animation: bounce 2.4s ease infinite alternate;
 
     &:nth-of-type(2) {
       animation-delay: -2.2s; /* Start at the end of animation */
-      background-color: $irevamp-color-secondary;
+      background-color: var(--irevamp-color-secondary);
     }
 
     &:nth-of-type(3) {
@@ -105,7 +105,7 @@ a:hover {
   right: 0;
   width: 0;
   height: 4px;
-  background-color: $irevamp-color-secondary;
+  background-color: var(--irevamp-color-secondary);
   transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -234,10 +234,10 @@ a:hover {
   width: 249px;
   height: 249px;
   background: transparent;
-  border: 1px solid $irevamp-color-primary;
+  border: 1px solid var(--irevamp-color-primary);
   margin: 6vh auto;
   padding: 25px;
-  font-family: $irevamp-font-family-primary;
+  font-family: var(--irevamp-font-family-primary);
   font-size: $irevamp-text-font-size;
 }
 
