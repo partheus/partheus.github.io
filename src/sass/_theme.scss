@@ -1,34 +1,39 @@
-$irevamp-color-primary: #fff2e5 !default;
-$irevamp-color-secondary: #EB89BC !default;
-$irevamp-color-secondary-light: #e23f93 !default;
-$irevamp-color-background: #170808 !default;
-$irevamp-color-tertiary: #17D696 !default;
+:root, html{
+--irevamp-color-primary: #fff2e5;
+--irevamp-color-secondary: #EB89BC;
+--irevamp-color-secondary-light: #e23f93;
+--irevamp-color-background: #170808;
+--irevamp-color-tertiary: #17D696;
 
-$hover-font-bg: #3d052f81 !default;
-$hover-font: #25021d !default;
-// work on this
-html[data-theme='dark'] {
-  $irevamp-color-primary: #170808 !default;
-  $irevamp-color-secondary: #e23f93 !default;
-  $irevamp-color-secondary-light: #EB89BC !default;
-  $irevamp-color-background: #fff2e5 !default;
 }
 
+$hover-font-bg: #3d052f81 !default;
+$hover-font: var(--irevamp-color-background);
+
+// work on this
+html[data-theme='light'] {
+  --irevamp-color-primary: #170808;
+  --irevamp-color-secondary: #e23f93;
+  --irevamp-color-secondary-light: #EB89BC;
+  --irevamp-color-background: #fff2e5;
+}
+
+$irevamp-link-color: var(--irevamp-color-primary);
 $irevamp-brand-colors: (
-  "primary": $irevamp-color-primary,
-  "secondary": $irevamp-color-secondary,
-  "secondary-light": $irevamp-color-secondary-light,
+  "primary": var(--irevamp-color-primary),
+  "secondary": var(--irevamp-color-secondary),
+  "secondary-light": var(--irevamp-color-secondary-light),
 ) !default;
 
-$irevamp-color-body: scale-color($irevamp-color-primary, $lightness: -30%, $saturation: -50%) !default;
-$irevamp-color-gray: mix($irevamp-color-secondary-light, $irevamp-color-primary, 30%) !default;
+$irevamp-color-body: hsla(var(--irevamp-color-primary), 0.1);
+$irevamp-color-gray: hsla(var(--irevamp-color-secondary-light), 0.2);
 
 $irevamp-colors: map-merge(
   $irevamp-brand-colors,
   (
-    "text": $irevamp-color-body,
-    "background": $irevamp-color-background,
-    "light": #e23f93,
+    "text": var(--irevamp-color-body),
+    "background": var(--irevamp-color-background),
+    "light": var(--irevamp-color-secondary-light),
     "dark": rgba(0 0 0 / 87%),
     "gray": $irevamp-color-gray,
   )
@@ -45,7 +50,7 @@ $irevamp-ink-colors: "primary", "secondary", "secondary-light", "text", "gray", 
 $irevamp-background-colors: "primary", "secondary", "background", "gray", "light" !default;
 
 $irevamp-button-variants: "primary", "secondary", "light", "gray" !default;
-$irevamp-link-color: irevamp-color("primary") !default;
+
 $irevamp-border-radius: 8px !default;
 
 $irevamp-font-family-primary: 'Work Sans', sans-serif !default;

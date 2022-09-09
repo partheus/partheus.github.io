@@ -13,7 +13,7 @@
   transition-property: background, border;
   border-radius: math.div($irevamp-border-radius, 2);
   background-color: irevamp-color("primary");
-  color: $irevamp-color-background;
+  color: var(--irevamp-color-background);
   font-size: 1.125rem;
   line-height: 1.1;
   text-align: center;
@@ -21,13 +21,13 @@
   cursor: pointer;
 
   @media screen and (-ms-high-contrast: active) {
-    border: 2px solid $irevamp-color-secondary;
+    border: 2px solid var(--irevamp-color-secondary);
   }
 
   &:focus {
     outline-color: transparent;
     outline-style: solid;
-    box-shadow: 0 0 0 3px scale-color(irevamp-color("primary"), $lightness: -30%);
+    box-shadow: 0 0 0 3px var(--irevamp-color-secondary);
   }
 
   &--small {
@@ -60,55 +60,55 @@
   }
 
   &-outlined {
-    border: 2px solid irevamp-color("primary");
+    border: 2px solid var(--irevamp-color-primary);
     background-color: transparent;
     color: irevamp-color("primary");
 
     &:hover,
     &:focus {
-      background-color: scale-color(irevamp-color("primary"), $lightness: 80%);
+      background-color: var(--irevamp-color-primary);
     }
   }
 
   // stylelint-disable max-nesting-depth
-  @each $key in $irevamp-button-variants {
-    $color: irevamp-color($key);
+  // @each $key in $irevamp-button-variants {
+  //   $color: irevamp-color($key);
 
-    @if ($key != "primary") {
-      &--#{$key} {
-        background-color: $color;
+  //   @if ($key != "primary") {
+  //     &--#{$key} {
+  //       background-color: $color;
 
-        @if ($key == "light") {
-          color: irevamp-color("dark");
-        }
+  //       @if ($key == "light") {
+  //         color: irevamp-color("dark");
+  //       }
 
-        &:focus {
-          box-shadow: 0 0 0 3px scale-color($color, $lightness: -30%);
-        }
-      }
+  //       &:focus {
+  //         box-shadow: 0 0 0 3px scale-color($color, $lightness: -30%);
+  //       }
+  //     }
 
-      &-outlined--#{$key} {
-        border-color: scale-color($color, $lightness: 30%, $saturation: 15%);
-        color: $color;
+  //     &-outlined--#{$key} {
+  //       border-color: scale-color($color, $lightness: 30%, $saturation: 15%);
+  //       color: $color;
 
-        &:focus {
-          box-shadow: 0 0 0 3px scale-color($color, $lightness: -30%);
-        }
+  //       &:focus {
+  //         box-shadow: 0 0 0 3px scale-color($color, $lightness: -30%);
+  //       }
 
-        @if ($key == "light") {
-          &:hover,
-          &:focus {
-            background-color: rgba($color, 0.15);
-          }
-        } @else {
-          &:hover,
-          &:focus {
-            background-color: scale-color($color, $lightness: 90%);
-          }
-        }
-      }
-    }
-  }
+  //       @if ($key == "light") {
+  //         &:hover,
+  //         &:focus {
+  //           background-color: rgba($color, 0.15);
+  //         }
+  //       } @else {
+  //         &:hover,
+  //         &:focus {
+  //           background-color: scale-color($color, $lightness: 90%);
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
   // stylelint-enable
 }
 
