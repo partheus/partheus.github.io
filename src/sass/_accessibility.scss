@@ -14,7 +14,7 @@ button:focus,a:focus,input:focus {
   
   /* Show focus styles on keyboard focus. */
   button:focus-visible,a:focus-visible,input:focus-visible {
-    outline: 4px dashed var(--irevamp-color-tertiary);
+    outline: 4px dashed var(--irevamp-color-accessibility);
   }
 
 // screen reader only

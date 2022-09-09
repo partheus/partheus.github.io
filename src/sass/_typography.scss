@@ -65,17 +65,12 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-bird {
-  animation: birdFloat 3s ease-in-out infinite;
+  animation: birdFloat 2.25s ease-in-out infinite;
   animation-delay: 0.3s;
-  margin-bottom: -14rem;
-  margin-left: 4rem;
-  height: 4rem;
   position: relative;
   z-index: -1;
-
-  @include gt-sm {
-    height: 8rem;
-  }
+  margin-bottom: -3rem;
+  transform: translateX();
 }
 
 // As of v0.3.0, `clamp` not well enough supported on mobile browsers for use
@@ -494,11 +489,6 @@ blockquote {
   color: var(--irevamp-color-secondary-light);
   border: 1px dashed #17d696;
 }     
-
-
-.sun-pink {
-  margin-left: 1em;
-}
 
 .social-icon {
   max-width: 50px;
