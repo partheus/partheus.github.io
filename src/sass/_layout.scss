@@ -99,6 +99,13 @@ ul.irevamp-column-container {
   }
 }
 
+.primary-hero {
+  min-height: 95vh;
+  @include gt-sm {
+    min-height: 93vh;
+  }
+}
+
 .irevamp-row {
   display: grid;
   grid-gap: 1rem;

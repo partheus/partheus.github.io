@@ -1,0 +1,29 @@
+<footer>
+      <div class="irevamp-sitenav__container irevamp-ink--primary irevamp-text-align-center">
+        <ul role="list" class="irevamp-sitenav__navlist irevamp-sitenav__footer irevamp-list-unstyled">
+          {# {% for link in collections.pages %}
+      <li>
+        <a
+          {% if currentUrl === link.url %}aria-current="page"{% endif %}
+          href="{{ link.url }}">
+            {{ link.data.title }}
+        </a>
+      </li>
+      {%- endfor %} #}
+          <li>
+            <a class="underline" href="/colophon">Colophon</a>
+          </li>
+          <li>
+            <a class="underline" href="/hello">Hello</a>
+          </li>
+          <li>
+            <a class="underline" href="#">Go to top</a>
+          </li>
+          <li>
+            <a class="underline" href="/feed.xml">RSS</a>
+          </li>
+          <li style="font-size: 1.15em;">© 2022 - Parth Shiralkar</li>
+        </ul>
+      </div>
+
+    </footer>
