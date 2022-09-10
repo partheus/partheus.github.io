@@ -17,23 +17,25 @@ layout: base.njk
 
       {% endif %}
       <span id="time-to-read"></span></h5>
-  </div>
-</header>
-<main class="irevamp-container slide-up">
-  <article class="irevamp-mx-auto" id="article">
-    {{ content | safe }}
-    <hr class="menu-hori"/ >
-    <p class="irevamp-lead" style="padding: 3vh 0;">Tagged:  
+
+    <p class="irevamp-lead" style="padding-top: 1em;">Tagged:  
     {% for tag in tags %}
         {% if tag != 'entry' %}
-          <span class="bold600">
-            <a href="/tags/{{ tag }}/" aria-label="Entries tagged with {{tag}}">
+          <span>
+            <a class="taglist-tag" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{tag}}">
               <span>
                 {{tag}}</span></a>
           </span>
         {% endif %}
       {% endfor %}
     </p>
+  </div>
+</header>
+<main class="irevamp-container slide-up">
+  <article class="irevamp-mx-auto" id="article">
+    {{ content | safe }}
+    <hr class="menu-hori"/ >
+    
   </article>
 </main>
 
