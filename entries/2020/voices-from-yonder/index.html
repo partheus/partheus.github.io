@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme='dark'><head>
+<html lang="en" data-theme=''><head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="eleventy"/>
@@ -87,6 +87,20 @@
 
       
       <span id="time-to-read"></span></h5>
+
+    <p class="irevamp-lead" style="padding-top: 1em;">Tagged:  
+    
+        
+      
+        
+          <span>
+            <a class="taglist-tag" href="/tags/fiction/" aria-label="Entries tagged with fiction">
+              <span>
+                fiction</span></a>
+          </span>
+        
+      
+    </p>
   </div>
 </header>
 <main class="irevamp-container slide-up">
@@ -113,19 +127,9 @@
 <p>&quot;Yes, Emma,&quot; said the voice. <i>Voices...</i> Emma glanced up at the sky, her face locked in a wide grin. There was a thunder cloud rolling in. Even as her hair was whipped around by the howling wind, both her feet touched the lake, and she was completely within its boundaries. &quot;We'll finally be able to play!&quot; the voices rose in a sharp crescendo, and there was a loud thunderclap, the loudest you could imagine, and a burst of lightning lit the entire sky up, and for a brief moment one could have seen the entire countryside, and its lush meadows, and the strange lake down yonder, and the silhouette of a little girl reaching out for something dark up ahead, and then the moment passed, swift, like a photo flash, and then lake was silent again.</p>
 
     <hr class="menu-hori"/ >
-    <p class="irevamp-lead" style="padding: 3vh 0;">Tagged:  
-    
-        
-      
-        
-          <span class="bold600">
-            <a href="/tags/fiction/" aria-label="Entries tagged with fiction">
-              <span>
-                fiction</span></a>
-          </span>
-        
-      
-    </p>
+    <div class="irevamp-container irevamp-mx-auto">
+    <button onclick="history.back()" class="irevamp-mx-auto intro-about bold600 uppercase pagenotfound-button" style="">Go back</button>
+</div>
   </article>
 </main>
 
@@ -165,26 +169,52 @@
   </body>
 
   <footer>
-      <div class="irevamp-sitenav__container irevamp-ink--primary irevamp-text-align-center">
-        <ul role="list" class="irevamp-sitenav__navlist irevamp-sitenav__footer irevamp-list-unstyled">
-          
-          <li>
-            <a class="underline" href="/colophon">Colophon</a>
-          </li>
-          <li>
-            <a class="underline" href="/hello">Hello</a>
-          </li>
-          <li>
-            <a class="underline" href="#">Go to top</a>
-          </li>
-          <li>
-            <a class="underline" href="/feed.xml">RSS</a>
-          </li>
-          <li style="font-size: 1.15em;">© 2022 - Parth Shiralkar</li>
-
-          
-        </ul>
-      </div>
-
-    </footer>
+  <div class="irevamp-sitenav__container irevamp-ink--primary irevamp-text-align-center">
+    <ul
+      role="list" class="irevamp-sitenav__navlist irevamp-sitenav__footer irevamp-list-unstyled">
+      
+      <li>
+        <a class="underline" href="/colophon">Colophon</a>
+      </li>
+      <li>
+        <a class="underline" href="/hello">Hello</a>
+      </li>
+      <li>
+        <a class="underline" href="#">Go to top</a>
+      </li>
+      <li>
+        <a class="underline" href="/feed.xml">RSS</a>
+      </li>
+      <li style="font-size: 1.15em;">© 2022 - Parth Shiralkar</li>
+      <li>
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox"/>
+            <div class="slider round"></div>
+          </label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</footer>
+<script>
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  const currentTheme = localStorage.getItem('theme');
+  if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+      toggleSwitch.checked = true;
+    }
+  }
+  function switchTheme(e) {
+    if (e.target.checked) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('theme', 'light');
+    }
+  }
+  toggleSwitch.addEventListener('change', switchTheme, false);
+</script>
 </html>
