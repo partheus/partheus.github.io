@@ -3,6 +3,13 @@ title: "About"
 description: "Among other things, Parth is a normal person."
 date: 2022-03-10
 ---
+
+<div class="irevamp-h5 bold600">Now Playing:</div>
+{% include 'songs.njk' %}
+
+<div class="irevamp-h5 irevamp-mb-sm bold600">Now Reading:</div>
+{% include 'goodreads.html' %}
+
 I'm a web developer, documentation specialist, business analyst, a few other adjectives and roles, close confidante of the Round Table knights, <a href="/breathe" class="nolink">freelance worldsaver</a>, lentil enthusiast...
 
 I have been designing and engineering UI solutions for over half a decade now, and received my Master's degree in 2021. Every year or so since 2017, my domain `parth.ninja` points to a fresh redesign of this personal website. Currently, this online project acts as a portfolio / journal for my unusually frequent adventures, and helps me practice web development.
@@ -15,12 +22,5 @@ I'm extremely partial to audiobooks, as evidenced by my [weekly checkouts](https
 Check out my [writing](/writing), or some of my [art](/art). Or read about my [climbing exploits](/climbing).
 
 > <span class="bold600"><a href="/hello">Contact me to say hi</a></span>!
-
-
-<div class="irevamp-h5 irevamp-mt-lg bold600">Now Playing:</div>
-{% include 'songs.njk' %}
-
-<div class="irevamp-h5 irevamp-mt-sm bold600">Now Reading:</div>
-{% include 'goodreads.html' %}
 
 > Check out the **[/now](/now)** page
