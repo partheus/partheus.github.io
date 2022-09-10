@@ -7,7 +7,7 @@
   width: 100%;
   border-top-right-radius:  $irevamp-border-radius;
   border-bottom-right-radius:  $irevamp-border-radius;
-  background-color: $hover-font-bg;
+  background-color: $irevamp-color-gray;
   box-shadow: 0px 0px 1px 1px var(--irevamp-color-tertiary);
   border-left: 4px solid var(--irevamp-color-secondary);
   transition: all ease-in-out 0.3s;
@@ -82,7 +82,7 @@
     border-left: 4px solid var(--irevamp-color-primary);
     box-shadow: 0px 0px 1px 1px var(--irevamp-color-secondary-light);
     transition: all ease-in-out 0.3s;
-    background-color: $hover-font;
+    background-color: $irevamp-color-body;
   }
 
   img:first-child {

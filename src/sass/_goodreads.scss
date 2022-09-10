@@ -2,18 +2,15 @@
 @use "media-queries" as *;
 
 .goodreads {
-    background-color: #312020;
-    margin-bottom: 5vh;
-    border-radius: 10px;
-    padding: 1em;
-    box-shadow: -2px 8px 15px -4px black;
-
-    @include gt-sm {
-      padding: 3.5em;
-    }
-
+  div, a {
+    font-size: $irevamp-lead-font-size;
+  }
     a {
       color: var(--irevamp-color-secondary-light);
+    }
+
+    p {
+      display: none;
     }
 }
 
@@ -28,7 +25,11 @@
     font-size: 0.75em !important;
     color: var(--irevamp-color-primary);
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 0; 
+  } 
+  
+  h3 {
+    text-align: left !important;
   }
 }
 
@@ -53,6 +54,9 @@
   }
 
   .gr_custom_header_1662769460 {
+    display: none !important;
+    visibility: none;
+
     a {
       background: none;
       text-decoration: none;
@@ -72,12 +76,22 @@
     filter: none;
     margin: 0 auto 0 0;
     overflow-wrap: break-word;
-    padding: 1em 0;
+    padding-bottom: 1.1em;
     font-size: 1.5em;
 
     .gr_custom_title_1662769460 a {
-      color: var(--irevamp-color-background);
-      background: var(--irevamp-color-secondary);
+      color: var(--irevamp-color-secondary);
+      font-size: 1.15;
+      background: none;
+      padding-left: 0.5em;
+      border-left: 8px solid var(--irevamp-color-tertiary);
+      border-bottom: 2px solid transparent;
+      transition: all ease-in-out 0.2s;
+    }
+
+    .gr_custom_title_1662769460 a:hover {
+      color: var(--irevamp-color-tertiary);
+      border-bottom: 2px solid var(--irevamp-color-secondary-light);
     }
 
     .gr_custom_title_1662769460 a::after {
