@@ -20,6 +20,6 @@ Check out my [writing](/writing), or some of my [art](/art). Or read about my [c
 <div class="irevamp-h5 irevamp-mt-lg bold600">Now Playing</div>
 {% include 'songs.njk' %}
 
-
+{% include 'goodreads.html' %}
 
 > Check out the **[/now](/now)** page

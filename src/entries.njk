@@ -11,7 +11,8 @@ templateEngineOverride: md, njk
         <li class="irevamp-postlist__content">
             <a href="{{ post.url }}" class="irevamp-text">{{ post.data.title }}</a>
             <p style="margin-top: 5px" class="irevamp-lead">{{ post.data.date | postDate  }} {% if post.data.description %} • {{ post.data.description }}{% endif %}
-        {% if post.data.tags %}<span class="irevamp-lead irevamp-ink--secondary"> 🏷 {% for tag in post.data.tags.slice(1, 3) %}{% if tag != 'notes' %}<span>{{tag}} </span>{% endif %}{% endfor %}{% endif %}</p>
+        {% if post.data.tags %}<span> 🏷 {% for tag in post.data.tags.slice(1, 3) %}{% if tag != 'notes' %}<span>{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="irevamp-lead irevamp-ink--secondary nolink">{{ tag }}</a> </span>{% endif %}{% endfor %}{% endif %}</p>
         </li>
     </span>
       {%- endfor -%}

@@ -427,7 +427,7 @@ blockquote {
 
 .swatch-box {
   background-color: white;
-  border: 1px dashed var(--irevamp-color-tertiary);
+  border: 5px dashed $hover-font-bg;
   color: black;
   display: flex;
   flex-direction: column;
