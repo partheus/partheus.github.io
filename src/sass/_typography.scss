@@ -499,3 +499,14 @@ blockquote {
 .social-icon {
   max-width: 50px;
 }
+
+.stats-daily {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  // @include gt-sm {
+  //   column-gap: 1em;
+  //   justify-content: space-between;
+  //   grid-template-columns: repeat(2, 45%);
+  // }
+}
