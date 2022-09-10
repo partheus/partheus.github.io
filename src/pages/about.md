@@ -17,9 +17,10 @@ Check out my [writing](/writing), or some of my [art](/art). Or read about my [c
 > <span class="bold600"><a href="/hello">Contact me to say hi</a></span>!
 
 
-<div class="irevamp-h5 irevamp-mt-lg bold600">Now Playing</div>
+<div class="irevamp-h5 irevamp-mt-lg bold600">Now Playing:</div>
 {% include 'songs.njk' %}
 
+<div class="irevamp-h5 irevamp-mt-sm bold600">Now Reading:</div>
 {% include 'goodreads.html' %}
 
 > Check out the **[/now](/now)** page
