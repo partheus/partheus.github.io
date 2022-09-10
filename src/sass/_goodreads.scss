@@ -2,11 +2,9 @@
 @use "media-queries" as *;
 
 .goodreads {
-    background-color: #312020;
-    margin-bottom: 5vh;
-    border-radius: 10px;
-    padding: 1.75em;
-
+  div, a {
+    font-size: $irevamp-lead-font-size;
+  }
     a {
       color: var(--irevamp-color-secondary-light);
     }
@@ -82,8 +80,18 @@
     font-size: 1.5em;
 
     .gr_custom_title_1662769460 a {
-      color: var(--irevamp-color-background);
-      background: var(--irevamp-color-secondary);
+      color: var(--irevamp-color-secondary);
+      font-size: 1.15;
+      background: none;
+      padding-left: 0.5em;
+      border-left: 8px solid var(--irevamp-color-tertiary);
+      border-bottom: 2px solid transparent;
+      transition: all ease-in-out 0.2s;
+    }
+
+    .gr_custom_title_1662769460 a:hover {
+      color: var(--irevamp-color-tertiary);
+      border-bottom: 2px solid var(--irevamp-color-secondary-light);
     }
 
     .gr_custom_title_1662769460 a::after {
