@@ -4,15 +4,16 @@ description: "Among other things, Parth is a normal person."
 date: 2022-03-10
 ---
 <div class="stats-daily">
-<section>
-<div class="irevamp-h5 irevamp-mb-sm bold600">Now Reading:</div>
-{% include 'goodreads.html' %}
-</section>
+
 <section>
 <div class="irevamp-h5 bold600">Now Playing:</div>
 {% include 'songs.njk' %}
 </section>
 
+<section>
+<div class="irevamp-h5 irevamp-mb-sm bold600">Now Reading:</div>
+{% include 'goodreads.html' %}
+</section>
 
 </div>
 
