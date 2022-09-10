@@ -7,6 +7,12 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const slugify = require("slugify");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const CleanCSS = require("clean-css");
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+};
 
 // Local utilities/data
 const packageVersion = require("./package.json").version;
