@@ -5,11 +5,11 @@
     background-color: #312020;
     margin-bottom: 5vh;
     border-radius: 10px;
-    max-width: 90%;
+    padding: 1em;
     box-shadow: -2px 8px 15px -4px black;
 
     @include gt-sm {
-      max-width: 60%;
+      padding: 3.5em;
     }
 
     a {
@@ -17,32 +17,78 @@
     }
 }
 
-#gr_grid_widget_1647304638 {
+.challengePic > a > img {
+  // max-width: 100%;
+  // width: 3em;
+  display: none;
+}
+
+#gr_challenge_progress_body_11636 {
+  h3 > a {
+    font-size: 0.75em !important;
+    color: var(--irevamp-color-primary);
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+#gr_grid_widget_1662769460 {
     margin-top: 0;
 }
 
-.gr_grid_container {
+.gr_custom_container_1662769460  {
     /* customize grid container div here. eg: width: 500px; */
-    padding: 0 1em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 2em;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     transition: all ease-in-out 0.2s;
     flex-wrap: wrap;
+
+    center {
+      display: none;
+      visibility: none;
+    }
   }
 
-  .gr_grid_book_container {
+  .gr_custom_header_1662769460 {
+    a {
+      background: none;
+      text-decoration: none;
+      border-bottom: none;
+      color: var(--irevamp-color-tertiary);
+    }
+
+    a:hover {
+      color: var(--irevamp-color-secondary);
+    }
+  }
+
+  .gr_custom_each_container_1662769460 {
     /* customize book cover container div here */
-    margin: 1em 0;
     overflow: hidden;
-    display: flex;
     transition: all ease-in-out 0.2s;
     filter: none;
+    margin: 0 auto 0 0;
+    overflow-wrap: break-word;
+    padding: 1em 0;
+    font-size: 1.5em;
 
-    @include gt-sm {
-        padding: 1em;
+    .gr_custom_title_1662769460 a {
+      color: var(--irevamp-color-background);
+      background: var(--irevamp-color-secondary);
+    }
+
+    .gr_custom_title_1662769460 a::after {
+      content: "‎ ⟴";
+      display: inline-block;
+      background: none !important;
+    }
+
+    .gr_custom_author_1662769460 a {
+      color: var(--irevamp-color-primary);
+      background: none;
     }
   }
 
