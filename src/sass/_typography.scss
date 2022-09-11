@@ -63,6 +63,19 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   height: 351px;
 }
 
+.hello-img {
+  transform: rotate(0deg);
+  filter: hue-rotate(0deg);
+  transition: all cubic-bezier(0,.63,.69,.12) 0.5s;
+
+}
+
+.hello-img:hover {
+  transform: rotate(100deg);
+  filter: hue-rotate(244deg);
+  transition: all cubic-bezier(0,.63,.69,.12) 0.5s;
+}
+
 .hello-bush {
   height: 35rem;
   z-index: 3;

@@ -122,8 +122,9 @@ $irevamp-alignments: left, center, right !default;
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
-}
+  background-color: var(--irevamp-color-tertiary);
+  opacity: 0.6; // delete this
+ }
 
 input:checked + .slider:before {
   transform: translateX(26px);
