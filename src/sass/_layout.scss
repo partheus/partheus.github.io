@@ -28,7 +28,7 @@ footer {
 }
 
 article {
-  max-width: 100ch;
+  max-width: 120ch;
 
   > img {
     margin-right: auto;
@@ -128,7 +128,6 @@ ul.irevamp-column-container {
 hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid var(--irevamp-color-secondary);
   opacity: 0.6;
   width: 100%;
 }
