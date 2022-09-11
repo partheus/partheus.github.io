@@ -86,16 +86,12 @@
 }
 
 .crane {
-  max-height: 20vh;
+  max-height: 30vh;
   transition: all 1s ease;
   filter: hue-rotate(0);
 
   @include gt-xs {
-    max-height: 30vh;
-  }
-
-  @include gt-sm {
-    max-height: 50vh;
+    max-height: 40vh;
   }
 }
 
