@@ -11,11 +11,19 @@ $hover-font-bg: #3d052f81 !default;
 $hover-font: var(--irevamp-color-background);
 
 // work on this
-html[data-theme='light'] {
+html[data-theme='gemstone'] {
   --irevamp-color-primary: #170808;
   --irevamp-color-secondary: #d2006c;
   --irevamp-color-secondary-light: #EB89BC;
   --irevamp-color-background: #fff2e5;
+  --irevamp-color-accessibility: var(--irevamp-color-primary);
+}
+
+html[data-theme='light'] {
+  --irevamp-color-primary: #ffffff;
+  --irevamp-color-secondary: #fa2d2d;
+  --irevamp-color-secondary-light: #680505;
+  --irevamp-color-background: #03142e;
   --irevamp-color-accessibility: var(--irevamp-color-primary);
 }
 
