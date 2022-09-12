@@ -12,7 +12,7 @@ description: "Secret page. Welcome."
 </div>   
 
 
-> This week's alternate theme: ~ s t r a w b e r r y ~
+> This week's alternate theme: ~ g e m s t o n e ~
 
 <div style="text-align: center;">
 
