@@ -46,7 +46,7 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-img {
-  max-width: 45ch;
+  max-width: 35ch;
   margin-top: 3em;
   margin-left: 0;
 
@@ -54,7 +54,7 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   @include gt-sm {
     margin-left: 3em;
     margin-top: 0;
-    max-width: 50ch;
+    max-width: 40ch;
   }
 }
 
@@ -64,17 +64,16 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-img {
-  transform: rotate(0deg);
+  transform: rotate(5deg) scaleX(-1);
   filter: hue-rotate(0deg);
   transition: all cubic-bezier(0,.63,.69,.12) 0.5s;
-
 }
 
-// .hello-img:hover {
-//   transform: rotate(100deg);
-//   filter: hue-rotate(244deg);
-//   transition: all cubic-bezier(0,.63,.69,.12) 0.5s;
-// }
+.hello-img:hover {
+  // transform: rotate(100deg);
+  filter: hue-rotate(-180deg);
+  transition: all ease-in-out 0.3s;
+}
 
 .hello-bush {
   height: 35rem;
