@@ -110,6 +110,7 @@
 
 .pagenotfound-button {
   background-color: var(--irevamp-color-primary);
+  color: var(--irevamp-color-secondary);
   outline: none;
   border: 0;
   border-radius: 35px;
@@ -125,6 +126,7 @@
 .pagenotfound-button:hover {
   cursor: pointer;
   background-color: var(--irevamp-color-secondary);
+  color: var(--irevamp-color-primary);
   transition: all ease-in-out 0.2s;
 }
 
