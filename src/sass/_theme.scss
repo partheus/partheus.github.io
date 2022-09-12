@@ -11,11 +11,35 @@ $hover-font-bg: #3d052f81 !default;
 $hover-font: var(--irevamp-color-background);
 
 // work on this
+html[data-theme='gemstone'] {
+  --irevamp-color-primary: #ffffff;
+  --irevamp-color-secondary: #fa2d2d;
+  --irevamp-color-secondary-light: #680505;
+  --irevamp-color-background: #03142e; // gemstone
+  --irevamp-color-accessibility: var(--irevamp-color-primary);
+}
+
 html[data-theme='light'] {
+  --irevamp-color-primary: #912b54;
+  --irevamp-color-secondary: #249c9c;
+  --irevamp-color-secondary-light: #52b1d0;
+  --irevamp-color-background: #fff5f5; // strawberry
+  --irevamp-color-accessibility: var(--irevamp-color-primary);
+}
+
+html[data-theme='jackdaw'] {
+  --irevamp-color-primary: #FF9F29;
+  --irevamp-color-secondary: #FAF3E3;
+  --irevamp-color-secondary-light: #000000;
+  --irevamp-color-background: #01200e; // jackdaw
+  --irevamp-color-accessibility: var(--irevamp-color-primary);
+}
+
+html[data-theme='strawberry'] {
   --irevamp-color-primary: #170808;
   --irevamp-color-secondary: #d2006c;
   --irevamp-color-secondary-light: #EB89BC;
-  --irevamp-color-background: #fff2e5;
+  --irevamp-color-background: #fff2e5; // light
   --irevamp-color-accessibility: var(--irevamp-color-primary);
 }
 
