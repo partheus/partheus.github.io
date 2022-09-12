@@ -4,11 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="eleventy"/>
   <title>
-  Tagged content | Parth Shiralkar</title>
+  How to combat writer&#39;s block | Parth Shiralkar</title>
   <meta
       name="description"
       content="
-  Parth Shiralkar personal website
+  Is a great question to ask yourself every now and then
   "
 />
   <link rel="icon" href="/favicons/favicon.ico"/>
@@ -22,17 +22,17 @@
   <meta
       name="og:title"
       content="
-  Tagged content | Parth Shiralkar"
+  How to combat writer&amp;#39;s block | Parth Shiralkar"
 />
   <meta
       name="og:description"
       content="
-  Parth Shiralkar personal website
+  Is a great question to ask yourself every now and then
   "
 />
-  <meta property="og:image" content="https://parth.ninja/previews/tagged-content
+  <meta property="og:image" content="https://parth.ninja/previews/how-to-combat-writers-block
   .png"/>
-  <meta name="twitter:image" content="https://parth.ninja/previews/tagged-content
+  <meta name="twitter:image" content="https://parth.ninja/previews/how-to-combat-writers-block
   .png"/>
 
   <link
@@ -71,51 +71,80 @@
   <body id="body-main">
     <div>
 
-      <div class="irevamp-hero">
-<h3 style="margin-bottom: 0.6em;" class="bold600">Here are all entries tagged “writing”:</h3>
-</div>
-<main class="irevamp-container">
-<div class="irevamp-mx-auto slide-up">
-    <ul class="irevamp-list-unstyled irevamp-postlist">
-        
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/how-to-combat-writers-block/" class="irevamp-text">How to combat writer&#39;s block</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Sep 12, 2022
-                     • Is a great question to ask yourself every now and then
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/the-second-sword/" class="irevamp-text">The Second Sword</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Jun 23, 2022
-                     • A short story
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/new-book-covers/" class="irevamp-text">New Book Covers</a>
-                <p style="margin-top: 5px" class="irevamp-lead">Jun 5, 2022
-                     • A standardized feel and vibe for my nice little stories.
-                    
-                </p>
-            </li>
-        
-            <li class="irevamp-postlist__content">
-                <a href="/entries/2022/midtown-caper/" class="irevamp-text">The Midtown Caper</a>
-                <p style="margin-top: 5px" class="irevamp-lead">May 21, 2022
-                     • Undisclosed location
-                    
-                </p>
-            </li>
-        
-    </ul>
+      
+<header class="irevamp-hero">
+  <div class="irevamp-container slide-up">
+    <h1 class="irevamp-ink--primary irevamp-mb-none bold600">How to combat writer&#39;s block</h1>
+    <div class="irevamp-text irevamp-ink--secondary irevamp-mt-sm"></div>
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--secondary irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Sep 12, 2022
+      </h5>
+    
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--secondary irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Is a great question to ask yourself every now and then
 
-    <div class="irevamp-h5 irevamp-mt-md bold600">Go back to <a href="/entries">all entries</a>.  Or visit <a href="/writing">the writing section</a> again.</div>
+      
+      <span id="time-to-read"></span></h5>
+
+    <p class="irevamp-lead" style="padding-top: 1em;">Tagged:  
+    
+        
+      
+        
+          <span>
+            <a class="taglist-tag" href="/tags/writing/" aria-label="Entries tagged with writing">
+              <span>
+                writing</span></a>
+          </span>
+        
+      
+    </p>
+  </div>
+</header>
+<main class="irevamp-container slide-up">
+  <article class="irevamp-mx-auto" id="article">
+    <p><strong>I don't actually have the answer to this question at this particular time.</strong></p>
+<p>I am, however, writing again. A new project might make its way onto the award submissions list soon! I miss Tron: Legacy.</p>
+<p>Here's a <a href="https://aeon.co/essays/on-the-moral-virtues-of-mischief-and-mischievous-people">nice little essay on the logistics of hijinks</a>. Enjoy.</p>
+
+    <hr class="menu-hori"/ >
+    <div class="irevamp-container irevamp-mx-auto">
+    <button onclick="history.back()" class="irevamp-mx-auto intro-about bold600 uppercase pagenotfound-button" style="">Go back</button>
 </div>
+  </article>
 </main>
+
+<script>
+  //function use to convert character into words
+  function get_text(el) {
+    ret = "";
+    var length = el.childNodes.length;
+    for (var i = 0; i < length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType != 8) {
+        ret += node.nodeType != 1
+          ? node.nodeValue
+          : get_text(node);
+      }
+    }
+    return ret;
+  }
+  //main body in which all words exist
+  var words = get_text(document.getElementById('article'));
+  var count = words
+    .split(' ')
+    .length;
+  //avg reading speed of person 200 word per minute
+  var avg = 200;
+  var counted = count / avg;
+  var maincount = Math.round(counted)
+  //show output of code
+  document
+    .getElementById("time-to-read")
+    .innerHTML = "⁓ " + maincount + " minute read";
+</script>
 
       <!-- Netlify Identity Widget -->
       
