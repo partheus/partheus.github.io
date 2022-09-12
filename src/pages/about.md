@@ -3,8 +3,6 @@ title: "About"
 description: "Among other things, Parth is a normal person."
 date: 2022-03-10
 ---
-
-
 <div class="irevamp-h5 irevamp-mt-sm bold600">Hi!</div>
 
 I'm a web developer, documentation specialist, business analyst, a few other adjectives and roles, close confidante of the Round Table knights, <a href="/breathe" class="nolink">freelance worldsaver</a>, lentil enthusiast...

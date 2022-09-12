@@ -360,7 +360,7 @@ blockquote {
 }
 
 .works-bg {
-  background-color: #2b2020;
+  background-color: var(--irevamp-color-secondary);
   display: flex;
   flex-direction: column;
   padding: 0.5em;
