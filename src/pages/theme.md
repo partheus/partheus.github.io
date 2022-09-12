@@ -7,7 +7,7 @@ description: "Secret page. Welcome."
 <div style="text-align: center;">
 <div class="theme-switch-wrapper">
     <label class="theme-switch" for="checkbox">
-        <input checked type="checkbox" id="checkbox" alt="Enabled"/>
+        <input type="checkbox" id="checkbox" alt="Enabled"/>
             <div class="slider round"></div>
         </label>
 </div>   
