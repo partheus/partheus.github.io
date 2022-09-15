@@ -1,47 +1,52 @@
 :root, html[data-theme='dark']{
 --irevamp-color-primary: #fff2e5;
---irevamp-color-secondary: #EB89BC;
---irevamp-color-secondary-light: #e23f93;
+--irevamp-color-secondary: #e23f93;
+--irevamp-color-secondary-light: #EB89BC;
 --irevamp-color-background: #170808;
 --irevamp-color-tertiary: #17D696;
---irevamp-color-accessibility: var(--irevamp-color-tertiary);
 }
 
-$hover-font-bg: #3d052f81 !default;
-$hover-font: var(--irevamp-color-background);
+:root {
+  --irevamp-color-accessibility: var(--irevamp-color-tertiary);
+}
 
 // work on this
 html[data-theme='light'] {
-  --irevamp-color-primary: #ffffff;
-  --irevamp-color-secondary: #fa2d2d;
-  --irevamp-color-secondary-light: #680505;
-  --irevamp-color-background: #03142e; // gemstone
-  --irevamp-color-accessibility: var(--irevamp-color-primary);
-}
-
-html[data-theme='strawberry'] {
-  --irevamp-color-primary: #912b54;
-  --irevamp-color-secondary: #249c9c;
-  --irevamp-color-secondary-light: #52b1d0;
-  --irevamp-color-background: #fff5f5; // strawberry
-  --irevamp-color-accessibility: var(--irevamp-color-primary);
-}
-
-html[data-theme='jackdaw'] {
-  --irevamp-color-primary: #FF9F29;
-  --irevamp-color-secondary: #FAF3E3;
-  --irevamp-color-secondary-light: #000000;
-  --irevamp-color-background: #01200e; // jackdaw
-  --irevamp-color-accessibility: var(--irevamp-color-primary);
-}
-
-html[data-theme='gemstone'] {
   --irevamp-color-primary: #170808;
   --irevamp-color-secondary: #d2006c;
   --irevamp-color-secondary-light: #EB89BC;
   --irevamp-color-background: #fff2e5; // light
-  --irevamp-color-accessibility: var(--irevamp-color-primary);
+  --irevamp-color-tertiary: #8918BA;
 }
+
+html[data-theme='gemstone'] {
+  --irevamp-color-primary: #ffffff;
+  --irevamp-color-secondary: #fa2d2d;
+  --irevamp-color-secondary-light: #ff6060;
+  --irevamp-color-background: #03142e; // gemstone
+  --irevamp-color-tertiary: #f1ff85;
+}
+
+html[data-theme='strawberry'] {
+  --irevamp-color-primary: #912b54;
+  --irevamp-color-secondary: #0D2F40;
+  --irevamp-color-secondary-light: #3489b0;
+  --irevamp-color-background: #FFE5FC; // strawberry
+  --irevamp-color-tertiary: #207016;
+}
+
+html[data-theme='jackdaw'] {
+  --irevamp-color-primary: #FF9F29;
+  --irevamp-color-secondary: #19ECBB;
+  --irevamp-color-secondary-light: #AFFFEE;
+  --irevamp-color-background: #01200e; // jackdaw
+  --irevamp-color-tertiary: #FFA7F1;
+}
+
+
+
+$hover-font-bg: #3d052f81 !default;
+$hover-font: var(--irevamp-color-background);
 
 $irevamp-link-color: var(--irevamp-color-primary);
 $irevamp-brand-colors: (
@@ -58,7 +63,7 @@ $irevamp-colors: map-merge(
   (
     "text": var(--irevamp-color-body),
     "background": var(--irevamp-color-background),
-    "light": var(--irevamp-color-secondary-light),
+    "light": rgba(var(--irevamp-color-secondary-light), 50%),
     "dark": rgba(0 0 0 / 87%),
     "gray": $irevamp-color-gray,
   )
