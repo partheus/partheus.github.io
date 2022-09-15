@@ -6,10 +6,12 @@ description: "Secret page. Welcome."
 
 <div class="theme-switch-wrapper">
     <select class="uppercase bold600 theme-switch" name="theme" id="theme-switcher">
-        <option value ="dark">Default</option>
+        <option value="none">Select theme</option>
+        <option value ="dark">Dark (default)</option>
         <option value ="light">Light</option>
         <option value ="gemstone">Gemstone</option>
         <option value ="strawberry">Strawberry</option>
+        <option value ="jackdaw">Jackdaw</option>
     </select> 
     <button class="irevamp-button bold600 uppercase" onclick="switchTheme()">Apply Theme</button>
 </div>   
