@@ -147,21 +147,39 @@ A boy looks for hope in a mystical land. On a faraway moon, a maintenance worker
   </div>
 </footer>
 <script>
-  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
   const currentTheme = localStorage.getItem('theme');
-  if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    if (currentTheme === 'dark') {
-      toggleSwitch.checked = true;
+    if (currentTheme) {
+      document.documentElement.setAttribute('data-theme', currentTheme);
     }
-  }
+
   function switchTheme(e) {
-    if (e.target.checked) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
+    var selectTheme = document.getElementById("theme-switcher").value;
+
+    switch(selectTheme ){
+    case "light":
       document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
+      localStorage.setItem('theme', 'light');    
+      break;
+
+    case "gemstone":
+      document.documentElement.setAttribute('data-theme', 'gemstone');
+      localStorage.setItem('theme', 'gemstone');    
+      break;
+    
+    case "strawberry":
+      document.documentElement.setAttribute('data-theme', 'strawberry');
+      localStorage.setItem('theme', 'strawberry');    
+      break;
+  
+    case "jackdaw":
+      document.documentElement.setAttribute('data-theme', 'jackdaw');
+      localStorage.setItem('theme', 'jackdaw');    
+      break;
+    
+    default:
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');        
+      break;              
     }
   }
   toggleSwitch.addEventListener('change', switchTheme, false);

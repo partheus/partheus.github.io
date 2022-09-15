@@ -79,7 +79,7 @@
   Most of my personal and professional time is spent doing things to <a class="nolink" href="https://www.youtube.com/watch?v=huHV8aW37ZM" target="_blank" tabindex="-1">
         <span class="tronafterhidden"></span></a>.
   </p>
-<p>I <a href="/writing">write</a>, <a href="https://www.goodreads.com/user_challenges/31527237" target="_blank">read</a>, <a class="" href="/art">make art</a>, and <a href="/climbing">climb</a>. There's also other <a class="" href="/about">cool stuff</a>.</p>
+<p>I <a href="/writing">write</a>, <a href="https://www.goodreads.com/user/year_in_books/2022/60162168" target="_blank">read</a>, <a class="" href="/art">make art</a>, and <a href="/climbing">climb</a>. There's also other <a class="" href="/about">cool stuff</a>.</p>
 </div>
 <div class="hello-img">
   <a class="nolink" href="/theme">
@@ -120,21 +120,39 @@
   </div>
 </footer>
 <script>
-  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
   const currentTheme = localStorage.getItem('theme');
-  if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    if (currentTheme === 'dark') {
-      toggleSwitch.checked = true;
+    if (currentTheme) {
+      document.documentElement.setAttribute('data-theme', currentTheme);
     }
-  }
+
   function switchTheme(e) {
-    if (e.target.checked) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
+    var selectTheme = document.getElementById("theme-switcher").value;
+
+    switch(selectTheme ){
+    case "light":
       document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
+      localStorage.setItem('theme', 'light');    
+      break;
+
+    case "gemstone":
+      document.documentElement.setAttribute('data-theme', 'gemstone');
+      localStorage.setItem('theme', 'gemstone');    
+      break;
+    
+    case "strawberry":
+      document.documentElement.setAttribute('data-theme', 'strawberry');
+      localStorage.setItem('theme', 'strawberry');    
+      break;
+  
+    case "jackdaw":
+      document.documentElement.setAttribute('data-theme', 'jackdaw');
+      localStorage.setItem('theme', 'jackdaw');    
+      break;
+    
+    default:
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');        
+      break;              
     }
   }
   toggleSwitch.addEventListener('change', switchTheme, false);
