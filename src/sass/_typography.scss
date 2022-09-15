@@ -64,13 +64,11 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-img {
-  transform: rotate(5deg) scaleX(-1);
   filter: hue-rotate(0deg);
   transition: all cubic-bezier(0,.63,.69,.12) 0.5s;
 }
 
 .hello-img:hover {
-  // transform: rotate(100deg);
   filter: hue-rotate(-108deg);
   transition: all ease-in-out 0.3s;
 }
@@ -229,7 +227,7 @@ a:not(.irevamp-button) {
 code:not([class*="language"]) {
   display: inline-flex;
   padding: 0.25em;
-  background-color: irevamp-color("secondary");
+  background-color: irevamp-color("secondary-light");
   color: irevamp-color("dark");
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   border: 1px solid var(--irevamp-color-secondary-light);
@@ -360,7 +358,7 @@ blockquote {
 }
 
 .works-bg {
-  background-color: #2b2020;
+  background-color: var(--irevamp-color-secondary);
   display: flex;
   flex-direction: column;
   padding: 0.5em;

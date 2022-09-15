@@ -82,10 +82,15 @@ $irevamp-alignments: left, center, right !default;
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: center;
 
-  em {
-    margin-left: 10px;
+  select {
     font-size: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    margin-right: 2em;
   }
 }
 .theme-switch {

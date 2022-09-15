@@ -21,7 +21,7 @@ collections:
 # First Collection
   - label: "Entries" 
     name: "entry"
-    folder: "src/entries/" # Where the new posts should be saved to
+    folder: "src/entries/2022" # Where the new posts should be saved to
     create: true # This allows you to create new instances in the CMS
     editor:
       preview: false

@@ -8,24 +8,13 @@ const slugify = require("slugify");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const CleanCSS = require("clean-css");
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
-};
 
 // Local utilities/data
 const packageVersion = require("./package.json").version;
-
-
 const { DateTime } = require("luxon");
 
 const fs = require("fs");
 const NOT_FOUND_PATH = "public/404.html";
-
-module.exports = function(eleventyConfig) {
-  
-};
 
 
 
@@ -44,6 +33,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/admin");
   eleventyConfig.addPassthroughCopy("CNAME");
 
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["entry", "nav", "post", "posts", "pages"].indexOf(tag) === -1);

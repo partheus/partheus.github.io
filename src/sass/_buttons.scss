@@ -11,7 +11,7 @@
   padding: 0.25em 1em;
   transition: 180ms ease-in-out;
   transition-property: background, border;
-  border-radius: math.div($irevamp-border-radius, 2);
+  border-radius: 35px;
   background-color: irevamp-color("primary");
   color: var(--irevamp-color-background);
   font-size: 1.125rem;
