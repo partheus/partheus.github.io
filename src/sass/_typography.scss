@@ -431,8 +431,9 @@ blockquote {
 .swatch {
   position: relative;
   width: 100%;
-  padding: 0.25em;
   align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .swatch-box {
@@ -441,35 +442,49 @@ blockquote {
   color: black;
   display: flex;
   flex-direction: column;
-  padding: 0.75em;
+  padding: 1.125em;
   font-size: $irevamp-text-font-size;
   align-items: center;
   font-weight: 400;
   text-transform: lowercase;
-  width: 65%;
+  width: 100%;
   align-self: center;
+
+  @include gt-sm {
+    padding: 1.5em;
+    width: 35%;
+  }
+}
+
+.swatch-name {
+  width: 50%;
 }
 
 .background-bg {
   color: var(--irevamp-color-primary);
   background-color: var(--irevamp-color-background);
+  width: 100%;
 }
 
 .primary-bg {
   background-color: var(--irevamp-color-primary);
   color: var(--irevamp-color-background);
+  width: 100%;
 }
 
 .secondary-bg {
   background-color: var(--irevamp-color-secondary);
+  width: 100%;
 }
 
 .secondary-light-bg {
   background-color: var(--irevamp-color-secondary-light);
+  width: 100%;
 }
 
 .tertiary-bg {
   background-color: var(--irevamp-color-tertiary);
+  width: 100%;
 }
 
 .lilac-bg {
