@@ -112,3 +112,11 @@
     outline: 2px dashed var(--irevamp-color-secondary-light);
     transition: all ease-in-out 0.2s;
   }
+
+
+  .gr_grid_book_container {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin: 1em auto;
+  }
