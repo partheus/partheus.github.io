@@ -219,6 +219,10 @@ strong {
   }
 }
 
+.underlined {
+  text-decoration: underline;
+}
+
 a:not(.irevamp-button) {
   color: $irevamp-link-color;
   width: fit-content;
@@ -358,7 +362,7 @@ blockquote {
 }
 
 .works-bg {
-  background-color: var(--irevamp-color-secondary);
+  background-color: var(--irevamp-color-background);
   display: flex;
   flex-direction: column;
   padding: 0.5em;
@@ -384,15 +388,13 @@ blockquote {
   transition: background-color 0.3s ease-in-out;
 
   @include gt-sm {
-    padding: 1em;
+    padding: 3em;
     align-items: flex-start;
     flex-direction: row;
   }
 }
 
 .works-cover {
-  -webkit-box-shadow: -2px 8px 15px -4px var(--irevamp-color-background);
-  box-shadow: -2px 8px 15px -4px var(--irevamp-color-background);
   transition: all 0.3s ease-in-out;
   background-color: bisque;
 
@@ -402,13 +404,13 @@ blockquote {
   }
 
   @include gt-sm {
-    height: 15em;
+    height: 35em;
   }
 }
 
 .works-item:hover {
   cursor: pointer;
-  background-color: rgb(221, 221, 201);
+  background-color: var(--irevamp-color-primary);
   transition: background-color 0.2s ease-in-out;
   .works-about {
     color: var(--irevamp-color-background);
@@ -417,14 +419,12 @@ blockquote {
 
 .works-about {
   color: var(--irevamp-color-primary);
-  font-size: $irevamp-lead-font-size;
+  font-size: $irevamp-text-font-size;
   font-weight: 400;
-
-  margin-top: 1em;
+  margin: auto;
 
   @include gt-sm {
-    padding-left: 1em;
-    margin-top: 0;
+    padding-left: 3em;
   }
 }
 
