@@ -28,7 +28,7 @@ footer {
 }
 
 article {
-  max-width: 120ch;
+  max-width: 90ch;
 
   > img {
     margin-right: auto;
@@ -59,7 +59,7 @@ article {
   grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
 
   &--two {
-    @include gt-sm {
+    @include md {
         grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
     }
   }

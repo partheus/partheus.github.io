@@ -41,7 +41,7 @@
   &__container {
     justify-content: space-between;
     width: 100%;
-    max-width: 150ch;
+    max-width: 120ch;
     margin: 0 auto;
     padding: 2rem 0;
     flex-direction: row;
@@ -52,7 +52,7 @@
     }
 
     @include gt-lg {
-      max-width: 180ch;
+      max-width: 130ch;
     }
   }
 
