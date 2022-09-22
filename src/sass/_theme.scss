@@ -11,7 +11,7 @@
 }
 
 // work on this
-html[data-theme='light'] {
+:root, html[data-theme='light'] {
   --irevamp-color-primary: #170808;
   --irevamp-color-secondary: #d2006c;
   --irevamp-color-secondary-light: #EB89BC;
@@ -19,7 +19,7 @@ html[data-theme='light'] {
   --irevamp-color-tertiary: #8918BA;
 }
 
-html[data-theme='gemstone'] {
+:root, html[data-theme='gemstone'] {
   --irevamp-color-primary: #ffffff;
   --irevamp-color-secondary: #fa2d2d;
   --irevamp-color-secondary-light: #ff6060;
@@ -27,7 +27,7 @@ html[data-theme='gemstone'] {
   --irevamp-color-tertiary: #f1ff85;
 }
 
-html[data-theme='strawberry'] {
+:root, html[data-theme='strawberry'] {
   --irevamp-color-primary: #912b54;
   --irevamp-color-secondary: #0D2F40;
   --irevamp-color-secondary-light: #3489b0;
@@ -35,7 +35,7 @@ html[data-theme='strawberry'] {
   --irevamp-color-tertiary: #207016;
 }
 
-html[data-theme='jackdaw'] {
+:root, html[data-theme='jackdaw'] {
   --irevamp-color-primary: #FF9F29;
   --irevamp-color-secondary: #19ECBB;
   --irevamp-color-secondary-light: #AFFFEE;
