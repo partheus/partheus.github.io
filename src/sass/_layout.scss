@@ -28,7 +28,7 @@ footer {
 }
 
 article {
-  max-width: 120ch;
+  max-width: 90ch;
 
   > img {
     margin-right: auto;
@@ -59,7 +59,7 @@ article {
   grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
 
   &--two {
-    @include gt-sm {
+    @include md {
         grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
     }
   }
@@ -94,8 +94,8 @@ ul.irevamp-column-container {
   text-align: center;
 
   @include gt-sm {
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
   }
 }
 

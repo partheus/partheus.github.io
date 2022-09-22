@@ -96,6 +96,12 @@ $screen-xxs-max: 425px;
 }
 
 // media gt queries
+@mixin gt-xxs {
+  @media screen and (min-width: #{$screen-xxs-min}) {
+    @content;
+  }
+}
+
 @mixin gt-xs {
   @media screen and (min-width: #{$screen-sm-min}) {
     @content;
