@@ -6,11 +6,10 @@ description: "Secret page. Welcome."
 
 <div class="theme-switch-wrapper">
     <select class="uppercase bold600 theme-switch" name="theme" id="theme-switcher">
-        <option value="none">Current: ~<script>document.write(localStorage.getItem('theme'));</script>~</option>
-        <option value ="dark">Dark (default)</option>
-        <option value ="light">Light</option>
+        <option value="none">Current: <script>document.write(localStorage.getItem('theme'));</script></option>
+        <option value ="noir">Noir (default)</option>
         <option value ="gemstone">Gemstone</option>
-        <option value ="strawberry">Strawberry</option>
+        <option value ="maroon">Maroon</option>
         <option value ="jackdaw">Jackdaw</option>
     </select> 
 </div>   
