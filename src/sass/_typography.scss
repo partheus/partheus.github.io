@@ -353,39 +353,38 @@ blockquote {
 
 .music-recco-title a {
   color: var(--irevamp-color-secondary);
-  text-decoration: underline;
+  background: var(--irevamp-color-background);
+  transition: all ease-in-out 0.3s;
   font-weight: 600;
 }
 
 .music-recco-title a:hover {
-  color: var(--irevamp-color-secondary);
+  color: var(--irevamp-color-primary);
+  background: var(--irevamp-color-secondary);
+  transition: all ease-in-out 0.3s;
 }
 
 .works-bg {
   background-color: var(--irevamp-color-background);
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
   justify-items: center;
   border-radius: 5px;
   align-items: center;
   row-gap: 3em;
-
-  @include gt-sm {
-    padding: 3em;
-  }
 }
 
 .works-item a {
   border: 3px dashed var(--irevamp-color-secondary-light);
   border-radius: 2px;
-  padding: 1.75em;
+  padding: 1.15em;
   background-color: var(--irevamp-color-background);
   background: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
 
   @include gt-sm {
     padding: 3em;
@@ -397,11 +396,7 @@ blockquote {
 .works-cover {
   transition: all 0.3s ease-in-out;
   background-color: bisque;
-
-  @include lt-md {
-    max-width: 65%;
-    justify-self: center;
-  }
+  height: 20em;
 
   @include gt-sm {
     height: 35em;
@@ -422,9 +417,12 @@ blockquote {
   font-size: $irevamp-text-font-size;
   font-weight: 400;
   margin: auto;
+  padding-top: 2em;
+  margin-top: 0;
 
   @include gt-sm {
-    padding-left: 3em;
+    padding-left: 2em;
+    padding-top: 0;
   }
 }
 
