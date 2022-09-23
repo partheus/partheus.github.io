@@ -352,16 +352,8 @@ blockquote {
 }
 
 .music-recco-title a {
-  color: var(--irevamp-color-secondary);
-  background: var(--irevamp-color-background);
-  transition: all ease-in-out 0.3s;
-  font-weight: 600;
-}
-
-.music-recco-title a:hover {
-  color: var(--irevamp-color-primary);
-  background: var(--irevamp-color-secondary);
-  transition: all ease-in-out 0.3s;
+  color: var(--irevamp-color-tertiary);
+  line-height: 1.5;
 }
 
 .works-bg {
