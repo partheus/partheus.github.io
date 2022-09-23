@@ -19,12 +19,12 @@ Check out my [writing](/writing), or some of my [art](/art). Or read about my [c
 <div class="stats-daily irevamp-mt-md">
 
 <!-- <section> -->
-<div class="irevamp-h5 bold600">Now Playing:</div>
+<div class="irevamp-ink--secondary-light irevamp-h5 bold600">Now Playing:</div>
 {% include 'songs.njk' %}
 <!-- </section> -->
 
 <!-- <section> -->
-<div class="irevamp-h5 irevamp-mb-sm bold600">Now Reading:</div>
+<div class="irevamp-ink--secondary-light irevamp-h5 irevamp-mb-sm bold600">Now Reading:</div>
 {% include 'goodreads.html' %}
 <!-- </section> -->
 
