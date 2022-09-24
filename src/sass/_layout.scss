@@ -9,7 +9,11 @@ body {
   background-color: irevamp-color("background");
   color: var(--irevamp-color-primary);
   font-family: $irevamp-font-family-primary;
-  padding: 0 2rem;
+  padding: 0 1.25rem;
+
+  @include gt-xs {
+    padding: 0 3rem;
+  }
 
   @include gt-sm {
     padding: 0 4rem;

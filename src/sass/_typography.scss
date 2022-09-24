@@ -46,10 +46,10 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
 }
 
 .hello-img {
-  max-width: 35ch;
+  max-width: 25ch;
   margin-top: 3em;
-  margin-left: 0;
-
+  margin-left: auto;
+  margin-right: auto;
 
   @include gt-sm {
     margin-left: 3em;
