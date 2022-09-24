@@ -52,10 +52,6 @@
     flex-direction: row;
     align-items: center;
 
-    @include gt-md {
-      padding: 3rem 0.5rem;
-    }
-
     @include gt-lg {
       max-width: 130ch;
     }

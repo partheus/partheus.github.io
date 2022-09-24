@@ -450,9 +450,9 @@ blockquote {
   width: 80%;
   align-self: center;
 
-  @include gt-sm {
+  @include gt-md {
     padding: 1.5em;
-    width: 35%;
+    width: 45%;
   }
 }
 

@@ -1,47 +1,44 @@
-:root, html[data-theme='noir']{
+:root, html {
 --irevamp-color-primary: #fff2e5;
 --irevamp-color-secondary: #e23f93;
 --irevamp-color-secondary-light: #EB89BC;
---irevamp-color-background: #170808; // the default dark
+--irevamp-color-background: #170808; // the default dark noir
 --irevamp-color-tertiary: #17D696;
 }
 
 // work on this
 
-html[data-theme='jackdaw'] {
-  --irevamp-color-primary: #ffcb8c;
-  --irevamp-color-secondary: #fc4c12;
-  --irevamp-color-secondary-light: #fc7c7c;
-  --irevamp-color-background: #00170a; // jackdaw
-  --irevamp-color-tertiary: #1bd69e;
-}
+// html[data-theme='jackdaw'] {
+//   --irevamp-color-primary: #ffcb8c;
+//   --irevamp-color-secondary: #fc4c12;
+//   --irevamp-color-secondary-light: #fc7c7c;
+//   --irevamp-color-background: #00170a; // jackdaw
+//   --irevamp-color-tertiary: #1bd69e;
+// }
 
-html[data-theme='maroon'] {
-  --irevamp-color-primary: #fdd2f2;
-  --irevamp-color-secondary: #009dff;
-  --irevamp-color-secondary-light: #57b5f8;
-  --irevamp-color-background: #44002f; // strawberry
-  --irevamp-color-tertiary: #FF9904;
-}
+// html[data-theme='maroon'] {
+//   --irevamp-color-primary: #fdd2f2;
+//   --irevamp-color-secondary: #009dff;
+//   --irevamp-color-secondary-light: #57b5f8;
+//   --irevamp-color-background: #44002f; // strawberry
+//   --irevamp-color-tertiary: #FF9904;
+// }
 
-html[data-theme='light'] {
-  --irevamp-color-primary: #170808;
-  --irevamp-color-secondary: #d2006c;
-  --irevamp-color-secondary-light: #EB89BC;
-  --irevamp-color-background: #fff2e5; // light
-  --irevamp-color-tertiary: #8918BA;
-}
+// html[data-theme='light'] {
+//   --irevamp-color-primary: #170808;
+//   --irevamp-color-secondary: #d2006c;
+//   --irevamp-color-secondary-light: #EB89BC;
+//   --irevamp-color-background: #fff2e5; // light
+//   --irevamp-color-tertiary: #8918BA;
+// }
 
-html[data-theme='gemstone'] {
-  --irevamp-color-primary: #ffffff;
-  --irevamp-color-secondary: #fa2d2d;
-  --irevamp-color-secondary-light: #ff6060;
-  --irevamp-color-background: #03142e; // gemstone
-  --irevamp-color-tertiary: #f1ff85;
-}
-
-
-
+// html[data-theme='gemstone'] {
+//   --irevamp-color-primary: #ffffff;
+//   --irevamp-color-secondary: #fa2d2d;
+//   --irevamp-color-secondary-light: #ff6060;
+//   --irevamp-color-background: #03142e; // gemstone
+//   --irevamp-color-tertiary: #f1ff85;
+// }
 
 :root {
   --irevamp-color-accessibility: var(--irevamp-color-tertiary);
