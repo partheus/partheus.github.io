@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme=''><head>
+<html lang="en"><head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="eleventy"/>
@@ -10,15 +10,21 @@
       content="
   Tools and kits and tips and tricks
   "
-/>
-  <link rel="icon" href="/favicons/favicon.ico"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/favicons/site.webmanifest">
-  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  />
 
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" as="font" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/manifest.json?v=2" crossorigin="use-credentials">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=2" color="#170808">
+  <link rel="shortcut icon" href="/favicon.ico?v=2">
+  <meta name="apple-mobile-web-app-title" content="Parth Shiralkar">
+  <meta name="application-name" content="Parth Shiralkar">
+  <meta name="msapplication-TileColor" content="#170808">
+  <meta name="theme-color" content="#170808">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" as="font" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" />
 
   <link href="/css/style.css" rel="stylesheet"/>
   <meta
@@ -145,41 +151,4 @@
     </ul>
   </div>
 </footer>
-<script>
-  const currentTheme = localStorage.getItem('theme');
-    if (currentTheme) {
-      document.documentElement.setAttribute('data-theme', currentTheme);
-    }
-
-    else {
-      document.documentElement.setAttribute('data-theme', 'noir');
-    }
-
-  function switchTheme(e) {
-    var selectTheme = document.getElementById("theme-switcher").value;
-
-    switch(selectTheme ) {
-
-    case "gemstone":
-      document.documentElement.setAttribute('data-theme', 'gemstone');
-      localStorage.setItem('theme', 'gemstone');    
-      break;
-    
-    case "maroon":
-      document.documentElement.setAttribute('data-theme', 'maroon');
-      localStorage.setItem('theme', 'maroon');    
-      break;
-  
-    case "jackdaw":
-      document.documentElement.setAttribute('data-theme', 'jackdaw');
-      localStorage.setItem('theme', 'jackdaw');    
-      break;
-    
-    default:
-      document.documentElement.setAttribute('data-theme', 'noir');
-      localStorage.setItem('theme', 'noir');        
-      break;              
-    }
-  }
-</script>
 </html>
