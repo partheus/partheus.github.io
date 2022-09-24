@@ -13,14 +13,13 @@ a {
   background-size: 1px 3px;
   color: #ededed;
   text-decoration: none;
-  transition: background-size ease-in-out 0.3s;
+  transition: background-size ease-in-out 0.3s, color ease-in-out 0.3s;
 }
 
 a:hover {
   color: $hover-font;
   background-size: 4px 50px;
-  transition: all ease-in-out 0.4s;
-  transition: background-size ease-in-out 0.3s;
+  transition: background-size ease-in-out 0.3s, color ease-in-out 0.3s;
 }
 
 .nolink {

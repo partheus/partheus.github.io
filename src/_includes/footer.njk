@@ -44,20 +44,16 @@
   function switchTheme(e) {
     var selectTheme = document.getElementById("theme-switcher").value;
 
-    switch(selectTheme ){
-    case "light":
-      document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');    
-      break;
+    switch(selectTheme ) {
 
     case "gemstone":
       document.documentElement.setAttribute('data-theme', 'gemstone');
       localStorage.setItem('theme', 'gemstone');    
       break;
     
-    case "strawberry":
-      document.documentElement.setAttribute('data-theme', 'strawberry');
-      localStorage.setItem('theme', 'strawberry');    
+    case "maroon":
+      document.documentElement.setAttribute('data-theme', 'maroon');
+      localStorage.setItem('theme', 'maroon');    
       break;
   
     case "jackdaw":
@@ -66,8 +62,8 @@
       break;
     
     default:
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');        
+      document.documentElement.setAttribute('data-theme', 'noir');
+      localStorage.setItem('theme', 'noir');        
       break;              
     }
   }

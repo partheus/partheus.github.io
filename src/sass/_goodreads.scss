@@ -12,6 +12,8 @@
     p {
       display: none;
     }
+
+    max-width: 80ch;
 }
 
 .challengePic > a > img {
@@ -94,7 +96,7 @@
     }
 
     .gr_custom_title_1662769460 a::after {
-      content: "‎ ⟴";
+      content: "‎ ↗";
       display: inline-block;
       background: none !important;
     }
@@ -103,6 +105,13 @@
       color: var(--irevamp-color-primary);
       font-weight: bold;
       background: none;
+      font-size: $irevamp-text-font-size;
+      transition: color ease-in-out 0.3s;
+    }
+
+    .gr_custom_author_1662769460 a:hover {
+      color: var(--irevamp-color-tertiary);
+      transition: color ease-in-out 0.3s;
     }
   }
 
