@@ -9,9 +9,13 @@ body {
   background-color: irevamp-color("background");
   color: var(--irevamp-color-primary);
   font-family: $irevamp-font-family-primary;
-  padding: 0 2rem;
+  padding: 0 1.25rem;
 
   @include gt-sm {
+    padding: 0 3rem;
+  }
+
+  @include gt-md {
     padding: 0 4rem;
   }
 }
@@ -56,12 +60,26 @@ article {
 .irevamp-column-container {
   display: grid;
   grid-gap: 3em;
-  grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
+  grid-template-columns: repeat(1fr);
 
   &--two {
-    @include md {
-        grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
+    grid-template-columns: 1fr;
+
+    @include gt-md {
+        grid-template-columns: 1fr 1fr;
     }
+  }
+
+  &--three {
+    grid-template-columns: 1fr;
+
+    @include gt-md {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include gt-lg {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
   }
 }
 
@@ -89,13 +107,13 @@ ul.irevamp-column-container {
   display: grid;
   min-height: 25vh;
   place-content: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   text-align: center;
 
   @include gt-sm {
-    padding-top: 7.5vh;
-    padding-bottom: 7.5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
 }
 

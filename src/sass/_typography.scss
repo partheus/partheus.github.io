@@ -29,38 +29,44 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   align-items: center;
   justify-content: center;
 
-  @include lt-sm {
-    padding: inherit 0;
-  }
 
-  @include gt-sm {
+  @include gt-lg {
     flex-direction: row;
   }
 }
 
 .hello-text {
   text-align: left;
-  @include gt-sm {
+  @include gt-lg {
     width: 45%;
   }
 }
 
-.hello-img {
-  max-width: 35ch;
-  margin-top: 3em;
-  margin-left: 0;
+.sun-pink {
+  width: 25ch;
+  height: 25ch;
 
-
-  @include gt-sm {
-    margin-left: 3em;
-    margin-top: 0;
-    max-width: 40ch;
+  @include gt-md {
+    width: 45ch;
+    height: 45ch;
   }
 }
 
-.hello-img>img {
-  width: 351px;
-  height: 351px;
+.hello-img {
+  max-width: 25ch;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include gt-md {
+    max-width: 40ch;
+  }
+
+  @include gt-lg {
+    margin-left: 3em;
+    margin-top: 0;
+    margin-right: 0;
+  }
 }
 
 .hello-img {
@@ -99,11 +105,11 @@ h1,
   font-size: $irevamp-h1-font-size;
   // font-size: unquote("min(max(3rem, 5vw), #{$irevamp-h1-font-size})");
 
-  @include gt-sm {
+  @include gt-md {
     font-size: 58px;
   }
 
-  @include gt-md {
+  @include gt-lg {
     font-size: 68px;
   }
 }
@@ -112,11 +118,11 @@ h2,
 .irevamp-h2 {
   font-size: $irevamp-h2-font-size;
 
-  @include gt-sm {
+  @include gt-md {
     font-size: 48px;
   }
 
-  @include gt-md {
+  @include gt-lg {
     font-size: 58px;
   }
 }
@@ -125,10 +131,10 @@ h3,
 .irevamp-h3 {
   font-size: $irevamp-h3-font-size;
 
-  @include gt-sm {
+  @include gt-md {
     font-size: 42px;
   }
-  @include gt-md {
+  @include gt-lg {
     font-size: 50px;
   }
 }
@@ -136,10 +142,10 @@ h3,
 h4,
 .irevamp-h4 {
   font-size: $irevamp-h4-font-size;
-  @include gt-sm {
+  @include gt-md {
     font-size: 38px;
   }
-  @include gt-md {
+  @include gt-lg {
     font-size: 42px;
   }
 }
@@ -148,10 +154,10 @@ h5,
 .irevamp-h5 {
   font-size: $irevamp-h5-font-size;
   font-weight: normal;
-  @include gt-sm {
+  @include gt-md {
     font-size: 33px;
   }
-  @include gt-md {
+  @include gt-lg {
     font-size: 36px;
   }
 }
@@ -342,6 +348,7 @@ blockquote {
 
 .music-recco-icon {
   height: 54px;
+
   @include gt-sm {
     height: 72px;
   }
@@ -352,42 +359,33 @@ blockquote {
 }
 
 .music-recco-title a {
-  color: var(--irevamp-color-secondary);
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-.music-recco-title a:hover {
-  color: var(--irevamp-color-secondary);
+  color: var(--irevamp-color-tertiary);
+  line-height: 1.5;
 }
 
 .works-bg {
   background-color: var(--irevamp-color-background);
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
   justify-items: center;
   border-radius: 5px;
   align-items: center;
   row-gap: 3em;
-
-  @include gt-sm {
-    padding: 3em;
-  }
 }
 
 .works-item a {
   border: 3px dashed var(--irevamp-color-secondary-light);
   border-radius: 2px;
-  padding: 1.75em;
+  padding: 1.15em;
   background-color: var(--irevamp-color-background);
   background: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
 
-  @include gt-sm {
+  @include gt-lg {
     padding: 3em;
     align-items: flex-start;
     flex-direction: row;
@@ -397,13 +395,9 @@ blockquote {
 .works-cover {
   transition: all 0.3s ease-in-out;
   background-color: bisque;
+  height: 20em;
 
-  @include lt-md {
-    max-width: 65%;
-    justify-self: center;
-  }
-
-  @include gt-sm {
+  @include gt-md {
     height: 35em;
   }
 }
@@ -422,9 +416,15 @@ blockquote {
   font-size: $irevamp-text-font-size;
   font-weight: 400;
   margin: auto;
+  padding-top: 2em;
+  margin-top: 0;
 
-  @include gt-sm {
-    padding-left: 3em;
+  @include gt-md {
+    padding-left: 2em;
+  }
+
+  @include gt-lg {
+    padding-top: 0;
   }
 }
 

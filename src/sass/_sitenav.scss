@@ -8,11 +8,16 @@
 }
 
 .headerhome {
-  max-width: 50px;
-  width: 50px;
+  width: 60px;
+  height: 60px;
+  max-width: 40px;
   position: relative;
   transition: all 0.3s ease-in-out;
   filter: hue-rotate(0deg);
+
+  @include gt-sm {
+    max-width: 60px;
+  }
 }
 
 .headerhome:hover {
@@ -21,7 +26,7 @@
 }
 
 .homeclass {
-  @include lt-sm {
+  @include lt-md {
     display: none;
     visibility: hidden;
   }
@@ -47,8 +52,8 @@
     flex-direction: row;
     align-items: center;
 
-    @include gt-sm {
-      padding: 2rem 0.5rem;
+    @include gt-md {
+      padding: 3rem 0.5rem;
     }
 
     @include gt-lg {
@@ -72,16 +77,17 @@
       letter-spacing: 0;
       font-weight: 400;
 
-      @include gt-xs {
+      @include gt-sm {
         font-size: $irevamp-text-font-size;
       }
 
-      @include gt-sm {
+      @include gt-md {
         font-size: $irevamp-lead-font-size;
       }
     }
   }
 }
+
 .irevamp-sitenav__footer {
   @include lt-md {
     justify-content: right;

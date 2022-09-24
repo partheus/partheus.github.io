@@ -7,9 +7,9 @@ layout: base.njk
   <div class="irevamp-container slide-up">
     <h1 class="irevamp-ink--primary irevamp-mb-none bold600"><a name="{{title}}" class="nolink" href="{{page.url}}">{{ title }}</a></h1>
     {% if description %}
-    <h5 class="irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
+    <div class="h5 irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
      {{ description | safe }}
-    </h5>
+    </div>
     {% endif %}
   </div>
 </header>
