@@ -72,8 +72,8 @@ var fun = function lang(l) {
 
 <br>
 <div class="irevamp-section slide-up">
-    <h5>Test 3-Up Cards:</h5>
-    <ul class="irevamp-column-container">
+    <h2>Test 3-Up Cards:</h2>
+    <ul class="irevamp-column-container irevamp-column-container--three">
       <li class="irevamp-card">
         <div class="irevamp-card__content">
           <a href="#" class="irevamp-card__title bold600">Test Title</a>
