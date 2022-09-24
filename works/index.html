@@ -18,6 +18,8 @@
   <link rel="manifest" href="/favicons/site.webmanifest">
   <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" as="font" crossorigin>
+
   <link href="/css/style.css" rel="stylesheet"/>
   <meta
       name="og:title"
@@ -77,9 +79,9 @@
   <div class="irevamp-container slide-up">
     <h1 class="irevamp-ink--primary irevamp-mb-none bold600"><a name="Written Works" class="nolink" href="/works/">Written Works</a></h1>
     
-    <h5 class="irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
+    <div class="h5 irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
      Ebooks that I've written, edited, designed the covers for, and self-published. Cards are clickable.
-    </h5>
+    </div>
     
   </div>
 </header>
@@ -92,7 +94,7 @@
 <div class="works-about">
 <h4 class="underlined">The Midtown Caper - A Short Story</h4>
 <br/>
-Published May 2022. A group of criminals target a spy walking in downtown Portland. This short story chronicles his adventure for the day.
+<p>Published May 2022. A group of criminals target a spy walking in downtown Portland. This short story chronicles his adventure for the day.</p>
 <p class="bold600">Click to see it on Goodreads. Free download.</p>
             </div>
         </a>
@@ -103,7 +105,7 @@ Published May 2022. A group of criminals target a spy walking in downtown Portla
             <div class="works-about">
 <h4 class="underlined">Axis of Damage - A Thriller</h4>
 <br/>
-A private detective and his apprentice are hired to figure out the mystery behind strange, gruesome disappearances in a small Iowan town.
+<p>A private detective and his apprentice are hired to figure out the mystery behind strange, gruesome disappearances in a small Iowan town.</p>
 <p class="bold600">Click to see it on Goodreads. Free download.</p>
             </div>
         </a>
@@ -114,7 +116,7 @@ A private detective and his apprentice are hired to figure out the mystery behin
             <div class="works-about">
 <h4 class="underlined">Rare Objects in Strange Places - Short Stories</h4>
 <br/>
-A boy looks for hope in a mystical land. On a faraway moon, a maintenance worker learns what it means to be afraid. An assassin boards a plane to kill her last victim, but she has made what may be a fatal mistake. A man on death row lives his last day. This is a collection of short stories.
+<p>A boy looks for hope in a mystical land. On a faraway moon, a maintenance worker learns what it means to be afraid. An assassin boards a plane to kill her last victim, but she has made what may be a fatal mistake. A man on death row lives his last day. This is a collection of short stories.</p>
 <p class="bold600">Click to see it on Amazon. $1.00</p>
             </div>
         </a>
@@ -158,23 +160,23 @@ A boy looks for hope in a mystical land. On a faraway moon, a maintenance worker
       document.documentElement.setAttribute('data-theme', currentTheme);
     }
 
+    else {
+      document.documentElement.setAttribute('data-theme', 'noir');
+    }
+
   function switchTheme(e) {
     var selectTheme = document.getElementById("theme-switcher").value;
 
-    switch(selectTheme ){
-    case "light":
-      document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');    
-      break;
+    switch(selectTheme ) {
 
     case "gemstone":
       document.documentElement.setAttribute('data-theme', 'gemstone');
       localStorage.setItem('theme', 'gemstone');    
       break;
     
-    case "strawberry":
-      document.documentElement.setAttribute('data-theme', 'strawberry');
-      localStorage.setItem('theme', 'strawberry');    
+    case "maroon":
+      document.documentElement.setAttribute('data-theme', 'maroon');
+      localStorage.setItem('theme', 'maroon');    
       break;
   
     case "jackdaw":
@@ -183,8 +185,8 @@ A boy looks for hope in a mystical land. On a faraway moon, a maintenance worker
       break;
     
     default:
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');        
+      document.documentElement.setAttribute('data-theme', 'noir');
+      localStorage.setItem('theme', 'noir');        
       break;              
     }
   }

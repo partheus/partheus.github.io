@@ -18,6 +18,8 @@
   <link rel="manifest" href="/favicons/site.webmanifest">
   <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" as="font" crossorigin>
+
   <link href="/css/style.css" rel="stylesheet"/>
   <meta
       name="og:title"
@@ -77,9 +79,9 @@
   <div class="irevamp-container slide-up">
     <h1 class="irevamp-ink--primary irevamp-mb-none bold600"><a name="Code" class="nolink" href="/code/">Code</a></h1>
     
-    <h5 class="irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
+    <div class="h5 irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
      My technical accomplishments, projects, work
-    </h5>
+    </div>
     
   </div>
 </header>
@@ -94,7 +96,7 @@
       <li class="irevamp-card">
       <div class="irevamp-card__content">
         <a href="https://sustainability.uhg.com" target="_blank" class="irevamp-card__title bold600">Data report site</a>
-        <p class="irevamp-lead">
+        <p class="irevamp-lead irevamp-mt-sm">
           <code>sustainability.uhg.com</code>
           website frontend development. An informational website for a company's 2022 sustainability report.</p>
         <p class="irevamp-card__date">PHP, SASS, CraftCMS, JS</p>
@@ -103,7 +105,7 @@
       <li class="irevamp-card">
         <div class="irevamp-card__content">
           <a href="https://cana.com" target="_blank" class="irevamp-card__title bold600">Product launch site</a>
-          <p class="irevamp-lead"><code>cana.com</code> website frontend development. A launch platform for an exciting new product.</p>
+          <p class="irevamp-lead irevamp-mt-sm"><code>cana.com</code> website frontend development. A launch platform for an exciting new product.</p>
           <p class="irevamp-card__date">SASS, CraftCMS, JS</p>
         </div>
       </li>
@@ -170,23 +172,23 @@
       document.documentElement.setAttribute('data-theme', currentTheme);
     }
 
+    else {
+      document.documentElement.setAttribute('data-theme', 'noir');
+    }
+
   function switchTheme(e) {
     var selectTheme = document.getElementById("theme-switcher").value;
 
-    switch(selectTheme ){
-    case "light":
-      document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');    
-      break;
+    switch(selectTheme ) {
 
     case "gemstone":
       document.documentElement.setAttribute('data-theme', 'gemstone');
       localStorage.setItem('theme', 'gemstone');    
       break;
     
-    case "strawberry":
-      document.documentElement.setAttribute('data-theme', 'strawberry');
-      localStorage.setItem('theme', 'strawberry');    
+    case "maroon":
+      document.documentElement.setAttribute('data-theme', 'maroon');
+      localStorage.setItem('theme', 'maroon');    
       break;
   
     case "jackdaw":
@@ -195,8 +197,8 @@
       break;
     
     default:
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');        
+      document.documentElement.setAttribute('data-theme', 'noir');
+      localStorage.setItem('theme', 'noir');        
       break;              
     }
   }
