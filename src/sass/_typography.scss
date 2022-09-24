@@ -29,19 +29,26 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   align-items: center;
   justify-content: center;
 
-  @include lt-sm {
-    padding: inherit 0;
-  }
 
-  @include gt-sm {
+  @include gt-lg {
     flex-direction: row;
   }
 }
 
 .hello-text {
   text-align: left;
-  @include gt-sm {
+  @include gt-lg {
     width: 45%;
+  }
+}
+
+.sun-pink {
+  width: 25ch;
+  height: 25ch;
+
+  @include gt-md {
+    width: 45ch;
+    height: 45ch;
   }
 }
 
@@ -51,16 +58,15 @@ $irevamp-typography-variants: h1, h2, h3, h4, h5;
   margin-left: auto;
   margin-right: auto;
 
-  @include gt-sm {
-    margin-left: 3em;
-    margin-top: 0;
+  @include gt-md {
     max-width: 40ch;
   }
-}
 
-.hello-img>img {
-  width: 351px;
-  height: 351px;
+  @include gt-lg {
+    margin-left: 3em;
+    margin-top: 0;
+    margin-right: 0;
+  }
 }
 
 .hello-img {
@@ -99,11 +105,11 @@ h1,
   font-size: $irevamp-h1-font-size;
   // font-size: unquote("min(max(3rem, 5vw), #{$irevamp-h1-font-size})");
 
-  @include gt-sm {
+  @include gt-md {
     font-size: 58px;
   }
 
-  @include gt-md {
+  @include gt-lg {
     font-size: 68px;
   }
 }
@@ -112,11 +118,11 @@ h2,
 .irevamp-h2 {
   font-size: $irevamp-h2-font-size;
 
-  @include gt-sm {
+  @include gt-md {
     font-size: 48px;
   }
 
-  @include gt-md {
+  @include gt-lg {
     font-size: 58px;
   }
 }
@@ -125,10 +131,10 @@ h3,
 .irevamp-h3 {
   font-size: $irevamp-h3-font-size;
 
-  @include gt-sm {
+  @include gt-md {
     font-size: 42px;
   }
-  @include gt-md {
+  @include gt-lg {
     font-size: 50px;
   }
 }
@@ -136,10 +142,10 @@ h3,
 h4,
 .irevamp-h4 {
   font-size: $irevamp-h4-font-size;
-  @include gt-sm {
+  @include gt-md {
     font-size: 38px;
   }
-  @include gt-md {
+  @include gt-lg {
     font-size: 42px;
   }
 }
@@ -148,10 +154,10 @@ h5,
 .irevamp-h5 {
   font-size: $irevamp-h5-font-size;
   font-weight: normal;
-  @include gt-sm {
+  @include gt-md {
     font-size: 33px;
   }
-  @include gt-md {
+  @include gt-lg {
     font-size: 36px;
   }
 }
@@ -342,6 +348,7 @@ blockquote {
 
 .music-recco-icon {
   height: 54px;
+
   @include gt-sm {
     height: 72px;
   }
@@ -378,7 +385,7 @@ blockquote {
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
 
-  @include gt-sm {
+  @include gt-lg {
     padding: 3em;
     align-items: flex-start;
     flex-direction: row;
@@ -390,7 +397,7 @@ blockquote {
   background-color: bisque;
   height: 20em;
 
-  @include gt-sm {
+  @include gt-md {
     height: 35em;
   }
 }
@@ -412,8 +419,11 @@ blockquote {
   padding-top: 2em;
   margin-top: 0;
 
-  @include gt-sm {
+  @include gt-md {
     padding-left: 2em;
+  }
+
+  @include gt-lg {
     padding-top: 0;
   }
 }

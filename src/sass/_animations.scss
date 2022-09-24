@@ -11,7 +11,7 @@ a {
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: 1px 3px;
-  color: #ededed;
+  color: var(--irevamp-color-primary);
   text-decoration: none;
   transition: background-size ease-in-out 0.3s, color ease-in-out 0.3s;
 }
