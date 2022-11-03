@@ -4,9 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="eleventy"/>
   <title>
-  The Midtown Caper - Downloads | Parth Shiralkar</title>
+  things that happen and things that dont | Parth Shiralkar</title>
   <meta name="description" content="
-  You&amp;#39;ve arrived at the page for free copies of my self-published e-book
+  this is a completely test post and should not be assumed to be real
   "/>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=2">
@@ -26,13 +26,13 @@
 
   <link href="/css/style.css" rel="stylesheet"/>
   <meta name="og:title" content="
-  The Midtown Caper - Downloads | Parth Shiralkar"/>
+  things that happen and things that dont | Parth Shiralkar"/>
   <meta name="og:description" content="
-  You&amp;#39;ve arrived at the page for free copies of my self-published e-book
+  this is a completely test post and should not be assumed to be real
   "/>
-  <meta property="og:image" content="https://parth.ninja/previews/the-midtown-caper-downloads
+  <meta property="og:image" content="https://parth.ninja/previews/things-that-happen-and-things-that-dont
   .png"/>
-  <meta name="twitter:image" content="https://parth.ninja/previews/the-midtown-caper-downloads
+  <meta name="twitter:image" content="https://parth.ninja/previews/things-that-happen-and-things-that-dont
   .png"/>
 
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for Parth Shiralkar" href="/feed/"/>
@@ -67,46 +67,69 @@
     <div>
 
       
-
 <header class="irevamp-hero">
   <div class="irevamp-container slide-up">
-    <h1 class="irevamp-ink--primary irevamp-mb-none bold600"><a name="The Midtown Caper - Downloads" class="nolink" href="/writing/caper/">The Midtown Caper - Downloads</a></h1>
+    <h1 class="irevamp-ink--primary irevamp-mb-none bold600">things that happen and things that dont</h1>
+    <div class="irevamp-text irevamp-ink--secondary irevamp-mt-sm"></div>
     
-    <div class="h5 irevamp-content-maxlength irevamp-mt-sm irevamp-mx-auto irevamp-description">
-     You've arrived at the page for free copies of my self-published e-book
-    </div>
+      <h5 class="irevamp-content-maxlength irevamp-ink--secondary irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        Oct 14, 2022
+      </h5>
     
+    
+      <h5 class="irevamp-content-maxlength irevamp-ink--secondary irevamp-mt-sm irevamp-mx-auto irevamp-description">
+        this is a completely test post and should not be assumed to be real
+
+      
+      <span id="time-to-read"></span></h5>
+
+    <p class="irevamp-lead" style="padding-top: 1em;">Tagged:  
+    
+        
+      
+    </p>
   </div>
 </header>
 <main class="irevamp-container slide-up">
-  <article class="irevamp-mx-auto">
-    <div class="works-about">
-<br/>
-<p>Published May 2022. A group of criminals target a spy walking in downtown Portland. This short story chronicles his adventure for the day.</p>
-<p class="bold600"><a href="https://www.goodreads.com/book/show/61141775-the-midtown-caper" target="_blank">Click to see it on Goodreads. Free download.</p>
-            </div>
-<div class="taglist irevamp-mx-auto">
-    <a href="https://www.goodreads.com/book/show/61141775-the-midtown-caper" target="_blank">
-      <img
-      class="crane"
-          alt="Midtown Caper"
-          src="/img/june-2022/3.png"
-      />
-      </a>
-</div>
-<br/>
-<p>Following are the various formats available for download (versions with large fonts below). By clicking on the links, the file will download directly to your machine.</p>
-<p>Kindle users, you can email your device the .epub file. Free apps are available for reading.</p>
-<p>For desktop/PC users, the PDF would be best.</p>
-<p><a href="https://drive.google.com/file/d/1XUoZB-7ITVY18DP0JiaReZKyFprdzmrm/view?usp=sharing">- EPUB</a></p>
-<p><a href="https://drive.google.com/file/d/183sLE5klRqKCEeneB5IElnBNddACyjEg/view?usp=sharing">- PDF</a></p>
-<blockquote>
-<p><a href="/works">See other literary projects</a> or go back to the <a href="/writing">writing section</a>.</p>
-</blockquote>
+  <article class="irevamp-mx-auto" id="article">
+    <p>o﻿ver the years i have wondered what it's like to be alive. i'm writing this from the airport at seattle (tacoma). i'm really really exhausted but it doesn't show on my face (just the soul) and i need to rest. hopefully things will be ok. sorry for everything. and thank you.</p>
 
+    <hr class="menu-hori"/ >
+    <div class="irevamp-container irevamp-mx-auto">
+    <button onclick="history.back()" class="irevamp-mx-auto intro-about bold600 uppercase pagenotfound-button" style="">Go back</button>
+</div>
   </article>
 </main>
 
+<script>
+  //function use to convert character into words
+  function get_text(el) {
+    ret = "";
+    var length = el.childNodes.length;
+    for (var i = 0; i < length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType != 8) {
+        ret += node.nodeType != 1
+          ? node.nodeValue
+          : get_text(node);
+      }
+    }
+    return ret;
+  }
+  //main body in which all words exist
+  var words = get_text(document.getElementById('article'));
+  var count = words
+    .split(' ')
+    .length;
+  //avg reading speed of person 200 word per minute
+  var avg = 200;
+  var counted = count / avg;
+  var maincount = Math.round(counted)
+  //show output of code
+  document
+    .getElementById("time-to-read")
+    .innerHTML = "⁓ " + maincount + " minute read";
+</script>
 
       <!-- Netlify Identity Widget -->
       
