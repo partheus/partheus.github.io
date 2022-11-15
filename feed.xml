@@ -5,20 +5,11 @@
 	
 	<link href="https://parth.ninja/feed/" rel="self"/>
 	<link href="https://parth.ninja"/>
-	<updated>2022-10-14T00:00:00Z</updated>
+	<updated>2022-09-12T00:53:31Z</updated>
 	<id>https://parth.ninja</id>
 	<author>
 		<name>Parth Shiralkar</name>
 	</author>
-	
-	<entry>
-		<title>things that happen and things that dont</title>
-		<link href="https://parth.ninja/entries/2022/things/"/>
-		<updated>2022-10-14T00:00:00Z</updated>
-		<id>https://parth.ninja/entries/2022/things/</id>
-		<content type="html">&lt;p&gt;test post&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>How to combat writer&#39;s block</title>
