@@ -10,7 +10,7 @@ gulp.task('css', function () {
         .pipe(autoprefixer()) //sends the source file to the autoprefixer plugin
         .pipe(cssnano()) //sends the source file to the minifier plugin
         .on('error', sass.logError) //log errors
-        .pipe(gulp.dest('./public/css')) //outputs the result in our public dir
+        .pipe(gulp.dest('./_site/css')) //outputs the result in our public dir
 })
 
 gulp.task('watch', function () {

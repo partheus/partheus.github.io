@@ -2,7 +2,7 @@
 _reset.scss
 _typography.scss
 _prism.scss
-public/
+_site/
 src/css/
 functions/template.html
 *.md

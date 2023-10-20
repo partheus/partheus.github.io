@@ -14,7 +14,7 @@ const packageVersion = require("./package.json").version;
 const { DateTime } = require("luxon");
 
 const fs = require("fs");
-const NOT_FOUND_PATH = "public/404.html";
+const NOT_FOUND_PATH = "_site/404.html";
 
 
 
@@ -119,7 +119,7 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
     dir: {
       input: "src",
-      output: "public",
+      output: "_site",
       layouts: "_layouts",
     },
   };
