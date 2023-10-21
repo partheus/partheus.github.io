@@ -357,20 +357,33 @@ blockquote {
   flex-wrap: wrap;
   justify-content: center;
   align-content: stretch;
-  column-gap: 1em;
-  row-gap: 1em;
+  column-gap: 0.25em;
+  row-gap: 0.25em;
+  margin-top: 1em;
+
+  @include breakpoint-sm-plus {
+    column-gap: 1em;
+    row-gap: 1em;
+  }
 }
 
 .gr_grid_book_container {
   /* customize book cover container div here */
   float: left;
-  max-width: 170px;
   padding: 0.25em;
   overflow: hidden;
-  margin-top: 1em;
   transition: all ease-in-out 0.3s;
   filter: saturate(0.5);
+  max-width: 130px;
 
+  @include breakpoint-sm {
+    max-width: 150px;
+  }
+
+  @include breakpoint-sm-plus {
+    max-width: 200px;
+    margin-top: 1em;
+  }
 }
 .gr_grid_book_container img {
   /* customize book cover image here */
