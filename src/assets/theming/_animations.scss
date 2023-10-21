@@ -53,8 +53,8 @@ $animationDelay: 0.18s; // Adjust the base delay as needed
 ul.article__list {
   li.article__item {
     opacity: 0;
-    -webkit-animation: slideUp 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
-    animation: slideUp 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
+    -webkit-animation: slideUp 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+    animation: slideUp 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
   }
 
   @for $i from 1 through $numberOfItems {
