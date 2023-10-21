@@ -1,6 +1,0 @@
-{
-    "tags": "entry",
-    "layout": "entry",
-    "permalink": "/entries/{{ page.date | date: '%Y' }}/{{ page.fileSlug }}/"
-}
-  

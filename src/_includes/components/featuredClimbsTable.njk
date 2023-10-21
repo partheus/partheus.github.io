@@ -1,0 +1,22 @@
+{% import "macros/climb.njk" as climbMacro %}
+
+<div class="climb-table-wrapper mt-md ml-auto mr-auto">
+    <table class="climb-table" tabindex="0">
+        <thead>
+        <tr>
+            <th>Boulder Name</th>
+            <th>Date</th>
+            <th>Difficulty</th>
+            <th>Location</th>
+            <th>Type</th>
+            <th>Times Attempted</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for climb in featuredClimbs %}
+            {{ climbMacro.climb(climb) }}
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+

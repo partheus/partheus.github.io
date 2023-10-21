@@ -1,0 +1,72 @@
+{% set navItems = collections.nav | eleventyNavigation %}
+<nav role="navigation" aria-label="main navigation">
+    <ul>
+        {%- for item in navItems %}
+            <li class="nav__item{{ ' active' if page.url === item.url }}">
+                <a href="{{ item.url }}" title="{{ item.key }}">{{ item.key }}</a>
+            </li>
+        {%- endfor -%}
+    </ul>
+
+    <div class="theme-toggle-container" title="Change theme">
+        <span id="high-contrast-toggle">&#x2688;</span> <!-- Unicode icon -->
+    </div>
+</nav>
+<script>
+    // Check for no js
+    function jscheck() {
+        document.getElementsByTagName("BODY")[0].classList.remove("no-js");
+    }
+
+    function initializeThemeToggle() {
+        // Theme toggle
+        const toggleSwitch = document.getElementById("high-contrast-toggle");
+        const body = document.body;
+
+        const themes = ["default", "low-noir", "high-contrast"];
+        const themeSymbols = {
+            default: "&#x2688;",
+            "low-noir": "&#x2689;",
+            "high-contrast": "&#x2686;",
+        };
+
+        let currentThemeIndex = 0;
+
+        // Function to toggle between themes
+        function toggleTheme() {
+            currentThemeIndex = (currentThemeIndex + 1) % themes.length;
+            updateTheme();
+        }
+
+        // Function to update the current theme
+        function updateTheme() {
+            const currentTheme = themes[currentThemeIndex];
+
+            // Update the button text with the theme symbol
+            toggleSwitch.innerHTML = themeSymbols[currentTheme];
+
+            // Set the current theme class
+            body.className = currentTheme;
+
+            // Save the current theme to localStorage
+            localStorage.setItem("currentTheme", currentTheme);
+        }
+
+        // Check if the user has previously selected a theme
+        const savedTheme = localStorage.getItem("currentTheme");
+        if (themes.includes(savedTheme)) {
+            currentThemeIndex = themes.indexOf(savedTheme);
+        }
+
+        // Set the initial mode based on the user's preference
+        updateTheme();
+
+        toggleSwitch.addEventListener("click", toggleTheme);
+    }
+
+    // Call the function to initialize the theme toggle
+    initializeThemeToggle();
+
+
+
+</script>

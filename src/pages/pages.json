@@ -1,6 +1,6 @@
 {
-  "tags": "pages",
-  "layout": "page",
-  "permalink": "/{{ page.fileSlug }}/",
-  "eleventyExcludeFromCollections": true
+  "tags": "page",
+  "layout": "slim",
+  "permalink": "{{ title }}.html",
+  "templateEngineOverride": "njk,md"
 }

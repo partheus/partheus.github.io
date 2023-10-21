@@ -1,0 +1,9 @@
+{% macro testCard(title, description, linkUrl) %}
+<div class="card">
+    <h3 class="mt-sm card__title">{{ title }}</h3>
+    <div class="card__description mb-md">
+        {{ description }}
+    </div>
+    <a href="{{ linkUrl | url}}" class="card__link">Read More!</a>
+</div>
+{% endmacro %}

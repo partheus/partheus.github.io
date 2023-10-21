@@ -1,0 +1,49 @@
+$accent-font: 'Besley', serif;
+$main-font: 'EB Garamond', serif;
+$sans-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+
+/* Theme colors */
+.default, :root {
+  --background-color: #fffcf6;
+  --background-color-light: #ffe8f2;
+  --text-color: #170808;
+  --text-color-link: #d21687;
+  --accent-color: #02734e;
+
+  --syntax-tab-size: 2;
+}
+
+.high-contrast {
+  --background-color: #030303;
+  --background-color-light: #002f25;
+  --text-color: #ffe45b;
+  --text-color-link: #21dab6;
+  --accent-color: #f169b7;
+}
+
+//.high-contrast {
+//  --background-color: #f5d6dc;
+//  --background-color-light: #ee96aa;
+//  --text-color: #892006;
+//  --text-color-link: #205859;
+//  --accent-color: #3a3ca6;
+//}
+
+.low-noir {
+  --background-color: #061a30;
+  --background-color-light: #08274a;
+  --text-color: #92daf5;
+  --text-color-link: #72e381;
+  --accent-color: #f97125;
+}
+
+//@media (prefers-color-scheme: dark) {
+//  :root {
+//    --background-color: #0e0c0c;
+//    --background-color-light: #003d2f;
+//    --text-color: #ffe45b;
+//    --text-color-link: #21dab6;
+//    --accent-color: #f169b7;
+//  }
+//}
+

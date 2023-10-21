@@ -1,78 +1,32 @@
 ---
-layout: page.njk
-templateEngineOverride: md, njk
+layout: page
+eleventyNavigation:
+    key: code
+    order: 3
+tags: nav
+templateEngineOverride: njk, md
 title: Code
-description: My technical accomplishments, projects, work
+description: A collection of my recent projects.
 ---
-
-> Visit my <a href="https://github.com/partheus" target="_blank">GitHub</a>. Check out [what I use](/uses).
-
-<h5 class="irevamp-mt-md bold600">Project Highlights:</h5>
-<div class="irevamp-section slide-up">
-    <ul class="irevamp-column-container irevamp-column-container--two">
-      <li class="irevamp-card">
-      <div class="irevamp-card__content">
-        <a href="https://www.thechoosekindnessproject.org/" target="_blank" class="irevamp-card__title bold600">Anti-bullying Resource site</a>
-        <p class="irevamp-lead irevamp-mt-sm">
-          <code>thechoosekindnessproject.org</code>
-          Disney's project 2022, offering a collection of multimedia resources for those in need.</p>
-        <p class="irevamp-card__date">PHP, SASS, WordPress, JS</p>
-      </div>
-      </li>
-      <li class="irevamp-card">
-      <div class="irevamp-card__content">
-        <a href="https://sustainability.uhg.com" target="_blank" class="irevamp-card__title bold600">Data report site</a>
-        <p class="irevamp-lead irevamp-mt-sm">
-          <code>sustainability.uhg.com</code>
-          website frontend development. An informational website for a company's 2022 sustainability report.</p>
-        <p class="irevamp-card__date">PHP, SASS, CraftCMS, JS</p>
-      </div>
-      </li>
-      <li class="irevamp-card">
-        <div class="irevamp-card__content">
-          <a href="https://cana.com" target="_blank" class="irevamp-card__title bold600">Product launch site</a>
-          <p class="irevamp-lead irevamp-mt-sm"><code>cana.com</code> website frontend development. A launch platform for an exciting new product.</p>
-          <p class="irevamp-card__date">SASS, CraftCMS, JS</p>
-        </div>
-      </li>
-      
-            {# <li class="irevamp-card">
-        <div class="irevamp-card__content">
-          <a href="https://tofu.wiki" target="_blank"  class="irevamp-card__title bold600">Tofu guide</a>
-          <p class="irevamp-lead"><code>tofu.wiki</code> Pocket guide for types of tofu.</p>
-          <p class="irevamp-card__date">GoLang, Hugo, JS</p>
-        </div>
-      </li>
-            <li class="irevamp-card">
-        <div class="irevamp-card__content">
-          <a href="https://eleventy-barebones-starter.netlify.app/" target="_blank"  class="irevamp-card__title bold600">Boilerplating for a Blogsite</a>
-          <p class="irevamp-lead"><code>eleventy-barebones-starter</code> Simple barebones blog starter.</p>
-          <p class="irevamp-card__date">EleventyJS, SCSS</p>
-        </div>
-      </li> #}
-</ul>
+<div class="listening-module ml-auto mr-auto slide-up-half-slow">
+    <h2 style="font-family: EB Garamond">Currently:</h2>
+    <div class="song">
+        <img src="/assets/img/sunface.svg" alt="Album Cover" class="album-cover">
+            <div class="song-info">
+                <h4 class="artist-name">Located in and working on full stack projects out of West Oregon.</h4>
+                <p>Unavailable for freelance projects!</p>
+            </div>
+    </div>
 </div>
 
-<div class="irevamp-mt-md irevamp-mb-md">
+<div class="mt-lg"></div>
 
-Like most delicious recipes, a tasty website is made using simple ingredients and thoughtful preparation. For a quick summary of my work, take a look at this [portfolio gallery of my latest projects](/projects-menu) disguised as a restaurant menu card.
+## Recent work:
 
-</div>
+{%  include "components/featuredProjectCards.njk" %}
 
-<h5 style="margin-bottom: 0.6em;" class="irevamp-mt-md bold600">Here are all entries related to development:</h5>
+> Check out my resume: [Resume](/resume)
+
+> Check out what I use: [Uses](/uses)
 
 
-<div class="slide-up">
-<ul class="irevamp-list-unstyled irevamp-postlist">
-{% set taglist = collections.development | reverse %}
-{% for post in taglist %}
-<li class="irevamp-postlist__content">
-<a href="{{ post.url }}" class="irevamp-text">{{ post.data.title }}</a>
-<p style="margin-top: 5px" class="irevamp-lead">{{ post.data.date | postDate  }}
-{% if post.data.description %} • {{ post.data.description }}
-{% endif %}
-</p>
-</li>
-{% endfor %}
-</ul>
-</div>

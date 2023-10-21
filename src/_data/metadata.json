@@ -1,0 +1,12 @@
+{
+  "title": "Parth Shiralkar",
+  "url": "https://parth.ninja",
+  "language": "en",
+  "description": "A soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.",
+  "author": {
+    "name": "Parth Shiralkar",
+    "email": "hi@parth.ninja"
+  },
+  "image": "/assets/social-image.jpg",
+  "feedUrl": "https://eleventy-not-so-minimal-blog-starter.netlify.app/feed.xml"
+}

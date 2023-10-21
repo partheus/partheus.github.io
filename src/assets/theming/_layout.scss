@@ -1,0 +1,111 @@
+$spacing: (
+        xxs: 0.25rem,
+        xs: 0.5rem,
+        sm: 1rem,
+        md: 3rem,
+        mdp: 4.5rem,
+        lg: 6rem,
+        xl: 10rem,
+        xxl: 15rem,
+) !default;
+
+@each $size, $value in $spacing {
+  .spacer--#{$size} {
+    margin: $value;
+  }
+}
+
+@each $key, $unit in $spacing {
+  .my-#{$key} {
+    margin-top: $unit !important;
+    margin-bottom: $unit !important;
+  }
+
+  .mx-#{$key} {
+    margin-left: $unit !important;
+    margin-right: $unit !important;
+  }
+
+  .mt-#{$key} {
+    margin-top: $unit !important;
+  }
+
+  .mb-#{$key} {
+    margin-bottom: $unit !important;
+  }
+
+  .ml-#{$key} {
+    margin-left: $unit !important;
+  }
+
+  .mr-#{$key} {
+    margin-right: $unit !important;
+  }
+
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+/* Reusable class for displaying items in columns */
+.display-columns {
+  display: grid;
+  column-gap: 1.5em;
+  row-gap: 1em;
+  grid-template-columns: 1fr; /* 1 column for smaller screens */
+
+  @include breakpoint-md-plus {
+    row-gap: 2em;
+    column-gap: 2em;
+  }
+
+  &__close-gap {
+    @include breakpoint-md-plus {
+      row-gap: 1em;
+      column-gap: 1em;
+    }
+  }
+
+  &--two {
+    @include breakpoint-md {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for desktop */
+    }
+  }
+
+  &--three {
+    @include breakpoint-sm {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+    }
+
+    @include breakpoint-md {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
+    }
+  }
+
+  &--four {
+    @include breakpoint-sm {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+    }
+
+    @include breakpoint-md {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for tablet */
+    }
+
+    @include breakpoint-lg {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for desktop */
+    }
+  }
+}

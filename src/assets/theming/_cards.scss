@@ -1,0 +1,162 @@
+.card {
+  padding: 1em;
+  background: var(--background-color-light);
+  box-shadow: 0 0 2px var(--text-color);
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(0);
+  position: relative;
+  overflow: hidden;
+  height: 330px;
+
+  &:hover {
+    transform: translate3d(0, -0.25em, 0);
+    box-shadow: 0 0 10px var(--text-color);
+    background: var(--text-color);
+  }
+
+  @include breakpoint-md {
+    max-height: 35vh;
+  }
+
+  @include breakpoint-st-xs {
+    max-height: 250px;
+  }
+
+  .card__title, .card__description, .card-link {
+    transition: transform 0.4s; /* Apply the same transition duration to all elements */
+  }
+
+  &:hover .card__title, &:hover .card__description, &:hover .card-link {
+    transform: translateY(-0.15em); /* Adjust the value for the desired slide-up distance */
+  }
+
+  &:hover .card__title a {
+    border-bottom: 3px solid var(--accent-color);
+    max-width: fit-content;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: var(--background-color-light);
+  }
+
+  &:hover .card__title::after {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  &__link {
+    color: var(--background-color);
+    font-weight: bold;
+  }
+
+  &__description {
+    margin-top: 0.5em;
+  }
+
+  &__title {
+    border-bottom: 3px solid transparent;
+    color: var(--background-color);
+  }
+
+  &__title::after {
+    content: '\2924';
+    margin-left: 0.15em;
+    position: absolute;
+    font-size: 140%;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+}
+
+.card-image {
+  position: absolute;
+  z-index: -3;
+  max-width: 100%;
+  border-radius: 0.45em;
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+  filter: saturate(0.5);
+}
+
+.card:hover .card-image {
+  transform: translateY(0.5em) translateX(0.25em); /* Move the image down on hover */
+  filter: saturate(1.8);
+  transition: all 0.3s ease-in-out;
+}
+
+// Reading time
+.reading-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75em;
+  background: var(--background-color-light);
+  box-shadow: 0 0 2px var(--text-color);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(0);
+  position: relative;
+  overflow: hidden;
+  filter: saturate(0.5);
+
+  &:hover {
+    transform: translate3d(0, -0.25em, 0);
+    box-shadow: 0 0 10px var(--text-color);
+    filter: saturate(1.1);
+
+    .reading-card__link::after {
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+
+    img {
+      transform: translateX(0.5em); /* Move the image down on hover */
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 10px var(--text-color);
+    }
+  }
+
+  img {
+    width: 75%;
+    max-height: 300px;
+    margin-right: auto;
+    border-radius: 0.45em;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    filter: saturate(0.5);
+    object-fit: cover;
+  }
+
+  h3 {
+    color: var(--text-color);
+    font-size: 1em;
+  }
+
+  &__info {
+    margin-top: 0.2em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reading-card__link::after {
+    content: '\2924';
+    right: 0.25em;
+    bottom: 0.25em;
+    position: absolute;
+    font-size: 220%;
+    opacity: 0;
+    transition: all 0.3s ease;
+
+    @include breakpoint-sm {
+      right: 0.5em;
+      bottom: 0.5em;
+      font-size: 140%;
+    }
+  }
+
+  .reading-card__link::after:hover {
+    filter: invert(1);
+  }
+}

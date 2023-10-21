@@ -1,69 +1,34 @@
 {
-  "name": "parth-shiralkar",
+  "name": "temporal-harmony-garden",
   "version": "1.0.0",
-  "description": "Parth Shiralkar personal website",
-  "main": "index.html",
+  "description": "A garden of temporal harmony, a domain expansion and personal website of Parth Shiralkar",
+  "main": "index.md",
   "scripts": {
-    "watch:sass": "sass  --no-source-map --watch src/sass:_site/css",
-    "watch:eleventy": "eleventy --serve --incremental",
-    "watch:gulp": "gulp build & gulp watch",
-    "build:sass-site": "sass  --no-source-map src/sass/style.scss _site/css/style.css",
-    "build:sass-social": "sass  --no-source-map src/sass/social.scss social/style.css",
-    "build:sass": "npm-run-all --parallel build:sass-site",
-    "build:eleventy": "eleventy",
-    "build:gulp": "gulp build",
-    "postbuild": "postcss _site/css/*.css -u autoprefixer cssnano -r --no-map",
-    "start": "cross-env ELEVENTY_ENV=dev npm-run-all build:sass --parallel watch:*",
-    "build": "cross-env ELEVENTY_ENV=prod npm-run-all build:sass build:eleventy",
-    "lint": "stylelint 'src/sass/**/*.scss' 'src/sass/**/**/*.scss' 'src/sass/**/**/**/*.scss' --custom-syntax postcss-scss",
-    "lint:fix": "stylelint --fix 'src/sass/**/*.scss' 'src/sass/**/**/*.scss' 'src/sass/**/**/**/*.scss' --custom-syntax postcss-scss",
-    "social-images": "eleventy-social-images --outputDir public --dataFile social/pages.json --templatePath social/template.html",
-    "bump": "npm --no-git-tag-version version"
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass --watch src/assets/theming:_site/assets",
+    "build:eleventy": "BUILD_DATE=$(date +'%Y-%m-%d') eleventy",
+    "build:sass": "sass  --no-source-map --style=compressed src/assets/theming:_site/assets",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "author": {
+    "name": "Parth Shiralkar",
+    "url": "https://github.com/@partheus"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/partheus/partheus.github.io.git"
+    "url": "git://github.com/partheus/domain.git"
   },
-  "keywords": [
-    "portfolio",
-    "personal website"
-  ],
-  "author": "partheus",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/partheus/partheus.github.io/issues"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3",
-    "@11tyrocks/eleventy-plugin-social-images": "^0.4.1",
-    "autoprefixer": "^10.4.2",
-    "cross-env": "^7.0.3",
-    "cssnano": "^5.0.15",
-    "markdown-it": "^12.3.2",
-    "markdown-it-anchor": "^8.4.1",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.5",
-    "postcss-cli": "^9.1.0",
-    "postcss-scss": "^4.0.3",
-    "sass": "^1.48.0",
-    "stylelint": "^14.2.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^24.0.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.1.0"
-  },
-  "browserslist": [
-    "> 0.5%",
-    "not IE 11"
-  ],
+  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@types/markdown-it": "^12.2.3",
-    "clean-css": "^5.3.1",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-sass": "^5.1.0"
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "luxon": "^3.2.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.58.3",
+    "svg-icon-sprite": "^1.1.1"
   }
 }

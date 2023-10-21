@@ -1,0 +1,10 @@
+<div class="listening-module ml-auto mr-auto slide-up-half-slow mt-md mb-md">
+    <div class="display-columns display-columns--two display-columns__close-gap">
+        {% for card in readingMonth %}<div class="reading-card">{# <img src="{{ card.bookCoverUrl }}" loading="lazy" decoding="async" alt="{{ card.title }}">#}<div class="reading-card__info"><h3>{{ card.title }}</h3>
+            <p>{{ card.author }}</p>
+            <a href="{{ card.bookUrl | url }}" target="_blank" title="{{ card.title }}" tabindex="0"><span class="reading-card__link"></span></a>
+            </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

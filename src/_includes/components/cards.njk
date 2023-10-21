@@ -1,0 +1,10 @@
+{% from '../macros/projectCard.njk' import projectCard %}
+
+<div class="display-columns display-columns--two mt-lg">
+{% for card in featuredProjectCards %}
+{{ projectCard(
+            title=card.title,
+            description=card.description,
+            imageUrl=card.imageUrl
+) }}{% endfor %}
+</div>

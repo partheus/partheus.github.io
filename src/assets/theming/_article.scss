@@ -1,0 +1,80 @@
+article {
+
+  .category {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: .4rem 1rem;
+    border: 1px solid var(--text-color-link);
+    border-radius: 6px;
+    line-height: 1;
+    transition: all 0.2s ease-in-out;
+
+    font-family: $accent-font;
+    font-size: 0.8em;
+
+    &:hover {
+      background-color: var(--text-color-link);
+      color: var(--background-color);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  small {
+    display: inline-block;
+    margin: 0.15em 0;
+    line-height: 2em;
+  }
+
+  p {
+    + * {
+      margin-top: 1.25em;
+    }
+
+    //  make the first letter of each paragraph capital
+    &:first-of-type:first-letter {
+      font-size: 2.5em;
+    }
+  }
+
+  h4 {
+    font-weight: normal;
+    font-variant: all-small-caps;
+    font-size: 95%;
+  }
+
+  img {
+    max-width: 40ch;
+    max-height: 30vh;
+    margin-right: auto;
+    transition: all 1s ease;
+    filter: hue-rotate(0);
+
+    @include breakpoint-sm-plus {
+      max-width: 60ch;
+      max-height: 40vh;
+    }
+  }
+}
+
+.article__title {
+  line-height: 1.2em;
+  margin-bottom: 0.25em;
+}
+
+.article__title:first-letter {
+  text-decoration: underline;
+}
+
+.article-separator {
+  margin-bottom: 2rem;
+  opacity: 50%;
+  max-width: 70ch;
+}
+
+.article__body {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+  }
+}

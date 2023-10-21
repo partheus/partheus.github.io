@@ -1,0 +1,34 @@
+/*===============================*/
+/*          breakpoints          */
+/*===============================*/
+@mixin breakpoint-st-xxs {
+  @media screen and (max-width: 319px) { @content };
+}
+
+@mixin breakpoint-st-xs {
+  @media screen and (max-width: 599px) { @content };
+}
+
+@mixin breakpoint-sm {
+  @media screen and (min-width: 600px) { @content };
+}
+
+@mixin breakpoint-sm-plus {
+  @media screen and (min-width: 768px) { @content };
+}
+
+@mixin breakpoint-md {
+  @media screen and (min-width: 960px) { @content };
+}
+
+@mixin breakpoint-md-plus {
+  @media screen and (min-width: 1024px) { @content };
+}
+
+@mixin breakpoint-lg {
+  @media screen and (min-width: 1280px) { @content };
+}
+
+@mixin breakpoint-xl {
+  @media screen and (min-width: 1920px) { @content };
+}

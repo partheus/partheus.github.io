@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Cana",
+    "description": "frontend dev work",
+    "stack": ["wordpress", "sql"],
+    "imageUrl": "/assets/img/projects/cana.webp",
+    "projectUrl": "#"
+  },
+  {
+    "title": "A Call to Listen",
+    "imageUrl": "/assets/img/projects/listen.webp",
+    "projectUrl": "#"
+  },
+  {
+    "title": "UHG",
+    "imageUrl": "/assets/img/projects/uhg.webp",
+    "projectUrl": "#"
+  },
+  {
+    "title": "UHG Sustainability",
+    "imageUrl": "/assets/img/projects/uhgsustain.webp",
+    "projectUrl": "#"
+  }
+]

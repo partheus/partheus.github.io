@@ -1,0 +1,12 @@
+[
+  {
+    "title": "2022 Site",
+    "imageUrl": "/assets/img/projects/2022site.webp",
+    "projectUrl": "https://parth-2022.netlify.app/"
+  },
+  {
+    "title": "2020 Site",
+    "imageUrl": "/assets/img/projects/2020site.webp",
+    "projectUrl": "https://parth-2020.netlify.app/"
+  }
+]

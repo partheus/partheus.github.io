@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Rincewind's Gambit",
+    "date": "2023-10-10",
+    "difficulty": "V4",
+    "location": "The Unseen University",
+    "type": "crack",
+    "times_attempted": "5"
+  },
+  {
+    "name": "Granny Weatherwax's Ascent",
+    "date": "2023-10-10",
+    "difficulty": "V3",
+    "location": "Lancre Hills",
+    "type": "slab",
+    "times_attempted": "6"
+  },
+  {
+    "name": "Death's Bouldering Challenge",
+    "date": "2023-10-10",
+    "difficulty": "V5",
+    "location": "The Dungeon Dimensions",
+    "type": "boulder",
+    "times_attempted": "4"
+  },
+  {
+    "name": "Carrot's Crux Climb",
+    "date": "2023-10-10",
+    "difficulty": "V3",
+    "location": "Ankh-Morpork rooftops",
+    "type": "roof",
+    "times_attempted": "7"
+  },
+  {
+    "name": "Nanny Ogg's Overhang Adventure",
+    "date": "2023-10-10",
+    "difficulty": "V4",
+    "location": "Lancre Witches' Cottage",
+    "type": "overhang",
+    "times_attempted": "5"
+  }
+]

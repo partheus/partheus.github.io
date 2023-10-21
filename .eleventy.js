@@ -1,126 +1,91 @@
-// 11ty Plugins
-// const socialImages = require("@11tyrocks/eleventy-plugin-social-images");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
-// Helper packages
-const slugify = require("slugify");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const CleanCSS = require("clean-css");
+const {
+  getAllPosts,
+  getCategoryList
+} = require('./config/collections')
 
-// Local utilities/data
-const packageVersion = require("./package.json").version;
-const { DateTime } = require("luxon");
+const {
+  readableDate,
+  getFirstCategory,
+  getFilterTagList,
+  getArticleYear
+} = require('./config/filters')
 
-const fs = require("fs");
-const NOT_FOUND_PATH = "_site/404.html";
-
-
-
-module.exports = function (eleventyConfig) {
-  // eleventyConfig.addPlugin(socialImages);
-  eleventyConfig.addPlugin(syntaxHighlight);
-  eleventyConfig.addPlugin(pluginRss);
-
-  eleventyConfig.addWatchTarget("./src/sass/");
-
-  eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addPassthroughCopy("./src/fonts");
-  eleventyConfig.addPassthroughCopy("./src/img");
-  eleventyConfig.addPassthroughCopy("./src/js");
-  eleventyConfig.addPassthroughCopy("./src/manifest.json");
-  eleventyConfig.addPassthroughCopy("./src/favicon.ico");
-  eleventyConfig.addPassthroughCopy("./src/admin");
-  eleventyConfig.addPassthroughCopy("CNAME");
-  eleventyConfig.addPassthroughCopy("./src/favicons");
+const {
+  imageShortcode
+} = require('./config/shortcodes')
 
 
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
+module.exports = function(eleventyConfig) {
 
-  function filterTagList(tags) {
-    return (tags || []).filter(tag => ["entry", "nav", "post", "posts", "pages"].indexOf(tag) === -1);
-  }
+  /*================================*/
+  /*   plugins and configurations   */
+  /*================================*/
+  eleventyConfig.addPlugin(eleventyNavigationPlugin)
+  eleventyConfig.addPlugin(pluginRss)
 
-  eleventyConfig.addFilter("filterTagList", filterTagList)
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    excerpt_separator: "<!-- excerpt -->",
+    excerpt_alias: 'excerpt'
+  })
 
-  // Create an array of all tags
-  eleventyConfig.addCollection("tagList", function(collection) {
-    let tagSet = new Set();
-    collection.getAll().forEach(item => {
-      (item.data.tags || []).forEach(tag => tagSet.add(tag));
-    });
-
-    return filterTagList([...tagSet]);
-  });
-
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, bs) {
-
-        bs.addMiddleware("*", (req, res) => {
-          if (!fs.existsSync(NOT_FOUND_PATH)) {
-            throw new Error(`Expected a \`${NOT_FOUND_PATH}\` file but could not find one. Did you create a 404.html template?`);
-          }
-
-          const content_404 = fs.readFileSync(NOT_FOUND_PATH);
-          // Add 404 http status code in request header.
-          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
-          // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      }
-    }
-  });
+  /*===================================================*/
+  /* files that need to be copied to the build folder  */
+  /*===================================================*/
+  eleventyConfig.addPassthroughCopy('./src/assets/social-image.jpg')
+  eleventyConfig.addPassthroughCopy('./src/assets/icons')
+  eleventyConfig.addPassthroughCopy('./src/assets/fonts')
+  eleventyConfig.addPassthroughCopy('./src/assets/favicons')
+  eleventyConfig.addPassthroughCopy('./src/assets/img')
+  // eleventyConfig.addPassthroughCopy({'./src/assets/favicons/favicon.ico' : '/'})
+  eleventyConfig.addPassthroughCopy({
+      'node_modules/svg-icon-sprite/dist/svg-icon-sprite.js': 'assets/svg-icon-sprite.js'
+  })
 
 
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-  eleventyConfig.addShortcode("packageVersion", () => `v${packageVersion}`);
+  /*=================*/
+  /*     Layouts     */
+  /*=================*/
+  eleventyConfig.addLayoutAlias('page', 'layouts/page')
+  eleventyConfig.addLayoutAlias('article', 'layouts/article')
+  eleventyConfig.addLayoutAlias('base', 'layouts/base')
+  eleventyConfig.addLayoutAlias('slim', 'layouts/slim')
 
-  eleventyConfig.addFilter("slug", (str) => {
-    if (!str) {
-      return;
-    }
 
-    return slugify(str, {
-      lower: true,
-      strict: true,
-      remove: /["]/g,
-    });
-  });
+  /*=================*/
+  /*   Collections   */
+  /*=================*/
+  eleventyConfig.addCollection('blog', getAllPosts)
+  eleventyConfig.addCollection('categoryList', getCategoryList)
 
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-  });
+  /*=================*/
+  /*     Filters     */
+  /*=================*/
+  eleventyConfig.addFilter('readableDate', readableDate)
+  eleventyConfig.addFilter('getFirstCategory', getFirstCategory)
+  eleventyConfig.addFilter('getFilterTagList', getFilterTagList)
+  eleventyConfig.addFilter('getArticleYear', getArticleYear)
 
-  /* Markdown Overrides */
-  let markdownLibrary = markdownIt({
-    html: true,
-  }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      class: "irevamp-anchor",
-      space: false,
-    }),
-    level: [1, 2, 3, 4, 5],
-    slugify: (str) =>
-      slugify(str, {
-        lower: true,
-        strict: true,
-        remove: /["]/g,
-      }),
+  /*=================*/
+  /*    shortcodes   */
+  /*=================*/
+  eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode)
 
-  });
-  eleventyConfig.setLibrary("md", markdownLibrary);
+  eleventyConfig.addNunjucksGlobal("BUILD_DATE", process.env.BUILD_DATE);
+
 
   return {
-    passthroughFileCopy: true,
     dir: {
-      input: "src",
-      output: "_site",
-      layouts: "_layouts",
+      input: 'src',
+      output: '_site',
+      includes: '_includes',
+      data: '_data'
     },
-  };
-};
+    templateFormats: ['njk', 'md', 'html'],
+    markdownTemplateEngine: 'njk',
+    pathPrefix: '/'
+  }
+}

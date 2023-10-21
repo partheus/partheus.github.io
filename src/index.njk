@@ -1,29 +1,50 @@
 ---
-layout: base.njk
-templateEngineOverride: md, njk
+layout: page
+eleventyNavigation:
+  key: home
+  order: 1
+templateEngineOverride: njk, md
+title: Parth Shiralkar
+description: >
+    Developer. Author. Likes daal.
 ---
 
-<header class="irevamp-hero">
+> The site is being developed and is currently available for casual viewing. Pages are still being built and might break, and there is dummy content in various modules. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
 
-  <div class="irevamp-container">
-    <h1 class="irevamp-ink--primary salutation text-focus-in"><a title="home" class="nolink" href="/">Parth Shiralkar</a></h1>
-    <p class="irevamp-mt-md">
-  Most of my personal and professional time is spent doing things to <a title="secret link" class="nolink" href="https://www.youtube.com/watch?v=huHV8aW37ZM" target="_blank">
-        <span class="tronafterhidden"></span></a>.
+<div class="mt-lg"></div>
 
-  </p>
+{% include "components/nowPlaying.njk" %}
+
+<div class="mt-lg"></div>
+
+## I [write](/blog) every now and then. Here's a featured article:
+
+<section class="mb-lg">
+    {% include "components/featuredArticle.njk" %}
+</section>
+
+<div class="mt-lg"></div>
+
+## I also [climb](/climbing) every now and then. Some recent climbs:
+
+{% include "components/featuredClimbsTable.njk" %}
+
+<div class="mt-lg"></div>
+
+## Reading lately:
+
+{% include "components/readingMonth.njk" %}
+
+<div class="mt-lg"></div>
+
+## Manga reading lately:
+
+{% include "components/currentManga.njk" %}
 
 
-<h1 class="irevamp-hero">This site is being redesigned! Please come back soon.</h1>
+<div class="mt-lg"></div>
 
-{# > [Contact](/hello) #}{# > Check out the [styleguide](/styleguide) or the [colophon](/colophon) for this site #}</div>
+## "What happened to your old site?"
+It went into an archive. I redesign it every year or so. Two most recent iterations of my site:
 
-
-
-</div>
-
-
-
-</header>
-
-
+{% include "components/archiveProjectCards.njk" %}

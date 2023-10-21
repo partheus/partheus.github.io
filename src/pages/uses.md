@@ -1,7 +1,9 @@
 ---
 title: "Uses"
 description: "Tools and kits and tips and tricks"
-date: 2023-09-09
+date: 2023-10-11
+templateEngineOverride: njk, md
+permalink: /uses/
 ---
 > What is a [uses page](https://wesbos.com/uses)? It answers the question "So what do you use to navigate life and the Internet?"
 
@@ -15,6 +17,7 @@ date: 2023-09-09
 - AKAI MPK25 MIDI controller
 
 ### Software:
+- PHPStorm
 - VSCode
 - Lunacy
 - Firefox
@@ -23,6 +26,6 @@ date: 2023-09-09
 
 ### Climbing
 
-- Black Diamond "Momentum" climbing shoes 
+- Black Diamond "Momentum" climbing shoes
 
-> Last updated: {{ date | postDate }}
+> Last updated: {{ date | readableDate }}

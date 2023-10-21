@@ -1,0 +1,136 @@
+
+.logo {
+  //background: hsl(313.8deg 54.92% 85.59% / 32%);
+  //backdrop-filter: blur(20px) saturate(1.7);
+  //-webkit-backdrop-filter: blur(20px) saturate(1.7);
+}
+
+.logo a {
+  svg {
+    max-width: 54px;
+    height: 54px;
+
+    g {
+      path {
+        transition: all ease-in-out 0.2s;
+      }
+    }
+  }
+
+  &.active a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--accent-color);
+  }
+}
+
+// logo hoverstate dropshadow
+.logo a:hover {
+  svg {
+    g {
+      path {
+        fill: var(--text-color-link) !important;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+  }
+}
+
+.newspaper-svg {
+  width: fit-content;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+  svg {
+    width: 255px;
+    height: 130px;
+    margin-right: auto;
+  }
+}
+
+.witch-svg {
+  width: fit-content;
+
+  svg {
+    width: 180px;
+    height: 381px;
+    margin-right: auto;
+  }
+}
+
+.svg-color {
+  svg {
+    g {
+      path {
+        fill: var(--text-color) !important;
+        stroke: var(--text-color) !important;
+      }
+    }
+  }
+}
+
+.home-logo {
+  border-radius: 10em;
+
+  & > a.active {
+    filter: saturate(1.2);
+  }
+}
+
+.flower-svg-container {
+  position: relative;
+
+  svg {
+    g {
+      path {
+        fill: var(--text-color-link) !important;
+        stroke: var(--text-color-link) !important;
+      }
+    }
+  }
+}
+
+.flower-svg-top-right {
+  rotate: 112deg;
+  position: absolute;
+  width: 90px; /* adjust as needed */
+  height: 90px; /* adjust as needed */
+}
+
+.flower-svg-bottom-left {
+  rotate: 5deg;
+  position: absolute;
+  width: 40px; /* adjust as needed */
+  height: 50px; /* adjust as needed */
+}
+
+.flower-svg-bottom-left, .flower-svg-top-right {
+  z-index: -2;
+  filter: opacity(0.8);
+}
+
+.flower-svg-top-right {
+  top: -2em;
+  right: 4em;
+
+  @include breakpoint-sm {
+    right: 8em;
+  }
+
+  @include breakpoint-lg {
+    right: 15em;
+  }
+}
+
+.flower-svg-bottom-left {
+  bottom: -1em;
+  left: 4em;
+
+  @include breakpoint-sm {
+    left: 8em;
+  }
+
+  @include breakpoint-lg {
+    left: 15em;
+  }
+}

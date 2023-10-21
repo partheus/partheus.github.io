@@ -1,0 +1,48 @@
+.manga-tracker {
+  ul.display-columns {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      background-color: var(--background-color-light);
+      color: var(--text-color);
+      border-radius: 5px;
+      padding: 1em;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: var(--background-color);
+        color: var(--accent-color);
+        transition: all 0.3s ease-in-out;
+
+        img {
+          filter: saturate(1.2);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+
+      img {
+        height: 16em;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        filter: saturate(0.2);
+        transition: all 0.3s ease-in-out;
+
+        @include breakpoint-sm {
+          height: 12em;
+        }
+      }
+
+      h3 {
+        margin: 0.25em 0;
+      }
+
+      p {
+        margin: 0.0125em 0;
+        font-size: 0.75em;
+      }
+    }
+  }
+}

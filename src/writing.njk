@@ -1,45 +1,36 @@
 ---
-layout: page.njk
-templateEngineOverride: md, njk
-title: Writing
-pagination:
-  data: collections.entry
-  size: 5
-  alias: entries
-  reverse: true
-description: Words and tomes!
+layout: page
+title: "Writing"
+description: "Places for words and tomes"
+tags: nav
+eleventyNavigation:
+  key: writing
+  order: 2
 ---
-
-{# <div class='box'>
-    <div class='wave -one'></div>
-    <div class='wave -two'></div>
-    <div class='wave -three'></div>
-</div> #}
-{# > [404 page test](nolinkhere) #}
-
-I like to write. Here's a few of my [literary projects/e-books](/works).
-
-There is also a [free thriller e-book page](/writing/damage/) and a [free action e-book page](/writing/caper/).
-
-{# You can subscribe to this [RSS feed here](/feed.xml). #}
-
-As a <span class="artefact">former columnist</span> for the Iowa State Daily, I have written the occasional (frequent) firecracker of an opinion piece. All of these <a href="https://iowastatedaily.com/staff_name/parth-shiralkar/" target="_blank">columns can be found here</a>.
-
-<div class="irevamp-container irevamp-mt-md">
-  <div class="irevamp-section slide-up">
-    <div class="irevamp-h5 irevamp-mb-sm bold600">See a few of my latest entries:</div>
-    <ul class="irevamp-list-unstyled">
-      {%- for post in pagination.items -%}
-        <li class="irevamp-postlist__content">
-            <a href="{{ post.url }}" class="irevamp-text">{{ post.data.title }}</a>
-            <p style="margin-top: 5px" class="irevamp-lead">{{ post.data.date | postDate  }} {% if post.data.description %} • {{ post.data.description }}{% endif %}
-        {% if post.data.tags %}<span> 🏷 {% for tag in post.data.tags.slice(1, 3) %}{% if tag != 'notes' %}<span>{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="irevamp-lead irevamp-ink--secondary nolink">{{ tag }}</a> </span>{% endif %}{% endfor %}{% endif %}</p>
-        </li>
-    </span>
-      {%- endfor -%}
-    </ul>
-        <div class="irevamp-h5 irevamp-mt-md bold600">Or <a href="/entries">view them all here ({{ collections.entry | length }})</a>.</div>
-
+<div class="listening-module ml-auto mr-auto mb-md slide-up-half max-content-width">
+  <h2 class="mr-auto">Free ebooks:</h2>
+  <div class="book-links__container">
+    <a class="button button--secondary" href="/writing/caper" title="Caper">Action ebook</a>
+    <a class="button button--secondary" href="/writing/damage" title="Caper">Thriller ebook</a>
   </div>
 </div>
+
+<a href="/blog"><blockquote class="mb-md blockquote-lilac slide-up-half-slow">View Blog here</blockquote></a>
+
+<blockquote class="slide-up-half-slow">
+  <p>“Stories are important.
+    People think that stories are shaped by people. In fact, it's the other way around."
+    <cite>― Terry Pratchett</cite>
+</blockquote>
+
+<h3 class="mb-md">This view contains a list of all blogposts tagged "fiction":</h3>
+{% set taglist = collections.fiction | getFilterTagList %}
+<ul class="article__list display-columns display-columns--two">
+  {% for article in taglist | reverse %}
+    <li class="article__item">
+      <article class="article__preview">
+        {% include "./_includes/macros/articleListItem.njk" %}
+      </article>
+    </li>
+  {% endfor %}
+</ul>

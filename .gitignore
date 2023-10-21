@@ -1,17 +1,6 @@
-# dependencies installed by npm
-node_modules
+**/node_modules/**
+_site/
 
-# build artefacts
-public
-src/css
-social
+.cache/
 
-# secrets and errors
-.env
-.log
-
-# macOS related files
-.DS_Store
-
-#IDE
-.idea
+.idea/
