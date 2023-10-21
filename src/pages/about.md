@@ -8,9 +8,9 @@ eleventyNavigation:
 description: Unlisted character from Discworld
 permalink: /about/
 ---
-Whatever they are saying about me is mostly true on weekdays!
+Hi! I'm Parth, this is my website. 
 
-I love [reading](https://goodreads.com/parthshiralkar) and [writing](/writing) and [climbing](/climbing).
+I love [reading](/reading) and [writing](/writing) and [climbing](/climbing).
 
 I am a [web developer](/code) and [designer](/colophon).
 
