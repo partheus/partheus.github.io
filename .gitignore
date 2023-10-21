@@ -4,3 +4,11 @@ _site/
 .cache/
 
 .idea/
+
+
+# secrets and errors
+.env
+.log
+
+# macOS related files
+.DS_Store
