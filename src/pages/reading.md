@@ -1,17 +1,13 @@
 ---
 title: Reading
-description: Goodreads data for the last 200 or so books I've read; updated daily
+description: Goodreads data for the last 200 or so books I've read. Updated every time I finish a book.
 permalink: /reading/
 date: Last Modified
 layout: page
 ---
-<style type="text/css" media="screen">
-
-</style>
-
       <div id="gr_grid_widget_1697873408">
         <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-            <h2>
+    <h2>
       <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/60162168-parth-shiralkar?shelf=read&utm_medium=api&utm_source=grid_widget">Parth's bookshelf: read</a>
     </h2>
 
@@ -40,7 +36,7 @@ layout: page
   </div>
 
       </div>
-      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=100&order=d&shelf=read&sort=date_added&widget_id=1697873408" type="text/javascript" charset="utf-8"></script>
+      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1697873408" type="text/javascript" charset="utf-8"></script>
 <script>
 // Get all the img elements with the class "gr_grid_book_container"
 var imgElements = document.querySelectorAll('.gr_grid_book_container img');
