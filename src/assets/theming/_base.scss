@@ -283,18 +283,29 @@ blockquote {
 .theme-toggle-container {
   position: fixed;
   right: 0;
-  bottom: 0;
+  top: 0;
   z-index: 100;
   padding: 0.25em;
   font-size: 2em;
   display: flex;
   line-height: 69%;
   cursor: grab;
+}
 
-  @include breakpoint-sm {
-    top: 0;
-    bottom: auto;
-  }
+.go-to-top-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding-right: 0.5em;
+  padding-bottom: 0.75em;
+  font-size: 1.15em;
+  display: flex;
+  cursor: grab;
+}
+
+.go-to-top-container a {
+  text-decoration: none;
 }
 
 .snow-toggle-container {
@@ -374,7 +385,7 @@ blockquote {
   overflow: hidden;
   transition: all ease-in-out 0.3s;
   filter: saturate(0.5);
-  max-width: 130px;
+  max-width: 30vw;
 
   @include breakpoint-sm {
     max-width: 150px;
@@ -385,6 +396,7 @@ blockquote {
     margin-top: 1em;
   }
 }
+
 .gr_grid_book_container img {
   /* customize book cover image here */
   width: 100%;
@@ -395,6 +407,7 @@ blockquote {
   background: none;
 
 }
+
 .gr_grid_book_container:hover {
   transform: translateY(-0.5em);
   filter: saturate(1.3);
