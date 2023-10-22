@@ -7,16 +7,20 @@
   transform: translateY(0);
   position: relative;
   overflow: hidden;
-  height: 330px;
+  height: 370px;
 
   &:hover {
     transform: translate3d(0, -0.25em, 0);
     box-shadow: 0 0 10px var(--text-color);
-    background: var(--text-color);
+    //background: var(--text-color);
   }
 
   @include breakpoint-md {
     max-height: 35vh;
+  }
+
+  @include breakpoint-lg {
+    max-height: inherit;
   }
 
   @include breakpoint-st-xs {
@@ -36,12 +40,12 @@
     max-width: fit-content;
     transition: all 0.3s;
     cursor: pointer;
-    color: var(--background-color-light);
   }
 
   &:hover .card__title::after {
     opacity: 1;
     transition: opacity 0.3s ease;
+    color: var(--accent-color);
   }
 
   &__link {
