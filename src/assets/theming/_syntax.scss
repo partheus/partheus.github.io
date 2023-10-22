@@ -1,13 +1,36 @@
+// Style for the <pre> element containing code
+pre {
+  background-color: var(--background-color-light);
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
 
-code {
+// Style for the <code> element inside <pre>
+pre code {
+  display: block;
   padding: 5px;
   font-size: 80%;
-  margin: 10px 0;
   color: var(--text-color);
   background-color: var(--background-color-light);
   border-radius: 5px;
 }
 
+code {
+  padding: 5px;
+  font-size: 80%;
+  color: var(--text-color);
+  background-color: var(--background-color-light);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+// Additional styles for syntax highlighting classes
 .token.comment,
 .token.prolog,
 .token.doctype,
@@ -54,22 +77,6 @@ code {
 }
 
 .token.important,
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-.token.entity {
-  cursor: help;
-}
-
-.token.important {
-  font-weight: normal;
-}
-
 .token.bold {
   font-weight: bold;
 }
