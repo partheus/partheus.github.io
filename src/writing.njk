@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Writing"
-description: "Places for words and tomes"
+description: Stories are important. People think that stories are shaped by people. In fact, it's the other way around. (Terry Pratchett)
 tags: nav
 eleventyNavigation:
   key: writing
@@ -15,15 +15,9 @@ eleventyNavigation:
   </div>
 </div>
 
-<a href="/blog"><blockquote class="mb-md blockquote-lilac slide-up-half-slow">View Blog here</blockquote></a>
+<h3 class="mb-md">In college at Iowa State, I penned around 60 articles as a weekly columnist, which <a href="https://iowastatedaily.com/staff_name/parth-shiralkar/" class="song-title" target="_blank" title="article list page">can be found here&#x2924;</a>.</h3>
 
-<blockquote class="slide-up-half-slow">
-  <p>“Stories are important.
-    People think that stories are shaped by people. In fact, it's the other way around."
-    <cite>― Terry Pratchett</cite>
-</blockquote>
-
-<h3 class="mb-md">This view contains a list of all blogposts tagged "fiction":</h3>
+<h3 class="mb-md">Check out the <a href="/blog">full writing here!</a> This view contains a list of posts tagged "fiction":</h3>
 {% set taglist = collections.fiction | getFilterTagList %}
 <ul class="article__list display-columns display-columns--two">
   {% for article in taglist | reverse %}
