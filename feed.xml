@@ -224,4 +224,12 @@
         <id>https://parth.ninja/article/2023/goodreads-image-quality.html</id>
         
         <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Week 42</title>
+        <link href="https://parth.ninja/article/2023/week-42.html"/>
+        <updated>2023-10-22T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/week-42.html</id>
+        
+        <content type="html"></content>
     </entry></feed>

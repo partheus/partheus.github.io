@@ -65,7 +65,7 @@
     </div>
 
     <div class="go-to-top-container">
-        <a href="#" title="Go to top of page">&#x21EA</a>
+        <a href="#" title="Go to top of page"></a>
     </div>
 </nav>
 <script>
@@ -226,7 +226,7 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
   <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Parth, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
   </div>
 <p></div>
-<script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1697873408" type="text/javascript" charset="utf-8"></script></p>
+<script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script></p>
 <script>
 // Get all the img elements with the class "gr_grid_book_container"
 var imgElements = document.querySelectorAll('.gr_grid_book_container img');
@@ -241,6 +241,12 @@ imgElements.forEach(function (imgElement) {
 
     // Set the modified src attribute back to the img element
     imgElement.setAttribute('src', src);
+
+    // Add the loading attribute for lazy loading
+    imgElement.setAttribute('loading', 'lazy');
+
+    // Add the decoding attribute for async decoding
+    imgElement.setAttribute('decoding', 'async');
 });
 
 </script>
@@ -255,6 +261,9 @@ imgElements.forEach(function (imgElement) {
             <ul>
                     <li class="nav__item">
                         <a href="/colophon/" title="[ colophon ]">[ colophon ]</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/weeknotes/" title="weeknotes">weeknotes</a>
                     </li></ul>
     </div>
 
