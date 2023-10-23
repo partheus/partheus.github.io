@@ -41,6 +41,8 @@ Font faces are [Besley](https://indestructibletype.com/Besley.html) and [EB Gara
 
 <div class="mt-lg mb-md">
 
+> [Styleguide](/styleguide/)
+
 > [Test 404 page](/not-a-link)
 
 <blockquote class="blockquote-lilac">

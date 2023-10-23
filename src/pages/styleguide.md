@@ -75,4 +75,20 @@ var fun = function lang(l) {
     - level 2 item
 - level 1 item
 
-<br>
+
+## Buttons
+
+<div class="listening-module ml-auto mr-auto mb-md slide-up-half max-content-width">
+  <div class="book-links__container">
+    <a class="button button--secondary" href="/writing/caper" title="Caper">Action ebook</a>
+    <a class="button button--secondary" href="/writing/damage" title="Caper">Thriller ebook</a>
+  </div>
+</div>
+
+### Small image
+
+![Small image](https://placehold.it/256x256 "Small image")
+
+### Large image
+
+![Large image](https://placehold.it/512x512 "Large image")
