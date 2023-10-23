@@ -5,6 +5,7 @@ permalink: /reading/
 date: Last Modified
 layout: page
 ---
+
       <div id="gr_grid_widget_1697873408">
         <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
     <h2>
@@ -36,7 +37,8 @@ layout: page
   </div>
 
       </div>
-      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1697873408" type="text/javascript" charset="utf-8"></script>
+      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
+
 <script>
 // Get all the img elements with the class "gr_grid_book_container"
 var imgElements = document.querySelectorAll('.gr_grid_book_container img');
@@ -51,6 +53,12 @@ imgElements.forEach(function (imgElement) {
 
     // Set the modified src attribute back to the img element
     imgElement.setAttribute('src', src);
+
+    // Add the loading attribute for lazy loading
+    imgElement.setAttribute('loading', 'lazy');
+
+    // Add the decoding attribute for async decoding
+    imgElement.setAttribute('decoding', 'async');
 });
 
 </script>
