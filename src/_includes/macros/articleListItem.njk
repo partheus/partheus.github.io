@@ -4,7 +4,7 @@
     <time>{{ article.data.date | readableDate }}</time>
     {% if article.data.tags %}
         {% for tag in article.data.tags.slice(1, 3) %}
-            {% if tag != 'notes' %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+            {% if tag != 'weeknotes' %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
                 <a class="category"
                    href={{ tagUrl | url }}>{{ tag }}
                 </a>
