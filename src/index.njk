@@ -17,6 +17,20 @@ description: >
 
 <div class="mt-lg"></div>
 
+## This week's [weeknote](/weeknotes):
+
+<div class="featured__post">
+    {% set weekNote = collections.weeknotes[0] %}
+    <h3 class="article__preview__header mt-md"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
+    <p class="article__preview__description">{% if weekNote.data.description %} {{ weekNote.data.description }} {% endif %} &#x10101;
+        <small>
+            <time>{{ weekNote.data.date | readableDate }}</time>
+        </small>
+    </p>
+</div>
+
+<div class="mt-lg"></div>
+
 ## I [write](/blog) every now and then. Here's a featured article:
 
 <section class="mb-lg">
