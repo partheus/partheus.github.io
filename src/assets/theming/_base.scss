@@ -378,10 +378,10 @@ blockquote {
 .gr_grid_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: stretch;
   column-gap: 0.25em;
-  row-gap: 0.25em;
+  row-gap: 0.5em;
   margin-top: 1em;
 
   @include breakpoint-sm-plus {
@@ -392,20 +392,13 @@ blockquote {
 
 .gr_grid_book_container {
   /* customize book cover container div here */
-  float: left;
   padding: 0.25em;
-  overflow: hidden;
   transition: all ease-in-out 0.3s;
   filter: saturate(0.5);
-  max-width: 30vw;
+  max-width: 36vw;
 
   @include breakpoint-sm {
-    max-width: 150px;
-  }
-
-  @include breakpoint-sm-plus {
     max-width: 200px;
-    margin-top: 1em;
   }
 }
 
@@ -417,8 +410,6 @@ blockquote {
   border: none;
   box-shadow: none;
   background: none;
-  loading: lazy;
-  decoding: async;
 }
 
 .gr_grid_book_container:hover {
