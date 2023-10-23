@@ -12,7 +12,7 @@ description: You've arrived at the page for free copies of my self-published e-b
 
 <div class="display-columns display-columns--two display-columns__close-gap">
 <div class="reading-card mt-sm">
-<img src="/assets/img/works/caper.webp" loading="lazy" decoding="async" alt="midtown caper" style="max-height: 70vh;" class="ml-auto mr-auto">
+<img src="/assets/img/june-2022/3.webp" loading="lazy" decoding="async" alt="midtown caper" style="max-height: 70vh;" class="ml-auto mr-auto">
 <a class="mt-md ml-auto mr-auto reading-card__link" href="https://www.goodreads.com/book/show/61141775-the-midtown-caper" target="_blank" title="Caper" tabindex="0">
 
 #### Goodreads

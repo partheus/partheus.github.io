@@ -12,7 +12,7 @@ Hi! I'm Parth, this is my website.
 
 I love [reading](/reading) and [writing](/writing) and [climbing](/climbing).
 
-I am a [web developer](/code) and [designer](/colophon).
+I am a [web developer](/code) and [designer](/pixelart).
 
 Big fan of noise that sounds good. Here's my [SoundCloud](https://soundcloud.com/bhatji).
 

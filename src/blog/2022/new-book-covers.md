@@ -14,28 +14,28 @@ Fresh designs, old images. All images are credited to [pexels.com](https://pexel
       <img
       class="crane"
           alt="Rare objects in Strange Places"
-          src="/assets/img/june-2022/1.png"
+          src="/assets/img/june-2022/1.webp"
       />
     </div>
     <div class="gr_grid_book_container">
       <img
       class="crane"
           alt="Axis of Damage"
-          src="/assets/img/june-2022/2.png"
+          src="/assets/img/june-2022/2.webp"
       />
     </div>
     <div class="gr_grid_book_container">
       <img
       class="crane"
           alt="The Midtown Caper"
-          src="/assets/img/june-2022/3.png"
+          src="/assets/img/june-2022/3.webp"
       />
     </div>
     <div class="gr_grid_book_container">
       <img
       class="crane"
           alt="The Bug"
-          src="/assets/img/june-2022/4.png"
+          src="/assets/img/june-2022/4.webp"
       />
     </div>
 </div>
