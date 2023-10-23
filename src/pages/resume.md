@@ -4,12 +4,10 @@ description: What I've done (Linkin Park)
 permalink: /resume/
 date: 2023-10-16
 ---
-<div class="resume">
+<div class="resume mb-md">
 
 # Parth Shiralkar
-```
-developer
-```
+`developer`
 
 - ## Work Experience:
     - ### Developer (July 2023 - Present)
@@ -41,4 +39,7 @@ developer
 
 </div>
 
+<a class="button button--secondary" href="mailto:hi@parth.ninja" title="Email">Say hi!</a>
+
 > Last updated: {{ date | readableDate }}
+
