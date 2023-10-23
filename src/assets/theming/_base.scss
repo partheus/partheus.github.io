@@ -139,12 +139,12 @@ footer {
 }
 
 header {
-  padding: 2em 0;
+  padding: 1.35em 0;
 }
 
 footer {
   padding: 1em 0 4em 0;
-  border-top: 1px solid var(--background-color-light);
+  border-top: 2px solid var(--background-color-light);
 }
 
 header {
@@ -202,10 +202,11 @@ nav ul li, footer ul li {
   width: fit-content;
 }
 
-.tester {
-  transform: translate3d(0, -3px, 0);
-  box-shadow: var(--shadow-lg);
-  filter: saturate(1.2);
+hr {
+  border: 0;
+  height: 1px;
+  background-color: var(--text-color);
+  margin: 1em 0;
 }
 
 blockquote {
@@ -285,39 +286,30 @@ blockquote {
   right: 0;
   top: 0;
   z-index: 100;
-  padding: 0.25em 0.25em;
-  font-size: 1.45em;
+  font-size: 1.65em;
   display: flex;
-  line-height: 69%;
   cursor: grab;
-
-  @include breakpoint-sm {
-    padding: 0.35em;
-  }
+  margin-right: 0.135em;
 }
 
 .go-to-top-container {
+  border-radius: 2em;
   position: fixed;
   right: 0;
   bottom: 0;
   z-index: 100;
-  padding: 0.5em;
-  font-size: 1em;
+  font-size: 1.2em;
   display: flex;
   align-items: center;
   justify-content: end;
+  background-color: var(--background-color-light);
+  backdrop-filter: opacity(0.5);
+  margin: 0.25em;
 }
 
 .go-to-top-container a {
-  border-radius: 2em;
-  padding: 0.1em 0.27em;
-  background-color: #f169b7;
+  padding: 0.1em 0.35em;
   text-decoration: none;
-  filter: opacity(0.8) contrast(1.2);
-}
-
-.go-to-top-container a::before {
-  content: "🔝";
 }
 
 .snow-toggle-container {
@@ -417,5 +409,42 @@ blockquote {
   filter: saturate(1.3);
   transition: all ease-in-out 0.3s;
   box-shadow: 0 0 12px var(--text-color);
-
 }
+
+.pixelart-card {
+  position: relative;
+  display: inline-block;
+  border: 2px solid var(--text-color);
+}
+
+.pixelart-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: filter 0.3s; /* Add transition for smooth effect */
+  filter: brightness(1); /* Ensure the image is not darkened initially */
+
+  &:hover {
+    filter: brightness(0.6); /* Darken the image on hover */
+  }
+}
+
+.pixelart-image-overlay {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+
+  .pixelart-card:hover & {
+    opacity: 1;
+  }
+}
+
