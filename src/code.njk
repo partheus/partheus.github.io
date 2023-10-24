@@ -21,6 +21,21 @@ description: A collection of my recent projects.
 
 <div class="mt-lg"></div>
 
+<h2 class="mb-md">Recent posts tagged "development":</h2>
+
+{% set devPostList = collections.development %}
+{# list all articles with the tag development #}
+<ul class="article__list display-columns display-columns--two">
+    {% for article in devPostList | reverse %}<li class="article__item">
+            <article class="article__preview">
+                {% include "./_includes/macros/simpleArticleListItem.njk" %}
+            </article>
+        </li>
+    {% endfor %}
+</ul>
+
+<div class="mt-lg"></div>
+
 ## Recent work:
 
 {%  include "components/featuredProjectCards.njk" %}
