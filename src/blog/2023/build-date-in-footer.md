@@ -46,9 +46,25 @@ the `build` script becomes
 }
 ```
 
-In your footer, you can then use the `BUILD_DATE` variable in double curly brackets.
+In your footer, you can then use the `{% raw %}{{ BUILD_DATE }}{% endraw %}` variable in double curly brackets.
 
 ##### src/_includes/footer.njk
+
+```html
+<footer>
+    <p>Build Date: {% raw %}{{ BUILD_DATE }}{% endraw %}</p>
+</footer>
+```
+
+this becomes
+
+##### src/_includes/footer.njk
+
+```html
+<footer>
+    <p>Build Date: 27 October 2023</p>
+</footer>
+```
 
 ## The Explanation
 
