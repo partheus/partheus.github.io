@@ -57,6 +57,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 135%;
 }
 
+h4, h5, h6 {
+  color: var(--accent-color);
+}
+
 a {
   color: var(--text-color);
   transition: color 400ms;
@@ -285,11 +289,13 @@ blockquote {
   position: fixed;
   right: 0;
   top: 0;
+  padding-top: 0.25em;
   z-index: 100;
   font-size: 1.65em;
   display: flex;
   cursor: grab;
-  margin-right: 0.135em;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
 }
 
 .go-to-top-container {
@@ -414,7 +420,7 @@ blockquote {
 .pixelart-card {
   position: relative;
   display: inline-block;
-  border: 2px solid var(--text-color);
+  border: 2px solid var(--background-color-light);
 }
 
 .pixelart-image {

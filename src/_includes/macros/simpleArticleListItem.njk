@@ -1,0 +1,6 @@
+<h3 class="article__preview__header"><a href="{{ article.url | url }}">{{ article.data.title }}</a></h3>
+<p class="article__preview__description">{% if article.data.description %} {{ article.data.description }} &#x10101; {% endif %}
+<small>
+    <time>{{ article.data.date | readableDate }}</time>
+</small>
+</p>

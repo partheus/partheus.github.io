@@ -10,5 +10,21 @@ pagination:
   size: 40
   alias: articles
 ---
+{% set filtered_articles = [] %}
+{% for article in collections.blog %}
+    {% if article.data.tags %}
+        {% set hasWeeknotes = false %}
+        {% for tag in article.data.tags.slice(1, 3) %}
+            {% if tag == 'weeknotes' %}
+                {% set hasWeeknotes = true %}
+            {% endif %}
+        {% endfor %}
+        {% if not hasWeeknotes %}
+            {% set _ = filtered_articles.push(article) %}
+        {% endif %}
+    {% else %}
+        {% set _ = filtered_articles.push(article) %}
+    {% endif %}
+{% endfor %}
+{% set articles = filtered_articles %}
 {% include "./_includes/components/articleList.njk" %}
-
