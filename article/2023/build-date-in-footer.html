@@ -375,8 +375,18 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
   &quot;build&quot;: &quot;BUILD_DATE=$(TZ='America/Los_Angeles' date +'%d %B %Y') eleventy&quot;
 }
 </code></pre>
-<p>In your footer, you can then use the <code>BUILD_DATE</code> variable in double curly brackets.</p>
+<p>In your footer, you can then use the <code>{{ BUILD_DATE }}</code> variable in double curly brackets.</p>
 <h5>src/_includes/footer.njk</h5>
+<pre><code class="language-html">&lt;footer&gt;
+    &lt;p&gt;Build Date: {{ BUILD_DATE }}&lt;/p&gt;
+&lt;/footer&gt;
+</code></pre>
+<p>this becomes</p>
+<h5>src/_includes/footer.njk</h5>
+<pre><code class="language-html">&lt;footer&gt;
+    &lt;p&gt;Build Date: 27 October 2023&lt;/p&gt;
+&lt;/footer&gt;
+</code></pre>
 <h2>The Explanation</h2>
 <p>The <code>BUILD_DATE</code> variable is set to the output of the <code>date</code> command, which is a Unix command that prints the current date and time. The <code>TZ</code> flag sets the timezone to the one specified, in this case, <code>America/Los_Angeles</code>. The <code>+</code> flag specifies the format of the output, which is <code>'%d %B %Y'</code> in this case. The <code>%d</code> is the day of the month, <code>%B</code> is the full month name, and <code>%Y</code> is the full year.</p>
 <p>You can find your timezone by referring to the <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Wikipedia entry</a>.</p>
