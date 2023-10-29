@@ -6,19 +6,8 @@ templateEngineOverride: njk, md
 <article class="article slide-up-half-slow">
     <h4>{{ description }}</h4>
     <small>
-        Published:
-        <time>{{ date | readableDate }}</time>
-        {% for tag in tags %}
-            {% if tag != 'article' %}
-                <span>
-            <a class="category" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
-              <span>
-                {{ tag }}
-              </span>
-            </a>
-        </span>
-            {% endif %}
-        {% endfor %}
+        <time>{{ date | readableDate }} </time>
+        <span id="time-to-read"></span>
     </small>
     <div class="svg-color article-separator scale-in-rotate-center">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -178,6 +167,51 @@ templateEngineOverride: njk, md
     <div class="article__body">
         {{ content | safe }}
     </div>
+    <div class="mt-lg">
+        <h5 class="mb-sm">Tagged:</h5>
+        {% for tag in tags %}
+            {% if tag != 'article' %}
+                <span>
+            <a class="category" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
+              <span>
+                {{ tag }}
+              </span>
+            </a>
+        </span>
+            {% endif %}
+        {% endfor %}
+    </div>
 </article>
 
 <blockquote class="blockquote-lilac mt-xl"><h4 class="mt-lg">Go back to <a href="/blog/">all entries</a>.  Or visit <a href="/writing">the writing section</a>.</h4></blockquote>
+
+<script>
+  // Function to get the text content of the article
+  function get_text(el) {
+    var ret = "";
+    for (var i = 0; i < el.childNodes.length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType === 3) { // Text node
+        ret += node.nodeValue;
+      } else if (node.nodeType === 1 && node.tagName.toLowerCase() !== 'svg') { // Element node that is not an SVG
+        ret += get_text(node);
+      }
+    }
+    return ret;
+  }
+
+  // Main body in which all words exist
+  var articleElement = document.querySelector('.article__body');
+  var words = articleElement.textContent;
+
+  var count = words.split(' ').length;
+
+  // Average reading speed of a person is 200 words per minute
+  var avg = 180;
+  var counted = count / avg;
+  var maincount = Math.ceil(counted);
+
+  // Show output of code
+  document.getElementById("time-to-read").innerHTML = " ⁓ " + maincount + " minute read";
+</script>
+
