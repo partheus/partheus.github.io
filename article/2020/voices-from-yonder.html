@@ -190,41 +190,8 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
 <article class="article slide-up-half-slow">
     <h4>30-minute horror(?) speedrun</h4>
     <small>
-        Published:
-        <time>April 11, 2020</time>
-        
-            
-        
-            
-                <span>
-            <a class="category" href="/tags/fiction/" aria-label="Entries tagged with fiction">
-              <span>
-                fiction
-              </span>
-            </a>
-        </span>
-            
-        
-            
-                <span>
-            <a class="category" href="/tags/horror/" aria-label="Entries tagged with horror">
-              <span>
-                horror
-              </span>
-            </a>
-        </span>
-            
-        
-            
-                <span>
-            <a class="category" href="/tags/short-story/" aria-label="Entries tagged with short-story">
-              <span>
-                short-story
-              </span>
-            </a>
-        </span>
-            
-        
+        <time>April 11, 2020 </time>
+        <span id="time-to-read"></span>
     </small>
     <div class="svg-color article-separator scale-in-rotate-center">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -404,9 +371,76 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
 <p>&quot;Yes, Emma,&quot; said the voice. <i>Voices...</i> Emma glanced up at the sky, her face locked in a wide grin. There was a thunder cloud rolling in. Even as her hair was whipped around by the howling wind, both her feet touched the lake, and she was completely within its boundaries. &quot;We'll finally be able to play!&quot; the voices rose in a sharp crescendo, and there was a loud thunderclap, the loudest you could imagine, and a burst of lightning lit the entire sky up, and for a brief moment one could have seen the entire countryside, and its lush meadows, and the strange lake down yonder, and the silhouette of a little girl reaching out for something dark up ahead, and then the moment passed, swift, like a photo flash, and then lake was silent again.</p>
 
     </div>
+    <div class="mt-lg">
+        <h5 class="mb-sm">Tagged:</h5>
+        
+            
+        
+            
+                <span>
+            <a class="category" href="/tags/fiction/" aria-label="Entries tagged with fiction">
+              <span>
+                fiction
+              </span>
+            </a>
+        </span>
+            
+        
+            
+                <span>
+            <a class="category" href="/tags/horror/" aria-label="Entries tagged with horror">
+              <span>
+                horror
+              </span>
+            </a>
+        </span>
+            
+        
+            
+                <span>
+            <a class="category" href="/tags/short-story/" aria-label="Entries tagged with short-story">
+              <span>
+                short-story
+              </span>
+            </a>
+        </span>
+            
+        
+    </div>
 </article>
 
 <blockquote class="blockquote-lilac mt-xl"><h4 class="mt-lg">Go back to <a href="/blog/">all entries</a>.  Or visit <a href="/writing">the writing section</a>.</h4></blockquote>
+
+<script>
+  // Function to get the text content of the article
+  function get_text(el) {
+    var ret = "";
+    for (var i = 0; i < el.childNodes.length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType === 3) { // Text node
+        ret += node.nodeValue;
+      } else if (node.nodeType === 1 && node.tagName.toLowerCase() !== 'svg') { // Element node that is not an SVG
+        ret += get_text(node);
+      }
+    }
+    return ret;
+  }
+
+  // Main body in which all words exist
+  var articleElement = document.querySelector('.article__body');
+  var words = articleElement.textContent;
+
+  var count = words.split(' ').length;
+
+  // Average reading speed of a person is 200 words per minute
+  var avg = 180;
+  var counted = count / avg;
+  var maincount = Math.ceil(counted);
+
+  // Show output of code
+  document.getElementById("time-to-read").innerHTML = " ⁓ " + maincount + " minute read";
+</script>
+
 
 </main>
 <footer role="contentinfo" class="ml-auto mr-auto mt-xl slide-up-half-slow">
@@ -467,7 +501,7 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
         <img src="/assets/icons/flower.svg" class="flower-svg-bottom-left scale-in-center" alt="Flower bottom left">
     </div>
   <p>&copy; Parth Shiralkar </p>
-  <p>This website does not track or collect your data. No language models were involved in writing the blog posts on here. <br> Latest build: 23 October 2023</p>
+  <p>This website does not track or collect your data. No language models were involved in writing the blog posts on here. <br> Last updated: 29 October 2023</p>
 </footer>
 
 </body>

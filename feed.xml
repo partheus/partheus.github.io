@@ -4,7 +4,7 @@
     <subtitle></subtitle>
     <link href="https://eleventy-not-so-minimal-blog-starter.netlify.app/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
-    <updated>2023-10-22T00:00:00Z</updated>
+    <updated>2023-10-29T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
         <name>Parth S</name>
@@ -230,6 +230,22 @@
         <link href="https://parth.ninja/article/2023/week-42.html"/>
         <updated>2023-10-22T00:00:00Z</updated>
         <id>https://parth.ninja/article/2023/week-42.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Build Date in Footer</title>
+        <link href="https://parth.ninja/article/2023/build-date-in-footer.html"/>
+        <updated>2023-10-27T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/build-date-in-footer.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Week 43</title>
+        <link href="https://parth.ninja/article/2023/week-43.html"/>
+        <updated>2023-10-29T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/week-43.html</id>
         
         <content type="html"></content>
     </entry></feed>
