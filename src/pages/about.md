@@ -18,4 +18,6 @@ Big fan of noise that sounds good. Here's my [SoundCloud](https://soundcloud.com
 
 I dream in [Discworld](https://en.wikipedia.org/wiki/Discworld) motifs.
 
+See [all links on this site](/linklist).
+
 > Check out what I'm up to [now](/now).
