@@ -10,7 +10,7 @@ permalink: /colophon/
 ---
 <blockquote class="blockquote-lilac">
 
-**The site is available for casual viewing. Pages are still being built and might break.** (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
+The site is available for casual viewing. Pages are still being built and might break. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
 </blockquote>
 
 
