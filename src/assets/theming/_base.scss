@@ -102,12 +102,13 @@ nav {
   }
 }
 
-header {
-  min-height: fit-content;
-}
-
 .nav__floating-buttons {
-  position: relative;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 40px;
+  z-index: 100;
+
 }
 
 main {
@@ -142,10 +143,6 @@ footer {
   max-width: 1440px;
 }
 
-header {
-  padding: 1.35em 0;
-}
-
 footer {
   padding: 1em 0 4em 0;
   border-top: 2px solid var(--background-color-light);
@@ -156,9 +153,12 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  padding: 2em 0;
+  min-height: fit-content;
 
   @include breakpoint-md {
     max-width: 80vw;
+    padding: 1.5em 0;
   }
 
   @include breakpoint-lg {
@@ -216,7 +216,7 @@ hr {
 blockquote {
   position: relative;
   padding: 20px;
-  border-left: 7px solid var(--accent-color);
+  border-left: 5px solid var(--accent-color);
   margin: 4rem 0;
   line-height: 1.3;
   font-size: 1.1em;
@@ -235,7 +235,7 @@ blockquote {
 }
 
 .blockquote-lilac {
-  border-left: 7px solid var(--text-color-link);
+  border-left: 5px solid var(--text-color-link);
 }
 
 .page {
@@ -286,15 +286,14 @@ blockquote {
 
 .theme-toggle-container {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
   padding-top: 0.25em;
   z-index: 100;
-  font-size: 1.65em;
+  font-size: 1.25em;
   display: flex;
   cursor: grab;
-  margin-right: 0.1em;
-  margin-top: 0.1em;
+  margin-left: 0.2em;
 }
 
 .go-to-top-container {
@@ -315,6 +314,27 @@ blockquote {
 .go-to-top-container a {
   padding: 0.1em 0.35em;
   text-decoration: none;
+}
+
+.footer-icon-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 1em;
+
+  a svg {
+    path {
+      fill: var(--text-color-link);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  a:hover svg {
+    path {
+      fill: var(--accent-color);
+      transition: all 0.3s ease-in-out;
+    }
+  }
 }
 
 .snow-toggle-container {
@@ -344,6 +364,10 @@ blockquote {
   pointer-events: none;
 }
 
+.no-link {
+  text-decoration: none;
+}
+
 .no-js {
   display: none;
 }
@@ -355,7 +379,7 @@ blockquote {
 }
 
 .featured__post {
-  border-left: 7px solid var(--background-color-light);
+  border-left: 5px solid var(--background-color-light);
   padding-left: 1.2em;
 }
 
@@ -414,6 +438,66 @@ blockquote {
   filter: saturate(1.3);
   transition: all ease-in-out 0.3s;
   box-shadow: 0 0 12px var(--text-color);
+}
+
+/* Goodreads widget current */
+
+.gr_custom_container_1662769460  {
+  /* customize grid container div here. eg: width: 500px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all ease-in-out 0.2s;
+  flex-wrap: wrap;
+
+  center {
+    display: none;
+  }
+}
+
+.gr_custom_header_1662769460 {
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+
+.gr_custom_each_container_1662769460 {
+  /* customize book cover container div here */
+  overflow: hidden;
+  transition: all ease-in-out 0.2s;
+  filter: none;
+  margin: 0 auto 0 0;
+  overflow-wrap: break-word;
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.35em;
+  font-size: 1.15em;
+
+  .gr_custom_title_1662769460 a {
+    transition: all ease-in-out 0.2s;
+    color: var(--accent-color);
+    font-size: 1.25em;
+  }
+
+  .gr_custom_title_1662769460 a:hover {
+    color: var(--text-color-link);
+  }
+
+  .gr_custom_title_1662769460 a::after {
+    content: "‎ ↗";
+    display: inline-block;
+  }
+}
+
+.goodreads-current {
+  p {
+    display: none;
+  }
+
+  center {
+    display: none;
+  }
 }
 
 .pixelart-card {
