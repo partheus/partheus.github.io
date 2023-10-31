@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Parth Shiralkar</title>
+    <title>Parth Shiralkar RSS Feed</title>
     <subtitle></subtitle>
-    <link href="https://eleventy-not-so-minimal-blog-starter.netlify.app/feed.xml" rel="self"/>
+    <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
     <updated>2023-10-29T00:00:00Z</updated>
     <id>https://parth.ninja</id>
@@ -10,226 +10,10 @@
         <name>Parth S</name>
     </author>
     <entry>
-        <title>Ricochet</title>
-        <link href="https://parth.ninja/article/2016/ricochet.html"/>
-        <updated>2016-12-11T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2016/ricochet.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>In The Shadow of A Curse</title>
-        <link href="https://parth.ninja/article/2019/shadow-of-a-curse.html"/>
-        <updated>2019-06-02T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2019/shadow-of-a-curse.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Lost in Translation - An affair with the feels</title>
-        <link href="https://parth.ninja/article/2019/lost-in-translation.html"/>
-        <updated>2019-12-19T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2019/lost-in-translation.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Voices from yonder</title>
-        <link href="https://parth.ninja/article/2020/voices-from-yonder.html"/>
-        <updated>2020-04-11T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2020/voices-from-yonder.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>College students cure virus over weekend</title>
-        <link href="https://parth.ninja/article/2020/corona-cured.html"/>
-        <updated>2020-05-23T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2020/corona-cured.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Don&#39;t shoot the messenger</title>
-        <link href="https://parth.ninja/article/2020/dont-shoot-messenger.html"/>
-        <updated>2020-08-11T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2020/dont-shoot-messenger.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>What&#39;s up with Markdown anyway?</title>
-        <link href="https://parth.ninja/article/2020/why-markdown.html"/>
-        <updated>2020-10-17T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2020/why-markdown.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Markdown Cheatsheet</title>
-        <link href="https://parth.ninja/article/2020/markdown-cs.html"/>
-        <updated>2020-10-23T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2020/markdown-cs.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Drawing a Blank</title>
-        <link href="https://parth.ninja/article/2021/drawing-a-blank.html"/>
-        <updated>2021-10-20T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2021/drawing-a-blank.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>New Yorker Caption Contest No. IDK</title>
-        <link href="https://parth.ninja/article/2021/new-yorker-idk.html"/>
-        <updated>2021-12-30T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2021/new-yorker-idk.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Flashed a V5</title>
-        <link href="https://parth.ninja/article/2022/flashed-a-v5.html"/>
-        <updated>2022-03-17T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/flashed-a-v5.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>New Yorker Caption Contest No. 795</title>
-        <link href="https://parth.ninja/article/2022/new-yorker-795.html"/>
-        <updated>2022-03-18T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/new-yorker-795.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Absinthe and Treachery</title>
-        <link href="https://parth.ninja/article/2022/absinthe-and-treachery.html"/>
-        <updated>2022-03-19T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/absinthe-and-treachery.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Netlify -&gt; Github Pages</title>
-        <link href="https://parth.ninja/article/2022/github-pages.html"/>
-        <updated>2022-03-21T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/github-pages.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Red V4</title>
-        <link href="https://parth.ninja/article/2022/red-v4.html"/>
-        <updated>2022-03-22T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/red-v4.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Yellow V4 - Flash</title>
-        <link href="https://parth.ninja/article/2022/flash-yellow-v4.html"/>
-        <updated>2022-03-23T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/flash-yellow-v4.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Tan V4</title>
-        <link href="https://parth.ninja/article/2022/tan-v4.html"/>
-        <updated>2022-03-27T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/tan-v4.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>V5 Flashes</title>
-        <link href="https://parth.ninja/article/2022/v5-flashes.html"/>
-        <updated>2022-05-15T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/v5-flashes.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>The Midtown Caper</title>
-        <link href="https://parth.ninja/article/2022/midtown-caper.html"/>
-        <updated>2022-05-21T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/midtown-caper.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>New Book Covers</title>
-        <link href="https://parth.ninja/article/2022/new-book-covers.html"/>
-        <updated>2022-06-05T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/new-book-covers.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>The Second Sword</title>
-        <link href="https://parth.ninja/article/2022/the-second-sword.html"/>
-        <updated>2022-06-23T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2022/the-second-sword.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>How to combat writer&#39;s block</title>
-        <link href="https://parth.ninja/article/2022/how-to-combat-writers-block.html"/>
-        <updated>2022-09-12T00:53:31Z</updated>
-        <id>https://parth.ninja/article/2022/how-to-combat-writers-block.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Indiana Jones &amp; the Disappearing Rain</title>
-        <link href="https://parth.ninja/article/2023/indiana-jones-and-the-disappearing-rain.html"/>
-        <updated>2023-01-08T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2023/indiana-jones-and-the-disappearing-rain.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Poems at midnight</title>
-        <link href="https://parth.ninja/article/2023/poems-at-midnight.html"/>
-        <updated>2023-05-05T06:34:15Z</updated>
-        <id>https://parth.ninja/article/2023/poems-at-midnight.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>The Gift of Motion</title>
-        <link href="https://parth.ninja/article/2023/the-gift-of-motion.html"/>
-        <updated>2023-09-08T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2023/the-gift-of-motion.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Rush Hour</title>
-        <link href="https://parth.ninja/article/2023/rush-hour.html"/>
-        <updated>2023-09-09T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2023/rush-hour.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>How to fix Goodreads widget image quality</title>
-        <link href="https://parth.ninja/article/2023/goodreads-image-quality.html"/>
-        <updated>2023-10-22T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2023/goodreads-image-quality.html</id>
-        
-        <content type="html"></content>
-    </entry>
-    <entry>
-        <title>Week 42</title>
-        <link href="https://parth.ninja/article/2023/week-42.html"/>
-        <updated>2023-10-22T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2023/week-42.html</id>
+        <title>Week 43</title>
+        <link href="https://parth.ninja/article/2023/week-43.html"/>
+        <updated>2023-10-29T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/week-43.html</id>
         
         <content type="html"></content>
     </entry>
@@ -242,10 +26,226 @@
         <content type="html"></content>
     </entry>
     <entry>
-        <title>Week 43</title>
-        <link href="https://parth.ninja/article/2023/week-43.html"/>
-        <updated>2023-10-29T00:00:00Z</updated>
-        <id>https://parth.ninja/article/2023/week-43.html</id>
+        <title>Week 42</title>
+        <link href="https://parth.ninja/article/2023/week-42.html"/>
+        <updated>2023-10-22T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/week-42.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>How to fix Goodreads widget image quality</title>
+        <link href="https://parth.ninja/article/2023/goodreads-image-quality.html"/>
+        <updated>2023-10-22T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/goodreads-image-quality.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Rush Hour</title>
+        <link href="https://parth.ninja/article/2023/rush-hour.html"/>
+        <updated>2023-09-09T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/rush-hour.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>The Gift of Motion</title>
+        <link href="https://parth.ninja/article/2023/the-gift-of-motion.html"/>
+        <updated>2023-09-08T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/the-gift-of-motion.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Poems at midnight</title>
+        <link href="https://parth.ninja/article/2023/poems-at-midnight.html"/>
+        <updated>2023-05-05T06:34:15Z</updated>
+        <id>https://parth.ninja/article/2023/poems-at-midnight.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Indiana Jones &amp; the Disappearing Rain</title>
+        <link href="https://parth.ninja/article/2023/indiana-jones-and-the-disappearing-rain.html"/>
+        <updated>2023-01-08T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/indiana-jones-and-the-disappearing-rain.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>How to combat writer&#39;s block</title>
+        <link href="https://parth.ninja/article/2022/how-to-combat-writers-block.html"/>
+        <updated>2022-09-12T00:53:31Z</updated>
+        <id>https://parth.ninja/article/2022/how-to-combat-writers-block.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>The Second Sword</title>
+        <link href="https://parth.ninja/article/2022/the-second-sword.html"/>
+        <updated>2022-06-23T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/the-second-sword.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>New Book Covers</title>
+        <link href="https://parth.ninja/article/2022/new-book-covers.html"/>
+        <updated>2022-06-05T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/new-book-covers.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>The Midtown Caper</title>
+        <link href="https://parth.ninja/article/2022/midtown-caper.html"/>
+        <updated>2022-05-21T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/midtown-caper.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>V5 Flashes</title>
+        <link href="https://parth.ninja/article/2022/v5-flashes.html"/>
+        <updated>2022-05-15T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/v5-flashes.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Tan V4</title>
+        <link href="https://parth.ninja/article/2022/tan-v4.html"/>
+        <updated>2022-03-27T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/tan-v4.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Yellow V4 - Flash</title>
+        <link href="https://parth.ninja/article/2022/flash-yellow-v4.html"/>
+        <updated>2022-03-23T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/flash-yellow-v4.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Red V4</title>
+        <link href="https://parth.ninja/article/2022/red-v4.html"/>
+        <updated>2022-03-22T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/red-v4.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Netlify -&gt; Github Pages</title>
+        <link href="https://parth.ninja/article/2022/github-pages.html"/>
+        <updated>2022-03-21T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/github-pages.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Absinthe and Treachery</title>
+        <link href="https://parth.ninja/article/2022/absinthe-and-treachery.html"/>
+        <updated>2022-03-19T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/absinthe-and-treachery.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>New Yorker Caption Contest No. 795</title>
+        <link href="https://parth.ninja/article/2022/new-yorker-795.html"/>
+        <updated>2022-03-18T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/new-yorker-795.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Flashed a V5</title>
+        <link href="https://parth.ninja/article/2022/flashed-a-v5.html"/>
+        <updated>2022-03-17T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2022/flashed-a-v5.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>New Yorker Caption Contest No. IDK</title>
+        <link href="https://parth.ninja/article/2021/new-yorker-idk.html"/>
+        <updated>2021-12-30T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2021/new-yorker-idk.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Drawing a Blank</title>
+        <link href="https://parth.ninja/article/2021/drawing-a-blank.html"/>
+        <updated>2021-10-20T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2021/drawing-a-blank.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Markdown Cheatsheet</title>
+        <link href="https://parth.ninja/article/2020/markdown-cs.html"/>
+        <updated>2020-10-23T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2020/markdown-cs.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>What&#39;s up with Markdown anyway?</title>
+        <link href="https://parth.ninja/article/2020/why-markdown.html"/>
+        <updated>2020-10-17T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2020/why-markdown.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Don&#39;t shoot the messenger</title>
+        <link href="https://parth.ninja/article/2020/dont-shoot-messenger.html"/>
+        <updated>2020-08-11T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2020/dont-shoot-messenger.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>College students cure virus over weekend</title>
+        <link href="https://parth.ninja/article/2020/corona-cured.html"/>
+        <updated>2020-05-23T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2020/corona-cured.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Voices from yonder</title>
+        <link href="https://parth.ninja/article/2020/voices-from-yonder.html"/>
+        <updated>2020-04-11T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2020/voices-from-yonder.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Lost in Translation - An affair with the feels</title>
+        <link href="https://parth.ninja/article/2019/lost-in-translation.html"/>
+        <updated>2019-12-19T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2019/lost-in-translation.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>In The Shadow of A Curse</title>
+        <link href="https://parth.ninja/article/2019/shadow-of-a-curse.html"/>
+        <updated>2019-06-02T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2019/shadow-of-a-curse.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Ricochet</title>
+        <link href="https://parth.ninja/article/2016/ricochet.html"/>
+        <updated>2016-12-11T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2016/ricochet.html</id>
         
         <content type="html"></content>
     </entry></feed>
