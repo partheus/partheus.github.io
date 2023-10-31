@@ -8,5 +8,5 @@
     "email": "hi@parth.ninja"
   },
   "image": "/assets/social-image.jpg",
-  "feedUrl": "https://eleventy-not-so-minimal-blog-starter.netlify.app/feed.xml"
+  "feedUrl": "https://parth.ninja/feed.xml"
 }

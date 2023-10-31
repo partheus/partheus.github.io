@@ -5,7 +5,7 @@ layout: base
     <section class="page__header ml-auto mr-auto">
         <div class="flower-svg-container">
             <img src="/assets/icons/flower.svg" class="flower-svg-top-right scale-in-rotate-center" alt="Flower top right">
-            <h1>{{ title | safe }}</h1>
+            <h1><a name="{{title}}" class="no-link" href="{{page.url}}">{{ title | safe }}</a></h1>
             <img src="/assets/icons/flower.svg" class="flower-svg-bottom-left scale-in-rotate-center" alt="Flower bottom left">
         </div>
         <h2 class="slide-up-half">{{ description | replace('\n', '<br>') | safe }}</h2>

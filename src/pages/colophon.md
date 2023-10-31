@@ -4,7 +4,7 @@ tags:
     - footer
 eleventyNavigation:
     key: "[ colophon ]"
-    order: 2
+    order: 1
 description: col⋅o⋅phon (noun) An inscription, usually at the end of a book, giving facts about its publication.
 permalink: /colophon/
 ---

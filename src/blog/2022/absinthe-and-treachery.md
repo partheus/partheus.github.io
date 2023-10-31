@@ -5,7 +5,6 @@ date: 2022-03-19
 tags: 
   - books
   - life
-  - featured
 ---
 About a month or so into the new year, I saw this guy at the climbing gym with a massive paperback with him. He was reading between climbs.
 

@@ -1,10 +1,11 @@
 ---
 permalink: /feed.xml
 eleventyExcludeFromCollections: true
+title: Parth's RSS Feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ metadata.title }}</title>
+    <title>{{ metadata.title }} RSS Feed</title>
     <subtitle>{{ metadata.summary }}</subtitle>
     <link href="{{ metadata.feedUrl }}" rel="self"/>
     <link href="{{ metadata.url }}"/>
@@ -14,7 +15,7 @@ eleventyExcludeFromCollections: true
         <name>Parth S</name>
     </author>
 
-    {%- for article in collections.blog -%}
+    {%- for article in collections.blog | reverse -%}
     {% set absolutePostUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
     <entry>
         <title>{{ article.data.title }}</title>
