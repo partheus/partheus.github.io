@@ -144,7 +144,7 @@ footer {
 }
 
 footer {
-  padding: 1em 0 4em 0;
+  padding: 1em 0 3em 0;
   border-top: 2px solid var(--background-color-light);
 }
 
@@ -321,6 +321,7 @@ blockquote {
   align-items: center;
   flex-direction: row;
   column-gap: 1em;
+  justify-content: flex-end;
 
   a svg {
     path {
@@ -470,23 +471,23 @@ blockquote {
   overflow-wrap: break-word;
   padding-bottom: 0.5em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
   column-gap: 0.35em;
   font-size: 1.15em;
 
   .gr_custom_title_1662769460 a {
     transition: all ease-in-out 0.2s;
     color: var(--accent-color);
-    font-size: 1.25em;
   }
 
   .gr_custom_title_1662769460 a:hover {
     color: var(--text-color-link);
   }
 
-  .gr_custom_title_1662769460 a::after {
-    content: "‎ ↗";
-    display: inline-block;
+  @include breakpoint-sm {
+    flex-direction: row;
+    font-size: 1.25em;
   }
 }
 
