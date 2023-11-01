@@ -1,6 +1,9 @@
-{% macro projectCard(title, projectUrl, imageUrl) %}
+{% macro projectCard(title, projectUrl, imageUrl, description) %}
 <div class="card mt-sm" tabindex="0">
     <h3 class="mt-sm card__title mb-sm"><a href="{{ projectUrl | url }}" target="_blank" title="{{ title }}" tabindex="0">{{ title }}</a></h3>
+    {% if description %}
+    <p class="card__description mb-sm">{{ description }}</p>
+    {% endif %}
     <img loading="lazy" class="card-image mb-md" src="{{ imageUrl | url }}" alt="{{ title }}">
 </div>
 {% endmacro %}
