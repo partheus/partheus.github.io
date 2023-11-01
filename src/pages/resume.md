@@ -2,7 +2,7 @@
 title: Resume
 description: What I've done (Linkin Park)
 permalink: /resume/
-date: 2023-10-16
+date: 2023-10-24
 ---
 <div class="resume mb-md">
 
@@ -25,10 +25,12 @@ date: 2023-10-16
 
 - ## Skills
     - Front End Development (HTML, CSS, JavaScript)
+    - Advanced Front End Development (11ty, React, Vue, Angular)
+    - Back End Development (Node.js, PHP, Python)
     - Content Management Systems (WordPress, Craft CMS)
+    - DevOps (Git, GitHub, GitLab, Netlify, Cloudflare)
     - Project Management (Agile, Scrum, Kanban)
     - Adobe Creative Suite (Photoshop, Illustrator, InDesign)
-    - Advanced Front End Development (React, Vue, Angular)
 
 - ## Languages
     - Marathi (Native)
@@ -39,7 +41,10 @@ date: 2023-10-16
 
 </div>
 
-<a class="button button--secondary" href="mailto:hi@parth.ninja" title="Email">Say hi!</a>
+<a class="button button--secondary" href="/hello">Say hi!</a>
 
-> Last updated: {{ date | readableDate }}
+
+
+---
+Last updated: {{ date | readableDate }}
 
