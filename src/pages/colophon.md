@@ -8,19 +8,16 @@ eleventyNavigation:
 description: col⋅o⋅phon (noun) An inscription, usually at the end of a book, giving facts about its publication.
 permalink: /colophon/
 ---
-<blockquote class="blockquote-lilac">
-
-The site is available for casual viewing. Pages are still being built and might break. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
-</blockquote>
-
 
 - # Development
 
-This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook Pro laptop (pink motif). It is written in HTML, Markdown, Nunjucks, CSS, and Javascript.
+This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook Pro laptop (pink motif). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
 
-[Eleventy](https://www.11ty.dev/) is used for static page generation. [Git](https://git-scm.com/) is used for version control. [Github](https://github.com) is used to store the repository. It is being tested and hosted on CloudFlare and Netlify.
+[Eleventy](https://www.11ty.dev/) is used for static page generation. [Git](https://git-scm.com/) is used for version control. [Github](https://github.com) is used to store the repository. 
 
-I used [PHPStorm](https://www.jetbrains.com/phpstorm/) for development; [Chromium Nightly](https://www.chromium.org/Home/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/) were used for testing.
+It is being tested on Cloudflare and hosted on Github Pages.
+
+I used [VSCodium](/https://vscodium.com/) for development; [Chromium Nightly](https://www.chromium.org/Home/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/) were used for testing.
 
 - # Design
 
@@ -32,14 +29,23 @@ Mockups generated using [https://screenshot.rocks/](https://screenshot.rocks/).
 
 Font faces are [Besley](https://indestructibletype.com/Besley.html) and [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master).
 
- 
-<hr class="mt-lg mb-md" />
+The footer icons are from [Font Awesome](https://fontawesome.com/).
+
+- # Privacy
+
+The site uses JavaScript for little functional fixes, like the theme cycler and the time-to-read text on articles; the chunkier scripts are used for the [reading](/reading) page. The reading page pulls data from my Goodreads profile, hence the singular cookie on that page.
+
+The site does not use trackers or any sort, and here is the GPLv3 license:
+
+
+
+[![License: GPLv3](https://licensebuttons.net/l/GPL/2.0/88x62.png)](https://github.com/partheus/partheus.github.io/blob/main/LICENSE)
 
 - ## Main resources:
 
 11ty Main Docs: [11tyJS](https://www.11ty.dev/docs/)
 
-<div class="mt-lg mb-md">
+---
 
 > [Styleguide](/styleguide/)
 
@@ -50,4 +56,10 @@ Font faces are [Besley](https://indestructibletype.com/Besley.html) and [EB Gara
 This page was built using the `base` layout I made. Most pages on this site use the same `base` layout, which makes pages load faster. Read more about [static site generation](https://www.cloudflare.com/learning/performance/static-site-generator/).
 
 </blockquote>
+
+<blockquote class="blockquote-lilac">
+
+The site is available for casual viewing. Pages are still being built and might break. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
+</blockquote>
+
 </div>
