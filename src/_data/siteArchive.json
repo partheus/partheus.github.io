@@ -1,0 +1,32 @@
+[
+  {
+    "title": "2022 Site",
+    "imageUrl": "/assets/img/projects/2022site.webp",
+    "projectUrl": "https://parth-2022.netlify.app/",
+    "description": "11ty, SASS, GitHub Pages (Netlify now)"
+  },
+  {
+    "title": "2020 Site",
+    "imageUrl": "/assets/img/projects/2020site.webp",
+    "projectUrl": "https://parth-2020.netlify.app/",
+    "description": "11ty, CSS Grid, Netlify"
+  },
+  {
+    "title": "Eleventy Starter",
+    "imageUrl": "/assets/img/projects/eleventy-starter.webp",
+    "projectUrl": "https://eleventy-barebones-starter.netlify.app/",
+    "description": "11ty, SASS, Netlify"
+  },
+  {
+    "title": "2021 Site",
+    "imageUrl": "/assets/img/projects/2021site.webp",
+    "projectUrl": "https://parth-2021.netlify.app/",
+    "description": "Half-baked 11ty, SASS, Netlify"
+  },
+  {
+    "title": "2019 Site",
+    "imageUrl": "/assets/img/projects/2019site.webp",
+    "projectUrl": "https://parth-gatsby-archive.netlify.app/",
+    "description": "Gatsby and CSS on Netlify"
+  }
+]

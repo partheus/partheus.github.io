@@ -1,7 +1,7 @@
 {% from '../macros/projectCard.njk' import projectCard %}
 
 <div class="display-columns display-columns--two mt-md">
-    {% for card in archiveProjectCards %}
+    {% for card in featuredArchiveProjectCards %}
         {{ projectCard(
             title=card.title,
             projectUrl=card.projectUrl,
