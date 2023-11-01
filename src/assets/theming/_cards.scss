@@ -54,7 +54,10 @@
   }
 
   &__description {
-    margin-top: 0.5em;
+    margin-top: 0;
+    font-family: monospace;
+    font-size: 70% !important;
+    color: var(--accent-color);
   }
 
   &__title {

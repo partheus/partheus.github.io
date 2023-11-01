@@ -5,7 +5,7 @@ tags:
 eleventyNavigation:
     key: "about"
     order: 1
-description: Unlisted character from Discworld
+description: Temporal Harmony Garden
 permalink: /about/
 ---
 Hi! I'm Parth, this is my website. 
@@ -16,8 +16,14 @@ I am a [web developer](/code) and [designer](/pixelart).
 
 Big fan of noise that sounds good. Here's my [SoundCloud](https://soundcloud.com/bhatji).
 
-I dream in [Discworld](https://en.wikipedia.org/wiki/Discworld) motifs.
+<hr>
 
-See [all links on this site](/linklist).
+See a list of [all page links on this site](/linklist).
 
-> Check out what I'm up to [now](/now).
+See the [older iterations of this site](/sitearchive).
+
+> Check out what I'm up to [now](/now). Or a [basic resume](/resume)
+
+---
+
+This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my profile. You can find more technical specs [in the colophon](/colophon).
