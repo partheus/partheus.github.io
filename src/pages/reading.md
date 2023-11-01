@@ -5,7 +5,7 @@ permalink: /reading/
 date: Last Modified
 layout: page
 ---
-> Clicking on the book covers will take you to the book's Goodreads page of **my review**. Sometimes the javascript doesn't load, so you might have to refresh the page.
+> Clicking on the book covers will take you to the book's Goodreads page of **my review**.
 
 <div class="mt-md mb-md">
 <div class="goodreads-current slide-up-half">
@@ -25,6 +25,8 @@ layout: page
 </div>
 </div>
 
+<div class="mt-md mb-md">
+
       <div id="gr_grid_widget_1697873408">
         <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
         <h2>
@@ -33,6 +35,12 @@ layout: page
 
       </div>
       <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
+</div>
+
+## If you wish to keep Javascript disabled, you can view some recent reads added manually:
+
+{% include "components/readingMonth.njk" %}
+
 
 <script>
 // Get all the img elements with the class "gr_grid_book_container"
