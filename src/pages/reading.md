@@ -29,9 +29,6 @@ layout: page
 
       <div id="gr_grid_widget_1697873408">
         <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-        <h2>
-          <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/60162168-parth-shiralkar?shelf=read&utm_medium=api&utm_source=grid_widget">Parth's bookshelf: read</a>
-        </h2>
 
       </div>
       <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
