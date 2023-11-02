@@ -332,7 +332,13 @@ blockquote {
 
   img {
     max-width: 33px;
+    transition: all 0.3s ease-in-out;
     filter: invert(0.5);
+  }
+
+  img:hover {
+    filter: invert(0.2);
+    transition: all 0.3s ease-in-out;
   }
 
   a:hover svg {
