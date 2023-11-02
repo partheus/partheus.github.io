@@ -25,9 +25,6 @@ Following are the various formats available for download (versions with large fo
 
 <div class="mt-md mb-lg"></div>
 
-<a class="button button--secondary" href="https://drive.google.com/file/d/1cMkwQke5xgP7uTR9Ckqm6v4RwmvePKmx/view?usp=share_link" target="_blank">- FREE AUDIOBOOK</a>
-<div class="mt-md mb-mdp"></div>
-
 <a class="button button--secondary" href="https://drive.google.com/file/d/1XUoZB-7ITVY18DP0JiaReZKyFprdzmrm/view?usp=sharing" target="_blank">- EPUB</a>
 <div class="mt-md mb-mdp"></div>
 
