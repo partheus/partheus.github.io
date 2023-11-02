@@ -18,12 +18,6 @@
     "description": "11ty, SASS, Netlify"
   },
   {
-    "title": "2021 Site",
-    "imageUrl": "/assets/img/projects/2021site.webp",
-    "projectUrl": "https://parth-2021.netlify.app/",
-    "description": "Half-baked 11ty, SASS, Netlify"
-  },
-  {
     "title": "2019 Site",
     "imageUrl": "/assets/img/projects/2019site.webp",
     "projectUrl": "https://parth-gatsby-archive.netlify.app/",
