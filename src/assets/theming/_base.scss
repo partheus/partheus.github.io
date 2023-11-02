@@ -330,6 +330,11 @@ blockquote {
     }
   }
 
+  img {
+    max-width: 33px;
+    filter: invert(0.5);
+  }
+
   a:hover svg {
     path {
       fill: var(--accent-color);
