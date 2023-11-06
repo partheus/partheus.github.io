@@ -532,7 +532,7 @@ blockquote {
 
 .pixelart-image-overlay {
   opacity: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
   position: absolute;
   top: 0;
@@ -547,5 +547,9 @@ blockquote {
   .pixelart-card:hover & {
     opacity: 1;
   }
+}
+
+iframe[src*="soundcloud.com"] {
+  width: 100%;
 }
 
