@@ -1,14 +1,6 @@
 {
   "currentlyReading": [
     {
-      "title": "Leviathan (Manhwa)",
-      "author": "Lee Gyuntak",
-      "currentChapter": 100,
-      "totalChapters": 100,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/265669.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/148137/Leviathan"
-    },
-    {
       "title": "Jujustu Kaisen",
       "author": "Gege Akutami",
       "currentChapter": 100,
@@ -31,6 +23,12 @@
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/242919.jpg",
       "mangaUrl": "https://myanimelist.net/manga/131334/Sakamoto_Days"
+    },
+    {
+      "title": "Kaiju No. 8",
+      "author": "Naoya Matsumoto",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/252929.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/127907/Kaijuu_8-gou"
     }
   ]
 }
