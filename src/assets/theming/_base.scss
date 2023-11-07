@@ -106,9 +106,12 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
-  height: 40px;
   z-index: 100;
 
+  @include breakpoint-sm {
+    top: 0.5em;
+    right: 0.25em;
+  }
 }
 
 main {
