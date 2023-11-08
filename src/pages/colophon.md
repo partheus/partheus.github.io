@@ -9,6 +9,11 @@ description: col⋅o⋅phon (noun) An inscription, usually at the end of a book,
 permalink: /colophon/
 ---
 
+<blockquote class="blockquote-lilac">
+
+The site is available for casual viewing. Pages are still being built and might break. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
+</blockquote>
+
 - # Development
 
 This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook Pro laptop (pink motif). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
@@ -17,7 +22,7 @@ This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook P
 
 It is being tested on Cloudflare and hosted on Github Pages.
 
-I used [VSCodium](/https://vscodium.com/) for development; [Chromium Nightly](https://www.chromium.org/Home/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/) were used for testing.
+I used [VSCodium](https://vscodium.com/) and [PhpStorm](https://www.jetbrains.com/phpstorm/) for development; [Chromium Nightly](https://www.chromium.org/Home/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/) were used for testing.
 
 - # Design
 
@@ -35,15 +40,14 @@ The footer icons are from [Font Awesome](https://fontawesome.com/).
 
 The site uses JavaScript for little functional fixes, like the theme cycler and the time-to-read text on articles; the chunkier scripts are used for the [reading](/reading) page. The reading page pulls data from my Goodreads profile, hence the singular cookie on that page.
 
-The site does not use trackers or any sort, and here is the GPLv3 license:
 
 
+> This site works without JavaScript. There are no trackers of any sort, and here is the GPLv3 license: <p></p> [![License: GPLv3](https://licensebuttons.net/l/GPL/2.0/88x62.png)](https://github.com/partheus/partheus.github.io/blob/main/LICENSE)
 
-[![License: GPLv3](https://licensebuttons.net/l/GPL/2.0/88x62.png)](https://github.com/partheus/partheus.github.io/blob/main/LICENSE)
 
 - ## Main resources:
 
-11ty Main Docs: [11tyJS](https://www.11ty.dev/docs/)
+11ty Main Docs: [EleventyJS](https://www.11ty.dev/docs/)
 
 ---
 
@@ -57,9 +61,3 @@ This page was built using the `base` layout I made. Most pages on this site use 
 
 </blockquote>
 
-<blockquote class="blockquote-lilac">
-
-The site is available for casual viewing. Pages are still being built and might break. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
-</blockquote>
-
-</div>

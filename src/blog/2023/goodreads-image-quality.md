@@ -35,7 +35,6 @@ imgElements.forEach(function (imgElement) {
 </script>
 ```
 
->
 This will remove the `_SX98_` and `_SY160_` from the image URLs, and the images will no longer be compressed.
 
 One small callout is that when the page first loads, the images will be compressed for a split second, and then the script will run and fix the images. This is because the script runs after the page has loaded. I will try to find a way to fix this, but for now, this is a pretty good solution.
