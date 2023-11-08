@@ -16,7 +16,9 @@ I am a [web developer](/code) and [designer](/pixelart).
 
 Big fan of noise that sounds good. I [make music](/music).
 
-I also enjoy [biking](/biking) and [climbing](/climbing).
+I enjoy [biking](/biking) and [climbing](/climbing).
+
+I also enjoy [eating animal-free food in my city](https://food.parth.ninja).
 
 <hr>
 
