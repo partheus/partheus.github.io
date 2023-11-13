@@ -11,7 +11,7 @@ permalink: /colophon/
 
 <blockquote class="blockquote-lilac">
 
-The site is available for casual viewing. Pages are still being built and might break. (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the repo here</a>)
+The site is available for casual viewing. Pages are still being built and might break (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the code repository here</a>).
 </blockquote>
 
 - # Development
@@ -26,7 +26,9 @@ I used [VSCodium](https://vscodium.com/) and [PhpStorm](https://www.jetbrains.co
 
 - # Design
 
-Original wireframes / prototypes were developed using [Lunacy](https://icons8.com/lunacy). Site icon is my own design; browser-compatible favicons were generated using [this site](https://realfavicongenerator.net/).
+Original wireframes / prototypes were developed using [Lunacy](https://icons8.com/lunacy). I like to look at things normally and at my own pace, and hence I designed the site in more or less a simplistic manner. 
+
+Site icon is my own design; browser-compatible favicons were generated using [this site](https://realfavicongenerator.net/).
 
 Clipart and SVGs are from [OpenClipart](https://openclipart.org/).
 
@@ -48,6 +50,8 @@ The site uses JavaScript for little functional fixes, like the theme cycler and 
 - ## Main resources:
 
 11ty Main Docs: [EleventyJS](https://www.11ty.dev/docs/)
+
+> Contact me for issues or clues on lost Inca gold or blueprints to the original [redacted] Prime or mostly anything at all, ever. [Say hi](/hello).
 
 ---
 

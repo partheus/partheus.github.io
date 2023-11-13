@@ -9,12 +9,12 @@
       "mangaUrl": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
     },
     {
-      "title": "One Piece",
-      "author": "Eiichiro Oda",
+      "title": "One Punch Man",
+      "author": "ONE",
       "currentChapter": 100,
       "totalChapters": "Ongoing",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/55539.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/13/One_Piece"
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/80661.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/44347/One_Punch-Man"
     },
     {
       "title": "Sakamoto Days",
@@ -25,10 +25,12 @@
       "mangaUrl": "https://myanimelist.net/manga/131334/Sakamoto_Days"
     },
     {
-      "title": "Kaiju No. 8",
-      "author": "Naoya Matsumoto",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/252929.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/127907/Kaijuu_8-gou"
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/55539.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/13/One_Piece"
     }
   ]
 }
