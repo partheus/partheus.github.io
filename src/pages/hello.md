@@ -1,6 +1,6 @@
 ---
 title: Hello
-description: Contact me for treasure talk! Say hi.
+description: In my mind we have been talking for three lifetimes already
 date: 2023-10-30
 permalink: /hello/
 ---
