@@ -61,6 +61,17 @@ h4, h5, h6 {
   color: var(--accent-color) !important;
 }
 
+// Font sizes for headers
+h2 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.1em;
+
+  @include breakpoint-sm {
+    font-size: 1.3em;
+  }
+}
+
 a {
   color: var(--text-color);
   transition: color 400ms;
@@ -218,7 +229,7 @@ hr {
 
 blockquote {
   position: relative;
-  padding: 20px;
+  padding: 1em;
   border-left: 5px solid var(--accent-color);
   margin: 2.5rem 0;
   line-height: 1.3;
@@ -266,10 +277,6 @@ blockquote {
       @include breakpoint-sm-plus {
         font-size: 1.3em;
       }
-    }
-
-    @include breakpoint-sm {
-      margin-bottom: 3em;
     }
   }
 
@@ -397,7 +404,7 @@ blockquote {
 
 .featured__post {
   border-left: 5px solid var(--background-color-light);
-  padding-left: 1.2em;
+  padding-left: 1em;
 }
 
 .book-links__container {
