@@ -11,14 +11,14 @@ description: >
 
 {% include "components/nowPlaying.njk" %}
 
-<div class="mt-lg"></div>
+<div class="mt-md"></div>
 
 ## This week's [weeknote](/weeknotes):
 
 <div class="featured__post">
     {% set weekNoteCollection = collections.weeknotes | reverse %}
     {% set weekNote = weekNoteCollection[0] %}
-    <h3 class="article__preview__header mt-md"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
+    <h3 class="article__preview__header mt-sm"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
     <p class="article__preview__description">{% if weekNote.data.description %} {{ weekNote.data.description }} {% endif %} &#x10101;
         <small>
             <time>{{ weekNote.data.date | readableDate }}</time>
@@ -26,29 +26,27 @@ description: >
     </p>
 </div>
 
-<div class="mt-lg"></div>
+<div class="mt-md"></div>
 
 ## I [write](/blog) every now and then. Here's a featured article:
 
-<section class="mb-lg">
+<section class="mb-md">
     {% include "components/featuredArticle.njk" %}
 </section>
 
-<div class="mt-lg"></div>
+<div class="mt-md"></div>
 
 ## I [read](/reading) often and with gusto. Some recent reads:
 
 {% include "components/readingMonth.njk" %}
 
-<div class="mt-lg"></div>
+<div class="mt-md"></div>
 
 ## Manga I have been reading lately:
 
 {% include "components/currentManga.njk" %}
 
-<div class="mt-lg"></div>
-
-<div class="mt-lg"></div>
+<div class="mt-md"></div>
 
 ## "What happened to your old site?"
 It went into an [archive](/sitearchive). I redesign it every year or so. Two most recent iterations of my site:
