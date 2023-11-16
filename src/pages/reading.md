@@ -7,6 +7,8 @@ layout: page
 ---
 > Clicking on the book covers will take you to the book's Goodreads page of **my review**.
 
+> I am on StoryGraph as well: [@sparth](https://app.thestorygraph.com/profile/sparth)
+
 <div class="mt-md mb-md">
 <div class="goodreads-current slide-up-half">
 
