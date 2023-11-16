@@ -74,7 +74,7 @@ h2 {
 
 a {
   color: var(--text-color);
-  transition: color 400ms;
+  transition: all 400ms ease-in-out;
 
   &:hover {
     color: var(--text-color-link);
