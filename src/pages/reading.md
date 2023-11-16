@@ -36,10 +36,11 @@ layout: page
       <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=50&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
 </div>
 
+<noscript>
 ## If you wish to keep Javascript disabled, you can view some recent reads added manually:
 
 {% include "components/readingMonth.njk" %}
-
+</noscript>
 
 <script>
 // Get all the img elements with the class "gr_grid_book_container"
