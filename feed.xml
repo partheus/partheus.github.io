@@ -4,16 +4,32 @@
     <subtitle></subtitle>
     <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
-    <updated>2023-11-12T00:00:00Z</updated>
+    <updated>2023-11-17T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
         <name>Parth S</name>
     </author>
     <entry>
+        <title>Site Redesign</title>
+        <link href="https://parth.ninja/article/2023/redesign.html"/>
+        <updated>2023-11-17T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/redesign.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
         <title>Week 45</title>
         <link href="https://parth.ninja/article/2023/week-45.html"/>
         <updated>2023-11-12T00:00:00Z</updated>
         <id>https://parth.ninja/article/2023/week-45.html</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>The Running Man</title>
+        <link href="https://parth.ninja/article/2023/running-man.html"/>
+        <updated>2023-11-11T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/running-man.html</id>
         
         <content type="html"></content>
     </entry>
