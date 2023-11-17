@@ -23,7 +23,7 @@ Anyway, once I realized I was feeling it, it was time to bolt. But then even as 
 
 We were taught to not touch objects unless we can _see_ them. This is quite important not only in the alchemy business but also in the manufacture of high-sensitivity mousetraps. I had to see what was in my pocket, but I couldn't stop running. I had to keep running, but I couldn't stop thinking about what was in my pocket.
 
-Wait. Why was I running in the first place?
+Wait. Why am I running?
 
 
 
