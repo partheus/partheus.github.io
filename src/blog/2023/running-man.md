@@ -3,6 +3,7 @@ title: The Running Man
 description: Stepping, stones, food
 date: 2023-11-11
 tags:
+  - featured
   - dancing
   - life
   - video
@@ -17,9 +18,9 @@ This dance style is a part of the "shuffling" subgroup, and this specific move i
 
 I'm glad the person videoing me going just the lower half of my body, which is the most technically relevant part of the dance.
 
-It's a bit dark due to the time of night, but here's the video:
+It's a bit dark due to the time of night, but here's the video (ignore the trailcam at the end):
 
-<video width="auto" height="auto" controls style="margin-top: 0.2em;">
+<video width="auto" height="auto" controls style="margin-top: 0.5em;">
 <source src="/assets/videos/runningman.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>

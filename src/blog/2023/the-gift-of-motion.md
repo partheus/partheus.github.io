@@ -4,7 +4,6 @@ description: The story of how I came to be in possession of a wonderful mountain
 date: 2023-09-08
 tags:
   - life
-  - featured
 ---
 In the summer of 2022, mostly by virtue of an efficient and lazy disposition, I had purchased a simple commuter bike
 from a person off Facebook Marketplace. It was a simple, five-speed bike with a kickstand. It was amazing, but
