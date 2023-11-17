@@ -34,7 +34,7 @@ article {
     }
 
     //  make the first letter of each paragraph capital
-    &:first-of-type:first-letter {
+    &:not(blockquote p):not(li p):first-of-type:first-letter {
       font-size: 2.5em;
     }
   }
