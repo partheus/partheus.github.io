@@ -42,7 +42,7 @@ The footer icons are from [Font Awesome](https://fontawesome.com/).
 
 The site uses JavaScript for little functional fixes, like the theme cycler and the time-to-read text on articles; the chunkier scripts are used for the [reading](/reading) page. The reading page pulls data from my Goodreads profile, hence the singular cookie on that page.
 
-
+The Currently Playing song isn't automatic. I update the data source JSON files every week or so, manually.
 
 > This site works without JavaScript. There are no trackers of any sort, and here is the GPLv3 license: <p></p> [![License: GPLv3](https://licensebuttons.net/l/GPL/2.0/88x62.png)](https://github.com/partheus/partheus.github.io/blob/main/LICENSE)
 
