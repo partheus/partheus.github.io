@@ -154,8 +154,8 @@ main::before {
   left: 0;
   margin-top: -10em;
   margin-left: -20em;
-  width: 100vw;
-  height: 150vh;
+  width: 100%;
+  height: 150%;
   background-image: url("/assets/icons/flower.svg");
   background-repeat: no-repeat;
   -o-background-size: 100% 100%;
@@ -166,9 +166,9 @@ main::before {
   -webkit-animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
   animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
 
-    @include breakpoint-st-xs {
-        display: none;
-    }
+  @include breakpoint-st-xs {
+    display: none;
+  }
 }
 
 
@@ -482,7 +482,7 @@ blockquote {
 
 /* Goodreads widget current */
 
-.gr_custom_container_1662769460  {
+.gr_custom_container_1662769460 {
   /* customize grid container div here. eg: width: 500px; */
   display: flex;
   flex-direction: column;
@@ -580,4 +580,31 @@ blockquote {
 iframe[src*="soundcloud.com"] {
   width: 100%;
 }
+
+
+// Design Project
+/* CSS for Masonry Layout */
+.masonry-container {
+  column-count: 1; /* Set the number of columns */
+  column-gap: 2em; /* Adjust the gap between columns */
+
+  @include breakpoint-sm {
+    column-count: 3;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid; /* Prevent items from breaking inside columns */
+  margin-bottom: 2em; /* Adjust space between items */
+  width: 100%; /* Set the width of each item */
+}
+
+/* If images need to be responsive */
+.masonry-item img {
+  width: 100%; /* Ensure images take the full width of their container */
+  height: auto; /* Maintain image aspect ratio */
+}
+
+
+
 
