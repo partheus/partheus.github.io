@@ -25,7 +25,7 @@ description: A collection of my recent projects.
 
 {% set devPostList = collections.development %}
 {# list all articles with the tag development #}
-<ul class="article__list">
+<ul class="article__list display-columns display-columns--two display-columns__close-gap">
     {% for article in devPostList | reverse %}<li class="article__item">
             <article class="article__preview">
                 {% include "./_includes/macros/simpleArticleListItem.njk" %}

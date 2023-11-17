@@ -19,9 +19,9 @@ eleventyNavigation:
 
 <h3 class="mb-md">Check out the <a href="/blog">full writing here!</a> This view contains a list of posts tagged "fiction":</h3>
 {% set taglist = collections.fiction | getFilterTagList %}
-<ul class="article__list">
+<ul class="article__list display-columns display-columns--two">
   {% for article in taglist | reverse %}
-    <li class="article__item mb-md">
+    <li class="article__item">
       <article class="article__preview">
         {% include "./_includes/macros/articleListItem.njk" %}
       </article>

@@ -1,6 +1,6 @@
-<ul class="article__list">
+<ul class="article__list display-columns display-columns--two">
 {% for article in articles | reverse %}
-  <li class="article__item mb-md">
+  <li class="article__item">
     <article class="article__preview">
       {% include "../macros/articleListItem.njk" %}
     </article>
