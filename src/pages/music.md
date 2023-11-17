@@ -5,6 +5,8 @@ permalink: /music/
 ---
 > Here's my [SoundCloud](https://soundcloud.com/bhatji).
 
+> Here's a subsite with six of my older tracks: [music.parth.ninja](https://music.parth.ninja). It's an older site, so it might not be the best user experience.
+
 What the hell is up with sounds? And why are some of them so nice to listen to?
 
 My journey with music started when my parents enrolled me in a vocal class at an unusually young age.

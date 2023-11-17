@@ -6,7 +6,6 @@ tags:
     - fiction
     - short-story
     - action
-    - featured
 ---
 In one of the more civilized parts of Old Massachusetts, there exists a saloon frequented by equal portions of cowboys and librarians. It was always cowboys and librarians. Eons ago, when the saloon was first called the Wrangler&#39;s Folly, the Solomon family – a group of fiscally unsound relatives with not much in the way of foresight – pledged complete responsibility of the saloon for a few generations. Eventually, as new Solomon babies came into the world, the saloon flourished, and they forgot what the original number of generations they&#39;d promised was. And so, it became known as Solomon&#39;s Folly for the rest of time.
 
