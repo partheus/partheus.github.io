@@ -1,6 +1,6 @@
 ---
 title: Hello
-description: In my mind we have been talking for three lifetimes already
+description: Skyfall, my dear James
 date: 2023-10-30
 permalink: /hello/
 ---
