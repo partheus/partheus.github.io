@@ -40,6 +40,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets/fonts')
   eleventyConfig.addPassthroughCopy('./src/assets/favicons')
   eleventyConfig.addPassthroughCopy('./src/assets/img')
+  eleventyConfig.addPassthroughCopy('./src/assets/videos')
   eleventyConfig.addPassthroughCopy({'./src/assets/favicons/favicon.ico' : '/favicon.ico'})
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy({
