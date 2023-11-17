@@ -13,6 +13,11 @@
       max-width: 64px;
       height: 64px;
     }
+
+    @include breakpoint-md {
+      max-width: 84px;
+      height: 84px;
+    }
   }
 
   &.active a {
@@ -34,25 +39,19 @@
   }
 }
 
-.logo::after {
+.home-logo::after {
   font-size: 15px;
   content: "home";
   position: absolute;
-  bottom: -1.5em;
-  right: 0.75em;
   pointer-events: none;
   font-family: monospace;
   color: var(--accent-color);
   opacity: 0;
   transition: all ease-in-out 0.2s;
-
-  @include breakpoint-sm {
-    bottom: -1em;
-  }
 }
 
 /* Show the text on hover */
-.logo:hover::after {
+.home-logo:hover::after {
   opacity: 1;
   transition: all ease-in-out 0.2s;
 }
