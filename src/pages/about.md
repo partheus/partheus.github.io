@@ -12,7 +12,7 @@ Hi! I'm Parth, this is my website.
 
 I love [reading](/reading) and [writing](/writing).
 
-I am a [web developer](/code) and [designer](/pixelart).
+I am a [web developer](/code) and [designer](/design).
 
 Big fan of noise that sounds good. I [make music](/music).
 

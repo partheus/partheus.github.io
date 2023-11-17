@@ -1,21 +1,20 @@
 {% set navItems = collections.nav | eleventyNavigation %}
-<nav role="navigation" aria-label="main navigation">
+<nav class="nav__container" role="navigation" aria-label="main navigation">
     <ul>
         {%- for item in navItems %}
             <li class="nav__item{{ ' active' if page.url === item.url }}">
                 <a href="{{ item.url }}" title="{{ item.key }}">{{ item.key }}</a>
             </li>
         {%- endfor -%}
+        <li>
+            <a href="/works" class="ml-sm button button--secondary nav__booklink">books</a>
+        </li>
     </ul>
-
-    <div class="theme-toggle-container" title="Change theme">
-        <span id="high-contrast-toggle">&#x29B0;</span> <!-- Unicode icon -->
-    </div>
-
     <div class="go-to-top-container">
         <a href="#" title="Go to top of page">&#8613;</a>
     </div>
 </nav>
+
 <script>
     function initializeThemeToggle() {
         // Theme toggle
