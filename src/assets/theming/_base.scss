@@ -152,6 +152,7 @@ main::before {
   position: absolute;
   top: 0;
   left: 0;
+  margin-top: -10em;
   margin-left: -20em;
   width: 100vw;
   height: 150vh;
@@ -160,8 +161,10 @@ main::before {
   -o-background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
   background-size: 70vw;
-  filter: blur(2px) opacity(0.1); /* Adjust blur intensity */
-  z-index: -1; /* Push behind content */
+  filter: opacity(0.045) contrast(1.5) brightness(1.1) saturate(1.1);
+  z-index: -1;
+  -webkit-animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
+  animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
 
     @include breakpoint-st-xs {
         display: none;
