@@ -40,12 +40,15 @@
 </head>
 
 <body>
+
+<div class="theme-toggle-container" title="Change theme">
+    <span id="high-contrast-toggle">&#x29B0;</span> <!-- Unicode icon -->
+</div>
 <header role="banner" class="ml-auto mr-auto mb-xxs">
 
 
-    <div class="nav__container">
         
-<nav role="navigation" aria-label="main navigation">
+<nav class="nav__container" role="navigation" aria-label="main navigation">
     <ul>
             <li class="nav__item">
                 <a href="/about/" title="about">about</a>
@@ -58,16 +61,15 @@
             </li>
             <li class="nav__item">
                 <a href="/now/" title="now">now</a>
-            </li></ul>
-
-    <div class="theme-toggle-container" title="Change theme">
-        <span id="high-contrast-toggle">&#x29B0;</span> <!-- Unicode icon -->
-    </div>
-
+            </li><li>
+            <a href="/works" class="ml-sm button button--secondary nav__booklink">books</a>
+        </li>
+    </ul>
     <div class="go-to-top-container">
         <a href="#" title="Go to top of page">&#8613;</a>
     </div>
 </nav>
+
 <script>
     function initializeThemeToggle() {
         // Theme toggle
@@ -177,7 +179,6 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
                 </a>
             </div>
         </div>
-    </div>
 </header>
 
 <main role="main">
