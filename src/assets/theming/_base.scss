@@ -92,6 +92,7 @@ nav {
     list-style: none;
     z-index: 20;
     display: flex;
+    align-items: center;
 
     @include breakpoint-sm {
       padding: 0.5em 0.75em;
@@ -113,21 +114,16 @@ nav {
   }
 }
 
-.nav__floating-buttons {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 100;
-
-  @include breakpoint-sm {
-    top: 0.5em;
-    right: 0.25em;
+.nav__booklink {
+  @include breakpoint-st-xs {
+    display: none;
   }
 }
 
 main {
   flex: 0 1 100%;
   width: 100%;
+  position: relative;
 
   &:not(nav) {
     ul, ol {
@@ -151,7 +147,28 @@ main {
   }
 }
 
-header,
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -20em;
+  width: 100vw;
+  height: 150vh;
+  background-image: url("/assets/icons/flower.svg");
+  background-repeat: no-repeat;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 70vw;
+  filter: blur(2px) opacity(0.1); /* Adjust blur intensity */
+  z-index: -1; /* Push behind content */
+
+    @include breakpoint-st-xs {
+        display: none;
+    }
+}
+
+
 main,
 footer {
   max-width: 1440px;
@@ -166,17 +183,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  padding: 2em 0;
+  flex-direction: column-reverse;
+  padding: 1em 0;
   min-height: fit-content;
+  width: 100%;
 
-  @include breakpoint-md {
-    max-width: 80vw;
-    padding: 1.5em 0;
-  }
-
-  @include breakpoint-lg {
-    max-width: 70vw;
+  @include breakpoint-sm {
+    flex-direction: row-reverse;
   }
 }
 
@@ -297,8 +310,8 @@ blockquote {
 .theme-toggle-container {
   position: fixed;
   left: 0;
-  top: 0;
-  padding-top: 0.25em;
+  bottom: 0;
+  padding-bottom: 0.25em;
   z-index: 100;
   font-size: 1.25em;
   display: flex;
