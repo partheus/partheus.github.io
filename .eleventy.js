@@ -1,5 +1,7 @@
-const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
+const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
+const CleanCSS = require("clean-css");
+
 
 const {
   getAllPosts,
@@ -32,6 +34,12 @@ module.exports = function(eleventyConfig) {
     excerpt_alias: 'excerpt'
   })
 
+  /*=================*/
+  /*   Minify CSS    */
+  /*=================*/
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
   /*===================================================*/
   /* files that need to be copied to the build folder  */
   /*===================================================*/
