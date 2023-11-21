@@ -5,7 +5,7 @@ permalink: /writing/damage/
 description: You've arrived at the page for free copies of my self-published e-book
 ---
 
-<div class="listening-module ml-auto mr-auto mb-lg">
+<div class="activity-module ml-auto mr-auto mb-lg">
 <p>A private detective and his apprentice are hired to figure out the mystery behind strange, gruesome disappearances in a small Iowan town.</p>
 <h3 class="mt-sm">Free download below.</h3>
 </div>

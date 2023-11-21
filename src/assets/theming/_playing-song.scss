@@ -1,4 +1,4 @@
-.listening-module {
+.activity-module {
   border: 2px dashed var(--background-color-light);
   border-radius: 15px;
   padding: 0.75em;
@@ -38,7 +38,7 @@
   }
 }
 
-.listening-module:hover {
+.activity-module:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   filter: saturate(1.2);
   transition: all 0.2s ease-in-out;
