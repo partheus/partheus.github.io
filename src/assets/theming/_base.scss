@@ -407,6 +407,16 @@ blockquote {
   padding-left: 0.75em;
 }
 
+.featured__book {
+  max-width: 58% !important;
+  min-width: 40%;
+  float: none;
+
+  @include breakpoint-md {
+    float: right;
+  }
+}
+
 .book-links__container {
   display: flex;
   flex-direction: column;
@@ -604,11 +614,24 @@ iframe[src*="soundcloud.com"] {
 .publisher-links {
   height: min-content;
   width: fit-content;
+  margin: 0 0 auto 0;
+  border-left: 2px solid var(--accent-color);
+  padding-left: 1em;
+
+  @include breakpoint-md {
+    margin: 0 4em 0 0;
+  }
 
   img {
     max-width: 100%;
-    width: 10em;
+    width: 7em;
     height: auto;
+    border-radius: 0.5em;
+    filter: saturate(0.82);
+  }
+
+  img:hover {
+    filter: saturate(2);
   }
 }
 

@@ -8,8 +8,9 @@
     "watch:sass": "sass --watch src/assets/theming:_site/assets",
     "build:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%d %B %Y') eleventy",
     "build:sass": "sass  --no-source-map --style=compressed src/assets/theming:_site/assets",
-    "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*",
+    "minify-css": "cleancss -O2 -o _site/assets/minified.css _site/assets/theme.css",
+    "start": "npm-run-all build:sass minify-css --parallel watch:*",
+    "build": "npm-run-all build:* minify-css",
     "debug": "DEBUG=* npx eleventy"
   },
   "author": {
@@ -27,9 +28,13 @@
     "@11ty/eleventy-img": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "clean-css": "^5.3.2",
     "luxon": "^3.2.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.58.3",
     "svg-icon-sprite": "^1.1.1"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2"
   }
 }
