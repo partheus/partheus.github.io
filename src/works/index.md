@@ -1,15 +1,14 @@
 ---
 title: Written Works
-description: Featured book, and other works.
+description: Featured FREE ebook, and other works.
 ---
-
-> Free! Free! Free!
-
 <div class="display-columns display-columns--two display-columns__close-gap mb-md">
 <div class="mt-sm">
-<img src="/assets/img/june-2022/2.webp" loading="lazy" decoding="async" alt="Axis of Damage" class="ml-auto mr-auto" style="max-width: 90%;">
+<img src="/assets/img/june-2022/2.webp" loading="lazy" decoding="async" alt="Axis of Damage" class="ml-auto mr-auto featured__book gr_grid_book_container">
 </div>
 <div class="publisher-links">
+<p class="mb-md">A private eye and his apprentice are hired to investigate strange occurences in a faraway Midwestern town.</p>
+
 <a href="https://www.smashwords.com/books/view/1381291" target="_blank" title="Smashwords" style="max-width: fit-content;">
 <img src="https://dwtr67e3ikfml.cloudfront.net/static/1/swlogo.png" loading="lazy" decoding="async" alt="Smashwords" class="mb-sm">
 </a>
@@ -24,8 +23,12 @@ description: Featured book, and other works.
 <br>
 <a href="https://www.barnesandnoble.com/w/axis-of-damage-parth-shiralkar/1143371246" target="_blank" title="Barnes & Noble" style="max-width: fit-content;">
 <img src="https://www.seekpng.com/png/detail/264-2642976_barnes-and-noble-barnes-and-noble-logo-transparent.png" loading="lazy" decoding="async" class="mb-sm" alt="Barnes And Noble"></a>
+
 </div>
 </div>
+
+
+> Free! Free! Free!
 
 <div class="activity-module ml-auto mr-auto mb-md slide-up-half max-content-width">
   <h2 class="mr-auto">Free ebooks:</h2>
