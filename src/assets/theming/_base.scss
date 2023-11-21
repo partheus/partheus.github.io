@@ -601,6 +601,17 @@ iframe[src*="soundcloud.com"] {
   }
 }
 
+.publisher-links {
+  height: min-content;
+  width: fit-content;
+
+  img {
+    max-width: 100%;
+    width: 10em;
+    height: auto;
+  }
+}
+
 
 
 
