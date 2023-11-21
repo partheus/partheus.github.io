@@ -5,7 +5,7 @@ permalink: /writing/caper/
 description: You've arrived at the page for free copies of my self-published e-book
 ---
 
-<div class="listening-module ml-auto mr-auto mb-lg">
+<div class="activity-module ml-auto mr-auto mb-lg">
 <p>Published May 2022. A group of criminals target a spy walking in downtown Portland. This short story chronicles his adventure for the day.</p>
 <h3 class="mt-sm">Free download below.</h3>
 </div>

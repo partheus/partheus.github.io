@@ -78,7 +78,7 @@ var fun = function lang(l) {
 
 ## Buttons
 
-<div class="listening-module ml-auto mr-auto mb-md slide-up-half max-content-width">
+<div class="activity-module ml-auto mr-auto mb-md slide-up-half max-content-width">
   <div class="book-links__container">
     <a class="button button--secondary" href="/writing/caper" title="Caper">Action ebook</a>
     <a class="button button--secondary" href="/writing/damage" title="Caper">Thriller ebook</a>

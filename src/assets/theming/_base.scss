@@ -179,8 +179,9 @@ footer {
 }
 
 footer {
-  padding: 1em 0 3em 0;
+  padding: 1em 0 2em 0;
   border-top: 2px solid var(--background-color-light);
+  width: 100%;
 }
 
 header {
@@ -278,7 +279,7 @@ blockquote {
     h1 {
       font-size: 2em;
       font-weight: 600;
-      margin-bottom: 0.25em;
+      margin-bottom: 0.1em;
       line-height: 1em;
 
       @include breakpoint-sm-plus {
@@ -587,6 +588,30 @@ iframe[src*="soundcloud.com"] {
   width: 100%; /* Ensure images take the full width of their container */
   height: auto; /* Maintain image aspect ratio */
 }
+
+.callout-bar {
+  background-color: var(--background-color-light);
+  padding: 0.2em 0;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 1em 0;
+
+  .callout-content {
+    font-size: 0.9em;
+  }
+}
+
+.publisher-links {
+  height: min-content;
+  width: fit-content;
+
+  img {
+    max-width: 100%;
+    width: 10em;
+    height: auto;
+  }
+}
+
 
 
 
