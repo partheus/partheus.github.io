@@ -24,7 +24,14 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm ci
-          npm run build          
+          npm run build
+
+      - name: Set cache-control headers for CSS and SVG files
+        run: |
+          echo "Cache-Control: max-age=31536000" >> _site/assets/minified.css
+          echo "Cache-Control: max-age=31536000" >> _site/assets/icons/flower.svg
+          echo "Cache-Control: max-age=31536000" >> _site/assets/img/sunface.svg
+          echo "Cache-Control: max-age=31536000" >> _site/assets/icons/icon.white.svg
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

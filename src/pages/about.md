@@ -10,7 +10,7 @@ permalink: /about/
 ---
 Hi! I'm Parth, this is my website. 
 
-I love [reading](/reading) and [writing](/writing).
+I love [reading](/reading) and [writing](/writing). I also read a lot of [manga](/manga).
 
 I am a [web developer](/code) and [designer](/design).
 
