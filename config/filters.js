@@ -23,7 +23,7 @@ const getFirstCategory = (categoryArray) => {
 
 // filter taglists
 const getFilterTagList = (tags) => {
-    return (tags || []).filter(tag => ["entry", "nav", "post", "posts", "pages", "blog"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["entry", "nav", "article", "posts", "pages", "blog", "weeknotes"].indexOf(tag) === -1);
 }
 
 module.exports = {
