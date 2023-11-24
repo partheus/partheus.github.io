@@ -5,17 +5,14 @@ const getAllPosts = (collectionApi) => {
 }
 
 const getCategoryList = (collectionApi) => {
-  const catPages = []
-  let categories = []
+  let tags = []
   const blogPosts = collectionApi.getFilteredByGlob('./src/blog/**/*.md')
 
-  blogPosts.map((item) => {
-    categories.push(item.data.category)
+  blogPosts.forEach((item) => {
+    tags = tags.concat(item.data.tags || []) // Concatenate tags from each post
   })
 
-  const temp = [...new Set(categories)]
-
-  return catPages
+  return [...new Set(tags)]
 }
 
 module.exports = {
