@@ -51,6 +51,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets/img')
   eleventyConfig.addPassthroughCopy('./src/assets/videos')
   eleventyConfig.addPassthroughCopy({'./src/assets/favicons/favicon.ico' : '/favicon.ico'})
+  eleventyConfig.addPassthroughCopy({'./src/.htaccess' : '/.htaccess'})
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy({
       'node_modules/svg-icon-sprite/dist/svg-icon-sprite.js': 'assets/svg-icon-sprite.js'
