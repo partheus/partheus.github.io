@@ -160,7 +160,9 @@ main::before {
   background-repeat: no-repeat;
   -o-background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
-  background-size: auto;
+  background-size: contain;
+  max-width: 100%;
+  max-height: 100%;
   filter: opacity(0.045) contrast(1.5) brightness(1.1) saturate(1.1);
   z-index: -1;
   -webkit-animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
