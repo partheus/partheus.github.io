@@ -20,4 +20,13 @@ eleventyComputed:
     {% endfor %}
 </ul>
 
+<article class="mt-mdp max-content-width ml-auto mr-auto slide-up-half">
+    <h3 class="mb-sm">All tags:</h3>
+    {% for tag in collections.categoryList | getFilterTagList %}
+            <a class="category mb-sm" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
+                {{ tag }}
+            </a>
+    {% endfor %}
+</article>
+
 <h4 class="mt-lg">Go back to <a href="/blog/">all entries</a>.  Or visit <a href="/writing">the writing section</a>.</h4>
