@@ -25,10 +25,6 @@ jobs:
         run: |
           npm ci
           npm run build
-
-      - name: Set cache-control headers for CSS and SVG files
-        run: |
-          find _site -type f -name "*.html" -exec sed -i '/\.css\|\.svg/ i Cache-Control: max-age=31536000' {} \;
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
