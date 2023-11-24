@@ -28,7 +28,7 @@ jobs:
 
       - name: Set cache-control headers for CSS and SVG files
         run: |
-          sed -i '/\.css\|\.svg/ {1i Cache-Control: max-age=31536000\n\n}' $(find _site -type f -name "*.html")
+          find _site -type f -name "*.html" -exec sed -i '/\.css\|\.svg/ {1i Cache-Control: max-age=31536000\n\n}' {} +
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
