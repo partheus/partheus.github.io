@@ -22,7 +22,7 @@ eleventyComputed:
 
 <article class="mt-mdp max-content-width ml-auto mr-auto slide-up-half">
     <h3 class="mb-sm">All tags:</h3>
-    {% for tag in collections.categoryList | getFilterTagList %}
+    {% for tag in collections.categoryList | getFilterTagList | randomizeArray %}
             <a class="category mb-sm" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
                 {{ tag }}
             </a>
