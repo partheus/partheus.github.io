@@ -26,9 +26,26 @@ const getFilterTagList = (tags) => {
     return (tags || []).filter(tag => ["entry", "nav", "article", "posts", "pages", "blog", "weeknotes"].indexOf(tag) === -1);
 }
 
+// Function to randomize arrays
+const randomizeArray = (array) => {
+  if (!Array.isArray(array)) {
+    return array;
+  }
+
+  const shuffledArray = array.slice();
+
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+
+  return shuffledArray;
+};
+
 module.exports = {
   readableDate,
   getFirstCategory,
   getFilterTagList,
-  getArticleYear
+  getArticleYear,
+  randomizeArray
 }
