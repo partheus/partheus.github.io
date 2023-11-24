@@ -9,6 +9,10 @@ description: Featured FREE ebook, and other works.
 <div class="publisher-links">
 <p class="mb-md">A private eye and his apprentice are hired to investigate strange occurences in a faraway Midwestern town.</p>
 
+<a href="https://drive.google.com/file/d/1zv90O3E9dr2ZD7c-ubBRN4xnzulmI-R0/view?usp=sharing" target="_blank" title="Google Drive" style="max-width: fit-content;">
+<img src="https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-6-1.png" loading="lazy" decoding="async" alt="Google Drive" class="mb-sm">
+</a>
+<br>
 <a href="https://www.smashwords.com/books/view/1381291" target="_blank" title="Smashwords" style="max-width: fit-content;">
 <img src="https://dwtr67e3ikfml.cloudfront.net/static/1/swlogo.png" loading="lazy" decoding="async" alt="Smashwords" class="mb-sm">
 </a>

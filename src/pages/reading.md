@@ -1,6 +1,6 @@
 ---
 title: Reading
-description: Goodreads data for the last 50 or so books I've read. Updated every time I finish a book.
+description: Goodreads data for the last 72 or so books I've read. Updated every time I finish a book.
 permalink: /reading/
 date: Last Modified
 layout: page
@@ -33,7 +33,7 @@ layout: page
         <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
 
       </div>
-      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=50&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
+      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=72&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
 </div>
 
 <noscript>
