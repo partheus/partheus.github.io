@@ -12,7 +12,8 @@ const {
   readableDate,
   getFirstCategory,
   getFilterTagList,
-  getArticleYear
+  getArticleYear,
+  randomizeArray
 } = require('./config/filters')
 
 const {
@@ -78,6 +79,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('getFirstCategory', getFirstCategory)
   eleventyConfig.addFilter('getFilterTagList', getFilterTagList)
   eleventyConfig.addFilter('getArticleYear', getArticleYear)
+  eleventyConfig.addFilter('randomizeArray', randomizeArray)
 
   /*=================*/
   /*    shortcodes   */
