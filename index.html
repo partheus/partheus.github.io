@@ -46,11 +46,7 @@
 </head>
 
 <body>
-
-<div class="theme-toggle-container" title="Change theme">
-    <span id="high-contrast-toggle">&#x29B0;</span> <!-- Unicode icon -->
-</div>
-<header role="banner" class="ml-auto mr-auto mb-xxs mt-md">
+<header role="banner" class="ml-auto mr-auto mb-xxs">
 
 
         
@@ -76,59 +72,7 @@
     </div>
 </nav>
 
-<script>
-    function initializeThemeToggle() {
-        // Theme toggle
-        const toggleSwitch = document.getElementById("high-contrast-toggle");
-        const body = document.body;
 
-        const themes = ["default", "low-noir", "high-contrast"];
-        const themeSymbols = {
-            default: "&#x29B0;",
-            "low-noir": "&#x29B1;",
-            "high-contrast": "&#x29B2;",
-        };
-
-        let currentThemeIndex = 0;
-
-        // Function to toggle between themes
-        function toggleTheme() {
-            currentThemeIndex = (currentThemeIndex + 1) % themes.length;
-            updateTheme();
-        }
-
-        // Function to update the current theme
-        function updateTheme() {
-            const currentTheme = themes[currentThemeIndex];
-
-            // Update the button text with the theme symbol
-            toggleSwitch.innerHTML = themeSymbols[currentTheme];
-
-            // Set the current theme class
-            body.className = currentTheme;
-
-            // Save the current theme to localStorage
-            localStorage.setItem("currentTheme", currentTheme);
-        }
-
-        // Check if the user has previously selected a theme
-        const savedTheme = localStorage.getItem("currentTheme");
-        if (themes.includes(savedTheme)) {
-            currentThemeIndex = themes.indexOf(savedTheme);
-        }
-
-        // Set the initial mode based on the user's preference
-        updateTheme();
-
-        toggleSwitch.addEventListener("click", toggleTheme);
-    }
-
-    // Call the function to initialize the theme toggle
-    initializeThemeToggle();
-
-
-
-</script>
 
 
         <div class="nav__floating-buttons">
@@ -277,6 +221,24 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
             </div>
             </div>
         </div>
+</div>
+<div class="mt-md"></div>
+<h2>I <a href="/manga">read manga</a> whenever I can. Here's what I'm reading right now:</h2>
+<div class="manga-tracker mt-sm mb-md activity-module slide-up-half-slow ">
+    <ul class="display-columns display-columns__close-gap display-columns--four">
+        <li>
+            <img src="https://cdn.myanimelist.net/images/manga/3/210341.jpg" alt="Jujustu Kaisen cover" loading="lazy" decoding="async" />
+            <h3 class="mr-xxs"><a href="https://myanimelist.net/manga/113138/Jujutsu_Kaisen" target="_blank" class="song-title" title="Jujustu Kaisen" tabindex="0">Jujustu Kaisen</a></h3>
+<p></li><li>
+<img src="https://cdn.myanimelist.net/images/manga/3/80661.jpg" alt="One Punch Man cover" loading="lazy" decoding="async" />
+<h3 class="mr-xxs"><a href="https://myanimelist.net/manga/44347/One_Punch-Man" target="_blank" class="song-title" title="One Punch Man" tabindex="0">One Punch Man</a></h3></p>
+<p></li><li>
+<img src="https://cdn.myanimelist.net/images/manga/1/242919.jpg" alt="Sakamoto Days cover" loading="lazy" decoding="async" />
+<h3 class="mr-xxs"><a href="https://myanimelist.net/manga/131334/Sakamoto_Days" target="_blank" class="song-title" title="Sakamoto Days" tabindex="0">Sakamoto Days</a></h3></p>
+<p></li><li>
+<img src="https://cdn.myanimelist.net/images/manga/3/55539.jpg" alt="One Piece cover" loading="lazy" decoding="async" />
+<h3 class="mr-xxs"><a href="https://myanimelist.net/manga/13/One_Piece" target="_blank" class="song-title" title="One Piece" tabindex="0">One Piece</a></h3></p>
+<p></li></ul></p>
 </div>
 <div class="mt-md"></div>
 <h2>&quot;What happened to your old site?&quot;</h2>
