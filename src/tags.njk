@@ -20,8 +20,8 @@ eleventyComputed:
     {% endfor %}
 </ul>
 
-<article class="mt-mdp max-content-width ml-auto mr-auto slide-up-half">
-    <h3 class="mb-sm">All tags:</h3>
+<article class="mt-md max-content-width ml-auto mr-auto slide-up-half">
+    <h3 class="mb-xs">All tags:</h3>
     {% for tag in collections.categoryList | getFilterTagList | randomizeArray %}
             <a class="category mb-sm" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
                 {{ tag }}
@@ -29,4 +29,4 @@ eleventyComputed:
     {% endfor %}
 </article>
 
-<h4 class="mt-lg">Go back to <a href="/blog/">all entries</a>.  Or visit <a href="/writing">the writing section</a>.</h4>
+<h4 class="mt-sm">Go back to <a href="/blog/">all entries</a>.  Or visit <a href="/writing">the writing section</a>.</h4>

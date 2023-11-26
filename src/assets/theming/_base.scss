@@ -25,10 +25,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   height: 100%;
   line-height: 135%;
-  min-width: 300px;
+  min-width: 270px;
   margin: 0 1em;
   transition: all 0.3s ease-in-out;
 
@@ -181,10 +181,10 @@ footer {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column-reverse;
-  padding: 0.2em 0;
+  flex-direction: column;
+  padding: 0.5em 0;
   min-height: fit-content;
   width: 100%;
 
@@ -228,6 +228,14 @@ nav ul li, footer ul li {
   }
 }
 
+.nav__floating-buttons {
+    margin-top: 0.5em;
+
+    @include breakpoint-sm {
+        margin-top: 0;
+    }
+}
+
 .accent-border-bottom {
   border-bottom: 2px solid var(--accent-color);
   width: fit-content;
@@ -268,7 +276,7 @@ blockquote {
 .page {
   &__header {
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     margin-top: 1em;
 
     h1 {
@@ -345,6 +353,8 @@ blockquote {
   flex-direction: row;
   column-gap: 1em;
   justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap-reverse;
 
   a svg {
     path {
@@ -354,11 +364,11 @@ blockquote {
   }
 
   img {
-    max-width: 33px;
+    max-width: 31px;
     transition: all 0.3s ease-in-out;
     filter: invert(0.5);
-    width: 33px;
-    height: 33px;
+    width: 31px;
+    height: 31px;
   }
 
   img:hover {
