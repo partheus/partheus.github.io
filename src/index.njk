@@ -11,11 +11,11 @@ description: >
 
 {% include "components/nowPlaying.njk" %}
 
-<div class="mt-md"></div>
+<div class="mb-sm"></div>
 
 ## This week's [weeknote](/weeknotes):
 
-<div class="featured__post">
+<div class="featured__post mb-sm">
     {% set weekNoteCollection = collections.weeknotes | reverse %}
     {% set weekNote = weekNoteCollection[0] %}
     <h3 class="article__preview__header mt-sm"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
@@ -26,34 +26,24 @@ description: >
     </p>
 </div>
 
-<div class="mt-md"></div>
-
 ## I [write](/blog) every now and then. Here's a featured article:
 
-<section class="mb-md">
+<section class="mb-sm">
     {% include "components/featuredArticle.njk" %}
 </section>
-
-<div class="mt-md"></div>
 
 ## I [read](/reading) often and with gusto. Some recent reads:
 
 {% include "components/readingMonth.njk" %}
 
-<div class="mt-md"></div>
-
 ## I [read manga](/manga) whenever I can. Here's what I'm reading right now:
 
 {% include "components/currentManga.njk" %}
-
-<div class="mt-md"></div>
 
 ## "What happened to your old site?"
 It went into an [archive](/sitearchive). I redesign it every year or so. Two most recent iterations of my site:
 
 {% include "components/archiveProjectCards.njk" %}
-
-<div class="mt-lg"></div>
 
 > The site is being developed and is currently available for casual viewing. Pages are still being built and might break, and there is dummy content in various modules.
 

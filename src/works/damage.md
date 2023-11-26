@@ -5,7 +5,7 @@ permalink: /writing/damage/
 description: You've arrived at the page for free copies of my self-published e-book
 ---
 
-<div class="activity-module ml-auto mr-auto mb-lg">
+<div class="activity-module ml-auto mr-auto mb-sm">
 <p>A private detective and his apprentice are hired to figure out the mystery behind strange, gruesome disappearances in a small Iowan town.</p>
 <h3 class="mt-sm">Free download below.</h3>
 </div>
@@ -23,19 +23,19 @@ Following are the various formats available for download (versions with large fo
 <p>Kindle users, you can email your device the .epub file. Free apps are available for reading.</p>
 <p>For desktop/PC users, the PDF would be best.</p>
 
-<div class="mt-md mb-lg"></div>
+<div class="mt-md"></div>
 
 <a class="button button--secondary" href="https://drive.google.com/file/d/1zv90O3E9dr2ZD7c-ubBRN4xnzulmI-R0/view?usp=sharing" target="_blank">- EPUB</a>
-<div class="mt-md mb-mdp"></div>
+<div class="mt-md"></div>
 
 <a class="button button--secondary" href="https://drive.google.com/file/d/1nqAlEaBLM3RIm02lssxgrLm9UufXm-3p/view?usp=sharing" target="_blank">- PDF</a>
-<div class="mt-md mb-lg"></div>
+<div class="mt-md"></div>
 
 <a class="button button--tertiary" href="https://drive.google.com/file/d/1ffDLttDRCjyDH3S4y5P4uXNsjZd52WCI/view?usp=sharing" target="_blank">- LARGE FONT EPUB</a>
-<div class="mt-md mb-mdp"></div>
+<div class="mt-md"></div>
 
 <a class="button button--tertiary" href="https://drive.google.com/file/d/1S-RQaj1Aq2w9nAPml5hNg7Uk6hjN2pNx/view?usp=sharing" target="_blank">- LARGE FONT PDF</a>
-<div class="mt-md mb-lg"></div>
+<div class="mt-md"></div>
 </div>
 </div>
 
