@@ -40,7 +40,7 @@ The footer icons are from [Font Awesome](https://fontawesome.com/).
 
 - # Privacy
 
-The site uses JavaScript for little functional fixes, like the theme cycler and the time-to-read text on articles; the chunkier scripts are used for the [reading](/reading) page. The reading page pulls data from my Goodreads profile, hence the singular cookie on that page.
+The site uses JavaScript for little functional fixes, like the time-to-read text on articles; the chunkier scripts are used for the [reading](/reading) page. The reading page pulls data from my Goodreads profile, hence the singular cookie on that page.
 
 The Currently Playing song isn't automatic. I update the data source JSON files every week or so, manually.
 
