@@ -4,11 +4,19 @@
     <subtitle></subtitle>
     <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
-    <updated>2023-11-19T00:00:00Z</updated>
+    <updated>2023-11-26T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
         <name>Parth S</name>
     </author>
+    <entry>
+        <title>Week 47</title>
+        <link href="https://parth.ninja/article/2023/week-47.html"/>
+        <updated>2023-11-26T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2023/week-47.html</id>
+        
+        <content type="html"></content>
+    </entry>
     <entry>
         <title>Week 46</title>
         <link href="https://parth.ninja/article/2023/week-46.html"/>
