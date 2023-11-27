@@ -32,5 +32,71 @@
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/55539.jpg",
       "mangaUrl": "https://myanimelist.net/manga/13/One_Piece"
     }
+  ],
+  "recentlyRead": [
+    {
+      "title": "Ajin",
+      "author": "Gamon Sakurai",
+      "currentChapter": 100,
+      "totalChapters": 86,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/87801l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/49865/Ajin"
+    },
+    {
+      "title": "Death Note",
+      "author": "Tsugumi Ohba",
+      "currentChapter": 100,
+      "totalChapters": 108,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/54453l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/21/Death_Note"
+    },
+    {
+      "title": "Fire Force",
+      "author": "Atsushi Ohkubo",
+      "currentChapter": 100,
+      "totalChapters": 243,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/159796.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/91037/Enen_no_Shouboutai"
+    },
+    {
+      "title": "Hellsing",
+      "author": "Kouta Hirano",
+      "currentChapter": 100,
+      "totalChapters": 92,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/149l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/267/Hellsing"
+    },
+    {
+      "title": "Hell's Paradise: Jigokuraku",
+      "author": "Yuji Kaku",
+      "currentChapter": 100,
+      "totalChapters": 127,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/208522l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/112318/Jigokuraku"
+    },
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "author": "Koyoharu Gotouge",
+      "currentChapter": 100,
+      "totalChapters": 205,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/172791l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/96792/Kimetsu_no_Yaiba"
+    },
+    {
+      "title": "Vagabond",
+      "author": "Takehiko Inoue",
+      "currentChapter": 100,
+      "totalChapters": 327,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/126197l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/656/Vagabond"
+    },
+    {
+      "title": "Steel Ball Run",
+      "author": "Hirohiko Araki",
+      "currentChapter": 100,
+      "totalChapters": 95,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/189338l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run"
+    }
   ]
 }
