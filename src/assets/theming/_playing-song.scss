@@ -1,7 +1,7 @@
 .activity-module {
   border: 2px dashed var(--background-color-light);
   border-radius: 15px;
-  padding: 0.75em;
+  padding: 0.5em;
   color: var(--text-color);
   transition: all 0.2s ease-in-out;
 
@@ -21,7 +21,7 @@
   }
 
   @include breakpoint-lg {
-    padding: 0.75em 3em;
+    padding: 0.75em;
   }
 
   .song-info {
