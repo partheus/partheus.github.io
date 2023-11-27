@@ -4,21 +4,21 @@
     "description": "frontend dev work",
     "stack": ["wordpress", "sql"],
     "imageUrl": "/assets/img/projects/cana.webp",
-    "projectUrl": "#"
+    "projectUrl": "https://cana.com/"
   },
   {
     "title": "A Call to Listen",
     "imageUrl": "/assets/img/projects/listen.webp",
-    "projectUrl": "#"
+    "projectUrl": "https://acalltolisten.org/"
   },
   {
     "title": "UHG",
     "imageUrl": "/assets/img/projects/uhg.webp",
-    "projectUrl": "#"
+    "projectUrl": "https://www.unitedhealthgroup.com/"
   },
   {
     "title": "UHG Sustainability",
     "imageUrl": "/assets/img/projects/uhgsustain.webp",
-    "projectUrl": "#"
+    "projectUrl": "https://sustainability.uhg.com/"
   }
 ]
