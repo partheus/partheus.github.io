@@ -9,31 +9,22 @@ layout: page
 
 > I am on StoryGraph as well: [@sparth](https://app.thestorygraph.com/profile/sparth)
 
-<div class="mt-md mb-md">
-<div class="goodreads-current slide-up-half">
+<div class="mt-md mb-sm slide-up-half">
 
-    <!-- <div id="gr_grid_widget_1647304638"> -->
-      <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
-    
-    <!-- <script
-      src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20currently-reading?cover_size=medium&hide_link=true&hide_title=true&num_books=4&order=d&shelf=currently-reading&sort=date_updated&widget_id=1647304638"
-      type="text/javascript"
-      charset="utf-8"
-    ></script> -->
-    
-    
-    <script src="https://www.goodreads.com/review/custom_widget/60162168.Parth's%20bookshelf:%20currently-reading?cover_position=left&cover_size=small&num_books=5&order=d&shelf=currently-reading&show_author=1&show_cover=0&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=none&widget_id=1662769460&widget_text_color=000000&widget_title_size=large&widget_width=full" type="text/javascript" charset="utf-8"></script>
+      <div id="gr_grid_widget_1697873408-reading">
+        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
 
-</div>
-</div>
+      </div>
+      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20reading%20now?cover_size=medium&hide_link=true&hide_title=&num_books=8&order=d&shelf=currently-reading&sort=date_read&widget_id=1697873408-reading" type="text/javascript" charset="utf-8" loading="lazy"></script>
+</div> 
 
-<div class="mt-md mb-md">
+<div class="mt-md mb-sm">
 
       <div id="gr_grid_widget_1697873408">
         <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
 
       </div>
-      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=&num_books=72&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
+      <script src="https://www.goodreads.com/review/grid_widget/60162168.Parth's%20bookshelf:%20read%20recently?cover_size=medium&hide_link=true&hide_title=&num_books=72&order=d&shelf=read&sort=date_read&widget_id=1697873408" type="text/javascript" charset="utf-8" loading="lazy"></script>
 </div>
 
 <noscript>
