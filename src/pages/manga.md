@@ -5,6 +5,10 @@ permalink: /manga/
 layout: page
 ---
 
-## Manga I have been reading lately:
+## Manga I am reading lately:
 
 {% include "components/currentManga.njk" %}
+
+## Manga I have finished recently and enjoyed:
+
+{% include "components/recentManga.njk" %}
