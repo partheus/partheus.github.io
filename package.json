@@ -4,9 +4,9 @@
   "description": "A garden of temporal harmony, a domain expansion and personal website of Parth Shiralkar",
   "main": "index.md",
   "scripts": {
-    "watch:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%d %B %Y') eleventy --serve",
+    "watch:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%B %Y') eleventy --serve",
     "watch:sass": "sass --watch src/assets/theming:_site/assets",
-    "build:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%d %B %Y') eleventy",
+    "build:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%B %Y') eleventy",
     "build:sass": "sass  --no-source-map --style=compressed src/assets/theming:_site/assets",
     "minify-css": "cleancss -O2 -o _site/assets/minified.css _site/assets/theme.css",
     "start": "npm-run-all build:sass minify-css --parallel watch:*",
