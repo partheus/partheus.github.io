@@ -34,12 +34,12 @@ $sans-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
     --background-color: #04162a;
     --background-color-light: #062444;
     --text-color: #5fd2ff;
-    --text-color-link: #5dc86a;
+    --text-color-link: #c8bc5d;
     --accent-color: #df7033;
   }
 
   main::before {
-    filter: opacity(0.15) contrast(1.2) brightness(1.1) saturate(1.1) !important;
+    filter: opacity(0.081) contrast(1.2) brightness(1.1) saturate(1.3) !important;
   }
 }
 

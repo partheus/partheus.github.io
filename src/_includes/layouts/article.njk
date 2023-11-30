@@ -172,7 +172,7 @@ templateEngineOverride: njk, md
         {% for tag in tags %}
             {% if tag != 'article' %}
                 <span>
-            <a class="category" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
+            <a class="category mb-sm" href="/tags/{{ tag }}/" aria-label="Entries tagged with {{ tag }}">
               <span>
                 {{ tag }}
               </span>
@@ -183,7 +183,7 @@ templateEngineOverride: njk, md
     </div>
 </article>
 
-<blockquote class="blockquote-lilac mt-md"><h4>Go back to <a href="/blog/">all entries</a>. Or <a href="/weeknotes">all weeknotes</a>.  Or visit <a href="/writing">the writing section</a>.</h4></blockquote>
+<blockquote class="blockquote-lilac mt-sm"><h4>Go back to <a href="/blog/">all entries</a>. Or <a href="/weeknotes">all weeknotes</a>.  Or visit <a href="/writing">the writing section</a>.</h4></blockquote>
 
 <script>
   // Function to get the text content of the article
