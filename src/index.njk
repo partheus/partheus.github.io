@@ -11,11 +11,11 @@ description: >
 
 {% include "components/nowPlaying.njk" %}
 
-<div class="mb-sm"></div>
+<div class="mb-md"></div>
 
 ## This week's [weeknote](/weeknotes):
 
-<div class="featured__post mb-sm">
+<div class="featured__post mb-md">
     {% set weekNoteCollection = collections.weeknotes | reverse %}
     {% set weekNote = weekNoteCollection[0] %}
     <h3 class="article__preview__header mt-sm"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
@@ -28,7 +28,7 @@ description: >
 
 ## I [write](/blog) every now and then. Here's a featured article:
 
-<section class="mb-sm">
+<section class="mb-md">
     {% include "components/featuredArticle.njk" %}
 </section>
 
