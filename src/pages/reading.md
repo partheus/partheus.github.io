@@ -28,7 +28,7 @@ layout: page
 </div>
 
 <noscript>
-## If you wish to keep Javascript disabled, you can view some recent reads added manually:
+<h2>If you wish to keep Javascript disabled, you can view some recent reads added manually:</h2>
 
 {% include "components/readingMonth.njk" %}
 </noscript>

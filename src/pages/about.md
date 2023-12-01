@@ -12,7 +12,7 @@ Hi! I'm Parth, this is my website.
 
 I love [reading](/reading) and [writing](/writing). I also read a lot of [manga](/manga).
 
-I am a [web developer](/code) and [designer](/design).
+I am a [web developer](/code) and [designer](/design). Check out what I use [here](/uses).
 
 I [make music](/music).
 

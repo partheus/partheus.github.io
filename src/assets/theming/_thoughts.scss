@@ -15,6 +15,10 @@
   @include breakpoint-sm {
     width: 45ch;
   }
+
+  @include breakpoint-md {
+    width: 60ch;
+  }
 }
 
 .username {
