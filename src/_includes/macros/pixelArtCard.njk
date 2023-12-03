@@ -1,0 +1,9 @@
+{% macro pixelArtMacro(imageSrc, overlayTitle, date) %}
+    <div class="pixelart-card">
+        <img class="pixelart-image" src="{{ imageSrc }}">
+        <div class="pixelart-image-overlay">
+            <p>{{ overlayTitle }}</p>
+            <small>{{ date }}</small>
+        </div>
+    </div>
+{% endmacro %}
