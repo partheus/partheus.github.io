@@ -2,31 +2,23 @@
 layout: slim
 title: Pixel Art
 permalink: /pixelart/
-description: Pixels arranged in a fun and cheeky manner. All by me.
+description: Pixels arranged in a fun and cheeky manner
 eleventyNavigation:
   key: pixelart
   order: 2
 tags: [footer, page]
 ---
-<div class="display-columns display-columns--three slide-up-half-slow">
-    <div class="pixelart-card">
-        <img class="pixelart-image" src="/assets/img/pixart/gojo.webp">
-        <title class="pixelart-image-overlay">gojo satoru</title>
-    </div>
-    <div class="pixelart-card">
-        <img class="pixelart-image" src="/assets/img/pixart/bunny1.webp">
-        <title class="pixelart-image-overlay">bunny (me forreal)</title>
-    </div>
-    <div class="pixelart-card">
-        <img class="pixelart-image" src="/assets/img/pixart/moonscene.webp">
-        <title class="pixelart-image-overlay">pacific northwest</title>
-    </div>
-    <div class="pixelart-card">
-        <img class="pixelart-image" src="/assets/img/pixart/pixel_moonscape.webp">
-        <title class="pixelart-image-overlay">moonscape</title>
-    </div>
-    <div class="pixelart-card">
-        <img class="pixelart-image" src="/assets/img/pixart/wlr.webp">
-        <title class="pixelart-image-overlay">wlr</title>
-    </div>
+{% from 'macros/pixelArtCard.njk' import pixelArtMacro %}
+
+<div class="display-columns display-columns--three display-columns__close-gap slide-up-half-slow">
+    {% for pixel in pixelArtData %}
+        {{ pixelArtMacro(
+            imageSrc=pixel.imageSrc,
+            overlayTitle=pixel.overlayTitle,
+            date=pixel.date
+        ) }}{% endfor %}
 </div>
+
+<blockquote>
+All content created by me.
+</blockquote>
