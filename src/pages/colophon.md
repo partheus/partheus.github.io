@@ -20,7 +20,7 @@ This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook P
 
 [Eleventy](https://www.11ty.dev/) is used for static page generation. [Git](https://git-scm.com/) is used for version control. [Github](https://github.com) is used to store the repository. 
 
-It is being tested on Cloudflare and hosted on Github Pages.
+It is being tested on Cloudflare and hosted on Github Pages. See mirrors below.
 
 I used [VSCodium](https://vscodium.com/) and [PhpStorm](https://www.jetbrains.com/phpstorm/) for development; [Chromium Nightly](https://www.chromium.org/Home/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/) were used for testing.
 
@@ -46,6 +46,10 @@ The Currently Playing song isn't automatic. I update the data source JSON files 
 
 > This site works without JavaScript. There are no trackers of any sort, and here is the GPLv3 license: <p></p> [![License: GPLv3](https://licensebuttons.net/l/GPL/2.0/88x62.png)](https://github.com/partheus/partheus.github.io/blob/main/LICENSE)
 
+
+- # Mirrors
+
+The site is mirrored on [Cloudflare](https://partheus-github-io.pages.dev) and [Netlify](https://temporalharmonygarden.netlify.app/).
 
 - ## Main resources:
 
