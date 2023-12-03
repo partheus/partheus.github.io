@@ -11,11 +11,11 @@ description: >
 
 {% include "components/nowPlaying.njk" %}
 
-<div class="mb-md"></div>
+<div class="mb-smp"></div>
 
 ## This week's [weeknote](/weeknotes):
 
-<div class="featured__post mb-md">
+<div class="featured__post mb-smp">
     {% set weekNoteCollection = collections.weeknotes | reverse %}
     {% set weekNote = weekNoteCollection[0] %}
     <h3 class="article__preview__header mt-sm"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
