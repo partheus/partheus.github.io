@@ -345,6 +345,10 @@ blockquote {
   background-color: var(--background-color-light);
   backdrop-filter: opacity(0.5);
   margin: 0.25em;
+
+  @include breakpoint-sm {
+    margin: 1em;
+  }
 }
 
 .go-to-top-container a {
