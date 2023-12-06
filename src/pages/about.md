@@ -18,21 +18,23 @@ I [make music](/music).
 
 I enjoy [biking](/biking) and [climbing](/climbing).
 
-I also enjoy [eating animal-free food in my city](https://food.parth.ninja).
+> Check out what I'm up to [now](/now). Or a [basic resume](/resume).
 
-<hr>
+---
 
 There are [general weekly updates](/weeknotes) of my life.
 
 I'm planning on adding a section with links to my friends' websites. It's super common to have a "blogroll" on a personal website, so I'll look into that.
 
-<hr>
+---
 
 See a list of [all page links on this site](/linklist).
 
 See the [[older iterations of this site]](/sitearchive).
 
-> Check out what I'm up to [now](/now). Or a [basic resume](/resume).
+A sub site of me [eating animal-free food in my city](https://food.parth.ninja).
+
+A sub site of [favorite foods I would have on my dream restaurant menu](https://rasoi.parth.ninja).
 
 ---
 
