@@ -145,7 +145,7 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
 
 <section class="page__content max-content-width">
     <div class="error-container error-image svg-color witch-svg text-focus-in">
-    <div class="error-witch">
+    <div class="error-witch mb-sm">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
         <svg
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -184,14 +184,13 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
     </div>
 <a class="button button--secondary" href="javascript:history.back(1);">Back</a>
 </div>
-<div class="">
-    <p>The requested URL: <code><span id="current-error-url"></span></code></p>
+<div>
+<p class="mb-sm" id="current-error-url"></p>
+<a href="/" title="Homepage" class="button button--tertiary mt-sm">homepage</a><br>
 </div>
-<style>
-</style>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        document.getElementById("current-error-url").textContent = window.location.href;
+        document.getElementById("current-error-url").innerHTML = "The requested URL: <code>" + window.location.href + "</code>";
     });
 </script>
 
