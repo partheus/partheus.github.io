@@ -57,7 +57,7 @@ article {
 
 .article__title {
   line-height: 1.2em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.1em;
   font-size: 1.75em;
 }
 
@@ -66,7 +66,8 @@ article {
 }
 
 .article-separator {
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
+  margin-top: -0.35em;
   opacity: 45%;
   max-width: 70ch;
 }

@@ -8,15 +8,16 @@
   flex-direction: column;
   border: 2px dashed;
   border-radius: 1em;
-  max-width: 30ch;
-  row-gap: 0.15em;
+  max-width: 20ch;
+  row-gap: 0.25em;
   height: fit-content;
 }
 
 .color-circle {
   width: 100%;
-  height: 2em;
+  height: 1.5em;
   border-radius: 1em;
+  border: 1px solid transparent;
 }
 
 .background-color-light-swatch {

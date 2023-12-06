@@ -90,6 +90,17 @@
   }
 }
 
+.svg-color--accent {
+  svg {
+    g {
+      path {
+        fill: var(--text-color-link) !important;
+        stroke: var(--text-color-link) !important;
+      }
+    }
+  }
+}
+
 .home-logo {
   border-radius: 10em;
 
