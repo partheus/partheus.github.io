@@ -4,9 +4,9 @@ $sans-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
 
 /* Theme colors */
 .default, :root {
-  --background-color: #fffcf6;
-  --background-color-light: #ffe8f2;
-  --text-color: #170808;
+  --background-color: #fcf0f8;
+  --background-color-light: #ffe0ed;
+  --text-color: #3b0606;
   --text-color-link: #d21687;
   --accent-color: #02734e;
 
@@ -49,6 +49,14 @@ $sans-font: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
 //  --text-color: #892006;
 //  --text-color-link: #205859;
 //  --accent-color: #3a3ca6;
+//}
+
+//.old-default {
+//  --background-color: #fcf0f8;
+//  --background-color-light: #ffe0ed;
+//  --text-color: #3b0606;
+//  --text-color-link: #d21687;
+//  --accent-color: #02734e;
 //}
 
 
