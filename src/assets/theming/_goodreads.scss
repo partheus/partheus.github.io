@@ -1,0 +1,106 @@
+// Goodreads widget
+
+.gr_grid_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  column-gap: 0.25em;
+  row-gap: 0.5em;
+  margin-top: 1em;
+
+  @include breakpoint-sm-plus {
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-content: flex-start;
+  }
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  padding: 0.25em;
+  transition: all ease-in-out 0.3s;
+  filter: saturate(0.5);
+  max-width: 36vw;
+
+  @include breakpoint-sm {
+    max-width: 200px;
+  }
+}
+
+.gr_grid_book_container img {
+  /* customize book cover image here */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.gr_grid_book_container:hover {
+  transform: translateY(-0.25em);
+  filter: saturate(1.2);
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0 0 12px var(--text-color);
+}
+
+/* Goodreads widget current */
+
+.gr_custom_container_1662769460 {
+  /* customize grid container div here. eg: width: 500px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all ease-in-out 0.2s;
+  flex-wrap: wrap;
+
+  center {
+    display: none;
+  }
+}
+
+.gr_custom_header_1662769460 {
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+
+.gr_custom_each_container_1662769460 {
+  /* customize book cover container div here */
+  overflow: hidden;
+  transition: all ease-in-out 0.2s;
+  filter: none;
+  margin: 0 auto 0 0;
+  overflow-wrap: break-word;
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+
+  column-gap: 0.35em;
+  font-size: 1.15em;
+
+  .gr_custom_title_1662769460 a {
+    transition: all ease-in-out 0.2s;
+    color: var(--accent-color);
+  }
+
+  .gr_custom_title_1662769460 a:hover {
+    color: var(--text-color-link);
+  }
+
+  @include breakpoint-sm {
+    flex-direction: row;
+    font-size: 1.25em;
+  }
+}
+
+.goodreads-current {
+  p {
+    display: none;
+  }
+
+  center {
+    display: none;
+  }
+}
