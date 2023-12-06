@@ -47,6 +47,11 @@ body {
   }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $accent-font;
   line-height: 135%;
@@ -224,11 +229,11 @@ nav ul li, footer ul li {
 }
 
 .nav__floating-buttons {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 
-    @include breakpoint-sm {
-        margin-top: 0;
-    }
+  @include breakpoint-sm {
+    margin-top: 0;
+  }
 }
 
 .accent-border-bottom {
