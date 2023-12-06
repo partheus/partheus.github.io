@@ -7,5 +7,6 @@ tags:
     - humor
     - caption
     - contest
+    - life
 ---
 <img src="/assets/img/newyorkeridk.jpg">
