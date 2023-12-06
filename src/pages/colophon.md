@@ -26,17 +26,23 @@ I used [VSCodium](https://vscodium.com/) and [PhpStorm](https://www.jetbrains.co
 
 - # Design
 
-Original wireframes / prototypes were developed using [Lunacy](https://icons8.com/lunacy). I like to look at things normally and at my own pace, and hence I designed the site in more or less a simplistic manner. 
+<div class="display-columns display-columns--two display-columns__close-gap">
 
-Site icon is my own design; browser-compatible favicons were generated using [this site](https://realfavicongenerator.net/).
+<div>
+<p>Original wireframes / prototypes were developed using <a href="https://icons8.com/lunacy" title="Lunacy" target="_blank">Lunacy</a>. I like to look at things normally and at my own pace, and hence I designed the site in more or less a simplistic manner.</p> 
 
-Clipart and SVGs are from [OpenClipart](https://openclipart.org/).
+<p>Site icon is my own design; browser-compatible favicons were generated using <a href="https://realfavicongenerator.net/" title="realfavicongenerator website" target="_blank">realfavicongenerator</a>.</p>
 
-Mockups generated using [https://screenshot.rocks/](https://screenshot.rocks/).
+</div>
 
-Font faces are [Besley](https://indestructibletype.com/Besley.html) and [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master).
+{% include "../_includes/components/themeSwatch.njk" %}
 
-The footer icons are from [Font Awesome](https://fontawesome.com/).
+</div>
+
+Clipart and SVGs are from [OpenClipart](https://openclipart.org/). Mockups generated using [https://screenshot.rocks/](https://screenshot.rocks/).
+
+Font faces are [Besley](https://indestructibletype.com/Besley.html) and [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master). The footer icons are from [Font Awesome](https://fontawesome.com/).
+
 
 - # Privacy
 

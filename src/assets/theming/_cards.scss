@@ -10,7 +10,7 @@
   height: 370px;
 
   &:hover {
-    transform: translate3d(0, -0.15em, 0);
+    transform: translate3d(0, -0.25em, 0);
     box-shadow: 0 0 10px var(--text-color);
     //background: var(--text-color);
   }
@@ -111,7 +111,7 @@
   font-size: 90%;
 
   &:hover {
-    transform: translate3d(0, -0.25em, 0);
+    transform: translate3d(0, -0.15em, 0);
     box-shadow: 0 0 10px var(--text-color);
     filter: saturate(1.1);
 

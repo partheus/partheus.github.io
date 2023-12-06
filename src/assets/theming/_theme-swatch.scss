@@ -1,0 +1,41 @@
+
+.swatch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+  background-color: var(--background-color);
+  flex-direction: column;
+  border: 2px dashed;
+  border-radius: 1em;
+  max-width: 30ch;
+  row-gap: 0.15em;
+  height: fit-content;
+}
+
+.color-circle {
+  width: 100%;
+  height: 2em;
+  border-radius: 1em;
+}
+
+.background-color-light-swatch {
+  background-color: var(--background-color-light);
+}
+
+.text-color-swatch {
+  background-color: var(--text-color);
+}
+
+.text-color-link-swatch {
+  background-color: var(--text-color-link);
+}
+
+.accent-color-swatch {
+  background-color: var(--accent-color);
+}
+
+.background-color-swatch {
+  background-color: var(--background-color);
+  border: 1px solid var(--accent-color);
+}
