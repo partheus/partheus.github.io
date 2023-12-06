@@ -2,8 +2,8 @@
 layout: base
 templateEngineOverride: njk, md
 ---
-<h1 class="article__title slide-up-half">{{ title }}</h1>
-<article class="article slide-up-half-slow">
+<h1 class="article__title">{{ title }}</h1>
+<article class="article slide-up-half">
     <h4>{{ description }}</h4>
     <small>
         <time>{{ date | readableDate }} </time>
@@ -168,7 +168,7 @@ templateEngineOverride: njk, md
         {{ content | safe }}
     </div>
     <div class="mt-md">
-        <h5 class="mb-sm">Tagged:</h5>
+        <h5 class="mb-xs">Tagged:</h5>
         {% for tag in tags %}
             {% if tag != 'article' %}
                 <span>
