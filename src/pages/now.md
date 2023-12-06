@@ -2,7 +2,7 @@
 title: Now
 description: Updates, updates, updates, updates
 permalink: /now/
-date: 2023-10-14
+date: 2023-12-03
 tags: 
     - nav
 eleventyNavigation:
@@ -13,7 +13,7 @@ eleventyNavigation:
 
 - I'm currently working as a developer
 - Portland, OR is where I live
-- Favorite mode of transport: Mountain bike
+- Favorite mode of transport: Walking leisurely
 - Favorite form of media: Manga
 - Favorite food: Black beans and rice
 - Primary hobbies that I pour a lot of energy into: [this website](/colophon)

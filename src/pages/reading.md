@@ -7,7 +7,7 @@ layout: page
 ---
 > Clicking on the book covers will take you to the book's Goodreads page of **my review**.
 
-> I am on StoryGraph as well: [@sparth](https://app.thestorygraph.com/profile/sparth)
+> Here's the [manga page](/manga). I am on StoryGraph as well: [@sparth](https://app.thestorygraph.com/profile/sparth).
 
 <div class="mt-md mb-sm slide-up-half">
 
