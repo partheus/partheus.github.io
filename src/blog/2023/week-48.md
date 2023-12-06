@@ -15,5 +15,5 @@ tags:
 
 <div class="display-columns display-columns--three display-columns__close-gap">
     <img src="/assets/img/rain-igi/rain-igi1.webp" alt="I.G.I. 1" />
-    <img src="/assets/img/rain-igi/rain-igi4.webp" alt="I.G.I. 4" />
+    <img src="/assets/img/rain-igi/rain-igi5.webp" alt="I.G.I. 4" />
 </div>
