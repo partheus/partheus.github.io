@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Parth Shiralkar RSS Feed</title>
-    <subtitle></subtitle>
+    <title>Parth Shiralkar Blog RSS Feed</title>
+    <subtitle>A soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.</subtitle>
     <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
     <updated>2023-12-03T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
-        <name>Parth S</name>
+        <name>Parth Shiralkar</name>
     </author>
     <entry>
         <title>Week 48</title>
