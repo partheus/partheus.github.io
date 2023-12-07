@@ -12,3 +12,7 @@ layout: page
 ## Manga I have finished recently and enjoyed:
 
 {% include "components/recentManga.njk" %}
+
+## Manhwa (Korean Manga) I am reading lately:
+
+{% include "components/recentManhwa.njk" %}

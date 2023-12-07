@@ -158,7 +158,8 @@ main::before {
   animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
 
   @include breakpoint-st-xs {
-    display: none;
+    margin-top: -11em;
+    margin-left: -7em;
   }
 }
 
