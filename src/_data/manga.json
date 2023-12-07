@@ -25,12 +25,36 @@
       "mangaUrl": "https://myanimelist.net/manga/131334/Sakamoto_Days"
     },
     {
+      "title": "Homonculus",
+      "author": "Hideo Yamamoto",
+      "currentChapter": 100,
+      "totalChapters": 166,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/15394l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/936/Homunculus"
+    },
+    {
       "title": "One Piece",
       "author": "Eiichiro Oda",
       "currentChapter": 100,
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/250752l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/13/One_Piece"
+    },
+    {
+      "title": "Spy x Family",
+      "author": "Tatsuya Endo",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/217806l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/119161/Spy_x_Family"
+    },
+    {
+      "title": "Kaiju No. 8",
+      "author": "Naoya Matsumoto",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/233456l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/127907/Kaijuu_8-gou"
     }
   ],
   "recentlyRead": [
@@ -60,11 +84,19 @@
     },
     {
       "title": "All You Need Is Kill",
-        "author": "Hiroshi Sakurazaka",
-        "currentChapter": 100,
-        "totalChapters": 17,
-        "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/109199l.jpg",
-        "mangaUrl": "https://myanimelist.net/manga/62887/All_You_Need_Is_Kill"
+      "author": "Hiroshi Sakurazaka",
+      "currentChapter": 100,
+      "totalChapters": 17,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/109199l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/62887/All_You_Need_Is_Kill"
+    },
+    {
+      "title": "Planetes",
+      "author": "Makoto Yukimura",
+      "currentChapter": 100,
+      "totalChapters": 27,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/170572l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/481/Planetes"
     },
     {
       "title": "Hellsing",
