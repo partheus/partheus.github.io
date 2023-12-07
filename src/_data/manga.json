@@ -29,7 +29,7 @@
       "author": "Eiichiro Oda",
       "currentChapter": 100,
       "totalChapters": "Ongoing",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/55539.jpg",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/250752l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/13/One_Piece"
     }
   ],
@@ -57,6 +57,14 @@
       "totalChapters": 243,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/159796.jpg",
       "mangaUrl": "https://myanimelist.net/manga/91037/Enen_no_Shouboutai"
+    },
+    {
+      "title": "All You Need Is Kill",
+        "author": "Hiroshi Sakurazaka",
+        "currentChapter": 100,
+        "totalChapters": 17,
+        "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/109199l.jpg",
+        "mangaUrl": "https://myanimelist.net/manga/62887/All_You_Need_Is_Kill"
     },
     {
       "title": "Hellsing",
@@ -97,6 +105,24 @@
       "totalChapters": 95,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/189338l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run"
+    }
+  ],
+  "currentManhwa": [
+    {
+      "title": "Solo Leveling",
+      "author": "Chugong",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/227594l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/121496/Solo_Leveling"
+    },
+    {
+      "title": "The Boxer",
+      "author": "Ji-Hoon Jeong",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/251281l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/141120/The_Boxer"
     }
   ]
 }
