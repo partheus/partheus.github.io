@@ -111,7 +111,6 @@
 
 .flower-svg-container {
   position: relative;
-  filter: opacity(0.9);
 
   svg {
     g {
@@ -139,7 +138,7 @@
 
 .flower-svg-bottom-left, .flower-svg-top-right {
   z-index: -2;
-  filter: opacity(0.8);
+  filter: opacity(0.5);
 }
 
 .flower-svg-top-right {
