@@ -5,18 +5,18 @@ title: Parth's RSS Feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ metadata.title }} RSS Feed</title>
-    <subtitle>{{ metadata.summary }}</subtitle>
-    <link href="{{ metadata.feedUrl }}" rel="self"/>
-    <link href="{{ metadata.url }}"/>
+    <title>{{ metadataInfo.title }} Blog RSS Feed</title>
+    <subtitle>{{ metadataInfo.description }}</subtitle>
+    <link href="{{ metadataInfo.feedUrl }}" rel="self"/>
+    <link href="{{ metadataInfo.url }}"/>
     <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-    <id>{{ metadata.url }}</id>
+    <id>{{ metadataInfo.url }}</id>
     <author>
-        <name>Parth S</name>
+        <name>Parth Shiralkar</name>
     </author>
 
     {%- for article in collections.blog | reverse -%}
-    {% set absolutePostUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {% set absolutePostUrl %}{{ article.url | url | absoluteUrl(metadataInfo.url) }}{% endset %}
     <entry>
         <title>{{ article.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
