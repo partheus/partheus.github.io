@@ -25,6 +25,14 @@
       "mangaUrl": "https://myanimelist.net/manga/131334/Sakamoto_Days"
     },
     {
+      "title": "Chainsaw Man",
+      "author": "Tatsuki Fujimoto",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/216464l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/116778/Chainsaw_Man"
+    },
+    {
       "title": "Homonculus",
       "author": "Hideo Yamamoto",
       "currentChapter": 100,
@@ -121,6 +129,14 @@
       "totalChapters": 205,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/172791l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/96792/Kimetsu_no_Yaiba"
+    },
+    {
+      "title": "Bleach",
+      "author": "Tite Kubo",
+      "currentChapter": 100,
+      "totalChapters": 705,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/180028l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/12/Bleach"
     },
     {
       "title": "Vagabond",
