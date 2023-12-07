@@ -13,7 +13,7 @@ eleventyNavigation:
 
 - I'm currently working as a developer
 - Portland, OR is where I live
-- Favorite mode of transport: Walking leisurely
+- Favorite mode of transport: Saunter
 - Favorite form of media: Manga
 - Favorite food: Black beans and rice
 - Primary hobbies that I pour a lot of energy into: [this website](/colophon)
