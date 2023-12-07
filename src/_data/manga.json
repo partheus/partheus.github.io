@@ -63,6 +63,14 @@
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/233456l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/127907/Kaijuu_8-gou"
+    },
+    {
+      "title": "Blue Lock",
+      "author": "Muneyuki Kaneshiro",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/286615l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/114745/Blue_Lock"
     }
   ],
   "recentlyRead": [
@@ -139,12 +147,28 @@
       "mangaUrl": "https://myanimelist.net/manga/12/Bleach"
     },
     {
+      "title": "Jujustu Kaisen 0",
+      "author": "Gege Akutami",
+      "currentChapter": 100,
+      "totalChapters": 8,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/219336l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/115710/Jujutsu_Kaisen_0__Tokyo_Toritsu_Jujutsu_Koutou_Senmon_Gakkou"
+    },
+    {
       "title": "Vagabond",
       "author": "Takehiko Inoue",
       "currentChapter": 100,
       "totalChapters": 327,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/126197l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/656/Vagabond"
+    },
+    {
+      "title": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "currentChapter": 100,
+      "totalChapters": 139,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/37846l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/23390/Shingeki_no_Kyojin"
     },
     {
       "title": "Steel Ball Run",
