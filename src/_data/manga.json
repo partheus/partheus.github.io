@@ -195,6 +195,14 @@
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/251281l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/141120/The_Boxer"
+    },
+    {
+      "title": "The Breaker",
+      "author": "Jin-Hwan Park",
+      "currentChapter": 100,
+      "totalChapters": 72,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/270151l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/8586/The_Breaker"
     }
   ]
 }

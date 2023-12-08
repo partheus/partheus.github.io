@@ -283,7 +283,6 @@ blockquote {
     h1 {
       font-size: 2em;
       font-weight: 600;
-      margin-bottom: 0.1em;
       line-height: 1em;
 
       @include breakpoint-sm-plus {
@@ -295,6 +294,9 @@ blockquote {
       font-family: $main-font;
       font-weight: normal;
       font-size: 1em;
+      color: var(--text-color-link);
+      filter: hue-rotate(207deg);
+      margin-top: 5px;
 
       @include breakpoint-sm-plus {
         font-size: 1.3em;
