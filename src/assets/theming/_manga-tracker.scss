@@ -9,9 +9,10 @@
       color: var(--text-color);
       border-radius: 5px;
       padding: 0.7em;
-      margin: 0.2em 2em;
+      margin: 0.2em 1em;
       box-shadow: 0 0 1px var(--text-color);
       transition: all 0.3s ease-in-out;
+      filter: contrast(1.1);
 
       &:hover {
         box-shadow: 0 0 8px var(--text-color-link);
@@ -25,16 +26,12 @@
       }
 
       img {
-        height: 16em;
+        height: 12em;
         width: 100%;
         object-fit: cover;
         border-radius: 5px;
         filter: saturate(0.2);
         transition: all 0.3s ease-in-out;
-
-        @include breakpoint-sm {
-          height: 12em;
-        }
       }
 
       h3 {
@@ -46,11 +43,7 @@
         font-size: 0.75em;
       }
 
-      @include breakpoint-sm {
-        margin: 0.2em 0.5em;
-      }
-
-      @include breakpoint-st-xs {
+      @include breakpoint-st-xxs {
         margin: 0.2em;
       }
 

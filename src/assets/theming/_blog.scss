@@ -18,11 +18,16 @@
   &__header {
     margin-bottom: 0.25em;
     line-height: 160%;
+    font-size: 1em;
 
     a {
       text-decoration: none;
 
       @extend .accent-border-bottom;
+    }
+
+    @include breakpoint-sm-plus {
+      font-size: revert;
     }
   }
 

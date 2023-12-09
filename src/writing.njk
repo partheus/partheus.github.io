@@ -19,8 +19,8 @@ eleventyNavigation:
   </div>
 </div>
 
-<h3 class="mb-sm">This view contains a list of posts tagged "life":</h3>
-{% set taglist = collections.life | getFilterTagList %}
+<h3 class="mb-sm">This view contains a list of posts tagged "featured":</h3>
+{% set taglist = collections.featured | getFilterTagList %}
 <ul class="article__list display-columns display-columns--two">
   {% for article in taglist | reverse %}
     <li class="article__item">
@@ -30,3 +30,10 @@ eleventyNavigation:
     </li>
   {% endfor %}
 </ul>
+
+<div class="activity-module ml-auto mr-auto mt-md mb-sm slide-up-half max-content-width">
+
+<h3 class="mb-sm">Other:</h3>
+<a class="button button--secondary" href="/thoughts" title="Thoughts">thoughts and musings</a>
+<p class="mt-sm"></p>
+</div>

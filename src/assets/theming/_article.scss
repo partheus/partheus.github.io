@@ -4,15 +4,14 @@ article {
     display: inline-block;
     font-weight: 600;
     text-decoration: none;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
     padding: .4rem 1rem;
     border: 1px solid var(--text-color-link);
     border-radius: 6px;
     line-height: 1;
     transition: all 0.2s ease-in-out;
-
     font-family: $accent-font;
-    font-size: 0.8em;
+    font-size: 0.7em;
 
     &:hover {
       background-color: var(--text-color-link);
