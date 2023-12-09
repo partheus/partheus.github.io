@@ -6,6 +6,7 @@ tags:
   - dancing
   - life
   - video
+  - featured
 ---
 Earlier this fall, I was at a movie night with friends, we were watching the animated film [Redline](https://myanimelist.net/anime/6675/Redline). It's amazing.
 
