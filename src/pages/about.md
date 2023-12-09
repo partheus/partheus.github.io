@@ -8,15 +8,17 @@ eleventyNavigation:
 description: Temporal Harmony Garden
 permalink: /about/
 ---
-Hi! I'm Parth, this is my website. 
+Hi! I'm Parth, this is my website. Welcome.
 
 I love [reading](/reading) and [writing](/writing). I also read a lot of [manga](/manga).
 
-I am a [web developer](/code) and [designer](/design). Check out what I use [here](/uses).
+I am a [web developer](/code) and [hobby-level designer](/design). Check out what I use [here](/uses).
 
 I [make music](/music).
 
-I enjoy [biking](/biking) and [climbing](/climbing).
+I enjoy [climbing](/climbing) and [biking](/biking).
+
+I have [thoughts](/thoughts) every so often. It's excruciating.
 
 > Check out what I'm up to [now](/now). Or a [basic resume](/resume).
 

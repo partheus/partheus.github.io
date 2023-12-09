@@ -9,11 +9,6 @@ description: col⋅o⋅phon (noun) An inscription, usually at the end of a book,
 permalink: /colophon/
 ---
 
-<blockquote class="blockquote-lilac">
-
-The site is available for casual viewing. Pages are still being built and might break (<a href="https://github.com/partheus/domain/" alt="view repo" target="_blank">view the code repository here</a>).
-</blockquote>
-
 - # Development
 
 This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook Pro laptop (pink motif). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
