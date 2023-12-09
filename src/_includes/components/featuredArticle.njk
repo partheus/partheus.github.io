@@ -1,5 +1,6 @@
 <div class="featured__post">
-    {% set article = collections.featured[0] %}
+    {% set featuredCollection = collections.featured | reverse %}
+    {% set article = featuredCollection[0] %}
     <h3 class="article__preview__header mt-sm"><a href="{{ article.url | url }}">{{ article.data.title }}</a></h3>
     <p class="article__preview__description">{% if article.data.description %} {{ article.data.description }} {% endif %} &#x10101;
         <small>
