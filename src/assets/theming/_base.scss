@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 1.35rem;
+  font-size: 1.44rem;
   height: 100%;
   line-height: 135%;
   min-width: 270px;
@@ -34,7 +34,6 @@ body {
 
   @include breakpoint-sm {
     margin: 0 2em;
-    font-size: 1.44rem;
   }
 
   footer {

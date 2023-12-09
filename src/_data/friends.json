@@ -2,11 +2,13 @@
   "blogroll": [
     {
       "title": "abhilashjn",
-      "siteUrl": "https://abhilashjn.com"
+      "siteUrl": "https://abhilashjn.com",
+      "shortUrl": "abhilashjn.com"
     },
     {
       "title": "jsonderulo",
-      "siteUrl": "https://jsonderulo.netlify.app"
+      "siteUrl": "https://www.jsonderulo.christmas",
+      "shortUrl": "jsonderulo.christmas"
     }
   ]
 }

@@ -1,74 +1,18 @@
 [
   {
-    "name": "Midnight Voyage",
-    "date": "2023-01-10",
+    "name": "braconid",
+    "date": "2023-12-08",
     "difficulty": "V4",
     "location": "indoors",
-    "type": "crimp",
-    "times_attempted": "3"
-  },
-  {
-    "name": "Ocean's Whisper",
-    "date": "2023-02-15",
-    "difficulty": "V3",
-    "location": "outdoors",
-    "type": "slab",
-    "times_attempted": "2"
-  },
-  {
-    "name": "Dolphin's Leap",
-    "date": "2023-03-20",
-    "difficulty": "V4",
-    "location": "indoors",
-    "type": "overhang",
-    "times_attempted": "4"
-  },
-  {
-    "name": "Moonlit Anchor",
-    "date": "2023-04-25",
-    "difficulty": "V3",
-    "location": "outdoors",
     "type": "crimp",
     "times_attempted": "1"
   },
   {
-    "name": "Gusty Gale",
-    "date": "2023-05-30",
-    "difficulty": "V4",
-    "location": "indoors",
-    "type": "slab",
-    "times_attempted": "7"
-  },
-  {
-    "name": "Phoenix's Rise",
-    "date": "2023-06-04",
-    "difficulty": "V5",
-    "location": "outdoors",
-    "type": "overhang",
-    "times_attempted": "5"
-  },
-  {
-    "name": "Sapphire Depths",
-    "date": "2023-07-09",
-    "difficulty": "V3",
-    "location": "indoors",
-    "type": "crimp",
-    "times_attempted": "3"
-  },
-  {
-    "name": "Emerald Horizon",
-    "date": "2023-08-14",
+    "name": "catastrophe",
+    "date": "2023-12-08",
     "difficulty": "V4",
     "location": "outdoors",
     "type": "slab",
-    "times_attempted": "6"
-  },
-  {
-    "name": "Coral Reef",
-    "date": "2023-09-19",
-    "difficulty": "V3",
-    "location": "indoors",
-    "type": "overhang",
-    "times_attempted": "2"
+    "times_attempted": "1"
   }
 ]
