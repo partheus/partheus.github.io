@@ -1,3 +1,3 @@
-{% macro blogrollItem(title, siteUrl) %}<div class="reading-card" tabindex="0">
-    <h3 class="card__title mb-xs">{{ title }}</h3><a href="{{ siteUrl | url }}" target="_blank" title="{{ title }}" class="no-link reading-card__link mr-md"
-                                                     tabindex="0">{ {{ siteUrl | url }} }</a></div>{% endmacro %}
+{% macro blogrollItem(title, siteUrl, shortUrl) %}<div class="reading-card" tabindex="0">
+    <h3 class="card__title mb-xs">{{ title }}</h3><span>{ <a href="{{ siteUrl | url }}" target="_blank" title="{{ title }}" class="no-link reading-card__link"
+                                                             tabindex="0">{{ shortUrl | url }}</a> }</span></div>{% endmacro %}
