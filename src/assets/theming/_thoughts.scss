@@ -11,13 +11,10 @@
   padding: 0.75em;
   max-width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
 
   @include breakpoint-sm {
     width: 45ch;
-  }
-
-  @include breakpoint-md {
-    width: 60ch;
   }
 }
 
@@ -30,4 +27,13 @@
   word-wrap: break-word;
   font-size: 100% !important;
   line-height: 1.25;
+}
+
+.thought-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
 }
