@@ -3,7 +3,6 @@ title: The Running Man
 description: Stepping, stones, food
 date: 2023-11-11
 tags:
-  - featured
   - dancing
   - life
   - video
