@@ -5,15 +5,15 @@
 }
 
 .thought {
-  border: 1px solid var(--accent-color);
   border-radius: 0.5em;
-  margin: 0.5em auto;
-  padding: 0.75em;
+  margin-bottom: 1.35em;
+  padding: 0.65em;
   max-width: 100%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1px 1px var(--accent-color);
   position: relative;
+  width: calc(100% - 1.5em);
 
-  @include breakpoint-sm {
+  @include breakpoint-sm-plus {
     width: 45ch;
   }
 }
@@ -35,5 +35,6 @@
   font-weight: bold;
   position: absolute;
   right: 0.5em;
-  top: 0.5em;
+  top: 0.25em;
+  font-size: 0.75em;
 }
