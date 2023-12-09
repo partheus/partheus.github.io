@@ -4,6 +4,8 @@
     {% if description %}
     <p class="card__description mb-xs">{{ description }}</p>
     {% endif %}
+    {%  if imageUrl %}
     <img loading="lazy" class="card-image mb-md" src="{{ imageUrl | url }}" alt="{{ title }}">
+    {% endif %}
 </div>
 {% endmacro %}
