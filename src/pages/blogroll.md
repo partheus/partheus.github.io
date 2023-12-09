@@ -18,6 +18,7 @@ date: 2023-12-03
 <div class="display-columns display-columns--two slide-up-half-slow ml-auto mr-auto mt-sm mb-sm max-content-width">
         {% for card in friends.blogroll %}{{ blogrollItem(
             title=card.title,
-            siteUrl=card.siteUrl
+            siteUrl=card.siteUrl,
+            shortUrl=card.shortUrl
         ) }}{% endfor %}
 </div>
