@@ -32,9 +32,17 @@ See a list of [all page links on this site](/linklist).
 
 See the [[older iterations of this site]](/sitearchive).
 
-A sub site of me [eating animal-free food in my city](https://food.parth.ninja).
+---
 
-A sub site of [favorite foods I would have on my dream restaurant menu](https://rasoi.parth.ninja).
+#### Sub Sites:
+
+- [{food}](https://food.parth.ninja)
+
+- [{restaurant menu}](https://rasoi.parth.ninja)
+
+- [{music}](https://music.parth.ninja)
+
+- [{cooking}](https://cooks.parth.ninja/)
 
 ---
 
