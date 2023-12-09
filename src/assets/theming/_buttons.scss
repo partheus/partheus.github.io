@@ -9,6 +9,7 @@
   font-family: $accent-font;
   position: relative;
   border: 2px solid transparent;
+  filter: contrast(1.1);
 
   &:hover {
     border: 2px solid var(--text-color-link);
