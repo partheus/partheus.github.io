@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   font-size: 1.44rem;
   height: 100%;
-  line-height: 135%;
+  line-height: 126%;
   min-width: 270px;
   margin: 0 0.72em;
   transition: all 0.3s ease-in-out;
@@ -48,7 +48,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $accent-font;
-  line-height: 135%;
+  line-height: 126%;
 }
 
 h4, h5, h6 {
@@ -176,7 +176,7 @@ footer {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   padding: 0.5em 0;

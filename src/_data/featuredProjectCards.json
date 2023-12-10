@@ -1,20 +1,8 @@
 [
   {
-    "title": "Cana",
-    "description": "frontend dev work",
-    "stack": ["wordpress", "sql"],
-    "imageUrl": "/assets/img/projects/cana.webp",
-    "projectUrl": "https://cana.com/"
-  },
-  {
     "title": "A Call to Listen",
     "imageUrl": "/assets/img/projects/listen.webp",
     "projectUrl": "https://acalltolisten.org/"
-  },
-  {
-    "title": "UHG",
-    "imageUrl": "/assets/img/projects/uhg.webp",
-    "projectUrl": "https://www.unitedhealthgroup.com/"
   },
   {
     "title": "UHG Sustainability",

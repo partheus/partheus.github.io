@@ -31,6 +31,8 @@ article {
     //  make the first letter of each paragraph capital
     &:not(blockquote p):not(li p):first-of-type:first-letter {
       font-size: 2.5em;
+      font-weight: bold;
+      font-variant: all-petite-caps;
     }
   }
 
@@ -65,9 +67,8 @@ article {
 }
 
 .article-separator {
-  margin-bottom: 5px;
   margin-top: -0.35em;
-  opacity: 45%;
+  filter: opacity(0.75);
   max-width: 70ch;
 }
 

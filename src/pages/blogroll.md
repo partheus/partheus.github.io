@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: slim
 eleventyNavigation:
     key: blogroll
     order: 4

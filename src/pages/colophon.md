@@ -45,8 +45,7 @@ The site uses JavaScript for little functional fixes, like the time-to-read text
 
 The Currently Playing song isn't automatic. I update the data source JSON files every week or so, manually.
 
-> This site works without JavaScript. There are no trackers of any sort, and here is the GPLv3 license: <p></p> [![License: GPLv3](https://licensebuttons.net/l/GPL/2.0/88x62.png)](https://github.com/partheus/partheus.github.io/blob/main/LICENSE)
-
+> This site works without JavaScript. There are no trackers of any sort.
 
 - # Mirrors
 
@@ -56,7 +55,7 @@ The site is mirrored on [Cloudflare](https://partheus-github-io.pages.dev) and [
 
 11ty Main Docs: [EleventyJS](https://www.11ty.dev/docs/)
 
-> Contact me for issues or clues on lost Inca gold or blueprints to the original [redacted] Prime or mostly anything at all, ever. [Say hi](/hello).
+> Contact me for issues or clues on lost Inca gold or blueprints to the original [redacted] or mostly anything at all, ever. [Say hi](/hello).
 
 ---
 
