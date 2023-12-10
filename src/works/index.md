@@ -2,8 +2,8 @@
 title: Written Works
 description: Featured FREE ebook, and other works.
 ---
-<div class="display-columns display-columns--two display-columns__close-gap mb-md">
-<div class="mt-sm">
+<div class="activity-module display-columns display-columns--two display-columns__close-gap mb-md">
+<div>
 <img src="/assets/img/june-2022/2.webp" loading="lazy" decoding="async" alt="Axis of Damage" class="ml-auto mr-auto featured__book gr_grid_book_container">
 </div>
 <div class="publisher-links">
@@ -12,7 +12,7 @@ description: Featured FREE ebook, and other works.
 <img src="https://assets.website-files.com/5ee732bebd9839b494ff27cd/5ef09b5139ecc02dc84e0f32_1280px-Goodreads_logo.svg.png" loading="lazy" decoding="async" alt="Goodreads" class="mb-xxs">
 </a>
 <br>
-<a href="https://drive.google.com/file/d/1zv90O3E9dr2ZD7c-ubBRN4xnzulmI-R0/view?usp=sharing" target="_blank" title="Google Drive" style="max-width: fit-content;">
+<a href="/writing/damage" title="Google Drive" style="max-width: fit-content;">
 <img src="https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-6-1.png" loading="lazy" decoding="async" alt="Google Drive" class="mb-xxs">
 </a>
 <br>
@@ -34,13 +34,23 @@ description: Featured FREE ebook, and other works.
 </div>
 </div>
 
+<div class="activity-module display-columns display-columns--two display-columns__close-gap mb-md">
+<div>
+<img src="/assets/img/june-2022/3.webp" loading="lazy" decoding="async" alt="Midtown Caper" class="ml-auto mr-auto featured__book gr_grid_book_container">
+</div>
+<div class="publisher-links">
+<p class="mb-md">A group of criminals target a spy walking in downtown Portland. This short story chronicles his adventure for the day.
+
+</p>
+<a href="https://www.goodreads.com/book/show/61141775-the-midtown-caper" target="_blank" title="Goodreads" style="max-width: fit-content;">
+<img src="https://assets.website-files.com/5ee732bebd9839b494ff27cd/5ef09b5139ecc02dc84e0f32_1280px-Goodreads_logo.svg.png" loading="lazy" decoding="async" alt="Goodreads" class="mb-xxs">
+</a>
+<br>
+<a href="/writing/caper" title="Google Drive" style="max-width: fit-content;">
+<img src="https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-6-1.png" loading="lazy" decoding="async" alt="Google Drive" class="mb-xxs">
+</a>
+</div>
+</div>
+
 
 > Free! Free! Free!
-
-<div class="activity-module ml-auto mr-auto mb-xxs slide-up-half max-content-width">
-  <h2 class="mr-auto">Free ebooks:</h2>
-  <div class="book-links__container">
-    <a class="button button--secondary" href="/writing/caper" title="Caper">Action ebook</a>
-    <a class="button button--secondary" href="/writing/damage" title="Caper">Thriller ebook</a>
-  </div>
-</div>
