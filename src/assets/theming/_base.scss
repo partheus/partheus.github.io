@@ -27,13 +27,17 @@ body {
   justify-content: space-between;
   font-size: 1.44rem;
   height: 100%;
-  line-height: 126%;
+  line-height: 130%;
   min-width: 270px;
   margin: 0 0.72em;
   transition: all 0.3s ease-in-out;
 
   @include breakpoint-sm {
     margin: 0 2em;
+  }
+
+  @include breakpoint-md {
+    font-size: 1.5rem;
   }
 
   footer {
@@ -550,5 +554,12 @@ iframe[src*="soundcloud.com"] {
   }
 }
 
-
+.face {
+    width: 100%;
+    height: auto;
+    max-width: 18ch;
+    margin-right: auto;
+    display: block;
+    filter: saturate(0.82) contrast(1.2);
+}
 
