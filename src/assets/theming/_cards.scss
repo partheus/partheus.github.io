@@ -8,15 +8,12 @@
   position: relative;
   overflow: hidden;
   height: 370px;
+  filter: contrast(1);
 
   &:hover {
     transform: translate3d(0, -0.25em, 0);
     box-shadow: 0 0 10px var(--text-color);
-    //background: var(--text-color);
-  }
-
-  @include breakpoint-md {
-    max-height: 35vh;
+    filter: contrast(1.1);
   }
 
   @include breakpoint-lg {
@@ -113,7 +110,7 @@
   &:hover {
     transform: translate3d(0, -0.15em, 0);
     box-shadow: 0 0 10px var(--text-color);
-    filter: saturate(1.1);
+    filter: saturate(1) contrast(1.2);
 
     .reading-card__link::after {
       opacity: 1;
