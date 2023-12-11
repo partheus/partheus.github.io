@@ -51,10 +51,6 @@ The Currently Playing song isn't automatic. I update the data source JSON files 
 
 The site is mirrored on [Cloudflare](https://partheus-github-io.pages.dev) and [Netlify](https://temporalharmonygarden.netlify.app/).
 
-- ## Main resources:
-
-11ty Main Docs: [EleventyJS](https://www.11ty.dev/docs/)
-
 > Contact me for issues or clues on lost Inca gold or blueprints to the original [redacted] or mostly anything at all, ever. [Say hi](/hello).
 
 ---
