@@ -15,7 +15,11 @@
 
     <meta name="generator" content="Eleventy">
 
-    <title>{{ title or metadataInfo.title }}</title>
+    {% if page.url == '/' %}
+    <title>{{ metadataInfo.title }}</title>
+    {% else %}
+    <title>{{ title }} | {{ metadataInfo.title }}</title>
+    {% endif %}
     {% include "../components/metadata.njk" %}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
