@@ -49,3 +49,11 @@ I also have a [blogroll](/blogroll) of friends and neighbors.
 ---
 
 This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile. You can find more technical specs in [the colophon](/colophon).
+
+---
+
+<div>
+    <img src="/assets/img/face.webp" class="face" alt="Parth face" />
+    <title>Parth</title>
+    <small><sup>sup</sup></small>
+</div>
