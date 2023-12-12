@@ -12,7 +12,7 @@ permalink: /about/
 <div class="mb-sm max-content-width face slide-up-half-slow">
     <img src="/assets/img/babygoat.webp" class="" alt="Parth in real life" />
     <title>Parth</title>
-    <h6>11/2023</h6>
+    <h6>11/2023, some hill</h6>
 </div>
 
 <blockquote class="blockquote-lilac"><h3>Hi! I'm Parth, this is my website. Welcome.</h3></blockquote> 

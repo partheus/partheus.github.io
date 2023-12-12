@@ -29,8 +29,10 @@ date: 2023-10-24
     - Back End Development (Node.js, PHP, Python)
     - Content Management Systems (WordPress, Craft CMS)
     - DevOps (Git, GitHub, GitLab, Netlify, Cloudflare)
-    - Project Management (Agile, Scrum, Kanban)
-    - Adobe Creative Suite (Photoshop, Illustrator, InDesign)
+
+- ## Learning
+  - Project Management (Agile, Scrum, Kanban)
+  - Design Creative Suite (Photoshop, Illustrator, Figma, XD)
 
 - ## Languages
     - Marathi (Native)
@@ -43,8 +45,7 @@ date: 2023-10-24
 
 <a class="button button--secondary" href="/hello">Say hi!</a>
 
+<br>
 
-
----
-Last updated: {{ date | readableDate }}
+> Last updated: {{ date | readableDate }}
 
