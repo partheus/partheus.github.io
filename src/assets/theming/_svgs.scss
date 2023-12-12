@@ -86,10 +86,6 @@
 
 .home-logo {
   border-radius: 10em;
-
-  & > a.active {
-    filter: saturate(1.2);
-  }
 }
 
 .flower-svg-container {
@@ -126,26 +122,14 @@
 
 .flower-svg-top-right {
   top: -2em;
-  right: 4em;
+  right: 5em;
 
   @include breakpoint-sm {
     right: 8em;
   }
-
-  @include breakpoint-lg {
-    right: 15em;
-  }
 }
 
 .flower-svg-bottom-left {
-  bottom: -1em;
-  left: 4em;
-
-  @include breakpoint-sm {
-    left: 8em;
-  }
-
-  @include breakpoint-lg {
-    left: 15em;
-  }
+  top: -2em;
+  right: 1em;
 }
