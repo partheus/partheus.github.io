@@ -29,7 +29,7 @@ body {
   height: 100%;
   line-height: 130%;
   min-width: 270px;
-  margin: 0 0.81em;
+  margin: 0 0.9em;
   transition: all 0.3s ease-in-out;
 
   @include breakpoint-sm {
@@ -182,10 +182,6 @@ header {
   padding: 0.5em 0;
   min-height: fit-content;
   width: 100%;
-
-  @include breakpoint-sm {
-    flex-direction: row-reverse;
-  }
 }
 
 nav ul li, footer ul li {
@@ -219,14 +215,6 @@ nav ul li, footer ul li {
   }
 }
 
-.nav__floating-buttons {
-  margin-top: 0.5em;
-
-  @include breakpoint-sm {
-    margin-top: 0;
-  }
-}
-
 .accent-border-bottom {
   border-bottom: 2px solid var(--accent-color);
   width: fit-content;
@@ -244,7 +232,7 @@ blockquote {
   padding-left: 0.75em;
   border-left: 5px solid var(--accent-color);
   margin: 1.5rem 0;
-  line-height: 1.3;
+  line-height: 1.2;
   font-size: 1em;
 
   a {
@@ -267,13 +255,15 @@ blockquote {
 .page {
   &__header {
     text-align: left;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 2.5em;
+    margin-top: 0.5em;
 
     h1 {
       font-size: 2em;
       font-weight: 600;
-      line-height: 1em;
+      line-height: 1.1;
+      border-left: 0.45em solid var(--text-color-link);
+      padding-left: 0.35em;
 
       @include breakpoint-sm-plus {
         font-size: 3em;
@@ -283,10 +273,11 @@ blockquote {
     h2 {
       font-family: $main-font;
       font-weight: normal;
-      font-size: 1em;
+      font-size: 1.1em;
       color: var(--text-color-link);
       filter: hue-rotate(207deg);
-      margin-top: 0.25em;
+      margin-top: 0.35em;
+      line-height: 1.1;
 
       @include breakpoint-sm-plus {
         font-size: 1.3em;
@@ -557,11 +548,15 @@ iframe[src*="soundcloud.com"] {
   max-width: 36ch;
   margin-right: auto;
   display: block;
+}
+
+.face img {
   filter: invert(0);
   transition: filter 0.3s ease-in-out;
 }
 
-.face:hover {
+
+.face:hover img {
   filter: invert(1);
 }
 
