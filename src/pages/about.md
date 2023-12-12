@@ -9,10 +9,10 @@ description: This site is a soft domain expansion of various tastes and senses. 
 permalink: /about/
 ---
 
-<div class="activity-module mb-sm max-content-width slide-up-half-slow">
-    <img src="/assets/img/babygoat.webp" class="face" alt="Parth in real life" />
+<div class="mb-sm max-content-width face slide-up-half-slow">
+    <img src="/assets/img/babygoat.webp" class="" alt="Parth in real life" />
     <title>Parth</title>
-    <h5 class="mt-xs">11/2023</h5>
+    <h6>11/2023</h6>
 </div>
 
 <blockquote class="blockquote-lilac"><h3>Hi! I'm Parth, this is my website. Welcome.</h3></blockquote> 
@@ -29,13 +29,7 @@ I enjoy [climbing](/climbing) and [biking](/biking).
 
 I have [thoughts](/thoughts) every so often. It's excruciating.
 
-> Check out what I'm up to [now](/now). Or a [basic resume](/resume).
-
----
-
-There are [general weekly updates](/weeknotes) of my life.
-
-I also have a [blogroll](/blogroll) of friends and neighbors.
+> There are [general weekly updates](/weeknotes) of my life.  Check out what I'm up to [now](/now). Or a [basic resume](/resume).
 
 ---
 
@@ -43,17 +37,7 @@ See a list of [all page links on this site](/linklist).
 
 See the [[older iterations of this site]](/sitearchive).
 
----
-
-#### Sub Sites:
-
-- [{food}](https://food.parth.ninja)
-
-- [{restaurant menu}](https://rasoi.parth.ninja)
-
-- [{music}](https://music.parth.ninja)
-
-- [{cooking}](https://cooks.parth.ninja/)
+There is a [blogroll](/blogroll) of friends and neighbors.
 
 ---
 
