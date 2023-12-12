@@ -39,23 +39,6 @@
   }
 }
 
-.home-logo::after {
-  font-size: 15px;
-  content: "home";
-  position: absolute;
-  pointer-events: none;
-  font-family: monospace;
-  color: var(--accent-color);
-  opacity: 0;
-  transition: all ease-in-out 0.2s;
-}
-
-/* Show the text on hover */
-.home-logo:hover::after {
-  opacity: 1;
-  transition: all ease-in-out 0.2s;
-}
-
 .newspaper-svg {
   width: fit-content;
   -webkit-transform: scaleX(-1);
