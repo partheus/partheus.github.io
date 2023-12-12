@@ -20,7 +20,7 @@ I'm glad the person videoing me going just the lower half of my body, which is t
 
 It's a bit dark due to the time of night, but here's the video (ignore the trailcam at the end):
 
-<video width="70%" height="auto" controls style="margin-top: 0.5em;">
+<video width="70%" height="auto" controls style="margin-top: 0.5em;max-width: 33ch;" class="mt-sm activity-module">
 <source src="/assets/videos/runningman.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>

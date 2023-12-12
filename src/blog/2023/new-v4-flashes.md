@@ -1,7 +1,6 @@
 ---
 title: New v4 Flashes
 tags:
-    - featured
     - climbing
     - life
 description: we're back😈😈😈
