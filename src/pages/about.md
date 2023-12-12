@@ -9,7 +9,7 @@ description: This site is a soft domain expansion of various tastes and senses. 
 permalink: /about/
 ---
 
-<div class="activity-module mb-sm max-content-width">
+<div class="activity-module mb-sm max-content-width slide-up-half-slow">
     <img src="/assets/img/babygoat.webp" class="face" alt="Parth in real life" />
     <title>Parth</title>
     <h5 class="mt-xs">11/2023</h5>
