@@ -52,5 +52,21 @@ description: Featured FREE ebook, and other works.
 </div>
 </div>
 
+<div class="activity-module display-columns display-columns--two display-columns__close-gap mb-md">
+<div>
+<img src="/assets/img/june-2022/1.webp" loading="lazy" decoding="async" alt="Rare Objects in Strange Places" class="ml-auto mr-auto featured__book gr_grid_book_container">
+</div>
+<div class="publisher-links">
+<p>A collection of short stories.</p><h4>$1</h4>
+<blockquote class="mt-xs">Running the gamut from action thrillers to philosophical musings, the author manages to quickly put you in several different states of mind with very few words. 10/10 recommended.<cite>- Amazon review</cite></blockquote></p>
+<a href="https://www.goodreads.com/book/show/53146887-rare-objects-in-strange-places" target="_blank" title="Goodreads" style="max-width: fit-content;">
+<img src="https://assets.website-files.com/5ee732bebd9839b494ff27cd/5ef09b5139ecc02dc84e0f32_1280px-Goodreads_logo.svg.png" loading="lazy" decoding="async" alt="Goodreads" class="mb-xxs">
+</a>
+<br>
+<a href="https://www.amazon.com/Rare-Objects-Strange-Places-Stories-ebook/dp/B08413JJ7P" title="Amazon Kindle" style="max-width: fit-content;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" loading="lazy" decoding="async" alt="Google Drive" class="mb-xxs">
+</a>
+</div>
 
-> Free! Free! Free!
+
+</div>

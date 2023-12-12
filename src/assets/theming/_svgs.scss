@@ -86,6 +86,7 @@
 
 .home-logo {
   border-radius: 10em;
+  margin-right: -0.45em;
 }
 
 .flower-svg-container {
@@ -121,7 +122,7 @@
 }
 
 .flower-svg-top-right {
-  top: -2em;
+  top: -1em;
   right: 5em;
 
   @include breakpoint-sm {
@@ -131,5 +132,10 @@
 
 .flower-svg-bottom-left {
   top: -2em;
-  right: 1em;
+  right: 2em;
+  filter: saturate(0.81);
+
+  @include breakpoint-sm {
+    right: 0.5em;
+  }
 }

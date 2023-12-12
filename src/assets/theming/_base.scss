@@ -257,6 +257,7 @@ blockquote {
     text-align: left;
     margin-bottom: 2.5em;
     margin-top: 0.5em;
+    margin-right: auto;
 
     h1 {
       font-size: 2em;
@@ -280,7 +281,7 @@ blockquote {
       line-height: 1.1;
 
       @include breakpoint-sm-plus {
-        font-size: 1.3em;
+        font-size: 1.2em;
       }
     }
   }
