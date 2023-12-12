@@ -5,6 +5,7 @@ date: Last modified
 tags:
     - footer
 permalink: /styleguide/
+layout: slim
 ---
 
 # Header 1
@@ -78,18 +79,16 @@ var fun = function lang(l) {
 
 ## Buttons
 
-<div class="activity-module ml-auto mr-auto mb-md slide-up-half max-content-width">
-  <div class="book-links__container">
+<div class="mt-sm activity-module button__container mr-auto mb-md slide-up-half max-content-width">
     <a class="button button--primary" href="/writing/caper" title="Caper">Action ebook</a>
     <a class="button button--secondary" href="/writing/damage" title="Caper">Thriller ebook</a>
     <a class="button button--tertiary" href="/writing/" title="Writing">Writing</a>
-  </div>
 </div>
 
-### Small image
+## Small image
 
-![Small image](https://placehold.it/256x256 "Small image")
+![Small image](https://placehold.co/256x256/pink/black "Small image")
 
-### Large image
+## Large image
 
-![Large image](https://placehold.it/512x512 "Large image")
+![Large image](https://placehold.co/512x512/black/pink "Large image")

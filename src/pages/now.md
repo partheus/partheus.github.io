@@ -1,4 +1,5 @@
 ---
+layout: slim
 title: Now
 description: Updates, updates, updates, updates
 permalink: /now/

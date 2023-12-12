@@ -63,7 +63,7 @@ description: Featured FREE ebook, and other works.
 <img src="https://assets.website-files.com/5ee732bebd9839b494ff27cd/5ef09b5139ecc02dc84e0f32_1280px-Goodreads_logo.svg.png" loading="lazy" decoding="async" alt="Goodreads" class="mb-xxs">
 </a>
 <br>
-<a href="https://www.amazon.com/Rare-Objects-Strange-Places-Stories-ebook/dp/B08413JJ7P" title="Amazon Kindle" style="max-width: fit-content;">
+<a href="https://www.amazon.com/Rare-Objects-Strange-Places-Stories-ebook/dp/B08413JJ7P" title="Amazon Kindle" target="_blank" style="max-width: fit-content;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" loading="lazy" decoding="async" alt="Google Drive" class="mb-xxs">
 </a>
 </div>
