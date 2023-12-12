@@ -3,6 +3,7 @@ title: Hello
 description: Skyfall, my dear James
 date: 2023-10-30
 permalink: /hello/
+layout: slim
 ---
 #### I don't have a contact form yet, but you can email me at:
 
