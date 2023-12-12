@@ -27,13 +27,14 @@ body {
   justify-content: space-between;
   font-size: 1.44rem;
   height: 100%;
-  line-height: 126%;
+  line-height: 130%;
   min-width: 270px;
-  margin: 0 0.72em;
+  margin: 0 0.81em;
   transition: all 0.3s ease-in-out;
 
   @include breakpoint-sm {
     margin: 0 2em;
+    font-size: 1.53rem;
   }
 
   footer {
@@ -66,7 +67,7 @@ a {
 
 p {
   + p {
-    margin-top: 0.5em;
+    margin-top: 0.81em;
   }
 }
 
@@ -78,7 +79,7 @@ nav {
     align-items: center;
 
     @include breakpoint-sm {
-      padding: 0.5em 0.75em;
+      padding: 0.5em 0;
     }
   }
 }
@@ -157,28 +158,27 @@ main::before {
   }
 }
 
-
 main,
 header,
 footer {
   max-width: 1100px;
-
-  @include breakpoint-xl {
-    max-width: 1280px;
-  }
 }
 
 footer {
-  padding: 1em 0 2em 0;
+  padding: 1em 0 2.5em 0;
   border-top: 2px solid var(--background-color-light);
   width: 100%;
+
+    @include breakpoint-sm {
+        padding: 1em 0 0.72em 0;
+    }
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0.5em 0;
   min-height: fit-content;
   width: 100%;
@@ -192,14 +192,6 @@ nav ul li, footer ul li {
   display: inline-block;
   font-weight: normal;
 
-  + li {
-    margin-left: 0.25rem;
-
-    @include breakpoint-sm {
-      margin-left: 1.2rem;
-    }
-  }
-
   &.active a {
     font-weight: 600;
     text-decoration: underline;
@@ -210,8 +202,12 @@ nav ul li, footer ul li {
     display: inline-block;
     max-width: fit-content;
     text-decoration: none;
-    margin: 0.2em 0.4em;
+    margin-right: 0.81em;
     transition: all 0.3s ease-in-out;
+
+    @include breakpoint-sm-plus {
+      margin-right: 1.35em;
+    }
   }
 
   a:hover {
@@ -259,7 +255,7 @@ blockquote {
   cite {
     font-weight: normal;
     display: block;
-    margin-top: 1em;
+    margin-top: 0.35em;
   }
 
 }
@@ -270,7 +266,7 @@ blockquote {
 
 .page {
   &__header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 1em;
     margin-top: 1em;
 
@@ -290,7 +286,7 @@ blockquote {
       font-size: 1em;
       color: var(--text-color-link);
       filter: hue-rotate(207deg);
-      margin-top: 5px;
+      margin-top: 0.25em;
 
       @include breakpoint-sm-plus {
         font-size: 1.3em;
@@ -299,7 +295,7 @@ blockquote {
   }
 
   &__content {
-    margin: 0 auto;
+    margin-right: auto;
 
     ul li::marker {
       color: var(--accent-color);
@@ -344,18 +340,23 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: end;
-  background-color: var(--background-color-light);
-  backdrop-filter: opacity(0.5);
-  margin: 0.25em;
+  background-color: rgba(255, 49, 172, 0.23);
+  margin: 0.45em;
 
   @include breakpoint-sm {
-    margin: 1em;
+    margin-right: 1em;
+  }
+
+  @include breakpoint-lg {
+    margin-right: 2em;
   }
 }
 
 .go-to-top-container a {
-  padding: 0.1em 0.35em;
+  padding: 0.27em;
   text-decoration: none;
+  font-weight: bold;
+  font-family: $accent-font;
 }
 
 .footer-icon-container {
@@ -550,5 +551,17 @@ iframe[src*="soundcloud.com"] {
   }
 }
 
+.face {
+  width: 100%;
+  height: auto;
+  max-width: 36ch;
+  margin-right: auto;
+  display: block;
+  filter: invert(0);
+  transition: filter 0.3s ease-in-out;
+}
 
+.face:hover {
+  filter: invert(1);
+}
 

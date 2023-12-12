@@ -5,14 +5,23 @@ tags:
 eleventyNavigation:
     key: "about"
     order: 1
-description: Temporal Harmony Garden
+description: This site is a soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.
 permalink: /about/
 ---
-Hi! I'm Parth, this is my website. Welcome.
+
+<div class="activity-module mb-sm max-content-width slide-up-half-slow">
+    <img src="/assets/img/babygoat.webp" class="face" alt="Parth in real life" />
+    <title>Parth</title>
+    <h5 class="mt-xs">11/2023</h5>
+</div>
+
+<blockquote class="blockquote-lilac"><h3>Hi! I'm Parth, this is my website. Welcome.</h3></blockquote> 
+
+<p></p>
 
 I love [reading](/reading) and [writing](/writing). I also read a lot of [manga](/manga).
 
-I am a [web developer](/code) and [hobby-level designer](/design). Check out what I use [here](/uses).
+I am a [web developer](/code) and [hobby-level designer](/design).
 
 I [make music](/music).
 
@@ -30,9 +39,9 @@ I also have a [blogroll](/blogroll) of friends and neighbors.
 
 ---
 
-- See a list of [all page links on this site](/linklist).
+See a list of [all page links on this site](/linklist).
 
-- See the [[older iterations of this site]](/sitearchive).
+See the [[older iterations of this site]](/sitearchive).
 
 ---
 
@@ -49,3 +58,4 @@ I also have a [blogroll](/blogroll) of friends and neighbors.
 ---
 
 This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile. You can find more technical specs in [the colophon](/colophon).
+

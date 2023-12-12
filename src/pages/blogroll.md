@@ -1,5 +1,4 @@
 ---
-layout: slim
 eleventyNavigation:
     key: blogroll
     order: 4
@@ -15,8 +14,19 @@ date: 2023-12-03
 
 {% from 'macros/blogrollItem.njk' import blogrollItem %}
 
-<div class="display-columns display-columns--two slide-up-half-slow ml-auto mr-auto mt-sm mb-sm max-content-width">
+#### Friends:
+
+<div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
         {% for card in friends.blogroll %}{{ blogrollItem(
+            title=card.title,
+            siteUrl=card.siteUrl,
+            shortUrl=card.shortUrl
+        ) }}{% endfor %}
+</div>
+
+#### Neighbors:
+<div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
+        {% for card in friends.subsites %}{{ blogrollItem(
             title=card.title,
             siteUrl=card.siteUrl,
             shortUrl=card.shortUrl

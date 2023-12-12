@@ -1,8 +1,7 @@
 <div class="activity-module ml-auto mr-auto slide-up-half-slow mt-sm">
     <div class="display-columns display-columns--two display-columns__close-gap">
-        {% for card in readingMonth %}<div class="reading-card">{# <img src="{{ card.bookCoverUrl }}" loading="lazy" decoding="async" alt="{{ card.title }}">#}<div class="reading-card__info"><h3>{{ card.title }}</h3>
+        {% for card in readingMonth %}<div class="reading-card">{# <img src="{{ card.bookCoverUrl }}" loading="lazy" decoding="async" alt="{{ card.title }}">#}<div class="reading-card__info"><h3 class="song-title"><a  href="{{ card.bookUrl | url }}" target="_blank" title="{{ card.title }}" tabindex="0">{{ card.title }}</a></h3>
             <p>{{ card.author }}</p>
-            <a class="reading-card__link" href="{{ card.bookUrl | url }}" target="_blank" title="{{ card.title }}" tabindex="0"></a>
             </div>
             </div>
         {% endfor %}</div>

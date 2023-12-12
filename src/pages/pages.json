@@ -1,6 +1,6 @@
 {
   "tags": "page",
-  "layout": "slim",
+  "layout": "page",
   "permalink": "{{ title }}.html",
   "templateEngineOverride": "njk,md"
 }

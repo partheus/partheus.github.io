@@ -4,11 +4,28 @@
       "title": "abhilashjn",
       "siteUrl": "https://abhilashjn.com",
       "shortUrl": "abhilashjn.com"
-    },
+    }
+  ],
+  "subsites": [
     {
       "title": "jsonderulo",
       "siteUrl": "https://www.jsonderulo.christmas",
       "shortUrl": "jsonderulo.christmas"
+    },
+    {
+      "title": "rasoi",
+      "siteUrl": "https://rasoi.parth.ninja",
+      "shortUrl": "rasoi"
+    },
+    {
+      "title": "food",
+      "siteUrl": "https://food.parth.ninja",
+      "shortUrl": "food"
+    },
+    {
+      "title": "glyph",
+      "siteUrl": "https://glyph.parth.ninja",
+      "shortUrl": "glyph"
     }
   ]
 }

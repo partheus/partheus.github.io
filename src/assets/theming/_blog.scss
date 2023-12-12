@@ -1,14 +1,10 @@
 @import "base";
 
 .article, .article__title {
-  margin: 0 auto;
+  margin-right: auto;
 
   @include breakpoint-md {
-    max-width: 70vw;
-  }
-
-  @include breakpoint-lg {
-    max-width: 50vw;
+    max-width: 81ch;
   }
 }
 
