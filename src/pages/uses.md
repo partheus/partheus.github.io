@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 description: "Tools and kits and tips and tricks"
-date: 2023-10-11
+date: 2023-12-11
 templateEngineOverride: njk, md
 permalink: /uses/
 ---
@@ -11,20 +11,20 @@ permalink: /uses/
 
 - Dell G5 gaming laptop (red motif and theme)
 - MacBook Pro (pink motif and theme)
-- MX Keys
-- MX Master 3
-- LG widescreen monitor
-- AKAI MPK25 MIDI controller
+- MX Keys (keyboard)
+- MX Master 3 (mouse)
+- LG widescreen monitor (for the laptop)
+- AKAI MPK25 MIDI controller (music)
 
 ### Software:
-- PHPStorm
-- VSCode
-- Lunacy
-- Firefox
-- Chromium Nightly
-- FL Studio
+- PHPStorm (IDE)
+- VSCode (text editor)
+- Penpot (design)
+- Firefox Developer Edition (browser)
+- Chromium Nightly (browser)
+- FL Studio (music)
 
-### Climbing
+### Climbing:
 
 - Black Diamond "Momentum" climbing shoes
 

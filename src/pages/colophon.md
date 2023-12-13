@@ -25,7 +25,7 @@ I used [VSCodium](https://vscodium.com/) and [PhpStorm](https://www.jetbrains.co
 <div class="display-columns display-columns--two display-columns__close-gap">
 
 <div class="mb-xxs">
-<p>Original wireframes / prototypes were developed using <a href="https://icons8.com/lunacy" title="Lunacy" target="_blank">Lunacy</a>. I like to look at things normally and at my own pace, and hence I designed the site in more or less a simplistic manner.</p> 
+<p>Original wireframes / prototypes were developed using <a href="https://penpot.app/" title="Penpot" target="_blank">Penpot</a>. I like to look at things normally and at my own pace, and hence I designed the site in more or less a simplistic manner.</p> 
 
 <p>Site icon is my own design; browser-compatible favicons were generated using <a href="https://realfavicongenerator.net/" title="realfavicongenerator website" target="_blank">realfavicongenerator</a>.</p>
 
