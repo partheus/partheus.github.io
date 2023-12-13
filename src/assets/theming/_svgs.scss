@@ -56,8 +56,8 @@
   height: fit-content;
 
   svg {
-    width: 180px;
-    height: 300px;
+    width: 215px;
+    height: 350px;
     margin-right: auto;
   }
 }
@@ -118,7 +118,7 @@
 
 .flower-svg-bottom-left, .flower-svg-top-right {
   z-index: -2;
-  filter: opacity(0.5);
+  filter: opacity(0.4);
 }
 
 .flower-svg-top-right {
@@ -133,7 +133,7 @@
 .flower-svg-bottom-left {
   top: -2em;
   right: 2em;
-  filter: saturate(0.81);
+  filter: saturate(0.58);
 
   @include breakpoint-sm {
     right: 0.5em;

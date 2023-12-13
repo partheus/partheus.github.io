@@ -5,14 +5,15 @@ tags:
 eleventyNavigation:
     key: "about"
     order: 1
-description: This site is a soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.
+description: This site is a soft expansion of various tastes and senses, inlets and outlets. It's an ongoing experiment, a collection of items, a standalone adventure. A garden of sorts.
 permalink: /about/
+layout: slim
 ---
 
 <div class="mb-sm max-content-width face slide-up-half-slow">
     <img src="/assets/img/babygoat.webp" class="" alt="Parth in real life" />
     <title>Parth</title>
-    <h6>11/2023, some hill</h6>
+    <h6>11/2023, halfway uphill</h6>
 </div>
 
 <blockquote class="blockquote-lilac"><h3>Hi! I'm Parth, this is my website. Welcome.</h3></blockquote> 

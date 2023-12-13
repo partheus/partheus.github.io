@@ -136,8 +136,8 @@ main::before {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: -10em;
-  margin-left: -20em;
+  margin-top: -7em;
+  margin-left: -18em;
   width: 100%;
   min-height: 100%;
   background-image: url("/assets/icons/flower.svg");
@@ -153,7 +153,7 @@ main::before {
   animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
 
   @include breakpoint-st-xs {
-    margin-top: -11em;
+    margin-top: 3em;
     margin-left: -7em;
   }
 }
