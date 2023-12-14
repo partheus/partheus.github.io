@@ -499,7 +499,7 @@ iframe[src*="soundcloud.com"] {
 
 .masonry-item {
   break-inside: avoid; /* Prevent items from breaking inside columns */
-  margin-bottom: 2em; /* Adjust space between items */
+  margin-bottom: 1em; /* Adjust space between items */
   width: 100%; /* Set the width of each item */
 }
 
@@ -507,6 +507,7 @@ iframe[src*="soundcloud.com"] {
 .masonry-item img {
   width: 100%; /* Ensure images take the full width of their container */
   height: auto; /* Maintain image aspect ratio */
+  max-width: 50ch;
 }
 
 .callout-bar {
