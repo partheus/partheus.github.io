@@ -1,5 +1,29 @@
 [
   {
+    "title": "Philosophy Club Meeting Poster",
+    "imageUrl": "/assets/img/phil1.webp"
+  },
+  {
+    "title": "Philosophy Club Meeting Poster 2",
+    "imageUrl": "/assets/img/phil2.webp"
+  },
+  {
+    "title": "New Book Cover 1",
+    "imageUrl": "/assets/img/june-2022/1.webp"
+  },
+  {
+    "title": "New Book Cover 2",
+    "imageUrl": "/assets/img/june-2022/2.webp"
+  },
+  {
+    "title": "New Book Cover 3",
+    "imageUrl": "/assets/img/june-2022/3.webp"
+  },
+  {
+    "title": "New Book Cover 4",
+    "imageUrl": "/assets/img/june-2022/4.webp"
+  },
+  {
     "title": "Book Cover 1",
     "imageUrl": "/assets/img/rare1.webp"
   },
@@ -10,13 +34,5 @@
   {
     "title": "JAWNZ Poster",
     "imageUrl": "/assets/img/jawnz.webp"
-  },
-  {
-    "title": "Philosophy Club Meeting Poster",
-    "imageUrl": "/assets/img/phil1.webp"
-  },
-  {
-    "title": "Philosophy Club Meeting Poster 2",
-    "imageUrl": "/assets/img/phil2.webp"
   }
 ]

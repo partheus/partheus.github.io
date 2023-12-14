@@ -1,5 +1,13 @@
 [
   {
+    "name": "the wave",
+    "date": "2023-12-11",
+    "difficulty": "V3",
+    "location": "indoors",
+    "type": "crimp+slab",
+    "times_attempted": "3"
+  },
+  {
     "name": "braconid",
     "date": "2023-12-08",
     "difficulty": "V4",

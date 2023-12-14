@@ -8,7 +8,7 @@ layout: page
 <div class="masonry-container">
   {% for card in designProjects %}
     <div class="masonry-item">
-      <img src="{{ card.imageUrl }}" alt="{{ card.altText }}">
+      <img src="{{ card.imageUrl }}" alt="{{ card.title }}">
     </div>
   {% endfor %}
 </div>

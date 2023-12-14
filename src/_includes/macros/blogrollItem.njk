@@ -1,3 +1,7 @@
-{% macro blogrollItem(title, siteUrl, shortUrl) %}<div class="reading-card" tabindex="0">
-    <h3 class="card__title mb-xxs">{{ title }}</h3><span>{ <a style="color: var(--accent-color);" href="{{ siteUrl | url }}" target="_blank" title="{{ title }}" class="no-link reading-card__link"
-                                                             tabindex="0">{{ shortUrl | url }}</a> }</span></div>{% endmacro %}
+{% macro blogrollItem(title, siteUrl, shortUrl) %}
+<div class="reading-card" tabindex="0">
+    <h3 class="card__title mb-xxs">{{ title }}
+    </h3><span>{ <a style="color: var(--accent-color);" href="{{ siteUrl | url }}" target="_blank"
+                                                              title="{{ title }}" class="no-link reading-card__link"
+                                                              tabindex="0">{{ shortUrl | url }}</a> }</span>
+    </div>{% endmacro %}

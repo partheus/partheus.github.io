@@ -4,6 +4,7 @@ description: New pixel art
 date: 2023-11-26
 tags:
     - weeknotes
+    - books
 ---
 
 - Jujutsu Kaisen the anime is so good and all the characters are unharmed and happy forever wow (spoilers, don't look it up)

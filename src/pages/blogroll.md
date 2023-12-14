@@ -5,16 +5,14 @@ eleventyNavigation:
 tags: ['page']
 templateEngineOverride: njk, md
 title: Blogroll
-description: Friends and neighbors
+description: A list of friends and neighbors, designed mainly to share a bit of web traffic
 permalink: /blogroll/
-date: 2023-12-03
+date: 2023-12-13
 ---
-#### A list of friends and neighbors, designed mainly to share a bit of web traffic.
 
-> Last updated: {{ date | readableDate }}. These are not all actively updated sites. See description.
-
+> ### I'm maintaining this page on a bit of a whim. Bear with me. And there's a honeycomb.
+<br>
 {% from 'macros/blogrollItem.njk' import blogrollItem %}
-
 #### Friends and neighbors:
 
 <div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
@@ -33,3 +31,5 @@ date: 2023-12-03
             shortUrl=card.shortUrl
         ) }}{% endfor %}
 </div>
+
+> Last updated: {{ date | readableDate }}. These are not all actively updated sites. See description.
