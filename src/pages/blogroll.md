@@ -9,12 +9,13 @@ description: Friends and neighbors
 permalink: /blogroll/
 date: 2023-12-03
 ---
+#### A list of friends and neighbors, designed mainly to share a bit of web traffic.
 
 > Last updated: {{ date | readableDate }}. These are not all actively updated sites. See description.
 
 {% from 'macros/blogrollItem.njk' import blogrollItem %}
 
-#### Friends:
+#### Friends and neighbors:
 
 <div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
         {% for card in friends.blogroll %}{{ blogrollItem(
@@ -24,7 +25,7 @@ date: 2023-12-03
         ) }}{% endfor %}
 </div>
 
-#### Neighbors:
+#### Places on the web I've built:
 <div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
         {% for card in friends.subsites %}{{ blogrollItem(
             title=card.title,
