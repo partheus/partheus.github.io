@@ -4,6 +4,7 @@ description: The end of Diwali
 date: 2023-11-19
 tags:
     - weeknotes
+    - books
 ---
 
 - Diwali was so much fun, I'm happy that I got to spend it with my family

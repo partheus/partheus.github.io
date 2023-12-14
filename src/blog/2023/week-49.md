@@ -4,6 +4,7 @@ description: Normal week + boulder
 date: 2023-12-10
 tags:
 - weeknotes
+- books
 ---
 
 - v4 has been attained again. [/climbing/](/climbing/)

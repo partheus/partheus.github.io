@@ -4,6 +4,7 @@ description: Stuff
 date: 2023-11-12
 tags:
     - weeknotes
+    - books
 ---
 - Attack on Titan (the anime) is finally over. What a run
 - Diwali prep is under way!
