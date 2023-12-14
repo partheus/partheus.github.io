@@ -9,7 +9,7 @@ pre {
   font-family: 'Courier New', monospace;
   line-height: 1.4;
   white-space: pre-wrap;
-  filter: contrast(1.4);
+  filter: contrast(1.2);
 }
 
 // Style for the <code> element inside <pre>
@@ -20,7 +20,6 @@ pre code {
   color: var(--text-color);
   background-color: var(--background-color-light);
   border-radius: 5px;
-  filter: contrast(1.4);
 }
 
 code {
@@ -30,7 +29,6 @@ code {
   background-color: var(--background-color-light);
   border-radius: 5px;
   display: inline-block;
-  filter: contrast(1.4);
 }
 
 // Additional styles for syntax highlighting classes

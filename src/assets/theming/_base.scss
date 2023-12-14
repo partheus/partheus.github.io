@@ -136,8 +136,8 @@ main::before {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: -7em;
-  margin-left: -18em;
+  margin-top: 1em;
+  margin-left: -21em;
   width: 100%;
   min-height: 100%;
   background-image: url("/assets/icons/flower.svg");
@@ -145,7 +145,7 @@ main::before {
   -o-background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
   background-size: contain;
-  max-width: 100%;
+  max-width: 63ch;
   max-height: 100%;
   filter: opacity(0.045) contrast(1.5) brightness(1.1) saturate(1.1);
   z-index: -1;
@@ -552,14 +552,8 @@ iframe[src*="soundcloud.com"] {
 }
 
 .face img {
-  filter: invert(0);
-  transition: filter 0.2s ease-in-out;
+  filter: invert(.135);
   height: 100%;
   width: 100%;
-}
-
-
-.face:hover img {
-  filter: invert(0.81);
 }
 
