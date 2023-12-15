@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: slim
 eleventyNavigation:
   key: home
   order: 1
@@ -11,27 +11,13 @@ description: >
 
 {% include "components/nowPlaying.njk" %}
 
-<div class="mb-smp"></div>
-
-## This week's [weeknote](/weeknotes):
-
-<div class="featured__post mb-smp">
-    {% set weekNoteCollection = collections.weeknotes | reverse %}
-    {% set weekNote = weekNoteCollection[0] %}
-    <h3 class="article__preview__header mt-sm"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
-    <p class="article__preview__description">{% if weekNote.data.description %} {{ weekNote.data.description }} {% endif %} &#x10101;
-        <small>
-            <time>{{ weekNote.data.date | readableDate }}</time>
-        </small>
-    </p>
+<div class="mt-md mb-sm slide-up-half" style="max-width: 25ch;">
+<a class="pixelart-card" href="/pixelart" title="pixel art page" style="margin-left: 0;">
+<img class="pixelart-image" src="/assets/img/pixart/bunny1.webp" alt="Bunny" />
+    <div class="pixelart-image-overlay">
+        <p>pixelart bunny</p>
+        <small>/pixelart</small>
+    </div>
+</a>
 </div>
 
-## I [write](/writing) every now and then. Here's a featured article:
-
-<section class="mb-md">
-    {% include "components/featuredArticle.njk" %}
-</section>
-
-## I [read](/reading) often and with gusto. Some recent reads:
-
-{% include "components/readingMonth.njk" %}

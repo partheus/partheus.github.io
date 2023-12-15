@@ -449,7 +449,7 @@ blockquote {
   max-width: 100%;
   height: auto;
   display: block;
-  transition: filter 0.3s; /* Add transition for smooth effect */
+  transition: filter 0.3s ease-in-out; /* Add transition for smooth effect */
   filter: brightness(1); /* Ensure the image is not darkened initially */
 
   &:hover {
@@ -459,7 +459,7 @@ blockquote {
 
 .pixelart-image-overlay {
   opacity: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.81);
   color: #fff;
   position: absolute;
   top: 0;
@@ -470,7 +470,8 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease-in-out;
+  outline: 2px dashed var(--accent-color);
 
   .pixelart-card:hover & {
     opacity: 1;

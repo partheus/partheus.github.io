@@ -9,6 +9,10 @@
     text-decoration: none;
   }
 
+  a:focus {
+    outline: 2px solid var(--accent-color) !important;
+  }
+
   h2 {
     font-size: 1em;
     font-weight: lighter;
