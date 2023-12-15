@@ -7,7 +7,6 @@ eleventyNavigation:
     order: 1
 description: This site is a soft expansion of various tastes and senses, inlets and outlets. It's an ongoing experiment, a collection of items, a standalone adventure. A garden of sorts.
 permalink: /about/
-layout: slim
 ---
 
 <div class="mb-sm max-content-width face slide-up-half-slow">
@@ -41,6 +40,10 @@ See the [[older iterations of this site]](/sitearchive).
 There is a [blogroll](/blogroll) of friends and neighbors.
 
 ---
+### Recent reads:
+
+{% include "components/readingMonth.njk" %}
+
+---
 
 This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile. You can find more technical specs in [the colophon](/colophon).
-
