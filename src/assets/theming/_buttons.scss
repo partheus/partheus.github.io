@@ -5,14 +5,14 @@
   text-decoration: none;
   cursor: pointer;
   margin: 0.5em auto;
-  transition: all 0.3s ease; // Adding transition for a smooth effect
+  transition: all 0.3s ease-in-out; // Adding transition for a smooth effect
   font-family: $accent-font;
   position: relative;
   border: 2px solid transparent;
-  filter: contrast(1.1);
+  filter: invert(0) contrast(1);
 
   &:hover {
-    border: 2px solid var(--text-color-link);
+    filter: invert(1) contrast(1.35);
   }
 
   &--primary {

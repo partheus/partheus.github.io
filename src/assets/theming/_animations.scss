@@ -48,6 +48,14 @@ $animationDelay: 0.18s; // Adjust the base delay as needed
   animation: slideUpHalf 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.7s both;
 }
 
+// Slide up half slower animation
+
+.slide-up-half-slower {
+  opacity: 0;
+  -webkit-animation: slideUpHalf 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+  animation: slideUpHalf 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+}
+
 // Slide up staggered animation for lists of items
 
 ul.article__list {
@@ -85,8 +93,8 @@ ul.article__list {
 }
 
 .slow-fade-in {
-  -webkit-animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1s forwards;
-  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1s forwards;
+  -webkit-animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
+  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
 }
 
 // Text focus in animation
