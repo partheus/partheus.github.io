@@ -10,14 +10,7 @@ description: >
 ---
 
 {% include "components/nowPlaying.njk" %}
-
-<div class="mt-md mb-sm slide-up-half" style="max-width: 25ch;">
-<a class="pixelart-card" href="/pixelart" title="pixel art page" style="margin-left: 0;">
-<img class="pixelart-image" src="/assets/img/pixart/bunny1.webp" alt="Bunny" />
-    <div class="pixelart-image-overlay">
-        <p>pixelart bunny</p>
-        <small>/pixelart</small>
-    </div>
-</a>
-</div>
+<div class="mb-sm mt-md slide-up-half slow-fade-in">
+<blockquote class="blockquote-lilac">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}<a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
+</blockquote></div>
 
