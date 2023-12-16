@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   font-size: 1.44rem;
   height: 100%;
-  line-height: 130%;
+  line-height: 126%;
   min-width: 270px;
   margin: 0 0.9em;
   transition: all 0.3s ease-in-out;
@@ -267,7 +267,7 @@ blockquote {
       padding-left: 0.35em;
 
       @include breakpoint-sm-plus {
-        font-size: 3em;
+        font-size: 2.5em;
       }
     }
 
@@ -308,6 +308,10 @@ blockquote {
 .max-content-width {
   max-width: 70ch;
   margin: inherit auto;
+}
+
+.fit-content-width {
+  max-width: fit-content;
 }
 
 .theme-toggle-container {
