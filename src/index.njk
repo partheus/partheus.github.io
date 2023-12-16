@@ -9,8 +9,17 @@ description: >
     Developer. Author. Likes daal. Loves sitting on the floor.
 ---
 
-{% include "components/nowPlaying.njk" %}
-<div class="mb-sm mt-md slide-up-half slow-fade-in">
-<blockquote class="blockquote-lilac">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}<a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
-</blockquote></div>
+<div class="activity-module mr-auto slide-up-half-slow mb-md" tabindex="0">
+    <h2 style="font-family: EB Garamond" class="mb-xs">Currently Playing:</h2>
+    <div class="song">
+        <img src="/assets/img/sunface.svg" alt="Album Cover" class="album-cover">
+        <div class="song-info">
+            <a href="https://soundcloud.com/pinkpantheress/mosquito" target="_blank" title="Playing now:">
+                <div class="song-title">Mosquito</div></a>
+            <p class="artist-name">Pinkpantheress</p>
+        </div>
+    </div>
+</div>
 
+<blockquote class="blockquote-lilac slide-up mt-mdp">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}<a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
+</blockquote>
