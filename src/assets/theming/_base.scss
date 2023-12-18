@@ -169,9 +169,9 @@ footer {
   border-top: 2px solid var(--background-color-light);
   width: 100%;
 
-    @include breakpoint-sm {
-        padding: 1em 0 0.72em 0;
-    }
+  @include breakpoint-sm {
+    padding: 1em 0 0.72em 0;
+  }
 }
 
 header {
@@ -255,18 +255,22 @@ blockquote {
 .page {
   &__header {
     text-align: left;
-    margin-bottom: 2em;
-    margin-top: 0.5em;
+    margin-bottom: 2.5em;
+    margin-top: 0.45em;
     margin-right: auto;
 
     h1 {
-      font-size: 2em;
+      font-size: 1.5em;
       font-weight: 600;
       line-height: 1.1;
       border-left: 0.45em solid var(--text-color-link);
       padding-left: 0.35em;
 
-      @include breakpoint-sm-plus {
+      @include breakpoint-sm {
+        font-size: 2em;
+      }
+
+      @include breakpoint-md {
         font-size: 2.5em;
       }
     }
