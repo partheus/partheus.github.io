@@ -1,5 +1,9 @@
 [
   {
+    "title": "JAWNZ Poster",
+    "imageUrl": "/assets/img/works/jawnz.webp"
+  },
+  {
     "title": "Philosophy Club Meeting Poster",
     "imageUrl": "/assets/img/phil1.webp"
   },
@@ -30,9 +34,5 @@
   {
     "title": "Book Cover 2",
     "imageUrl": "/assets/img/rare2.webp"
-  },
-  {
-    "title": "JAWNZ Poster",
-    "imageUrl": "/assets/img/jawnz.webp"
   }
 ]
