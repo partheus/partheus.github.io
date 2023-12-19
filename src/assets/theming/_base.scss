@@ -147,7 +147,7 @@ main::before {
   background-size: contain;
   max-width: 63ch;
   max-height: 100%;
-  filter: opacity(0.045) contrast(1.5) brightness(1.1) saturate(1.1);
+  filter: opacity(0.063) contrast(1.5) brightness(1.1) saturate(1.1);
   z-index: -1;
   -webkit-animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
   animation: slideUpHalf 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s both;
@@ -260,15 +260,11 @@ blockquote {
     margin-right: auto;
 
     h1 {
-      font-size: 1.5em;
+      font-size: 2em;
       font-weight: 600;
       line-height: 1.1;
       border-left: 0.45em solid var(--text-color-link);
       padding-left: 0.35em;
-
-      @include breakpoint-sm {
-        font-size: 2em;
-      }
 
       @include breakpoint-md {
         font-size: 2.5em;

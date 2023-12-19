@@ -133,7 +133,6 @@
 .flower-svg-bottom-left {
   top: -2em;
   right: 2em;
-  filter: saturate(0.45);
 
   @include breakpoint-sm {
     right: 0.5em;
