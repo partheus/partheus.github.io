@@ -60,9 +60,13 @@ here.
 
 ---
 
-> [Styleguide](/styleguide/)
+<div class="button__container activity-module max-content-width mt-md">
+    <a href="/styleguide/" class="button button--tertiary">styleguide</a>
+    <a href="/sitearchive/" class="button button--secondary">site archive</a>
+    <a href="/not-link/" class="button button--primary">404 test</a>
+</div>
 
-> [Test 404 page](/not-a-link)
+---
 
 <blockquote class="blockquote-lilac">
 
