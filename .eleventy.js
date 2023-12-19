@@ -89,6 +89,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addNunjucksGlobal("BUILD_DATE", process.env.BUILD_DATE);
 
+  // Add current year to global data object
+  eleventyConfig.addGlobalData('currentYear', new Date().getFullYear());
+
 
   return {
     dir: {

@@ -17,11 +17,4 @@ layout: page
 <p class="mt-xs"></p>
 <a href="mailto:hi@parth.ninja">Email me</a>
 </div>
-
-<div>
-
-#### Have suggestions, recommendations, bouquets, or brickbats? 
-<p class="mt-xs"></p>
-<a href="https://github.com/partheus/partheus.github.io/issues/new" target="_blank">Open an issue</a>
-</div>
 </div>
