@@ -46,4 +46,10 @@ There is a [blogroll](/blogroll) of friends and neighbors.
 
 ---
 
-This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile. You can find more technical specs in [the colophon](/colophon).
+This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile.
+
+You can find more technical specs:
+
+<a href="/colophon" class="button button--primary button--small" title="colophon is here">colophon</a>
+
+<p></p>
