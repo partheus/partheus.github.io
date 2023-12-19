@@ -11,5 +11,5 @@ description: >
 
 {% include "./_includes/components/nowPlaying.njk" %}
 
-<blockquote class="blockquote-lilac slide-up mt-md">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}<a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
+<blockquote class="blockquote-lilac slide-up mt-md slow-fade-in">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}<a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
 </blockquote>
