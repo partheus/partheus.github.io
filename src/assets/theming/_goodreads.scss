@@ -3,10 +3,10 @@
 .gr_grid_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-content: stretch;
-  column-gap: 0.25em;
-  row-gap: 0.5em;
+  column-gap: 0.5em;
+  row-gap: 0.65em;
   margin-top: 1em;
 
   @include breakpoint-sm-plus {
