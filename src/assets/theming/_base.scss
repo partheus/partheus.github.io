@@ -260,11 +260,15 @@ blockquote {
     margin-right: auto;
 
     h1 {
-      font-size: 2em;
+      font-size: 1.71em;
       font-weight: 600;
       line-height: 1.1;
       border-left: 0.45em solid var(--text-color-link);
       padding-left: 0.35em;
+
+      @include breakpoint-sm {
+        font-size: 2em;
+      }
 
       @include breakpoint-md {
         font-size: 2.5em;
