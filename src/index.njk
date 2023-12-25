@@ -1,8 +1,8 @@
 ---
 layout: slim
 eleventyNavigation:
-  key: home
-  order: 1
+    key: home
+    order: 1
 templateEngineOverride: njk, md
 title: Parth Shiralkar
 description: >
@@ -11,5 +11,9 @@ description: >
 
 {% include "./_includes/components/nowPlaying.njk" %}
 
-<blockquote class="blockquote-lilac slide-up mt-mdp slow-fade-in">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}<a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
+<blockquote
+        class="blockquote-lilac slide-up mt-mdp slow-fade-in">{% set weekNoteCollection = collections.weeknotes | reverse %}{% set weekNote = weekNoteCollection[0] %}
+    <a title="Latest weeknote" class="button button--secondary" href="{{ weekNote.url | url }}">notes from last week</a>
+    <div class="mt-sm" style="font-variant: all-petite-caps; color: var(--accent-color); font-family: 'Besley', serif;">
+        <b>"{{ weekNote.data.description }}"</b></div>
 </blockquote>
