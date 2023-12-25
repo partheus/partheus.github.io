@@ -1,6 +1,6 @@
 {
     "tags": "article",
     "layout": "article",
-    "permalink": "article/{{ page.date | getArticleYear }}/{{ page.fileSlug }}.html"
+    "permalink": "article/{{ page.date | getArticleYear }}/{{ page.fileSlug }}/"
 }
 

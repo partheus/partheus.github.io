@@ -10,7 +10,6 @@ eleventyNavigation:
   key: now
   order: 4
 ---
-> What is a [now page](https://nownownow.com/about)? It answers the question "So what are you up to these days?"
 
 - Occupation: Developer, all kinds of stuff
 - Location: West Oregon
@@ -21,3 +20,7 @@ eleventyNavigation:
 - Secondary hobbies that are on the horizon: climbing harder
 
 > Last updated: {{ date | readableDate }}
+
+---
+
+> What is a [now page](https://nownownow.com/about)? It answers the question "So what are you up to these days?"

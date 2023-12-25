@@ -1,5 +1,21 @@
 [
   {
+    "name": "sloppy joe",
+    "date": "2023-12-18",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "sloper",
+    "times_attempted": "3"
+  },
+  {
+    "name": "zorro",
+    "date": "2023-12-18",
+    "difficulty": "V3",
+    "location": "indoors",
+    "type": "crimp",
+    "times_attempted": "1"
+  },
+  {
     "name": "the wave",
     "date": "2023-12-11",
     "difficulty": "V3",
