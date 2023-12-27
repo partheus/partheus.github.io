@@ -80,6 +80,13 @@ $spacing: (
     }
   }
 
+  &__zero-gap--mobile {
+    @include breakpoint-st-xs {
+      row-gap: 0;
+      column-gap: 0;
+    }
+  }
+
   &--two {
     @include breakpoint-md {
       grid-template-columns: repeat(2, 1fr); /* 2 columns for desktop */

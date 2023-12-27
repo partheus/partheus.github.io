@@ -1,7 +1,7 @@
-<div class="featured__post">
-    {% set featuredCollection = collections.featured | reverse %}
-    {% set article = featuredCollection[3] %}
-    <h3 class="article__preview__header mt-sm"><a href="{{ article.url | url }}">{{ article.data.title }}</a></h3>
+<div class="featured__post mt-smp slide-up-half-slow">
+    {% set featuredCollection = collections.weeknotes | reverse %}
+    {% set article = featuredCollection[0] %}
+    <h3 class="article__preview__header"><a href="{{ article.url | url }}">{{ article.data.title }}</a></h3>
     <p class="article__preview__description">{% if article.data.description %} {{ article.data.description }} {% endif %} &#x10101;
         <small>
             <time>{{ article.data.date | readableDate }}</time>
