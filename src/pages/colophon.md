@@ -8,7 +8,7 @@ eleventyNavigation:
 description: col⋅o⋅phon (noun) An inscription, usually at the end of a book, giving facts about its publication.
 permalink: /colophon/
 ---
-> ` Site last updated: {{ BUILD_DATE }} ` 
+` Site last updated: {{ BUILD_DATE }} ` 
 
 - # Development
 
