@@ -1,7 +1,4 @@
 ---
-eleventyNavigation:
-    key: blogroll
-    order: 4
 tags: ['page']
 templateEngineOverride: njk, md
 title: Blogroll
