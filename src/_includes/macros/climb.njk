@@ -4,6 +4,11 @@
         <td>{{ climb.difficulty }}</td>
         <td>{{ climb.location }}</td>
         <td>{{ climb.type }}</td>
-        <td>{{ climb.times_attempted }}</td>
+        <td>
+            {{ climb.times_attempted }}
+            {% if climb.times_attempted == "1" %}
+                <span class="star"><sup>&#127881;</sup></span>
+            {% endif %}
+        </td>
     </tr>
 {% endmacro %}
