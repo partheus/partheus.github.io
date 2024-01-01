@@ -40,11 +40,6 @@ See the [[older iterations of this site]](/sitearchive).
 There is a [blogroll](/blogroll) of friends and neighbors.
 
 ---
-### Recent reads:
-
-{% include "components/readingMonth.njk" %}
-
----
 
 This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile.
 
