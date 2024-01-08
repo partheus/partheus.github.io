@@ -445,8 +445,26 @@
     
        
         <url>
+            <loc>/article/2024/bunker-zero/</loc>
+            <lastmod>2024-01-06T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+    
+       
+        <url>
+            <loc>/article/2024/week-1/</loc>
+            <lastmod>2024-01-07T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+        
+    
+    
+       
+        <url>
             <loc>/blog/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.693Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -455,7 +473,7 @@
        
         <url>
             <loc>/climbing/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -464,7 +482,7 @@
        
         <url>
             <loc>/code/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -473,7 +491,7 @@
        
         <url>
             <loc>/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -482,7 +500,7 @@
        
         <url>
             <loc>/404.html</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -491,7 +509,7 @@
        
         <url>
             <loc>/about/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -500,7 +518,7 @@
        
         <url>
             <loc>/biking/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -509,7 +527,7 @@
        
         <url>
             <loc>/colophon/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -518,7 +536,7 @@
        
         <url>
             <loc>/design/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -527,7 +545,7 @@
        
         <url>
             <loc>/linklist/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -536,7 +554,7 @@
        
         <url>
             <loc>/manga/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -545,7 +563,7 @@
        
         <url>
             <loc>/music/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -554,7 +572,7 @@
        
         <url>
             <loc>/reading/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -563,7 +581,7 @@
        
         <url>
             <loc>/styleguide/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -572,7 +590,7 @@
        
         <url>
             <loc>/thoughts/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -581,7 +599,7 @@
        
         <url>
             <loc>/pixelart/</loc>
-            <lastmod>2024-01-01T19:39:51.029Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -590,7 +608,7 @@
        
         <url>
             <loc>/sitearchive/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -599,7 +617,7 @@
        
         <url>
             <loc>/tags/all/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -608,7 +626,7 @@
        
         <url>
             <loc>/weeknotes/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -617,7 +635,7 @@
        
         <url>
             <loc>/writing/caper/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -626,7 +644,7 @@
        
         <url>
             <loc>/writing/damage/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -635,7 +653,7 @@
        
         <url>
             <loc>/works/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
@@ -644,7 +662,7 @@
        
         <url>
             <loc>/writing/</loc>
-            <lastmod>2024-01-01T19:39:51.033Z</lastmod>
+            <lastmod>2024-01-08T03:14:40.697Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
         
