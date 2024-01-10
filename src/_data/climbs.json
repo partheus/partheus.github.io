@@ -1,5 +1,14 @@
 [
   {
+    "name": "hot tuna",
+    "date": "2024-01-05",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "crimp",
+    "times_attempted": "3",
+    "notes": "crux is the first move"
+  },
+  {
     "name": "ascanor",
     "date": "2023-12-29",
     "difficulty": "V4",
