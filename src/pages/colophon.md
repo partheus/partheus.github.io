@@ -57,6 +57,8 @@ The site is mirrored on [Cloudflare](https://partheus-github-io.pages.dev) and [
 This website does not track or collect your data. No language models were involved in writing the blog posts on
 here.
 
+[![Not by AI](/assets/icons/Written-By-Human-Not-By-AI-Badge-black.svg)](https://notbyai.fyi/)
+
 > Contact me for issues or clues on lost Inca gold or blueprints to the original [redacted] or mostly anything at all, ever. [Say hi](/hello).
 
 ---
