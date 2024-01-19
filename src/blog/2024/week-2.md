@@ -1,9 +1,9 @@
 ---
-title: Week 1
-date: 2024-01-07
+title: Week 2
+date: 2024-01-14
 tags: 
   - weeknotes
-description: New year, new pee
+description: Tokyo Ghoul time
 ---
 - Great normal week, late post
 - Tokyo Ghoul artwork is so good
