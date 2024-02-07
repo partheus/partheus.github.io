@@ -1,5 +1,31 @@
 [
   {
+    "name": "",
+    "date": "2024-02-05",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "slab, crimp",
+    "times_attempted": "1"
+  },
+  {
+    "name": "",
+    "date": "2024-02-05",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "sloper",
+    "times_attempted": "1",
+    "notes": "nice stuff, but hard to read the beta"
+  },
+  {
+    "name": "",
+    "date": "2024-02-05",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "crimp",
+    "times_attempted": "1",
+    "notes": "hate it"
+  },
+  {
     "name": "hot tuna",
     "date": "2024-01-05",
     "difficulty": "V4",
