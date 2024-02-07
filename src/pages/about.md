@@ -37,8 +37,6 @@ See a list of [all page links on this site](/linklist).
 
 See the [[older iterations of this site]](/sitearchive).
 
-There is a [blogroll](/blogroll) of friends and neighbors.
-
 ---
 
 This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile.
