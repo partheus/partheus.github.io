@@ -1,6 +1,14 @@
 {
   "currentlyReading": [
     {
+      "title": "Tokyo Ghoul",
+        "author": "Sui Ishida",
+        "currentChapter": 100,
+        "totalChapters": 143,
+        "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
+        "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
+    },
+    {
       "title": "Jujustu Kaisen",
       "author": "Gege Akutami",
       "currentChapter": 100,
