@@ -1,5 +1,5 @@
 ---
-title: Week 6
+title: Week 7
 date: 2024-02-18
 tags: 
   - weeknotes
