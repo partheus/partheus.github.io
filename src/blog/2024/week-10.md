@@ -5,3 +5,4 @@ tags:
   - weeknotes
 ---
 - I miss climbing
+- I miss writing!!!!!! omg
