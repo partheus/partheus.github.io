@@ -4,11 +4,19 @@
     <subtitle>A soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.</subtitle>
     <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
-    <updated>2024-03-03T00:00:00Z</updated>
+    <updated>2024-03-10T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
         <name>Parth Shiralkar</name>
     </author>
+    <entry>
+        <title>Week 10</title>
+        <link href="https://parth.ninja/article/2024/week-10/"/>
+        <updated>2024-03-10T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2024/week-10/</id>
+        
+        <content type="html"></content>
+    </entry>
     <entry>
         <title>Week 9</title>
         <link href="https://parth.ninja/article/2024/week-9/"/>
