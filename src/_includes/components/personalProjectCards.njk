@@ -1,0 +1,10 @@
+{% from '../macros/projectCard.njk' import projectCard %}
+
+<div class="display-columns display-columns--two slide-up-half-slow">
+    {% for card in personalProjectCards %}
+        {{ projectCard(
+            title=card.title,
+            projectUrl=card.projectUrl,
+            imageUrl=card.imageUrl
+        ) }}{% endfor %}
+</div>
