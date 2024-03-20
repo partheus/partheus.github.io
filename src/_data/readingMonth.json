@@ -1,5 +1,10 @@
 [
   {
+    "title": "The Great Escape",
+    "author": "Saket Soni",
+    "bookUrl": "https://www.goodreads.com/book/show/60831905-the-great-escape"
+  },
+  {
     "title": "Mr Einstein's Secretary",
     "author": "Matthew Reilly",
     "bookUrl": "https://www.goodreads.com/book/show/156428499-mr-einstein-s-secretary"
@@ -39,12 +44,6 @@
     "author": "Marissa Meyer",
     "bookUrl": "https://www.goodreads.com/book/show/42771754-supernova",
     "bookCoverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1557159835i/42771754.jpg"
-  },
-  {
-    "title": "Colonel Sun",
-    "author": "Robert Markham",
-    "bookUrl": "https://www.goodreads.com/book/show/391789.Colonel_Sun",
-    "bookCoverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1497194421i/35407575.jpg"
   }
 ]
 
