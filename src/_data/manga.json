@@ -2,11 +2,11 @@
   "currentlyReading": [
     {
       "title": "Tokyo Ghoul",
-        "author": "Sui Ishida",
-        "currentChapter": 100,
-        "totalChapters": 143,
-        "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
-        "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
+      "author": "Sui Ishida",
+      "currentChapter": 100,
+      "totalChapters": 143,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
     },
     {
       "title": "Jujustu Kaisen",
@@ -185,6 +185,30 @@
       "totalChapters": 95,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/189338l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run"
+    },
+    {
+      "title": "Tomie",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 20,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/164476.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/912/Tomie"
+    },
+    {
+      "title": "Shiver",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 20,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/265606.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/136793/Itou_Junji_Jisen_Kessakushuu"
+    },
+    {
+      "title": "Uzumaki",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 20,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/26797l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/436/Uzumaki"
     }
   ],
   "currentManhwa": [
