@@ -1,14 +1,6 @@
 {
   "currentlyReading": [
     {
-      "title": "Tokyo Ghoul",
-      "author": "Sui Ishida",
-      "currentChapter": 100,
-      "totalChapters": 143,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
-    },
-    {
       "title": "Jujustu Kaisen",
       "author": "Gege Akutami",
       "currentChapter": 100,
@@ -209,6 +201,14 @@
       "totalChapters": 20,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/26797l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/436/Uzumaki"
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "author": "Sui Ishida",
+      "currentChapter": 100,
+      "totalChapters": 143,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
     }
   ],
   "currentManhwa": [
