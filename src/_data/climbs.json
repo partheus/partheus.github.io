@@ -1,6 +1,30 @@
 [
   {
     "name": "",
+    "date": "2024-04-12",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "sloper",
+    "times_attempted": "1"
+  },
+  {
+    "name": "",
+    "date": "2024-04-09",
+    "difficulty": "V4",
+    "location": "indoors",
+    "type": "crimp",
+    "times_attempted": "4"
+  },
+  {
+    "name": "",
+    "date": "2024-03-29",
+    "difficulty": "V3",
+    "location": "indoors",
+    "type": "slab",
+    "times_attempted": "1"
+  },
+  {
+    "name": "",
     "date": "2024-02-05",
     "difficulty": "V4",
     "location": "indoors",
