@@ -4,11 +4,43 @@
     <subtitle>A soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.</subtitle>
     <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
-    <updated>2024-03-27T00:00:00Z</updated>
+    <updated>2024-04-15T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
         <name>Parth Shiralkar</name>
     </author>
+    <entry>
+        <title>Robots dot txt</title>
+        <link href="https://parth.ninja/article/2024/robots-txt/"/>
+        <updated>2024-04-15T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2024/robots-txt/</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Week 14</title>
+        <link href="https://parth.ninja/article/2024/week-15/"/>
+        <updated>2024-04-14T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2024/week-15/</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Week 14</title>
+        <link href="https://parth.ninja/article/2024/week-14/"/>
+        <updated>2024-04-07T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2024/week-14/</id>
+        
+        <content type="html"></content>
+    </entry>
+    <entry>
+        <title>Week 13</title>
+        <link href="https://parth.ninja/article/2024/week-13/"/>
+        <updated>2024-03-31T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2024/week-13/</id>
+        
+        <content type="html"></content>
+    </entry>
     <entry>
         <title>New Boulder Issues</title>
         <link href="https://parth.ninja/article/2024/new-boulder-issues/"/>
