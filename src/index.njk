@@ -1,9 +1,10 @@
 ---
 layout: page
-eleventyNavigation:
-    key: home
-    order: 1
 templateEngineOverride: njk, md
+eleventyNavigation:
+    key: main
+    order: 0
+tags: footer
 title: Parth Shiralkar
 description: >
     Developer. Author. Likes daal. Loves sitting on the floor.
@@ -11,36 +12,5 @@ description: >
 
 {% include "./_includes/components/nowPlaying.njk" %}
 
-<div class="mb-smp"></div>
-
-## This week's [weeknote](/weeknotes):
-
-<div class="featured__post mb-smp slide-up-half-slow">
-    {% set weekNoteCollection = collections.weeknotes | reverse %}
-    {% set weekNote = weekNoteCollection[0] %}
-    <h3 class="article__preview__header mt-sm"><a href="{{ weekNote.url | url }}">{{ weekNote.data.title }}</a></h3>
-    <p class="article__preview__description">{% if weekNote.data.description %} {{ weekNote.data.description }} {% endif %} &#x10101;
-        <small>
-            <time>{{ weekNote.data.date | readableDate }}</time>
-        </small>
-    </p>
+<div class="mb-smp">
 </div>
-
-<h2 class="mb-sm">Fresh personal projects:</h2>
-
-<section class="mb-md">
-    {% include "components/personalProjectCards.njk" %}
-</section>
-
-## I [write](/blog) every now and then. Here's a featured article:
-
-<section class="mb-md">
-    {% include "components/featuredArticle.njk" %}
-</section>
-
-## I [read](/reading) often and with gusto. Some recent reads:
-
-{% include "components/readingMonth.njk" %}
-
-> Hi! Check out the [about](/about) page to learn more about me; verily, visit the [colophon](/colophon) to learn more about this website.
-
