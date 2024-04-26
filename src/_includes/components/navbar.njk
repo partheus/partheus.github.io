@@ -19,56 +19,56 @@
 {#    </div>#}
 </nav>
 
- <script>
-    function initializeThemeToggle() {
-        // Theme toggle
-        const toggleSwitch = document.getElementById("high-contrast-toggle");
-        const body = document.body;
+{# <script>#}
+{#    function initializeThemeToggle() {#}
+{#        // Theme toggle#}
+{#        const toggleSwitch = document.getElementById("high-contrast-toggle");#}
+{#        const body = document.body;#}
 
-        const themes = ["default", "low-noir", "high-contrast"];
-        const themeSymbols = {
-            default: "&#x29B0;",
-            "low-noir": "&#x29B1;",
-            "high-contrast": "&#x29B2;",
-        };
+{#        const themes = ["default", "low-noir", "high-contrast"];#}
+{#        const themeSymbols = {#}
+{#            default: "&#x29B0;",#}
+{#            "low-noir": "&#x29B1;",#}
+{#            "high-contrast": "&#x29B2;",#}
+{#        };#}
 
-        let currentThemeIndex = 0;
+{#        let currentThemeIndex = 0;#}
 
-        // Function to toggle between themes
-        function toggleTheme() {
-            currentThemeIndex = (currentThemeIndex + 1) % themes.length;
-            updateTheme();
-        }
+{#        // Function to toggle between themes#}
+{#        function toggleTheme() {#}
+{#            currentThemeIndex = (currentThemeIndex + 1) % themes.length;#}
+{#            updateTheme();#}
+{#        }#}
 
-        // Function to update the current theme
-        function updateTheme() {
-            const currentTheme = themes[currentThemeIndex];
+{#        // Function to update the current theme#}
+{#        function updateTheme() {#}
+{#            const currentTheme = themes[currentThemeIndex];#}
 
-            // Update the button text with the theme symbol
-            toggleSwitch.innerHTML = themeSymbols[currentTheme];
+{#            // Update the button text with the theme symbol#}
+{#            toggleSwitch.innerHTML = themeSymbols[currentTheme];#}
 
-            // Set the current theme class
-            body.className = currentTheme;
+{#            // Set the current theme class#}
+{#            body.className = currentTheme;#}
 
-            // Save the current theme to localStorage
-            localStorage.setItem("currentTheme", currentTheme);
-        }
+{#            // Save the current theme to localStorage#}
+{#            localStorage.setItem("currentTheme", currentTheme);#}
+{#        }#}
 
-        // Check if the user has previously selected a theme
-        const savedTheme = localStorage.getItem("currentTheme");
-        if (themes.includes(savedTheme)) {
-            currentThemeIndex = themes.indexOf(savedTheme);
-        }
+{#        // Check if the user has previously selected a theme#}
+{#        const savedTheme = localStorage.getItem("currentTheme");#}
+{#        if (themes.includes(savedTheme)) {#}
+{#            currentThemeIndex = themes.indexOf(savedTheme);#}
+{#        }#}
 
-        // Set the initial mode based on the user's preference
-        updateTheme();
+{#        // Set the initial mode based on the user's preference#}
+{#        updateTheme();#}
 
-        toggleSwitch.addEventListener("click", toggleTheme);
-    }
+{#        toggleSwitch.addEventListener("click", toggleTheme);#}
+{#    }#}
 
-    // Call the function to initialize the theme toggle
-    initializeThemeToggle();
+{#    // Call the function to initialize the theme toggle#}
+{#    initializeThemeToggle();#}
 
 
 
-</script>
+{#</script>#}
