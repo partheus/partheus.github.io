@@ -41,4 +41,4 @@ anime({
 <div class="animation">Hello World!</div>
 ```
 
-That's it! You should now see the element animate when you load the page. Staging site for this project is [here](https://platinumstar.netlify.app/).
+That's it! You should now see the element animate when you load the page.
