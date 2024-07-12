@@ -29,7 +29,7 @@ I enjoy [climbing](/climbing) and [biking](/biking).
 
 I have [thoughts](/thoughts) every so often. It's excruciating.
 
-> There are [general weekly updates](/weeknotes) of my life.  Check out what I'm up to [now](/now). Or a [basic resume](/resume).
+> Check out what I'm up to [now](/now).
 
 ---
 
