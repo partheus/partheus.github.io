@@ -3,7 +3,7 @@ layout: slim
 title: Now
 description: Updates, updates, updates, updates
 permalink: /now/
-date: 2023-12-11
+date: 2024-07-07
 tags: 
     - nav
 eleventyNavigation:
@@ -12,12 +12,12 @@ eleventyNavigation:
 ---
 
 - Occupation: Developer, all kinds of stuff
-- Location: West Oregon
+- Location: West India
 - Favorite mode of transport: Sauntering
 - Favorite form of media: Manga
-- Favorite food: Black beans and rice
-- Primary hobbies that I pour a lot of energy into: [this website](/colophon) and [climbing](/climbing)
-- Secondary hobbies that are on the horizon: climbing harder
+- Favorite food: Daal and rice
+- Primary hobbies that I pour a lot of energy into: [reading](/reading)
+- Secondary hobbies that are on the horizon: living freely
 
 > Last updated: {{ date | readableDate }}
 
