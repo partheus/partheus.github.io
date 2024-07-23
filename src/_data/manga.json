@@ -1,12 +1,12 @@
 {
   "currentlyReading": [
     {
-      "title": "Claymore",
-      "author": "Norihiko Yagi",
+      "title": "Jojolion",
+      "author": "Hirohiko Araki",
       "currentChapter": 100,
-      "totalChapters": 155,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/23232l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/583/Claymore?q=claymore"
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/179885l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/25515/JoJo_no_Kimyou_na_Bouken_Part_8__JoJolion"
     },
     {
       "title": "Jujustu Kaisen",
@@ -41,12 +41,10 @@
       "mangaUrl": "https://myanimelist.net/manga/116778/Chainsaw_Man"
     },
     {
-      "title": "Homunculus",
-      "author": "Hideo Yamamoto",
-      "currentChapter": 100,
-      "totalChapters": 166,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/15394l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/936/Homunculus"
+      "title": "Hunter X Hunter",
+      "author": "Yoshihiro Togashi",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/4/262464l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/26/Hunter_x_Hunter"
     },
     {
       "title": "One Piece",
@@ -183,7 +181,7 @@
       "author": "Hirohiko Araki",
       "currentChapter": 100,
       "totalChapters": 95,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/189338l.jpg",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/4/23841l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run"
     },
     {
@@ -225,6 +223,20 @@
       "totalChapters": 10,
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/260342l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/20375/Black_Paradox"
+    },
+    {
+      "title": "Claymore",
+      "author": "Norihiko Yagi",
+      "currentChapter": 100,
+      "totalChapters": 155,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/23232l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/583/Claymore?q=claymore"
+    },
+    {
+      "title": "My Hero Academia",
+      "author": "",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/75989/Boku_no_Hero_Academia"
     }
   ],
   "currentManhwa": [
