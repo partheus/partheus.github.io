@@ -1,180 +1,180 @@
-// Animations
-$numberOfItems: 10; // Change this to match your actual number of items
-$animationDelay: 0.18s; // Adjust the base delay as needed
-
-// Slide up animation
-
-@keyframes slideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.slide-up {
-  opacity: 0;
-  -webkit-animation: slideUp 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.1s both;
-  animation: slideUp 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.1s both;
-}
-
-// Slide up half animation
-
-@keyframes slideUpHalf {
-  0% {
-    opacity: 0;
-    transform: translateY(4rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.slide-up-half {
-  opacity: 0;
-  -webkit-animation: slideUpHalf 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.5s both;
-  animation: slideUpHalf 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.5s both;
-}
-
-// Slide up half slow animation
-
-.slide-up-half-slow {
-  opacity: 0;
-  -webkit-animation: slideUpHalf 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.7s both;
-  animation: slideUpHalf 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.7s both;
-}
-
-// Slide up half slower animation
-
-.slide-up-half-slower {
-  opacity: 0;
-  -webkit-animation: slideUpHalf 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
-  animation: slideUpHalf 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
-}
-
-// Slide up staggered animation for lists of items
-
-ul.article__list {
-  li.article__item {
-    opacity: 0;
-    -webkit-animation: slideUp 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
-    animation: slideUp 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
-  }
-
-  @for $i from 1 through $numberOfItems {
-    li.article__item:nth-child(#{$i}) {
-      animation-delay: ($i) * $animationDelay;
-    }
-  }
-}
-
-// Fade in animation
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.slow-fade-in {
-  -webkit-animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
-  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
-}
-
-// Text focus in animation
-
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-.text-focus-in {
-  -webkit-animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-
-// Scale in center animation
-
-.scale-in-center {
-  -webkit-animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-  animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-}
-
-@-webkit-keyframes scaleInCenter {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes scaleInCenter {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-// Slight rotation animation
-
-@keyframes slight-rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(15deg);
-  }
-}
-
-.scale-in-rotate-center {
-  -webkit-animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
-  animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
-}
+//// Animations
+//$numberOfItems: 10; // Change this to match your actual number of items
+//$animationDelay: 0.18s; // Adjust the base delay as needed
+//
+//// Slide up animation
+//
+//@keyframes slideUp {
+//  0% {
+//    opacity: 0;
+//    transform: translateY(50%);
+//  }
+//  100% {
+//    opacity: 1;
+//    transform: translateY(0);
+//  }
+//}
+//
+//.slide-up {
+//  opacity: 0;
+//  -webkit-animation: slideUp 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.1s both;
+//  animation: slideUp 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.1s both;
+//}
+//
+//// Slide up half animation
+//
+//@keyframes slideUpHalf {
+//  0% {
+//    opacity: 0;
+//    transform: translateY(4rem);
+//  }
+//  100% {
+//    opacity: 1;
+//    transform: translateY(0);
+//  }
+//}
+//
+//.slide-up-half {
+//  opacity: 0;
+//  -webkit-animation: slideUpHalf 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.5s both;
+//  animation: slideUpHalf 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.5s both;
+//}
+//
+//// Slide up half slow animation
+//
+//.slide-up-half-slow {
+//  opacity: 0;
+//  -webkit-animation: slideUpHalf 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.7s both;
+//  animation: slideUpHalf 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.7s both;
+//}
+//
+//// Slide up half slower animation
+//
+//.slide-up-half-slower {
+//  opacity: 0;
+//  -webkit-animation: slideUpHalf 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+//  animation: slideUpHalf 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+//}
+//
+//// Slide up staggered animation for lists of items
+//
+//ul.article__list {
+//  li.article__item {
+//    opacity: 0;
+//    -webkit-animation: slideUp 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+//    animation: slideUp 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.2s both;
+//  }
+//
+//  @for $i from 1 through $numberOfItems {
+//    li.article__item:nth-child(#{$i}) {
+//      animation-delay: ($i) * $animationDelay;
+//    }
+//  }
+//}
+//
+//// Fade in animation
+//
+//@-webkit-keyframes fadeIn {
+//  0% {
+//    opacity: 0;
+//  }
+//  100% {
+//    opacity: 1;
+//  }
+//}
+//
+//@keyframes fadeIn {
+//  0% {
+//    opacity: 0;
+//  }
+//  100% {
+//    opacity: 1;
+//  }
+//}
+//
+//.slow-fade-in {
+//  -webkit-animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
+//  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
+//}
+//
+//// Text focus in animation
+//
+//@-webkit-keyframes text-focus-in {
+//  0% {
+//    -webkit-filter: blur(12px);
+//    filter: blur(12px);
+//    opacity: 0;
+//  }
+//  100% {
+//    -webkit-filter: blur(0px);
+//    filter: blur(0px);
+//    opacity: 1;
+//  }
+//}
+//
+//@keyframes text-focus-in {
+//  0% {
+//    -webkit-filter: blur(12px);
+//    filter: blur(12px);
+//    opacity: 0;
+//  }
+//  100% {
+//    -webkit-filter: blur(0px);
+//    filter: blur(0px);
+//    opacity: 1;
+//  }
+//}
+//
+//.text-focus-in {
+//  -webkit-animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+//  animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+//}
+//
+//// Scale in center animation
+//
+//.scale-in-center {
+//  -webkit-animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+//  animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+//}
+//
+//@-webkit-keyframes scaleInCenter {
+//  0% {
+//    -webkit-transform: scale(0);
+//    transform: scale(0);
+//    opacity: 1;
+//  }
+//  100% {
+//    -webkit-transform: scale(1);
+//    transform: scale(1);
+//    opacity: 1;
+//  }
+//}
+//
+//@keyframes scaleInCenter {
+//  0% {
+//    -webkit-transform: scale(0);
+//    transform: scale(0);
+//    opacity: 1;
+//  }
+//  100% {
+//    -webkit-transform: scale(1);
+//    transform: scale(1);
+//    opacity: 1;
+//  }
+//}
+//
+//// Slight rotation animation
+//
+//@keyframes slight-rotation {
+//  0% {
+//    transform: rotate(0deg);
+//  }
+//  100% {
+//    transform: rotate(15deg);
+//  }
+//}
+//
+//.scale-in-rotate-center {
+//  -webkit-animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
+//  animation: scaleInCenter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
+//}
