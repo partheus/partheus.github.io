@@ -13,6 +13,11 @@
   ],
   "subsites": [
     {
+      "title": "music",
+      "siteUrl": "https://music.parth.ninja",
+      "shortUrl": "music.parth.ninja"
+    },
+    {
       "title": "jsonderulo",
       "siteUrl": "https://www.jsonderulo.christmas",
       "shortUrl": "jsonderulo.christmas"

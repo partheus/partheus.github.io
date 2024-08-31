@@ -10,15 +10,6 @@ date: 2023-12-13
 > ### I'm maintaining this page on a bit of a whim. Bear with me. And there's a honeycomb.
 <br>
 {% from 'macros/blogrollItem.njk' import blogrollItem %}
-#### Friends and neighbors:
-
-<div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
-        {% for card in friends.blogroll %}{{ blogrollItem(
-            title=card.title,
-            siteUrl=card.siteUrl,
-            shortUrl=card.shortUrl
-        ) }}{% endfor %}
-</div>
 
 #### Places on the web I've built:
 <div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
