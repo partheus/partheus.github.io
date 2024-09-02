@@ -4,11 +4,19 @@
     <subtitle>A soft domain expansion of various tastes and senses. An ongoing experiment. A garden of sorts.</subtitle>
     <link href="https://parth.ninja/feed.xml" rel="self"/>
     <link href="https://parth.ninja"/>
-    <updated>2024-07-11T00:00:00Z</updated>
+    <updated>2024-08-25T00:00:00Z</updated>
     <id>https://parth.ninja</id>
     <author>
         <name>Parth Shiralkar</name>
     </author>
+    <entry>
+        <title>Week 35</title>
+        <link href="https://parth.ninja/article/2024/week-35/"/>
+        <updated>2024-08-25T00:00:00Z</updated>
+        <id>https://parth.ninja/article/2024/week-35/</id>
+        
+        <content type="html"></content>
+    </entry>
     <entry>
         <title>Acceptance and Forgiveness</title>
         <link href="https://parth.ninja/article/2024/acceptance-and-forgiveness/"/>
