@@ -1,8 +1,16 @@
 {
   "currentlyReading": [
     {
+      "title": "Dandadan",
+      "author": "Yukinobu Tatsu",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/248746.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/135496/Dandadan"
+    },
+    {
       "title": "Jojolion",
-      "author": "Hirohiko Araki",
+    "author": "Hirohiko Araki",
       "currentChapter": 100,
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/179885l.jpg",
@@ -85,7 +93,7 @@
       "author": "Gamon Sakurai",
       "currentChapter": 100,
       "totalChapters": 86,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/87801l.jpg",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/307700l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/49865/Ajin"
     },
     {
@@ -125,7 +133,7 @@
       "author": "Kouta Hirano",
       "currentChapter": 100,
       "totalChapters": 92,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/149l.jpg",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/258245l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/267/Hellsing"
     },
     {
