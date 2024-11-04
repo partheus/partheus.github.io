@@ -10,19 +10,11 @@
     },
     {
       "title": "Jojolion",
-    "author": "Hirohiko Araki",
+      "author": "Hirohiko Araki",
       "currentChapter": 100,
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/179885l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/25515/JoJo_no_Kimyou_na_Bouken_Part_8__JoJolion"
-    },
-    {
-      "title": "Jujustu Kaisen",
-      "author": "Gege Akutami",
-      "currentChapter": 100,
-      "totalChapters": "Ongoing",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/210341.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
     },
     {
       "title": "One Punch Man",
@@ -101,7 +93,7 @@
       "author": "Tsugumi Ohba",
       "currentChapter": 100,
       "totalChapters": 108,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/54453l.jpg",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/308408l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/21/Death_Note"
     },
     {
@@ -245,6 +237,14 @@
       "author": "",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg",
       "mangaUrl": "https://myanimelist.net/manga/75989/Boku_no_Hero_Academia"
+    },
+    {
+      "title": "Jujustu Kaisen",
+      "author": "Gege Akutami",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/210341.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
     }
   ],
   "currentManhwa": [
