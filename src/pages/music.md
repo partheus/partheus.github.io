@@ -6,7 +6,7 @@ layout: slim
 ---
 > Here's my [SoundCloud](https://soundcloud.com/bhatji).
 
-> Here's a NEW and UPDATED subsite with new music: [music.parth.ninja](https://music.parth.ninja). See more about it [here](/blog/2024/music-site-updates/).
+> Here's a NEW and UPDATED subsite with new music: [music.parth.ninja](https://music.parth.ninja). See more about it [here](/article/2024/music-site-updates/).
 
 My journey with music began when my parents enrolled me in a vocal class at an unusually young age.
 
