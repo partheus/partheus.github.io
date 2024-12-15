@@ -1,14 +1,6 @@
 {
   "currentlyReading": [
     {
-      "title": "Monster",
-      "author": "Naoki Urasawa",
-      "currentChapter": 100,
-      "totalChapters": 162,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/258224l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/1/Monster"
-    },
-    {
       "title": "Dandadan",
       "author": "Yukinobu Tatsu",
       "currentChapter": 100,
@@ -253,6 +245,22 @@
       "totalChapters": "Ongoing",
       "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/210341.jpg",
       "mangaUrl": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
+    },
+    {
+      "title": "Monster",
+      "author": "Naoki Urasawa",
+      "currentChapter": 100,
+      "totalChapters": 162,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/258224l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/1/Monster"
+    },
+    {
+      "title": "Pluto",
+      "author": "Naoki Urasawa",
+      "currentChapter": 100,
+      "totalChapters": 162,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/309888l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/745/Pluto"
     }
   ],
   "currentManhwa": [
