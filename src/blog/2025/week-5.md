@@ -1,6 +1,8 @@
 ---
 title: Special Affairs
-description: Flashed it.
+description: special affairs department
 date: 2025-02-02
+tags: 
+  - weeknotes
 ---
 Happy new year!
