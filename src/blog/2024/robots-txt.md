@@ -3,7 +3,6 @@ title: Robots dot txt
 date: 2024-04-15
 tags: 
     - development
-    - featured
     - ai
     - robots
 description: The updation of the sitewide robots.txt file

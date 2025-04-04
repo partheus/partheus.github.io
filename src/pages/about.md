@@ -21,7 +21,7 @@ permalink: /about/
 
 I love [reading](/reading) and [writing](/writing). I also read a lot of [manga](/manga).
 
-I am a [web developer](/code) and [hobby-level designer](/design).
+I am a [web developer](/code) and [UX designer](/design).
 
 I [make music](/music).
 
