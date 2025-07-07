@@ -1,6 +1,14 @@
 {
   "currentlyReading": [
     {
+      "title": "Bungou Stray Dogs",
+      "author": "Kafka Asagiri",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/144753l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/56529/Bungou_Stray_Dogs"
+    },
+    {
       "title": "Dandadan",
       "author": "Yukinobu Tatsu",
       "currentChapter": 100,
