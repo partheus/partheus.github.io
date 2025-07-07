@@ -1,6 +1,6 @@
 ---
 title: Reading
-description: Goodreads data for the last 81 or so books I've read. Updated every time I finish a book.
+description: Goodreads data for the last 81 or so books I've read. Updated every time I finish a book. I have access to numerous public libraries and their catalogs.
 permalink: /reading/
 date: Last Modified
 layout: page
