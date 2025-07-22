@@ -4,7 +4,7 @@ templateEngineOverride: njk, md
 title: Blogroll
 description: A list of friends and neighbors, designed mainly to share a bit of web traffic
 permalink: /blogroll/
-date: 2023-12-13
+date: 2025-07-22
 ---
 
 > ### I'm maintaining this page on a bit of a whim. Bear with me. And there's a honeycomb.
