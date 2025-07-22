@@ -1,6 +1,6 @@
 ---
 title: Manga
-description: Pow! Pow! Pow! I have access to numerous public libraries and their catalogs.
+description: Pow! Pow! Pow! Recent first.
 permalink: /manga/
 layout: page
 ---
