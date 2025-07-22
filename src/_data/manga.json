@@ -79,14 +79,6 @@
       "mangaUrl": "https://myanimelist.net/manga/119161/Spy_x_Family"
     },
     {
-      "title": "Kaiju No. 8",
-      "author": "Naoya Matsumoto",
-      "currentChapter": 100,
-      "totalChapters": "Ongoing",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/233456l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/127907/Kaijuu_8-gou"
-    },
-    {
       "title": "Blue Lock",
       "author": "Muneyuki Kaneshiro",
       "currentChapter": 100,
@@ -97,178 +89,20 @@
   ],
   "recentlyRead": [
     {
-      "title": "Ajin",
-      "author": "Gamon Sakurai",
-      "currentChapter": 100,
-      "totalChapters": 86,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/307700l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/49865/Ajin"
+      "title": "Kaiju No. 8",
+      "author": "Naoya Matsumoto",
+      "currentChapter": 129,
+      "totalChapters": 129,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/236175l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/127907/Kaijuu_8-gou"
     },
     {
-      "title": "Death Note",
-      "author": "Tsugumi Ohba",
+      "title": "Astra Lost in Space",
+      "author": "Kenta Shinohara",
       "currentChapter": 100,
-      "totalChapters": 108,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/308408l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/21/Death_Note"
-    },
-    {
-      "title": "Fire Force",
-      "author": "Atsushi Ohkubo",
-      "currentChapter": 100,
-      "totalChapters": 243,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/159796.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/91037/Enen_no_Shouboutai"
-    },
-    {
-      "title": "All You Need Is Kill",
-      "author": "Hiroshi Sakurazaka",
-      "currentChapter": 100,
-      "totalChapters": 17,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/109199l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/62887/All_You_Need_Is_Kill"
-    },
-    {
-      "title": "Planetes",
-      "author": "Makoto Yukimura",
-      "currentChapter": 100,
-      "totalChapters": 27,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/170572l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/481/Planetes"
-    },
-    {
-      "title": "Hellsing",
-      "author": "Kouta Hirano",
-      "currentChapter": 100,
-      "totalChapters": 92,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/267321l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/267/Hellsing"
-    },
-    {
-      "title": "Hell's Paradise: Jigokuraku",
-      "author": "Yuji Kaku",
-      "currentChapter": 100,
-      "totalChapters": 127,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/208522l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/112318/Jigokuraku"
-    },
-    {
-      "title": "Demon Slayer: Kimetsu no Yaiba",
-      "author": "Koyoharu Gotouge",
-      "currentChapter": 100,
-      "totalChapters": 205,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/172791l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/96792/Kimetsu_no_Yaiba"
-    },
-    {
-      "title": "Bleach",
-      "author": "Tite Kubo",
-      "currentChapter": 100,
-      "totalChapters": 705,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/180028l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/12/Bleach"
-    },
-    {
-      "title": "Jujustu Kaisen 0",
-      "author": "Gege Akutami",
-      "currentChapter": 100,
-      "totalChapters": 8,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/219336l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/115710/Jujutsu_Kaisen_0__Tokyo_Toritsu_Jujutsu_Koutou_Senmon_Gakkou"
-    },
-    {
-      "title": "Vagabond",
-      "author": "Takehiko Inoue",
-      "currentChapter": 100,
-      "totalChapters": 327,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/126197l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/656/Vagabond"
-    },
-    {
-      "title": "Attack on Titan",
-      "author": "Hajime Isayama",
-      "currentChapter": 100,
-      "totalChapters": 139,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/37846l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/23390/Shingeki_no_Kyojin"
-    },
-    {
-      "title": "Steel Ball Run",
-      "author": "Hirohiko Araki",
-      "currentChapter": 100,
-      "totalChapters": 95,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/4/23841l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run"
-    },
-    {
-      "title": "Tomie",
-      "author": "Junji Ito",
-      "currentChapter": 100,
-      "totalChapters": 20,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/164476.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/912/Tomie"
-    },
-    {
-      "title": "Shiver",
-      "author": "Junji Ito",
-      "currentChapter": 100,
-      "totalChapters": 20,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/265606.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/136793/Itou_Junji_Jisen_Kessakushuu"
-    },
-    {
-      "title": "Uzumaki",
-      "author": "Junji Ito",
-      "currentChapter": 100,
-      "totalChapters": 20,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/26797l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/436/Uzumaki"
-    },
-    {
-      "title": "Tokyo Ghoul",
-      "author": "Sui Ishida",
-      "currentChapter": 100,
-      "totalChapters": 143,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
-    },
-    {
-      "title": "Black Paradox",
-      "author": "Junji Ito",
-      "currentChapter": 100,
-      "totalChapters": 10,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/260342l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/20375/Black_Paradox"
-    },
-    {
-      "title": "Claymore",
-      "author": "Norihiko Yagi",
-      "currentChapter": 100,
-      "totalChapters": 155,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/23232l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/583/Claymore?q=claymore"
-    },
-    {
-      "title": "My Hero Academia",
-      "author": "",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/75989/Boku_no_Hero_Academia"
-    },
-    {
-      "title": "Jujustu Kaisen",
-      "author": "Gege Akutami",
-      "currentChapter": 100,
-      "totalChapters": "Ongoing",
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/210341.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
-    },
-    {
-      "title": "Monster",
-      "author": "Naoki Urasawa",
-      "currentChapter": 100,
-      "totalChapters": 162,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/258224l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/1/Monster"
+      "totalChapters": 49,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/244297l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/98578/Kanata_no_Astra"
     },
     {
       "title": "Pluto",
@@ -279,12 +113,180 @@
       "mangaUrl": "https://myanimelist.net/manga/745/Pluto"
     },
     {
-      "title": "Astra Lost in Space",
-      "author": "",
+      "title": "Monster",
+      "author": "Naoki Urasawa",
       "currentChapter": 100,
-      "totalChapters": 49,
-      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/244297l.jpg",
-      "mangaUrl": "https://myanimelist.net/manga/98578/Kanata_no_Astra"
+      "totalChapters": 162,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/258224l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/1/Monster"
+    },
+    {
+      "title": "Jujustu Kaisen",
+      "author": "Gege Akutami",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/210341.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen"
+    },
+    {
+      "title": "My Hero Academia",
+      "author": "Kohei Horikoshi",
+      "currentChapter": 100,
+      "totalChapters": "Ongoing",
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/209370l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/75989/Boku_no_Hero_Academia"
+    },
+    {
+      "title": "Claymore",
+      "author": "Norihiko Yagi",
+      "currentChapter": 100,
+      "totalChapters": 155,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/23232l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/583/Claymore?q=claymore"
+    },
+    {
+      "title": "Black Paradox",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 10,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/260342l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/20375/Black_Paradox"
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "author": "Sui Ishida",
+      "currentChapter": 100,
+      "totalChapters": 143,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/114037l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/33327/Tokyo_Ghoul"
+    },
+    {
+      "title": "Uzumaki",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 20,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/26797l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/436/Uzumaki"
+    },
+    {
+      "title": "Shiver",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 20,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/265606.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/136793/Itou_Junji_Jisen_Kessakushuu"
+    },
+    {
+      "title": "Tomie",
+      "author": "Junji Ito",
+      "currentChapter": 100,
+      "totalChapters": 20,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/164476.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/912/Tomie"
+    },
+    {
+      "title": "Steel Ball Run",
+      "author": "Hirohiko Araki",
+      "currentChapter": 100,
+      "totalChapters": 95,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/4/23841l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run"
+    },
+    {
+      "title": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "currentChapter": 100,
+      "totalChapters": 139,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/37846l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/23390/Shingeki_no_Kyojin"
+    },
+    {
+      "title": "Vagabond",
+      "author": "Takehiko Inoue",
+      "currentChapter": 100,
+      "totalChapters": 327,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/126197l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/656/Vagabond"
+    },
+    {
+      "title": "Jujustu Kaisen 0",
+      "author": "Gege Akutami",
+      "currentChapter": 100,
+      "totalChapters": 8,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/219336l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/115710/Jujutsu_Kaisen_0__Tokyo_Toritsu_Jujutsu_Koutou_Senmon_Gakkou"
+    },
+    {
+      "title": "Bleach",
+      "author": "Tite Kubo",
+      "currentChapter": 100,
+      "totalChapters": 705,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/180028l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/12/Bleach"
+    },
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "author": "Koyoharu Gotouge",
+      "currentChapter": 100,
+      "totalChapters": 205,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/1/172791l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/96792/Kimetsu_no_Yaiba"
+    },
+    {
+      "title": "Hell's Paradise: Jigokuraku",
+      "author": "Yuji Kaku",
+      "currentChapter": 100,
+      "totalChapters": 127,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/208522l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/112318/Jigokuraku"
+    },
+    {
+      "title": "Hellsing",
+      "author": "Kouta Hirano",
+      "currentChapter": 100,
+      "totalChapters": 92,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/267321l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/267/Hellsing"
+    },
+    {
+      "title": "Planetes",
+      "author": "Makoto Yukimura",
+      "currentChapter": 100,
+      "totalChapters": 27,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/170572l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/481/Planetes"
+    },
+    {
+      "title": "All You Need Is Kill",
+      "author": "Hiroshi Sakurazaka",
+      "currentChapter": 100,
+      "totalChapters": 17,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/5/109199l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/62887/All_You_Need_Is_Kill"
+    },
+    {
+      "title": "Fire Force",
+      "author": "Atsushi Ohkubo",
+      "currentChapter": 100,
+      "totalChapters": 243,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/159796.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/91037/Enen_no_Shouboutai"
+    },
+    {
+      "title": "Death Note",
+      "author": "Tsugumi Ohba",
+      "currentChapter": 100,
+      "totalChapters": 108,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/2/308408l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/21/Death_Note"
+    },
+    {
+      "title": "Ajin",
+      "author": "Gamon Sakurai",
+      "currentChapter": 100,
+      "totalChapters": 86,
+      "coverImageUrl": "https://cdn.myanimelist.net/images/manga/3/307700l.jpg",
+      "mangaUrl": "https://myanimelist.net/manga/49865/Ajin"
     }
   ],
   "currentManhwa": [
