@@ -2,37 +2,39 @@
 title: Resume
 description: What I've done (Linkin Park)
 permalink: /resume/
-date: 2023-10-24
+date: 2025-06-27
 ---
 <div class="resume mb-md">
 
 # Parth Shiralkar
-`developer`
+`UX Designer`
 
 - ## Work Experience:
-    - ### Developer (July 2023 - Present)
-        - Make websites
+    - ### UX Designer (Jan 2025 - Present)
+        - Design an App Suite
 
-    - ### Junior Developer (July 2021 - July 2023)
-      - Helped make websites
+    - ### Principal Product Designer (Aug 2024 - Jan 2025)
+        - Design an App Suite
+            
+    - ### UI/UX Designer II (Sept 2024 - Jan 2025)
+        - Design Apps and Websites
+
+    - ### Developer (July 2021 - May 2024)
+        - Design and make websites
 
 - ## Education
-    - ### Master of Science in Information Systems
+    - ### Master of Science in Information Systems - HCI
     *Iowa State University*, Graduated in 2021
 
     - ### Bachelor of Engineering in Computer Engineering
     *Pune University*, Graduated in 2018
 
 - ## Skills
+    - User Research & Usability Testing (Hotjar, Pendo)
+    - Wireframing & Prototyping (Figma, Adobe XD, Penpot)
+    - Accessibility & Inclusive Design
     - Front End Development (HTML, CSS, JavaScript)
     - Advanced Front End Development (11ty, React, Vue, Angular)
-    - Back End Development (Node.js, PHP, Python)
-    - Content Management Systems (WordPress, Craft CMS)
-    - DevOps (Git, GitHub, GitLab, Netlify, Cloudflare)
-
-- ## Learning
-  - Project Management (Agile, Scrum, Kanban)
-  - Design Creative Suite (Photoshop, Illustrator, Figma, XD)
 
 - ## Languages
     - Marathi (Native)
