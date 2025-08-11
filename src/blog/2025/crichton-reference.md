@@ -4,6 +4,7 @@ date: 2025-08-10
 tags: 
     - movies
     - crichton
+    - featured
 description: A small tribute to the author?
 ---
 The newest installment in the Jurassic World universe is built on top of another script by David Koepp. Koepp has written some interesting books too, but that's beside the point.
