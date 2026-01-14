@@ -2,7 +2,7 @@
 title: Resume
 description: What I've done (Linkin Park)
 permalink: /resume/
-date: 2025-06-27
+date: 2026-01-14
 ---
 <div class="resume mb-md">
 
@@ -10,24 +10,30 @@ date: 2025-06-27
 `UX Designer`
 
 - ## Work Experience:
-    - ### UX Designer (Jan 2025 - Present)
-        - Design an App Suite
+    - ### UX Designer (2025 - Present)
+        - Lead design of Voice & Chat AI agents for the Dash ecosystem, enabling conversational appointment management to improve accessibility and efficiency.
 
-    - ### Principal Product Designer (Aug 2024 - Jan 2025)
-        - Design an App Suite
+        - Direct patient-facing interface redesign for key products, optimizing booking flows to increase after-hours scheduling.
+
+        - Collaborate with U.S. clients to deliver compliant, user-centered designs that drive adoption of online appointment scheduling.
+
+        - Evolve the suite's design system to enhance UI consistency and accelerate development for enterprise projects.
+
+    - ### Principal Product Designer (2024 - 2025)
+        - Designed an app suite for a dynamic new social media ecosystem in South Aftrica.
             
-    - ### UI/UX Designer II (Sept 2024 - Jan 2025)
-        - Design Apps and Websites
+    - ### UI/UX Designer II (2024 - 2025)
+        - Designed apps and websites for a variety of clients across Switzerland and Malaysia.
 
-    - ### Developer (July 2021 - May 2024)
-        - Design and make websites
+    - ### Developer (2021 - 2024)
+        - Designed and developed websites for a portfolio of clients across North America.
 
 - ## Education
     - ### Master of Science in Information Systems - HCI
-    *Iowa State University*, Graduated in 2021
+    *Iowa State University*, Graduated in 20**
 
     - ### Bachelor of Engineering in Computer Engineering
-    *Pune University*, Graduated in 2018
+    *Pune University*, Graduated in 20**
 
 - ## Skills
     - User Research & Usability Testing (Hotjar, Pendo)
