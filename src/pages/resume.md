@@ -2,7 +2,7 @@
 title: Resume
 description: What I've done (Linkin Park)
 permalink: /resume/
-date: 2026-01-14
+date: 2026-05-04
 ---
 <div class="resume mb-md">
 
@@ -10,14 +10,14 @@ date: 2026-01-14
 `UX Designer`
 
 - ## Work Experience:
-    - ### UX Designer (2025 - Present)
-        - Lead design of Voice & Chat AI agents for the Dash ecosystem, enabling conversational appointment management to improve accessibility and efficiency.
+    - ### UX Designer (2025 - 2026)
+        - Led design of Voice & Chat AI agents for the Dash ecosystem, enabling conversational appointment management to improve accessibility and efficiency.
 
-        - Direct patient-facing interface redesign for key products, optimizing booking flows to increase after-hours scheduling.
+        - Directed patient-facing interface redesign for key products, optimizing booking flows to increase after-hours scheduling.
 
-        - Collaborate with U.S. clients to deliver compliant, user-centered designs that drive adoption of online appointment scheduling.
+        - Collaborated with U.S. clients to deliver compliant, user-centered designs that drive adoption of online appointment scheduling.
 
-        - Evolve the suite's design system to enhance UI consistency and accelerate development for enterprise projects.
+        - Evolved the suite's design system to enhance UI consistency and accelerate development for enterprise projects.
 
     - ### Principal Product Designer (2024 - 2025)
         - Designed an app suite for a dynamic new social media ecosystem in South Aftrica.
