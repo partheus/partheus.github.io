@@ -8,12 +8,12 @@ eleventyNavigation:
 tags:
     - footer
 pagination:
-  data: collections.blog
+  data: collections.article
   size: 40
   alias: articles
 ---
 {% set filtered_articles = [] %}
-{% for article in collections.blog %}
+{% for article in collections.article %}
     {% if article.data.tags %}
         {% set hasWeeknotes = false %}
         {% for tag in article.data.tags.slice(1, 3) %}
