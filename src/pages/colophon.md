@@ -12,7 +12,7 @@ permalink: /colophon/
 
 - # Development
 
-This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook Pro laptop (pink motif). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
+This website was engineered on a MacBook Pro laptop (pink motif, active) and Dell G5 gaming laptop (red motif, retired). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
 
 [Eleventy](https://www.11ty.dev/) is used for static page generation. [Git](https://git-scm.com/) is used for version control. [Github](https://github.com) is used to store the repository. 
 
