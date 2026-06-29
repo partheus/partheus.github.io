@@ -16,24 +16,24 @@
     <meta name="generator" content="Eleventy">
 
     
-    <title>How to fix Goodreads widget image quality | Parth Shiralkar</title>
+    <title>Week 25 (the return) | Parth Shiralkar</title>
     
     
 
-<meta name="description" content="A little tutorial on how to fix the compressed images in the Goodreads widget">
+<meta name="description" content="Regularly scheduled programming?">
 <meta name="author" content="Parth Shiralkar">
 
 <meta name="keywords" content="parth, parth shiralkar, parthshiralkar, shiralkar parth, shiralkar, web developer, parth shiralkar blog, parth shiralkar personal website, parth shiralkar parth.ninja, temporal harmony garden, temporalharmonygarden">
 
-<meta property="og:title" content="How to fix Goodreads widget image quality">
+<meta property="og:title" content="Week 25 (the return)">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://parth.ninja">
-<meta property="og:description" content="A little tutorial on how to fix the compressed images in the Goodreads widget">
+<meta property="og:description" content="Regularly scheduled programming?">
 <meta property="og:image" content="https://parth.ninja/assets/social-image.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="How to fix Goodreads widget image quality">
-<meta name="twitter:description" content="A little tutorial on how to fix the compressed images in the Goodreads widget">
+<meta name="twitter:title" content="Week 25 (the return)">
+<meta name="twitter:description" content="Regularly scheduled programming?">
 <meta name="twitter:image" content="https://parth.ninja/assets/social-image.jpg">
 
 
@@ -197,11 +197,11 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
 </header>
 
 <main role="main">
-    <h1 class="article__title">How to fix Goodreads widget image quality</h1>
+    <h1 class="article__title">Week 25 (the return)</h1>
 <article class="article slide-up-half">
-    <h4>A little tutorial on how to fix the compressed images in the Goodreads widget</h4>
+    <h4>Regularly scheduled programming?</h4>
     <small>
-        <time>October 22, 2023 </time>
+        <time>June 28, 2026 </time>
         <span id="time-to-read"></span>
     </small>
     <div class="svg-color svg-color--accent article-separator scale-in-rotate-center">
@@ -360,30 +360,11 @@ c-57 66 -170 245 -224 356 -216 446 -237 966 -60 1432 55 144 183 380 197 364
         >
     </div>
     <div class="article__body slide-up-half-slow">
-        <p>Okay. So, I've been using Goodreads for a while now, and I've been using their widget to display my reading list on my website. It's a pretty cool widget, and it's pretty easy to use.
-The issue is, the images are compressed.</p>
-<p>When the Goodreads script pulls in the image URLs, it adds a <code>_SX98_</code> or <code>_SY160_</code> to the URL. This is what causes the images to be compressed. I'm not sure why Goodreads does this, but it's a pretty easy fix.</p>
-<p>Just create a new script tag, and add the following code to it:</p>
-<pre><code class="language-javascript">&lt;script&gt;
-// Get all the img elements with the class &quot;gr_grid_book_container&quot;
-var imgElements = document.querySelectorAll('.gr_grid_book_container img');
-
-// Loop through each img element and modify the src attribute
-imgElements.forEach(function (imgElement) {
-    // Get the current src attribute
-    var src = imgElement.getAttribute('src');
-
-    // Replace both &quot;_SX98_&quot; and &quot;_SY160_&quot; portions with an empty string
-    src = src.replace(/_SX98_.|_SY160_.|Y160_./g, '');
-
-    // Set the modified src attribute back to the img element
-    imgElement.setAttribute('src', src);
-});
-
-&lt;/script&gt;
-</code></pre>
-<p>This will remove the <code>_SX98_</code> and <code>_SY160_</code> from the image URLs, and the images will no longer be compressed.</p>
-<p>One small callout is that when the page first loads, the images will be compressed for a split second, and then the script will run and fix the images. This is because the script runs after the page has loaded. I will try to find a way to fix this, but for now, this is a pretty good solution.</p>
+        <ul>
+<li>Slug watching!</li>
+<li>Portland Gem Faire</li>
+<li>Moving forward</li>
+</ul>
 
     </div>
     <h4>---</h4>
@@ -394,39 +375,9 @@ imgElements.forEach(function (imgElement) {
         
             
                 <span>
-            <a class="category mb-xs" href="/tags/development/" aria-label="Entries tagged with development">
+            <a class="category mb-xs" href="/tags/weeknotes/" aria-label="Entries tagged with weeknotes">
               <span>
-                development
-              </span>
-            </a>
-        </span>
-            
-        
-            
-                <span>
-            <a class="category mb-xs" href="/tags/tutorial/" aria-label="Entries tagged with tutorial">
-              <span>
-                tutorial
-              </span>
-            </a>
-        </span>
-            
-        
-            
-                <span>
-            <a class="category mb-xs" href="/tags/goodreads/" aria-label="Entries tagged with goodreads">
-              <span>
-                goodreads
-              </span>
-            </a>
-        </span>
-            
-        
-            
-                <span>
-            <a class="category mb-xs" href="/tags/javascript/" aria-label="Entries tagged with javascript">
-              <span>
-                javascript
+                weeknotes
               </span>
             </a>
         </span>
