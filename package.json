@@ -33,6 +33,7 @@
     "sass": "^1.58.3",
     "svg-icon-sprite": "^1.1.1"
   },
+  "overrides": { "chokidar": "3.5.3" },
   "devDependencies": {
     "clean-css": "^5.3.2",
     "clean-css-cli": "^5.6.2"
