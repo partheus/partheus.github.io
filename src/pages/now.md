@@ -3,7 +3,7 @@ layout: slim
 title: Now
 description: Updates, updates, updates, updates
 permalink: /now/
-date: 2025-04-04
+date: 2026-06-29
 tags: 
     - nav
 eleventyNavigation:
@@ -12,12 +12,12 @@ eleventyNavigation:
 ---
 
 - Occupation: Designer, all kinds of stuff
-- Location: West India
-- Favorite mode of transport: Sauntering
-- Favorite form of media: Mass market paperback
-- Favorite food: Tofu and rice
+- Location: West Oregon
+- Favorite mode of transport: Sauntering and at least 2 bus transfers
+- Favorite form of media: Kindle + Library Card
+- Favorite food: Ramen noodle salad
 - Primary hobbies that I pour a lot of energy into: [reading](/reading)
-- Secondary hobbies that are on the horizon: living freely
+- Secondary hobbies that are on the horizon: Acceptance, and living freely
 
 > Last updated: {{ date | readableDate }}
 

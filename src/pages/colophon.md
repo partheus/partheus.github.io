@@ -12,7 +12,7 @@ permalink: /colophon/
 
 - # Development
 
-This website was engineered on a Dell G5 gaming laptop (red motif) and MacBook Pro laptop (pink motif). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
+This website was engineered on a MacBook Pro laptop (pink motif, active) and Dell G5 gaming laptop (red motif, retired). It is written in HTML, Markdown, Nunjucks, CSS, and JavaScript.
 
 [Eleventy](https://www.11ty.dev/) is used for static page generation. [Git](https://git-scm.com/) is used for version control. [Github](https://github.com) is used to store the repository. 
 
@@ -40,22 +40,13 @@ Clipart and SVGs are from [OpenClipart](https://openclipart.org/). Mockups gener
 Font faces are [Besley](https://indestructibletype.com/Besley.html) and [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master). The footer icons are from [Font Awesome](https://fontawesome.com/).
 
 
-- # Privacy
-
-The site uses JavaScript for little functional fixes, like the time-to-read text on articles; the chunkier scripts are used for the [reading](/reading) page. The reading page pulls data from my Goodreads profile, hence the singular cookie on that page.
-
-The Currently Playing song isn't automatic. I update the data source JSON files every week or so, manually.
-
-> This site works without JavaScript. There are no trackers of any sort.
-
 - # Mirrors
 
 The site is mirrored on [Cloudflare](https://partheus-github-io.pages.dev) and [Netlify](https://temporalharmonygarden.netlify.app/).
 
 - # Humans
 
-This website does not track or collect your data. No language models were involved in writing the blog posts on
-here.
+No language models were involved in writing the blog posts on here.
 
 [![Not by AI](/assets/icons/Written-By-Human-Not-By-AI-Badge-black.svg)](https://notbyai.fyi/)
 
