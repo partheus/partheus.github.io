@@ -1,6 +1,6 @@
 <div class="manga-tracker mt-sm mb-sm activity-module slide-up-half-slow ">
     <ul class="display-columns display-columns__close-gap display-columns--four">
-        {% for manga in manga.recentlyRead | reverse %}<li>
+        {% for manga in manga.recentlyRead %}<li>
             <img src="{{ manga.coverImageUrl }}" alt="{{ manga.title }} cover" loading="lazy" decoding="async" />
             <h3 class="mr-xxs"><a href="{{ manga.mangaUrl | url }}" target="_blank" class="song-title" title="{{ manga.title }}" tabindex="0">{{ manga.title }}</a></h3>
             </li>{% endfor %}</ul>

@@ -4,14 +4,15 @@
   "description": "A garden of temporal harmony, a domain expansion and personal website of Parth Shiralkar",
   "main": "index.md",
   "scripts": {
-    "watch:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%B %Y') eleventy --serve",
+    "watch:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%B %Y') eleventy --serve --watch=true",
     "watch:sass": "sass --watch src/assets/theming:_site/assets",
     "build:eleventy": "BUILD_DATE=$(TZ='America/Los_Angeles' date +'%B %Y') eleventy",
     "build:sass": "sass  --no-source-map --style=compressed src/assets/theming:_site/assets",
     "minify-css": "cleancss -O2 -o _site/assets/minified.css _site/assets/theme.css",
     "start": "npm-run-all build:sass minify-css --parallel watch:*",
     "build": "npm-run-all build:* minify-css",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "dev": "npm-run-all build:sass --parallel watch:*"
   },
   "author": {
     "name": "Parth Shiralkar",
@@ -24,17 +25,20 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "luxon": "^3.2.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.58.3",
     "svg-icon-sprite": "^1.1.1"
+  },
+  "overrides": {
+    "chokidar": "3.5.3"
   },
   "devDependencies": {
     "clean-css": "^5.3.2",
-    "clean-css-cli": "^5.6.2"
+    "clean-css-cli": "^5.6.2",
+    "sass": "^1.101.0"
   }
 }
