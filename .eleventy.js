@@ -1,7 +1,7 @@
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const CleanCSS = require("clean-css");
-
+const shortcodes = require('./config/shortcodes.js');
 
 const {
   getAllPosts,
@@ -15,11 +15,6 @@ const {
   getArticleYear,
   randomizeArray
 } = require('./config/filters')
-
-const {
-  imageShortcode
-} = require('./config/shortcodes')
-
 
 module.exports = function(eleventyConfig) {
 
@@ -35,12 +30,16 @@ module.exports = function(eleventyConfig) {
     excerpt_alias: 'excerpt'
   })
 
+  // Register all shortcodes (this already includes the image shortcode)
+  shortcodes(eleventyConfig);
+
   /*=================*/
   /*   Minify CSS    */
   /*=================*/
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
+  
   /*===================================================*/
   /* files that need to be copied to the build folder  */
   /*===================================================*/
@@ -57,7 +56,6 @@ module.exports = function(eleventyConfig) {
       'node_modules/svg-icon-sprite/dist/svg-icon-sprite.js': 'assets/svg-icon-sprite.js'
   })
 
-
   /*=================*/
   /*     Layouts     */
   /*=================*/
@@ -65,7 +63,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('article', 'layouts/article')
   eleventyConfig.addLayoutAlias('base', 'layouts/base')
   eleventyConfig.addLayoutAlias('slim', 'layouts/slim')
-
 
   /*=================*/
   /*   Collections   */
@@ -82,16 +79,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('getArticleYear', getArticleYear)
   eleventyConfig.addFilter('randomizeArray', randomizeArray)
 
-  /*=================*/
-  /*    shortcodes   */
-  /*=================*/
-  eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode)
+  // REMOVE this duplicate registration:
+  // eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode)
 
   eleventyConfig.addNunjucksGlobal("BUILD_DATE", process.env.BUILD_DATE);
 
   // Add current year to global data object
   eleventyConfig.addGlobalData('currentYear', new Date().getFullYear());
-
 
   return {
     dir: {

@@ -21,7 +21,7 @@ permalink: /about/
 
 I love [reading](/reading) and [writing](/writing). I also read a lot of [manga](/manga).
 
-I am a [web developer](/code) and [hobby-level designer](/design).
+I am a [UX designer](/design) and [web developer](/code) .
 
 I [make music](/music).
 
@@ -37,11 +37,13 @@ See a list of [all page links on this site](/linklist).
 
 See the [[older iterations of this site]](/sitearchive).
 
+See a [blogroll](/blogroll).
+
 ---
 
 This site uses minimal JavaScript and no cookies except on the [reading](/reading) page, which pulls info from my Goodreads profile.
 
-You can find more technical specs:
+You can find more technical specs here:
 
 <a href="/colophon" class="button button--primary button--small" title="colophon is here">colophon</a>
 

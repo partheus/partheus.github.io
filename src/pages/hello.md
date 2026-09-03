@@ -5,7 +5,7 @@ date: 2023-10-30
 permalink: /hello/
 layout: page
 ---
-#### I don't have a contact form yet, but you can email me at:
+#### You can email me at:
 
 > hi [at] parth [dot] ninja
 

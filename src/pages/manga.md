@@ -1,6 +1,6 @@
 ---
 title: Manga
-description: Pow! Pow! Pow!
+description: Pow! Pow! Pow! Recent first.
 permalink: /manga/
 layout: page
 ---
