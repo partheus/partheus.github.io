@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .activity-module {
   border: 2px dashed var(--background-color-light);
   border-radius: 15px;

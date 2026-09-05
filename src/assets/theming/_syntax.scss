@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 // Style for the <pre> element containing code
 pre {
   background-color: var(--background-color-light);

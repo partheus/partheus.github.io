@@ -1,25 +1,25 @@
-@import './variables';
-@import './mixins';
+@use './variables' as *;
+@use './mixins' as *;
 
-@import './base';
-@import './layout';
-@import './buttons';
-@import './cards';
-@import './animations';
-@import './syntax';
+@use './base';
+@use './layout';
+@use './buttons';
+@use './cards';
+@use './animations';
+@use './syntax';
 
-@import './blog';
-@import './article';
-@import './404';
-@import './playing-song';
-@import './resume';
-@import './climb-table';
-@import './manga-tracker';
-@import './thoughts';
-@import './theme-swatch';
-@import './goodreads';
+@use './blog';
+@use './article';
+@use './404' as *;
+@use './playing-song';
+@use './resume';
+@use './climb-table';
+@use './manga-tracker';
+@use './thoughts';
+@use './theme-swatch';
+@use './goodreads';
 
-@import './fonts';
-@import './svgs';
+@use './fonts';
+@use './svgs';
 
-@import './accessibility';
+@use './accessibility';

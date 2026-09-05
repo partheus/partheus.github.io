@@ -1,4 +1,6 @@
-@import "base";
+@use "variables" as *;
+@use "mixins" as *;
+@use "base" as *;
 
 .article, .article__title {
   margin-right: auto;

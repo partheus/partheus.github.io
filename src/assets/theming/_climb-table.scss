@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .climb-table-wrapper {
   position: relative;
   overflow: auto;
