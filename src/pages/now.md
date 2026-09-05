@@ -3,7 +3,7 @@ layout: slim
 title: Now
 description: Updates, updates, updates, updates
 permalink: /now/
-date: 2026-06-29
+date: 2026-09-03
 tags: 
     - nav
 eleventyNavigation:
@@ -15,7 +15,7 @@ eleventyNavigation:
 - Location: West Oregon
 - Favorite mode of transport: Sauntering and at least 2 bus transfers
 - Favorite form of media: Kindle + Library Card
-- Favorite food: Ramen noodle salad
+- Favorite food: Veg Manchow Soup
 - Primary hobbies that I pour a lot of energy into: [reading](/reading)
 - Secondary hobbies that are on the horizon: Acceptance, and living freely
 

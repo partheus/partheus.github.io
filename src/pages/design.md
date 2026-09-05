@@ -5,11 +5,14 @@ permalink: /design/
 layout: page
 ---
 
-<div class="masonry-container">
-  {% for card in designProjects %}
-    <div class="masonry-item">
-      <img src="{{ card.imageUrl }}" alt="{{ card.title }}">
+<div class="activity-module mr-auto slide-up-half-slow max-content-width" tabindex="0">
+    <div class="song">
+        <div class="song-info">
+            <a href="https://work.parth.ninja" target="_blank">
+                <div class="song-title">https://work.parth.ninja</div>
+            </a>
+            <p class="mb-xs">New portfolio site!</p>
+        </div>
     </div>
-  {% endfor %}
 </div>
 

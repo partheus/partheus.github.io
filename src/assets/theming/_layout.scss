@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 $spacing: (
         xxs: 0.25rem,
         xs: 0.5rem,

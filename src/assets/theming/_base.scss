@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 * {
   margin: 0;
   padding: 0;
@@ -551,6 +554,10 @@ iframe[src*="soundcloud.com"] {
 
   img:hover {
     filter: saturate(2);
+  }
+
+  a {
+    border: 2px solid var(--background-color-light);
   }
 }
 
