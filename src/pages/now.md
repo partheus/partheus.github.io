@@ -13,8 +13,8 @@ eleventyNavigation:
 
 - Occupation: Designer, all kinds of stuff
 - Location: West Oregon
-- Favorite mode of transport: Sauntering and at least 2 bus transfers
-- Favorite form of media: Kindle + Library Card
+- Favorite mode of transport: Walking
+- Favorite form of media: Mass market paperback
 - Favorite food: Veg Manchow Soup
 - Primary hobbies that I pour a lot of energy into: [reading](/reading)
 - Secondary hobbies that are on the horizon: Acceptance, and living freely

@@ -4,20 +4,21 @@ templateEngineOverride: njk, md
 title: Blogroll
 description: A list of friends and neighbors, designed mainly to share a bit of web traffic
 permalink: /blogroll/
-date: 2025-07-22
+date: 2026-09-26
 ---
 
 > ### I'm maintaining this page on a bit of a whim. Bear with me. And there's a honeycomb.
 <br>
-{% from 'macros/blogrollItem.njk' import blogrollItem %}
 
-#### Places on the web I've built:
-<div class="display-columns display-columns--two slide-up-half-slow mr-auto mt-sm mb-sm">
-        {% for card in friends.subsites %}{{ blogrollItem(
-            title=card.title,
-            siteUrl=card.siteUrl,
-            shortUrl=card.shortUrl
-        ) }}{% endfor %}
+<div class="activity-module mr-auto slide-up-half-slow max-content-width" tabindex="0">
+    <div class="song">
+        <div class="song-info">
+            <a href="https://work.parth.ninja" target="_blank">
+                <div class="song-title">https://status.parth.ninja</div>
+            </a>
+            <p class="mb-xs">Status site.</p>
+        </div>
+    </div>
 </div>
 
 > Last updated: {{ date | readableDate }}. These are not all actively updated sites. See description.
